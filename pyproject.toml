@@ -25,6 +25,6 @@ package-dir = {"" = "src"}
 where = ["src"]
 
 [tool.pytest.ini_options]
-addopts = "-q"
+addopts = "-q -m 'not slow'"
 testpaths = ["tests"]
-
+markers = ["slow: complete numerical reconstruction (several minutes)"]

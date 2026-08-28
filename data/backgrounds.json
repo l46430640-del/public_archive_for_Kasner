@@ -1,0 +1,325 @@
+{
+  "content_sha256": "5b8adaa710e2993b94f8aa16219a29f19e45874e88ec7d8d2756836e4d5ece0a",
+  "high_precision_comparisons": [
+    {
+      "maximum_relative_discrepancy": 1.8308611053926297e-11,
+      "python_route": "mpmath_70_digit_compactified",
+      "relative_discrepancy": {
+        "beta_k": 9.276431913791765e-13,
+        "charge": 0.0,
+        "mass": 0.0,
+        "phi_h": 8.898205442291946e-13,
+        "phi_k": 1.8308611053926297e-11
+      },
+      "target_delta": 1e-08,
+      "wolfram_source_residual": 0.0,
+      "wolfram_working_precision_digits": 80
+    },
+    {
+      "maximum_relative_discrepancy": 9.611212062358699e-09,
+      "python_route": "scipy_DOP853_tight",
+      "relative_discrepancy": {
+        "beta_k": 9.611163584251247e-09,
+        "charge": 4.95799907003567e-16,
+        "mass": 6.160092827626321e-16,
+        "phi_h": 9.611212062358699e-09,
+        "phi_k": 8.898550855117789e-09
+      },
+      "target_delta": 1e-09,
+      "wolfram_source_residual": 0.0,
+      "wolfram_working_precision_digits": 80
+    }
+  ],
+  "model": "Z(psi)=exp(psi^2), alpha^2=1, r_H=1",
+  "records": [
+    {
+      "alpha_sq": 1.0,
+      "beta_k": 7.895163082491649,
+      "charge": 0.8965196779688089,
+      "charge_to_mass": 0.994063733167106,
+      "chi_k": 19.06109761096268,
+      "coupling_id": "exp_square",
+      "critical_charge_to_mass": 0.9939643367334331,
+      "h_k": -0.003121366741855804,
+      "horizon_series": {
+        "chi": [
+          "-0.04684051379197872947303350723504828005805",
+          "0.3511138658547312430173770883276053726538",
+          "-2.266632305724006862959257223148266691768",
+          "13.47425189714627424320600685426270497457"
+        ],
+        "mass": [
+          "0.4007199707262843492440578530177953063562",
+          "-0.3937444793555890543283877591150791096434",
+          "0.3588129504287715313811543720776025922534",
+          "-0.1954995452867844687525390675733978564110"
+        ],
+        "maximum_equation_residual": "2.802597e-45",
+        "scalar": [
+          "-0.2164266938064219689914060535108578625199",
+          "0.8652678562047302343216765962969508637712",
+          "-3.507123844607908134623538972054495750844",
+          "14.45683174832066091359812936536271830896"
+        ]
+      },
+      "horizon_series_order": 2,
+      "infinity_coordinate": "u=1/r, endpoint u=0",
+      "infinity_remainder": 0.0,
+      "kasner_matching_residual": 9.999999999999923e-07,
+      "mass": 0.9018734393543161,
+      "measured_delta": 9.99999999995449e-05,
+      "numerical_method": "binary64_tight_tolerance",
+      "phi_h": 0.05362060807144515,
+      "phi_k": 2.656203898616653,
+      "record_sha256": "597ee0ac6243c0da92af93f45dc5878f8100bbdadc106ba3b97079189d9f0091",
+      "relative_delta_error": 4.551026222543442e-12,
+      "scalar_charge": 0.011912531690491533,
+      "sigma_k": 0.5238972617947516,
+      "sigma_k_definition": "first sustained unit-volume interval with maximum normalized background residual below 1e-6",
+      "source_residual": -7.186363049777045e-16,
+      "target_delta": 0.0001
+    },
+    {
+      "alpha_sq": 1.0,
+      "beta_k": 76.84086556654509,
+      "charge": 0.895710643838598,
+      "charge_to_mass": 0.9939653306977698,
+      "chi_k": 23.969288415372493,
+      "coupling_id": "exp_square",
+      "critical_charge_to_mass": 0.9939643367334331,
+      "h_k": -3.348000151352204e-05,
+      "horizon_series": {
+        "chi": [
+          "-0.0004731981654155347849707929112413921431358",
+          "0.003589532230019299230308598018675906256606",
+          "-0.02355344770720858165006855225577300488260",
+          "0.1429759852814328327127236355579540225667"
+        ],
+        "mass": [
+          "0.4011372489452485544528631328871938148973",
+          "-0.4010670764366079927870153932493980331239",
+          "0.4007121979740482567363582078937243470013",
+          "-0.3990298733436372482574328446844748236516"
+        ],
+        "maximum_equation_residual": "3.852825e-46",
+        "scalar": [
+          "-0.02175311852161741854400048725737636184684",
+          "0.08794443217244468706915739007774610392403",
+          "-0.3629802404305449120440097839137203495791",
+          "1.535133071802702882652894135542279950784"
+        ]
+      },
+      "horizon_series_order": 2,
+      "infinity_coordinate": "u=1/r, endpoint u=0",
+      "infinity_remainder": 0.0,
+      "kasner_matching_residual": 9.99999999999892e-07,
+      "mass": 0.9011487787102228,
+      "measured_delta": 9.999999999177334e-07,
+      "numerical_method": "binary64_tight_tolerance",
+      "phi_h": 0.005361190332540518,
+      "phi_k": 0.394434994904666,
+      "record_sha256": "fafa6af9f94fae34c7bf3a6ee69f4e60696e0b3f57841bca4e95f3a1a77945e2",
+      "relative_delta_error": 8.22666379463044e-11,
+      "scalar_charge": 0.0011902244151872456,
+      "sigma_k": 0.22507027609464964,
+      "sigma_k_definition": "first sustained unit-volume interval with maximum normalized background residual below 1e-6",
+      "source_residual": 1.9706645034344925e-17,
+      "target_delta": 1e-06
+    },
+    {
+      "alpha_sq": 1.0,
+      "beta_k": 242.9239950712386,
+      "charge": 0.8957032954971574,
+      "charge_to_mass": 0.9939644361298667,
+      "chi_k": 26.4016948911568,
+      "coupling_id": "exp_square",
+      "critical_charge_to_mass": 0.9939643367334331,
+      "h_k": -3.3503942122731524e-06,
+      "horizon_series": {
+        "chi": [
+          "-0.00004732420523497015371735448881579354833957",
+          "0.0003590254168976523907708395800905909241482",
+          "-0.002356167715921824988584605575497575764869",
+          "0.01430530423814459070853510106453215242741"
+        ],
+        "mass": [
+          "0.4011410438098790858383485155304966099001",
+          "-0.4011340261775810015304751605471046909075",
+          "0.4010985332252951008643633250768029215052",
+          "-0.4009302553255194190446401421774759394657"
+        ],
+        "maximum_equation_residual": "7.572346e-47",
+        "scalar": [
+          "-0.006879259061481123907198863418534896762828",
+          "0.02781458846766731326824004704619650912375",
+          "-0.1148203321011096669794780639094513571949",
+          "0.4857160393131748880148830952063922562627"
+        ]
+      },
+      "horizon_series_order": 2,
+      "infinity_coordinate": "u=1/r, endpoint u=0",
+      "infinity_remainder": 0.0,
+      "kasner_matching_residual": 9.99999999861798e-07,
+      "mass": 0.9011421967819069,
+      "measured_delta": 1.0000000005838672e-07,
+      "numerical_method": "binary64_tight_tolerance",
+      "phi_h": 0.0016953547403685202,
+      "phi_k": 0.14425022972974885,
+      "record_sha256": "157ba7677b711c511e32f6156a127dc5a7138fb70ad0436dc96507e5000cf075",
+      "relative_delta_error": 5.838671768287895e-10,
+      "scalar_charge": 0.00037637905288381493,
+      "sigma_k": 0.22085204661762659,
+      "sigma_k_definition": "first sustained unit-volume interval with maximum normalized background residual below 1e-6",
+      "source_residual": -2.9251356391141203e-18,
+      "target_delta": 1e-07
+    },
+    {
+      "alpha_sq": 1.0,
+      "beta_k": 768.1715302367433,
+      "charge": 0.8957025606694767,
+      "charge_to_mass": 0.9939643466730762,
+      "chi_k": 28.721854265613743,
+      "coupling_id": "exp_square",
+      "critical_charge_to_mass": 0.9939643367334331,
+      "h_k": -3.3506341193146897e-07,
+      "horizon_series": {
+        "chi": [
+          "-0.000004732464538781322851696258916746945389449",
+          "0.00003590326467149680559311842277652660480429",
+          "-0.0002356250089345242766858507988698888295248",
+          "0.001430607541080043017140075883544244897025"
+        ],
+        "mass": [
+          "0.4011414232977643275956188203101930180185",
+          "-0.4011407215307014310099637663953211989876",
+          "0.4011371721843137737041158945356457248736",
+          "-0.4011203439394515947334171219443771526810"
+        ],
+        "maximum_equation_residual": "1.277467e-46",
+        "scalar": [
+          "-0.002175422841376205384007625307863222111334",
+          "0.008795875499008184675806499506979677460250",
+          "-0.03631051310231052944872248549825335191712",
+          "0.1536052614418419488530526883785547896093"
+        ]
+      },
+      "horizon_series_order": 2,
+      "infinity_coordinate": "u=1/r, endpoint u=0",
+      "infinity_remainder": 0.0,
+      "kasner_matching_residual": 9.99999999925902e-07,
+      "mass": 0.9011415385949264,
+      "measured_delta": 9.999999717180685e-09,
+      "numerical_method": "binary64_with_high_precision_comparison",
+      "phi_h": 0.0005361181701355938,
+      "phi_k": 0.051634819867671176,
+      "record_sha256": "0e02480a80970d67ff2590866e87209790f101cbc6ec378f8b2dd0594615b9da",
+      "relative_delta_error": 2.828193146342528e-08,
+      "scalar_charge": 0.00011902141519939635,
+      "sigma_k": 0.2203575978271526,
+      "sigma_k_definition": "first sustained unit-volume interval with maximum normalized background residual below 1e-6",
+      "source_residual": 1.433285625872683e-18,
+      "target_delta": 1e-08
+    },
+    {
+      "alpha_sq": 1.0,
+      "beta_k": 2429.164897421288,
+      "charge": 0.8957024871867673,
+      "charge_to_mass": 0.9939643377273973,
+      "chi_k": 31.02670957905718,
+      "coupling_id": "exp_square",
+      "critical_charge_to_mass": 0.9939643367334331,
+      "h_k": -3.350657956235926e-08,
+      "horizon_series": {
+        "chi": [
+          "-0.0000004732468717297377328026643669911410856362",
+          "0.000003590333527845661973830128470667130660076",
+          "-0.00002356258215801764390581431811274498299494",
+          "0.0001430615185604412966875922049447070769952"
+        ],
+        "mass": [
+          "0.4011414612465653266314910878703388602559",
+          "-0.4011413910698240133774826688659016823548",
+          "0.4011410361346903803845622965096734455704",
+          "-0.4011393533057345568305500193905073164902"
+        ],
+        "maximum_equation_residual": "5.129423e-47",
+        "scalar": [
+          "-0.0006879294089728521940555149050355119106248",
+          "0.002781504114953133445792640558796537676930",
+          "-0.01148242809443535821251722496069966750198",
+          "0.04857451201106517238328326589661271868363"
+        ]
+      },
+      "horizon_series_order": 2,
+      "infinity_coordinate": "u=1/r, endpoint u=0",
+      "infinity_remainder": 0.0,
+      "kasner_matching_residual": 1.000000000177479e-06,
+      "mass": 0.9011414727762806,
+      "measured_delta": 9.99999860695766e-10,
+      "numerical_method": "binary64_with_high_precision_comparison",
+      "phi_h": 0.00016953544499048568,
+      "phi_k": 0.018225119377867884,
+      "record_sha256": "63f095b26e816e602371924ed928235f7d1e8760b88b0de52a4a176b0008e160",
+      "relative_delta_error": 1.3930423403696324e-07,
+      "scalar_charge": 3.7637872444553077e-05,
+      "sigma_k": 0.22030109708700907,
+      "sigma_k_definition": "first sustained unit-volume interval with maximum normalized background residual below 1e-6",
+      "source_residual": 1.88623649441692e-19,
+      "target_delta": 1e-09
+    }
+  ],
+  "schema_version": 1,
+  "threshold": {
+    "critical_charge_to_mass": "0.9939643367334331719119290337351162444470127097858696908155858061873734834740705848491871123097316843",
+    "direct_compactified_ode": [
+      {
+        "critical_charge_to_mass": 0.9939643367323652,
+        "horizon_charge": 0.8957024790132497,
+        "horizon_epsilon": 1e-06,
+        "relative_tolerance": 2e-11,
+        "source_residual": -1.981921571303502e-16
+      },
+      {
+        "critical_charge_to_mass": 0.9939643367334224,
+        "horizon_charge": 0.8957024790219349,
+        "horizon_epsilon": 1e-07,
+        "relative_tolerance": 2e-12,
+        "source_residual": -7.75855074630627e-16
+      },
+      {
+        "critical_charge_to_mass": 0.9939643367334331,
+        "horizon_charge": 0.8957024790220217,
+        "horizon_epsilon": 1e-08,
+        "relative_tolerance": 2e-13,
+        "source_residual": -4.969982758673552e-16
+      }
+    ],
+    "finite_cutoff_comparison": [
+      {
+        "cutoff_charge_to_mass": 0.9939633504095894,
+        "r_max": 100.0
+      },
+      {
+        "cutoff_charge_to_mass": 0.9939640343767425,
+        "r_max": 180.0
+      },
+      {
+        "cutoff_charge_to_mass": 0.9939642282528129,
+        "r_max": 300.0
+      },
+      {
+        "cutoff_charge_to_mass": 0.9939643096818295,
+        "r_max": 600.0
+      },
+      {
+        "cutoff_charge_to_mass": 0.9939643270046916,
+        "r_max": 1000.0
+      }
+    ],
+    "horizon_charge": "0.8957024790220225527889136932250568149209089636458714351732834699321313465689450303593969941518603544",
+    "legendre_degree": "-1/2+i sqrt(3)/2",
+    "legendre_residual": "1.00015323820034853561522763088e-101",
+    "working_precision_digits": 100,
+    "zero_source_condition": "Re LegendreP_nu((1+Q_H^2)/(1-Q_H^2))=0"
+  }
+}

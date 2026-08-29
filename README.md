@@ -1,17 +1,18 @@
 # Vanishing-energy first-wall Kasner scattering
 
-This repository is a minimal, self-contained reproduction package for the
+This repository is a self-contained reproduction package for the
 scientific results underlying *Vanishing-Energy Taub-Rescaled Kasner
 Scattering inside Scalarized Black Holes*. It contains the equations,
 numerical implementation, frozen machine-readable results, and compact
-reproduction figures. The manuscript and its Supplemental Material are not
-part of this archive.
+reproduction figures. 
 
 The package follows one causal chain: regular odd-parity data on the future
 horizon excite a soft magnetic component; near the scalarization threshold
 its horizon amplitude and flux energy vanish under a double scaling; the
 large-field coupling produces an essential first-wall clock; and the
 contracting magnetic layer retains a finite tangent-space Kasner reflection.
+
+For any questions, contact: liyikun@xao.ac.cn
 
 ## Install
 

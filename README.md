@@ -12,7 +12,7 @@ its horizon amplitude and flux energy vanish under a double scaling; the
 large-field coupling produces an essential first-wall clock; and the
 contracting magnetic layer retains a finite tangent-space Kasner reflection.
 
-For any questions, contact: liyikun@xao.ac.cn
+For any question, contact: liyikun@xao.ac.cn
 
 ## Install
 

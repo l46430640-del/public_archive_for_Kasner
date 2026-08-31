@@ -29,53 +29,53 @@
       "sha256": "968ea45e72e2384e6aadb1fc8127e1f7e9db2a27486da291428a4a1b4d2126fe"
     },
     {
-      "bytes": 2446,
+      "bytes": 2464,
       "generation_command": "maintained source file",
       "path": "README.md",
       "role": "scientific documentation",
-      "sha256": "ea0a487406a2c26e613167778c28697f33c00cf85f4df2f21cb9a150cb668e2b"
+      "sha256": "788584e484f649ed0184d94df6c5407b46f707da3c0d9c871ec220aa687057df"
     },
     {
-      "bytes": 12843,
+      "bytes": 25258,
       "generation_command": "python -m kasner_scattering rebuild --output build/full",
       "path": "data/backgrounds.json",
       "role": "machine-readable scientific result",
-      "sha256": "803cff9a14d67242407bd10302a9f5f9988d67c1317a658fd221fa7c1d2f25be"
+      "sha256": "d4bde6112fa036fa08e9bbb8b74ced2fba6c49665d5a5e362bb09403e7a8b0f8"
     },
     {
-      "bytes": 4408,
+      "bytes": 7676,
       "generation_command": "python -m kasner_scattering rebuild --output build/full",
       "path": "data/controls.json",
       "role": "machine-readable scientific result",
-      "sha256": "a1bbbb1d6229724548091ee25204653425a00084fb8401b071db28d6b7d60f82"
+      "sha256": "1c6fdc61036829ff5a63174f0e404d56a8e91ff397141f3ea9edfd664c88fd74"
     },
     {
-      "bytes": 1128,
+      "bytes": 1181,
       "generation_command": "python -m kasner_scattering rebuild --output build/full",
       "path": "data/summary.json",
       "role": "machine-readable scientific result",
-      "sha256": "03bed1612de64f341fbe496f9f6bc08733ca9686b66b9ce5e4f510c0b5fc12c5"
+      "sha256": "21bc5ead8d157ff443d88d2948808fd521af35f349f10af3ffe0913dd901d65e"
     },
     {
-      "bytes": 598656,
+      "bytes": 1319380,
       "generation_command": "python -m kasner_scattering rebuild --output build/full",
       "path": "data/trajectories.jsonl",
       "role": "machine-readable scientific result",
-      "sha256": "7469ea22b9174b0947a455b9aa346222509c2fcbd5504f0e950056b25eb3ee8e"
+      "sha256": "593ad42bca3683eb81675e1b47fc6800ecfbd4a52365f6e648428450305e3e99"
     },
     {
-      "bytes": 13591,
+      "bytes": 143827,
       "generation_command": "python -m kasner_scattering rebuild --output build/full",
       "path": "data/transfers.json",
       "role": "machine-readable scientific result",
-      "sha256": "5718cf4c7fcb0a7debf7aae12f6f440433228c3d2450d07fd0c4c50d90a4c4ae"
+      "sha256": "e01824aba27d48a80fd28aa3ac6a0e048ec60d464338962cf33ae5b57cef4559"
     },
     {
-      "bytes": 2678,
+      "bytes": 2704,
       "generation_command": "maintained source file",
       "path": "docs/data_dictionary.md",
       "role": "scientific documentation",
-      "sha256": "69caca6b817a63b7b970197a5648d089968c5f1cb7a262707183f5dc896a072b"
+      "sha256": "2b2a8ce6fd0d1ba10adb36459f5641651ed6b3b69237b49038561af39f3321a7"
     },
     {
       "bytes": 4220,
@@ -92,18 +92,18 @@
       "sha256": "1350c4f0c3131b979b5028a81df0d9ed4e9d44d0bc550915862ea0a0d21ec280"
     },
     {
-      "bytes": 43816,
+      "bytes": 45552,
       "generation_command": "python -m kasner_scattering plot --output figures",
       "path": "figures/results_summary.pdf",
       "role": "public reproduction figure",
-      "sha256": "2ac2babd60737dd07ec71e70c81ebb3f396953462f1db808fde89e74772ec1d6"
+      "sha256": "763c8b9440c49b338ef638fe294c6ba54bdf45cb9c0a0a43f24ea596629d07c4"
     },
     {
-      "bytes": 327495,
+      "bytes": 303958,
       "generation_command": "python -m kasner_scattering plot --output figures",
       "path": "figures/results_summary.png",
       "role": "public reproduction figure",
-      "sha256": "d7eadc08d842e525322a7910a7edb6cd04d6cef9c412c89e8e7f3e2f0d10dd8d"
+      "sha256": "fe26a30a165fcda0c4b23e9ccbf3b7944344632de04e25bd1d8f4f892c24c971"
     },
     {
       "bytes": 690,
@@ -141,11 +141,11 @@
       "sha256": "4d6f11a28266bbb06169946f97bb19964d743c2d88b700a0c05eb605cd7f2b80"
     },
     {
-      "bytes": 39443,
+      "bytes": 39558,
       "generation_command": "source implementation of the equations in docs/methods.md",
       "path": "src/kasner_scattering/pipeline.py",
       "role": "scientific implementation",
-      "sha256": "f821be2ff0947f59c4e97ac38bedf7812c35bea64827de8a0c032699f46c97b4"
+      "sha256": "3037a548901a435dec647b417f1b83f68cb51d8e8cc5d810119364b3a39faac0"
     },
     {
       "bytes": 44220,
@@ -173,7 +173,7 @@
       "generation_command": "python -m pytest",
       "path": "tests/test_reproduction.py",
       "role": "reproduction test",
-      "sha256": "c72e041dc5bdaed682187ccdbd90ca7176e33235f461b17e5a01dcf4fed7a08b"
+      "sha256": "7f895e69767ca5befcd0daefaf1433966662d644a071baa69e93c0b113a3fae7"
     },
     {
       "bytes": 9918,
@@ -189,5 +189,5 @@
   },
   "manifest_excludes_itself": true,
   "package": "minimal first-wall Kasner scattering reproduction",
-  "schema_version": 1
+  "schema_version": 2
 }

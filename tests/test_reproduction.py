@@ -26,7 +26,7 @@ def test_public_package_verifies() -> None:
 
 def test_trajectory_count_and_semantics() -> None:
     rows = read_trajectories(ROOT / "data" / "trajectories.jsonl")
-    assert len(rows) == 225
+    assert len(rows) == 495
     assert all(row["plateaus"]["outcome"] == "KASNER_TRANSITION" for row in rows)
     assert all(row["packet_energy_tau_1"] > 0.0 for row in rows)
 

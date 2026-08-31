@@ -1,31 +1,32 @@
 {
-  "content_sha256": "f595566e645530f93ba5bdede5a692ee6ed3a38c86063cbb8f076c6fdfd5ad41",
+  "content_sha256": "1a1db17f162b950d21a363d33f5c0210cc41c0f1eb2c92f8e7325351c1ddd8f4",
   "control_outcomes": [
     "KASNER_TRANSITION",
     "NO_ONSET",
     "NO_POST_PLATEAU"
   ],
-  "control_record_count": 8,
+  "control_record_count": 14,
+  "dense_grid": "eleven half-decade backgrounds",
   "frequency_interval": [
     0.195,
     0.205
   ],
   "full_ems_embedding_condition": "norm(Delta P_ext)/sqrt(delta) -> 0",
   "maximum_constraint_residual": 1.1344744588193123e-13,
-  "maximum_finite_q_map_relative_error": 9.17794233053555e-08,
-  "maximum_normalized_clock_drift_last_three_decades": 9.535562087473015e-08,
-  "maximum_peak_clock_relative_error": 1.038073480508217e-07,
-  "minimum_polarization_lower_bound": 1.490494572706193,
-  "minimum_transfer_lower_bound": 1.4979782243320723,
+  "maximum_finite_q_map_relative_error": 9.177941521547335e-08,
+  "maximum_normalized_clock_drift_last_three_decades": 9.53555534841895e-08,
+  "maximum_peak_clock_relative_error": 1.0380739368098801e-07,
+  "minimum_polarization_lower_bound": 1.3875225519125034,
+  "minimum_transfer_lower_bound": 1.3944891894244478,
   "packet_energy_log_slopes": [
     0.7,
     1.0,
     1.5
   ],
   "polarization_ball_radius": 0.1,
-  "schema_version": 1,
+  "schema_version": 2,
   "scope": "first isolated Taub-degenerate magnetic transition from regular finite-energy odd horizon data",
   "threshold_charge_to_mass": "0.9939643367334331719119290337351162444470127097858696908155858061873734834740705848491871123097316843",
-  "trajectory_count": 225,
-  "two_plateau_count": 225
+  "trajectory_count": 495,
+  "two_plateau_count": 495
 }

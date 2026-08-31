@@ -1,6 +1,19 @@
 {
-  "content_sha256": "2e4a8269f902dac61cf4814c672887bfcf8038f02ebd548e0a400491fda98ced",
+  "content_sha256": "df0ca76b8a9ac8c4b447b5d0cdc79a010fe859b4c0aad667d24b3fbf60fca897",
   "ell": 2,
+  "frequency_grid": [
+    0.195,
+    0.196,
+    0.197,
+    0.198,
+    0.199,
+    0.2,
+    0.201,
+    0.202,
+    0.203,
+    0.20400000000000001,
+    0.20500000000000002
+  ],
   "frequency_interval": [
     0.195,
     0.205
@@ -64,283 +77,335 @@
   },
   "neighborhoods": [
     {
-      "center_row_norm": 1.553668665450966,
-      "continuity_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the displayed radius is a resolved conservative neighborhood",
-      "cp1_amplitude_lower": 1.490494572706193,
+      "center_row_norm": 1.568452842897301,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.4981848922138654,
       "cp1_radius": 0.1,
       "frequency_interval": [
         0.195,
-        0.20500000000000002
+        0.205
       ],
-      "frequency_sensitivity_norm_bound": 11.138088223778713,
-      "resolved_row_norm_lower": 1.4979782243320723,
-      "target_delta": 1e-06
+      "frequency_sensitivity_norm_bound": 12.549137318166936,
+      "resolved_row_norm_lower": 1.5057071563064663,
+      "sampled_row_norm_floor": 1.5676413787389647,
+      "target_delta": 1e-09
+    },
+    {
+      "center_row_norm": 1.577814958541489,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.5087765299692872,
+      "cp1_radius": 0.1,
+      "frequency_interval": [
+        0.195,
+        0.205
+      ],
+      "frequency_sensitivity_norm_bound": 12.29259694614073,
+      "resolved_row_norm_lower": 1.5163519738107853,
+      "sampled_row_norm_floor": 1.5352683606059685,
+      "target_delta": 3.1622776601683795e-09
     },
     {
       "center_row_norm": 1.563502933489807,
-      "continuity_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the displayed radius is a resolved conservative neighborhood",
-      "cp1_amplitude_lower": 1.4936889092256707,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.4955586876625762,
       "cp1_radius": 0.1,
       "frequency_interval": [
         0.195,
-        0.20500000000000002
+        0.205
       ],
-      "frequency_sensitivity_norm_bound": 12.462866827049787,
-      "resolved_row_norm_lower": 1.501188599354558,
+      "frequency_sensitivity_norm_bound": 12.087033538677009,
+      "resolved_row_norm_lower": 1.503067765796422,
+      "sampled_row_norm_floor": 1.563502933489807,
       "target_delta": 1e-08
     },
     {
-      "center_row_norm": 1.568452842897301,
-      "continuity_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the displayed radius is a resolved conservative neighborhood",
-      "cp1_amplitude_lower": 1.4924939455681583,
+      "center_row_norm": 1.581960675297721,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.5153305888789144,
       "cp1_radius": 0.1,
       "frequency_interval": [
         0.195,
-        0.20500000000000002
+        0.205
       ],
-      "frequency_sensitivity_norm_bound": 13.693041403054275,
-      "resolved_row_norm_lower": 1.4999876358820297,
-      "target_delta": 1e-09
+      "frequency_sensitivity_norm_bound": 11.80434703646631,
+      "resolved_row_norm_lower": 1.5229389401153894,
+      "sampled_row_norm_floor": 1.5410207559104132,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "center_row_norm": 1.559089567260338,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.4947914267165017,
+      "cp1_radius": 0.1,
+      "frequency_interval": [
+        0.195,
+        0.205
+      ],
+      "frequency_sensitivity_norm_bound": 11.3585829529185,
+      "resolved_row_norm_lower": 1.5022966524957455,
+      "sampled_row_norm_floor": 1.5581323409675412,
+      "target_delta": 1e-07
+    },
+    {
+      "center_row_norm": 1.5822129504617903,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.5181498142658527,
+      "cp1_radius": 0.1,
+      "frequency_interval": [
+        0.195,
+        0.205
+      ],
+      "frequency_sensitivity_norm_bound": 11.288125971768432,
+      "resolved_row_norm_lower": 1.525772320602948,
+      "sampled_row_norm_floor": 1.5448404295406626,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "center_row_norm": 1.5536686654509724,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.4932688831428456,
+      "cp1_radius": 0.1,
+      "frequency_interval": [
+        0.195,
+        0.205
+      ],
+      "frequency_sensitivity_norm_bound": 10.580440219185475,
+      "resolved_row_norm_lower": 1.500766464355045,
+      "sampled_row_norm_floor": 1.5507839134027495,
+      "target_delta": 1e-06
+    },
+    {
+      "center_row_norm": 1.5601250462825762,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.5000027261313114,
+      "cp1_radius": 0.1,
+      "frequency_interval": [
+        0.195,
+        0.205
+      ],
+      "frequency_sensitivity_norm_bound": 10.518185772579809,
+      "resolved_row_norm_lower": 1.5075341174196772,
+      "sampled_row_norm_floor": 1.524809635699027,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "center_row_norm": 1.524102266128193,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.466275106426325,
+      "cp1_radius": 0.1,
+      "frequency_interval": [
+        0.195,
+        0.205
+      ],
+      "frequency_sensitivity_norm_bound": 10.09302240797647,
+      "resolved_row_norm_lower": 1.4736371540883106,
+      "sampled_row_norm_floor": 1.5176649477536626,
+      "target_delta": 1e-05
+    },
+    {
+      "center_row_norm": 1.434639587387822,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.3875225519125034,
+      "cp1_radius": 0.1,
+      "frequency_interval": [
+        0.195,
+        0.205
+      ],
+      "frequency_sensitivity_norm_bound": 8.030079592674825,
+      "resolved_row_norm_lower": 1.3944891894244478,
+      "sampled_row_norm_floor": 1.4267460689111189,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "center_row_norm": 1.8666904444970611,
+      "certificate_basis": "frequency sensitivity evolved with the differentiated regular radial ODE; the eleven-point grid is diagnostic",
+      "cp1_amplitude_lower": 1.7904013459680617,
+      "cp1_radius": 0.1,
+      "frequency_interval": [
+        0.195,
+        0.205
+      ],
+      "frequency_sensitivity_norm_bound": 13.45992789336568,
+      "resolved_row_norm_lower": 1.7993908050302327,
+      "sampled_row_norm_floor": 1.8340436494599204,
+      "target_delta": 0.0001
     }
   ],
   "polarization_ball_radius": 0.1,
   "records": [
     {
-      "common_phase_rate": -194.69559207511392,
-      "flux_residual": 1.1026735080577055e-12,
-      "frequency_sensitivity_norm": 8.91047057902297,
+      "common_phase_rate": -239.9764542372155,
+      "flux_residual": 6.250555628639631e-13,
+      "frequency_sensitivity_norm": 9.965588639409729,
       "frequency_sensitivity_row": [
         {
-          "im": -1.181291133579606,
-          "re": -6.8188523841551785
+          "im": -3.4138457734471785,
+          "re": 6.5251976537484495
         },
         {
-          "im": -4.515258815778623,
-          "re": 3.3341756382942407
+          "im": 6.644863702988971,
+          "re": -0.9623907279605923
         }
       ],
-      "integration_steps": 804,
-      "matching_log_z": 0.22507027609464356,
-      "measured_delta": 9.999999999177334e-07,
-      "omega_M": 0.19,
-      "raw_frequency_sensitivity_norm": 301.13831356512156,
-      "record_sha256": "894f1ce84e6f4a69afc434fb5a59115024ebc6e20259f496862a5c2ab7d01dcc",
-      "soft_magnetic_norm": 1.5460363237592143,
-      "soft_magnetic_row": [
-        {
-          "im": -0.9587546819185023,
-          "re": -0.5462747309361986
-        },
-        {
-          "im": -0.40991567472415286,
-          "re": -1.002282810507236
-        }
-      ],
-      "strong_equation_defect": 1.2916965815273858e-07,
-      "target_delta": 1e-06
-    },
-    {
-      "common_phase_rate": -199.27066133251063,
-      "flux_residual": 1.1517453657461374e-12,
-      "frequency_sensitivity_norm": 6.8071285853399095,
-      "frequency_sensitivity_row": [
-        {
-          "im": 5.319022466558579,
-          "re": -0.9703273651679751
-        },
-        {
-          "im": -3.3564098180683577,
-          "re": -2.416190703396012
-        }
-      ],
-      "integration_steps": 812,
-      "matching_log_z": 0.22507027609464356,
-      "measured_delta": 9.999999999177334e-07,
-      "omega_M": 0.2,
-      "raw_frequency_sensitivity_norm": 309.6754069290617,
-      "record_sha256": "e4083db27b67b9586e8e0abd18c2099f769bcff1603a89f44f6ccb10a27b4b3a",
-      "soft_magnetic_norm": 1.553668665450966,
-      "soft_magnetic_row": [
-        {
-          "im": 0.9351719270095531,
-          "re": -0.6651316626857647
-        },
-        {
-          "im": 1.0469175678425766,
-          "re": -0.030054390243007312
-        }
-      ],
-      "strong_equation_defect": 1.5860461115925067e-07,
-      "target_delta": 1e-06
-    },
-    {
-      "common_phase_rate": -199.12504052709144,
-      "flux_residual": 1.1891598816760052e-12,
-      "frequency_sensitivity_norm": 7.143105145770564,
-      "frequency_sensitivity_row": [
-        {
-          "im": -0.9475448716090966,
-          "re": 5.858761514338802
-        },
-        {
-          "im": 0.8792517107326887,
-          "re": 3.876588679122065
-        }
-      ],
-      "integration_steps": 820,
-      "matching_log_z": 0.22507027609464356,
-      "measured_delta": 9.999999999177334e-07,
-      "omega_M": 0.21,
-      "raw_frequency_sensitivity_norm": 317.7402458537118,
-      "record_sha256": "2399a165e3e4ad88b7e872afea205018dfab568cb96047a882858ac3e33b34ee",
-      "soft_magnetic_norm": 1.595278740141785,
-      "soft_magnetic_row": [
-        {
-          "im": 0.21242730892419343,
-          "re": 1.1831106111748992
-        },
-        {
-          "im": -0.3893428360600451,
-          "re": 0.97388414860581
-        }
-      ],
-      "strong_equation_defect": 1.9276964086854765e-07,
-      "target_delta": 1e-06
-    },
-    {
-      "common_phase_rate": -224.6814191055765,
-      "flux_residual": 7.240874566605271e-13,
-      "frequency_sensitivity_norm": 9.97029346163983,
-      "frequency_sensitivity_row": [
-        {
-          "im": -4.402338795526465,
-          "re": -6.002827373642418
-        },
-        {
-          "im": -6.4704346785921985,
-          "re": 1.457979229255784
-        }
-      ],
-      "integration_steps": 877,
-      "matching_log_z": 0.2203575978271526,
-      "measured_delta": 9.999999717180685e-09,
-      "omega_M": 0.19,
-      "raw_frequency_sensitivity_norm": 348.79364375647936,
-      "record_sha256": "8b9d007ab4380f7ba0a1709b18d2aaf7007627c6557ee657bc57bd7e9496b051",
-      "soft_magnetic_norm": 1.5517576629856902,
-      "soft_magnetic_row": [
-        {
-          "im": -1.1039051617052222,
-          "re": -0.12074086434649452
-        },
-        {
-          "im": -0.7626756003465491,
-          "re": -0.7701251917112373
-        }
-      ],
-      "strong_equation_defect": 2.8384050407003272e-08,
-      "target_delta": 1e-08
-    },
-    {
-      "common_phase_rate": -230.06432190240974,
-      "flux_residual": 7.538414337204813e-13,
-      "frequency_sensitivity_norm": 7.8714967077684035,
-      "frequency_sensitivity_row": [
-        {
-          "im": 5.179369273298846,
-          "re": -1.0986761284381998
-        },
-        {
-          "im": -5.419831061492161,
-          "re": -2.133761088055877
-        }
-      ],
-      "integration_steps": 887,
-      "matching_log_z": 0.2203575978271526,
-      "measured_delta": 9.999999717180685e-09,
-      "omega_M": 0.2,
-      "raw_frequency_sensitivity_norm": 359.7923583510657,
-      "record_sha256": "e16b485b1181a4b5b82e8e473233fdf8df12ef2089beef4b553f5f1a8630f6ce",
-      "soft_magnetic_norm": 1.563502933489807,
-      "soft_magnetic_row": [
-        {
-          "im": 0.8645657266900806,
-          "re": -0.7624371500976571
-        },
-        {
-          "im": 1.0468105243647945,
-          "re": -0.14122622098658436
-        }
-      ],
-      "strong_equation_defect": 2.890850974933876e-08,
-      "target_delta": 1e-08
-    },
-    {
-      "common_phase_rate": -229.34843255251994,
-      "flux_residual": 7.710498906021712e-13,
-      "frequency_sensitivity_norm": 8.39505088894117,
-      "frequency_sensitivity_row": [
-        {
-          "im": -2.4506030362976503,
-          "re": 5.65735012277856
-        },
-        {
-          "im": -0.6323245499909831,
-          "re": 5.662683060014643
-        }
-      ],
-      "integration_steps": 896,
-      "matching_log_z": 0.2203575978271526,
-      "measured_delta": 9.999999717180685e-09,
-      "omega_M": 0.21,
-      "raw_frequency_sensitivity_norm": 368.8727360331653,
-      "record_sha256": "d109501804b3812ca4a5c565edd322b411b33936d8ab56f19cf04c821ac3e35c",
-      "soft_magnetic_norm": 1.607934222535183,
-      "soft_magnetic_row": [
-        {
-          "im": -0.03235434644506981,
-          "re": 1.208351190700169
-        },
-        {
-          "im": -0.5890560839349778,
-          "re": 0.8816495846869139
-        }
-      ],
-      "strong_equation_defect": 2.945540310239881e-08,
-      "target_delta": 1e-08
-    },
-    {
-      "common_phase_rate": -240.72393704940376,
-      "flux_residual": 5.770939282001564e-13,
-      "frequency_sensitivity_norm": 10.95443312244342,
-      "frequency_sensitivity_row": [
-        {
-          "im": 6.53907282636461,
-          "re": 3.1066339349285386
-        },
-        {
-          "im": 8.210585184382282,
-          "re": -0.41862648021603377
-        }
-      ],
-      "integration_steps": 914,
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 919,
       "matching_log_z": 0.22030109708700907,
       "measured_delta": 9.99999860695766e-10,
-      "omega_M": 0.19,
-      "raw_frequency_sensitivity_norm": 371.6862385917882,
-      "record_sha256": "de80a6fa1be9f57b875509b2eb84787af50c91890bf9710fb10e11feef1c6d0b",
-      "soft_magnetic_norm": 1.5433644951583454,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 377.10246480165335,
+      "record_sha256": "2625133360970e7e237dc2ea1fe7b964e847d87817b7308772804fdb372bbe9a",
+      "soft_magnetic_norm": 1.5708656251032653,
       "soft_magnetic_row": [
         {
-          "im": 1.0925324820051363,
-          "re": -0.19730555849479886
+          "im": 0.56892767497847,
+          "re": 0.9812535972876162
         },
         {
-          "im": 0.9360031894279557,
-          "re": 0.5227956452064426
+          "im": -0.11977518979434386,
+          "re": 1.080155264068322
         }
       ],
-      "strong_equation_defect": 2.3173904202950453e-08,
+      "strong_equation_defect": 2.3384565298710124e-08,
+      "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -240.60917228717128,
+      "flux_residual": 5.39124300757976e-13,
+      "frequency_sensitivity_norm": 10.02883907048332,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.701472624559813,
+          "re": 5.273834825276452
+        },
+        {
+          "im": 7.040173887029283,
+          "re": -1.0470845898301064
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 920,
+      "matching_log_z": 0.22030109708700907,
+      "measured_delta": 9.99999860695766e-10,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 378.3424447270331,
+      "record_sha256": "46eef9b838323338f7f5a58b0d90989e23a65b57c457292d379a80cd96f1e348",
+      "soft_magnetic_norm": 1.5718831456867632,
+      "soft_magnetic_row": [
+        {
+          "im": 0.3142699583045112,
+          "re": 1.0938476995680866
+        },
+        {
+          "im": -0.366491031858867,
+          "re": 1.0204080314844757
+        }
+      ],
+      "strong_equation_defect": 2.342392196617162e-08,
+      "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -241.42746085800016,
+      "flux_residual": 5.619948950652542e-13,
+      "frequency_sensitivity_norm": 10.039309854533549,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.394125149392664,
+          "re": 3.9066522640957313
+        },
+        {
+          "im": 7.474096434371205,
+          "re": -0.7530649408778345
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 921,
+      "matching_log_z": 0.22030109708700907,
+      "measured_delta": 9.99999860695766e-10,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 379.605240616648,
+      "record_sha256": "5cd90cae1e22b5a01b75453af37f50c138ad634cc8441ce6db4649e6d7c0688d",
+      "soft_magnetic_norm": 1.5717866670470324,
+      "soft_magnetic_row": [
+        {
+          "im": 0.03848347909169667,
+          "re": 1.1411868405324463
+        },
+        {
+          "im": -0.5921368291350613,
+          "re": 0.9033819342455693
+        }
+      ],
+      "strong_equation_defect": 2.3443399204045984e-08,
+      "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -242.37072940427456,
+      "flux_residual": 5.550004900101158e-13,
+      "frequency_sensitivity_norm": 9.900888369079407,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.5943948264830965,
+          "re": 2.6673565021163057
+        },
+        {
+          "im": 7.720716528088417,
+          "re": -0.07799106302161363
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 922,
+      "matching_log_z": 0.22030109708700907,
+      "measured_delta": 9.99999860695766e-10,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 380.87349720164593,
+      "record_sha256": "b3b33b53cba84e347954f7a1535dcd063d315ea5574c1e0bac9c9dd2c25f2e40",
+      "soft_magnetic_norm": 1.570919015386006,
+      "soft_magnetic_row": [
+        {
+          "im": -0.24188957395182578,
+          "re": 1.1197532126893417
+        },
+        {
+          "im": -0.7836775505672479,
+          "re": 0.7357161316184114
+        }
+      ],
+      "strong_equation_defect": 2.3509401120311714e-08,
+      "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -243.36976454956164,
+      "flux_residual": 4.869438186005937e-13,
+      "frequency_sensitivity_norm": 9.549622606689468,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.492869324560559,
+          "re": 1.6982400344083572
+        },
+        {
+          "im": 7.576218289108894,
+          "re": 0.8605671006962723
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 923,
+      "matching_log_z": 0.22030109708700907,
+      "measured_delta": 9.99999860695766e-10,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 382.12988808926804,
+      "record_sha256": "24fb1e3f2f1af3751afdf122a60f4e5bd7b470f280884c938da63da43a8192d5",
+      "soft_magnetic_norm": 1.5696713401016518,
+      "soft_magnetic_row": [
+        {
+          "im": -0.5098631492850609,
+          "re": 1.0301789536964754
+        },
+        {
+          "im": -0.9300238231460977,
+          "re": 0.5269674531498001
+        }
+      ],
+      "strong_equation_defect": 2.354877404902935e-08,
       "target_delta": 1e-09
     },
     {
@@ -357,12 +422,13 @@
           "re": 1.850085766187675
         }
       ],
+      "horizon_normalization": "unit ingoing symplectic flux",
       "integration_steps": 924,
       "matching_log_z": 0.22030109708700907,
       "measured_delta": 9.99999860695766e-10,
       "omega_M": 0.2,
       "raw_frequency_sensitivity_norm": 383.3584553565348,
-      "record_sha256": "71b95c9c1c56685de4dfd12d881d6d522821fd02d4ac48740526b80bb342e267",
+      "record_sha256": "003a96c581f053799c358a79e78df2e2909b473bd1a7907b9b6e85d42d603d7e",
       "soft_magnetic_norm": 1.568452842897301,
       "soft_magnetic_row": [
         {
@@ -378,39 +444,4030 @@
       "target_delta": 1e-09
     },
     {
-      "common_phase_rate": -244.34552035580728,
-      "flux_residual": 5.456746166032644e-13,
-      "frequency_sensitivity_norm": 8.778947898373342,
+      "common_phase_rate": -245.24370891728404,
+      "flux_residual": 5.850875339774575e-13,
+      "frequency_sensitivity_norm": 8.191485285595776,
       "frequency_sensitivity_row": [
         {
-          "im": 2.4334709411908193,
-          "re": -5.734535199250362
+          "im": -5.190386845654359,
+          "re": 0.5173913420196072
         },
         {
-          "im": 1.088041267019321,
-          "re": -6.089287120062181
+          "im": 5.740405559934599,
+          "re": 2.634457398263521
         }
       ],
-      "integration_steps": 934,
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 925,
       "matching_log_z": 0.22030109708700907,
       "measured_delta": 9.99999860695766e-10,
-      "omega_M": 0.21,
-      "raw_frequency_sensitivity_norm": 393.0816362474534,
-      "record_sha256": "02bace0ef5cf756e415310fca66ac7ccc7bfcec48667f9d565076063e97dae8c",
-      "soft_magnetic_norm": 1.6083110116788564,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 384.5457881584949,
+      "record_sha256": "e47228120e1d36652a25bf632b1e28b37ef36d73bab880312b20519c3bfcc767",
+      "soft_magnetic_norm": 1.5676590996297104,
       "soft_magnetic_row": [
         {
-          "im": 0.04402241681144639,
-          "re": -1.2081170718488476
+          "im": -0.9446091012807648,
+          "re": 0.6696577641362207
         },
         {
-          "im": 0.5979010538214352,
-          "re": -0.8761813782842736
+          "im": -1.056199600608625,
+          "re": 0.03563118066580802
         }
       ],
-      "strong_equation_defect": 2.4045570554525535e-08,
+      "strong_equation_defect": 2.3612161586290132e-08,
       "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -245.98261008015734,
+      "flux_residual": 4.99711383383783e-13,
+      "frequency_sensitivity_norm": 7.318379540581109,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.223844810060484,
+          "re": 0.03653486389356431
+        },
+        {
+          "im": 4.170502830720935,
+          "re": 2.979210607370561
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 926,
+      "matching_log_z": 0.22030109708700907,
+      "measured_delta": 9.99999860695766e-10,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 385.68195799979094,
+      "record_sha256": "909fd5f3d5400eac4f89046fc1f19e20dc05d6ab9d5c0e739bfd794cd11fd252",
+      "soft_magnetic_norm": 1.5676413787389647,
+      "soft_magnetic_row": [
+        {
+          "im": -1.0842818974924728,
+          "re": 0.4195059093375619
+        },
+        {
+          "im": -1.028577285815109,
+          "re": -0.21880543466928196
+        }
+      ],
+      "strong_equation_defect": 2.3680447775725543e-08,
+      "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -246.51710287600667,
+      "flux_residual": 6.182832024137497e-13,
+      "frequency_sensitivity_norm": 6.511195037591411,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.350940830584548,
+          "re": -0.6001485365080157
+        },
+        {
+          "im": 2.435584900330099,
+          "re": 2.7332839172960917
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 927,
+      "matching_log_z": 0.22030109708700907,
+      "measured_delta": 9.99999860695766e-10,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 386.76115107582046,
+      "record_sha256": "445e73392aa73c92cc5e18682f4e3be5fee289c88d1e5c65b9bde47499ecff93",
+      "soft_magnetic_norm": 1.568679552444239,
+      "soft_magnetic_row": [
+        {
+          "im": -1.159050347644647,
+          "re": 0.14160844450566373
+        },
+        {
+          "im": -0.9412957338808465,
+          "re": -0.4596381399578216
+        }
+      ],
+      "strong_equation_defect": 2.3720709694363915e-08,
+      "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -246.81441603204854,
+      "flux_residual": 6.057376822354854e-13,
+      "frequency_sensitivity_norm": 5.980385687364967,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.4181236968702855,
+          "re": -1.5003322976840536
+        },
+        {
+          "im": 0.8130239201327072,
+          "re": 1.8700116782711689
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 928,
+      "matching_log_z": 0.22030109708700907,
+      "measured_delta": 9.99999860695766e-10,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 387.78196341988183,
+      "record_sha256": "4525c7028271670131ae1268701ecc54367809cb2955ad9838cd1b92ee59ac6c",
+      "soft_magnetic_norm": 1.5709610972592247,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1637776312774768,
+          "re": -0.14738876563151102
+        },
+        {
+          "im": -0.7992830268014968,
+          "re": -0.6730256970374532
+        }
+      ],
+      "strong_equation_defect": 2.3778479005801302e-08,
+      "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -246.86298437342782,
+      "flux_residual": 5.837552663479073e-13,
+      "frequency_sensitivity_norm": 5.8977927824567855,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.2225037971951025,
+          "re": -2.659399378603837
+        },
+        {
+          "im": -0.43772045775534707,
+          "re": 0.4953882709815218
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 929,
+      "matching_log_z": 0.22030109708700907,
+      "measured_delta": 9.99999860695766e-10,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 388.7473504685997,
+      "record_sha256": "8083e08699ad77e3c69586e6c560226c5444f156218ae89ad91eba215e8ab2b5",
+      "soft_magnetic_norm": 1.5745682179278115,
+      "soft_magnetic_row": [
+        {
+          "im": -1.0975479347060555,
+          "re": -0.4300059148070942
+        },
+        {
+          "im": -0.6106269115145696,
+          "re": -0.8466896078823272
+        }
+      ],
+      "strong_equation_defect": 2.378953086014562e-08,
+      "target_delta": 1e-09
+    },
+    {
+      "common_phase_rate": -238.60957139826758,
+      "flux_residual": 6.490363801958665e-13,
+      "frequency_sensitivity_norm": 7.450121463085211,
+      "frequency_sensitivity_row": [
+        {
+          "im": 6.139948200501365,
+          "re": -2.276846319005301
+        },
+        {
+          "im": 3.5242632743985354,
+          "re": 0.44820209977274317
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 901,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 366.4054749846921,
+      "record_sha256": "65f4ea2b9257a28e3eef31446929d0705b8087582413af51a28ccd152c778277",
+      "soft_magnetic_norm": 1.5352683606059685,
+      "soft_magnetic_row": [
+        {
+          "im": 1.0366674739358486,
+          "re": -0.4491784378632812
+        },
+        {
+          "im": 1.0111040002519998,
+          "re": 0.24140612915647244
+        }
+      ],
+      "strong_equation_defect": 2.460542337066739e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -237.96117566287302,
+      "flux_residual": 6.472600233564663e-13,
+      "frequency_sensitivity_norm": 8.245014593658611,
+      "frequency_sensitivity_row": [
+        {
+          "im": 6.59097445898356,
+          "re": -0.34645288831933385
+        },
+        {
+          "im": 4.719882661718046,
+          "re": 1.463557100511764
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 902,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 367.2561831980513,
+      "record_sha256": "4261e615c428ff3dda5977cde2c828ceac4311256bc5d2ad8f777ec032d2ec13",
+      "soft_magnetic_norm": 1.5429559841013718,
+      "soft_magnetic_row": [
+        {
+          "im": 1.1199537264055732,
+          "re": -0.19235162169107728
+        },
+        {
+          "im": 0.9295851997155732,
+          "re": 0.4746462152878436
+        }
+      ],
+      "strong_equation_defect": 2.4616234234673584e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -237.19857427882167,
+      "flux_residual": 6.52811138479592e-13,
+      "frequency_sensitivity_norm": 8.936581679057541,
+      "frequency_sensitivity_row": [
+        {
+          "im": 6.364479761461343,
+          "re": 1.78331409699598
+        },
+        {
+          "im": 5.382220773461,
+          "re": 2.684656374584307
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 903,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 368.09871134392586,
+      "record_sha256": "6a0c16035cf0884dd676f535ea59f0bd9b5dcd954e6fd099bb72452242e0bd86",
+      "soft_magnetic_norm": 1.5514014650000638,
+      "soft_magnetic_row": [
+        {
+          "im": 1.1401991246080292,
+          "re": 0.07813045666983227
+        },
+        {
+          "im": 0.7965908749153305,
+          "re": 0.6827379230639086
+        }
+      ],
+      "strong_equation_defect": 2.4679122387279853e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -236.3863524959266,
+      "flux_residual": 6.613598557692058e-13,
+      "frequency_sensitivity_norm": 9.442485226716892,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.394701673918718,
+          "re": 3.8212823445176127
+        },
+        {
+          "im": 5.517530687963642,
+          "re": 3.8745809395394986
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 904,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 368.9456173209548,
+      "record_sha256": "e7db8d41ae289604004da287b6d3e8e33f63fd47c58a4eb869265b2d484ef114",
+      "soft_magnetic_norm": 1.5602625198246969,
+      "soft_magnetic_row": [
+        {
+          "im": 1.0956442562014068,
+          "re": 0.3469462837139102
+        },
+        {
+          "im": 0.6192760816908996,
+          "re": 0.8544636946560407
+        }
+      ],
+      "strong_equation_defect": 2.4723228488173677e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -235.58790634557013,
+      "flux_residual": 6.45039577307216e-13,
+      "frequency_sensitivity_norm": 9.736341935663807,
+      "frequency_sensitivity_row": [
+        {
+          "im": 3.751144746260934,
+          "re": 5.469957089054731
+        },
+        {
+          "im": 5.232327746000209,
+          "re": 4.840204869951364
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 904,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 369.80856005862734,
+      "record_sha256": "532bc3b8acb75f4630b77e6da796e15f10da4ad526a2a92d67f9abdf54837dfa",
+      "soft_magnetic_norm": 1.5691822813727745,
+      "soft_magnetic_row": [
+        {
+          "im": 0.9882205356780304,
+          "re": 0.5987161180485918
+        },
+        {
+          "im": 0.40719714446374294,
+          "re": 0.9805522426509923
+        }
+      ],
+      "strong_equation_defect": 2.4782152017992596e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -234.86090674311478,
+      "flux_residual": 6.7346128673762e-13,
+      "frequency_sensitivity_norm": 9.834077556912584,
+      "frequency_sensitivity_row": [
+        {
+          "im": 1.625768744193806,
+          "re": 6.488016540495465
+        },
+        {
+          "im": 4.696581569576239,
+          "re": 5.469343682412756
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 905,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 370.6975168351536,
+      "record_sha256": "d8daf035918b11a81965fc1bd631c98cd75069d2c60897dd5a049b7d36f409e2",
+      "soft_magnetic_norm": 1.577814958541489,
+      "soft_magnetic_row": [
+        {
+          "im": 0.8234774893527208,
+          "re": 0.8188833697282997
+        },
+        {
+          "im": 0.17179965465723634,
+          "re": 1.054182039957378
+        }
+      ],
+      "strong_equation_defect": 2.4799352459082787e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -234.2539503603344,
+      "flux_residual": 6.761258219967203e-13,
+      "frequency_sensitivity_norm": 9.781892018588984,
+      "frequency_sensitivity_row": [
+        {
+          "im": -0.7065127570512288,
+          "re": 6.738081991268444
+        },
+        {
+          "im": 4.096384195613297,
+          "re": 5.7449228705294395
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 906,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 371.6201423365432,
+      "record_sha256": "d90b67ca417616f84945fd8c1e67493cb1c7669959661ba8fa10a1916593687b",
+      "soft_magnetic_norm": 1.585848941173375,
+      "soft_magnetic_row": [
+        {
+          "im": 0.610301372742471,
+          "re": 0.9945580107687044
+        },
+        {
+          "im": -0.07419647421831045,
+          "re": 1.0713535107884509
+        }
+      ],
+      "strong_equation_defect": 2.485432124080272e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -233.80439453252814,
+      "flux_residual": 6.438183319801283e-13,
+      "frequency_sensitivity_norm": 9.643571091806713,
+      "frequency_sensitivity_row": [
+        {
+          "im": -2.9431428668030435,
+          "re": 6.21008844457937
+        },
+        {
+          "im": 3.5882247014964435,
+          "re": 5.735487640156592
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 907,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 372.5813113629521,
+      "record_sha256": "49e5de5a60773ecc9f746966cd89a0fc69ec781eeee3ac06fc61adb561bdf37d",
+      "soft_magnetic_norm": 1.5930260348125111,
+      "soft_magnetic_row": [
+        {
+          "im": 0.360439057697814,
+          "re": 1.1152730468286347
+        },
+        {
+          "im": -0.3174819135959214,
+          "re": 1.0311095474455805
+        }
+      ],
+      "strong_equation_defect": 2.4905778590816684e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -233.53721423299487,
+      "flux_residual": 6.693534615465069e-13,
+      "frequency_sensitivity_norm": 9.485454168143079,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.811821697061248,
+          "re": 5.017045347995218
+        },
+        {
+          "im": 3.265060325170424,
+          "re": 5.566762953529732
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 908,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 373.5828727856153,
+      "record_sha256": "d9575e7c0e7bfe7c1a170ce467e4ed43d23c25fcc37b086a9076bb3e50d4aa76",
+      "soft_magnetic_norm": 1.5991559820914887,
+      "soft_magnetic_row": [
+        {
+          "im": 0.08785251588890838,
+          "re": 1.1736095508621787
+        },
+        {
+          "im": -0.5448759495278374,
+          "re": 0.935592118533603
+        }
+      ],
+      "strong_equation_defect": 2.4962669860876024e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -233.46465684241352,
+      "flux_residual": 6.650235917504688e-13,
+      "frequency_sensitivity_norm": 9.359631752693709,
+      "frequency_sensitivity_row": [
+        {
+          "im": -6.118585524893774,
+          "re": 3.366170021631625
+        },
+        {
+          "im": 3.1405999939257185,
+          "re": 5.3824853724106845
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 909,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 374.62362604903353,
+      "record_sha256": "1bf964447a6418d4ab5eaa0ef40ca12a16d50a0a7e6473b4e18605d463857839",
+      "soft_magnetic_norm": 1.6041258317416172,
+      "soft_magnetic_row": [
+        {
+          "im": -0.1920607219060052,
+          "re": 1.1656528563878672
+        },
+        {
+          "im": -0.7440389194087297,
+          "re": 0.7899315590363353
+        }
+      ],
+      "strong_equation_defect": 2.4988366363871943e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -233.58648555665997,
+      "flux_residual": 6.754596881819452e-13,
+      "frequency_sensitivity_norm": 9.289476672530489,
+      "frequency_sensitivity_row": [
+        {
+          "im": -6.776818294811619,
+          "re": 1.5131500862217706
+        },
+        {
+          "im": 3.1537364241233945,
+          "re": 5.304095967487683
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 910,
+      "matching_log_z": 0.2203153132507782,
+      "measured_delta": 3.1622779950168933e-09,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 375.6995145992169,
+      "record_sha256": "e5ea6e8d8d02c49219d6def40cef1f67702fa5305f32c5ae2ae7b0487c63bc86",
+      "soft_magnetic_norm": 1.6079040326547864,
+      "soft_magnetic_row": [
+        {
+          "im": -0.4633376319767056,
+          "re": 1.0912518451475608
+        },
+        {
+          "im": -0.9041405501100179,
+          "re": 0.6019741631752494
+        }
+      ],
+      "strong_equation_defect": 2.5037614356175123e-08,
+      "target_delta": 3.1622776601683795e-09
+    },
+    {
+      "common_phase_rate": -226.13710100810323,
+      "flux_residual": 7.469580509678053e-13,
+      "frequency_sensitivity_norm": 9.669626830941606,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.05767109461874,
+          "re": -5.3988392807169845
+        },
+        {
+          "im": -6.672233677516374,
+          "re": 1.8359794419232998
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 882,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 354.29969849745424,
+      "record_sha256": "765f867298844190a5ddde0f39197aec91b9b1eac518b7514926be57d834d273",
+      "soft_magnetic_norm": 1.5661637100927732,
+      "soft_magnetic_row": [
+        {
+          "im": -0.3461098957234594,
+          "re": -1.0779100282758736
+        },
+        {
+          "im": 0.3371590965180564,
+          "re": -1.0283532571404097
+        }
+      ],
+      "strong_equation_defect": 2.8648664139604846e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -226.88447773472515,
+      "flux_residual": 7.485123632022805e-13,
+      "frequency_sensitivity_norm": 9.596923704119668,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.7406460299117725,
+          "re": -4.292894780031951
+        },
+        {
+          "im": -7.026294696668913,
+          "re": 1.3525742289842952
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 883,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 355.4319715341286,
+      "record_sha256": "580d6e899eb9ad440f250f25e728a16f5557cbb3a04a1410f25f99e15efe3304",
+      "soft_magnetic_norm": 1.5660057024284517,
+      "soft_magnetic_row": [
+        {
+          "im": -0.09023725708920267,
+          "re": -1.132418758199217
+        },
+        {
+          "im": 0.5524930895557849,
+          "re": -0.9255324086940944
+        }
+      ],
+      "strong_equation_defect": 2.8699736212599662e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -227.6981740971654,
+      "flux_residual": 7.487344078072056e-13,
+      "frequency_sensitivity_norm": 9.393437088096805,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.067022259863336,
+          "re": -3.2564791183893576
+        },
+        {
+          "im": -7.184113508574171,
+          "re": 0.5880498222924757
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 884,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 356.5546271990501,
+      "record_sha256": "37ea4af513a35c49c55f28fe462ba47ee9447384887439f49eada1fb977d9a57",
+      "soft_magnetic_norm": 1.5653655195670257,
+      "soft_magnetic_row": [
+        {
+          "im": 0.17259091261510937,
+          "re": -1.1268052732317995
+        },
+        {
+          "im": 0.7396456702898949,
+          "re": -0.7770558186967329
+        }
+      ],
+      "strong_equation_defect": 2.876378183595838e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -228.531084850125,
+      "flux_residual": 7.457368056407176e-13,
+      "frequency_sensitivity_norm": 9.031838247459559,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.162126898426749,
+          "re": -2.381644196205542
+        },
+        {
+          "im": -7.0090286444035,
+          "re": -0.35754216174331077
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 885,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 357.65976335757387,
+      "record_sha256": "987814f31f280474980f78fb0d1906ffc6468bfbf052f7f0bdb50308b63458bd",
+      "soft_magnetic_norm": 1.5645386128338012,
+      "soft_magnetic_row": [
+        {
+          "im": 0.42835652738136554,
+          "re": -1.060781372335098
+        },
+        {
+          "im": 0.8891108209115188,
+          "re": -0.5903529323570805
+        }
+      ],
+      "strong_equation_defect": 2.8791724375191552e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -229.3351452557643,
+      "flux_residual": 7.476241847825804e-13,
+      "frequency_sensitivity_norm": 8.513386632311455,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.163144568135294,
+          "re": -1.681700732950759
+        },
+        {
+          "im": -6.421266042229007,
+          "re": -1.3262409959972956
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 886,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 358.740702148719,
+      "record_sha256": "73e5e8817ae5ea3349fc15173232212a2a770c40dbfa1c5cc1250af31460d3ff",
+      "soft_magnetic_norm": 1.5638234192830205,
+      "soft_magnetic_row": [
+        {
+          "im": 0.6632802404249829,
+          "re": -0.9373014808143343
+        },
+        {
+          "im": 0.9932760852369225,
+          "re": -0.3747953600559708
+        }
+      ],
+      "strong_equation_defect": 2.8847678984563117e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -230.06432190240974,
+      "flux_residual": 7.538414337204813e-13,
+      "frequency_sensitivity_norm": 7.8714967077684035,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.179369273298846,
+          "re": -1.0986761284381998
+        },
+        {
+          "im": -5.419831061492161,
+          "re": -2.133761088055877
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 887,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 359.7923583510657,
+      "record_sha256": "6356e67de4a3bc85f4cd38fd3c48427f49498c1a8ed49b8128eba5ad5b420fe2",
+      "soft_magnetic_norm": 1.563502933489807,
+      "soft_magnetic_row": [
+        {
+          "im": 0.8645657266900806,
+          "re": -0.7624371500976571
+        },
+        {
+          "im": 1.0468105243647945,
+          "re": -0.14122622098658436
+        }
+      ],
+      "strong_equation_defect": 2.890850974933876e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -230.67775393153724,
+      "flux_residual": 7.598366380534571e-13,
+      "frequency_sensitivity_norm": 7.1743877646171645,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.2612403853890015,
+          "re": -0.5290074840804948
+        },
+        {
+          "im": -4.08762159130989,
+          "re": -2.6081967357322355
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 888,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 360.81149592162103,
+      "record_sha256": "7ad9f4a9b80e077afc71b9e465de24e8912be5535534e0592959bf2afe144e4a",
+      "soft_magnetic_norm": 1.5638272648290181,
+      "soft_magnetic_row": [
+        {
+          "im": 1.021098845424744,
+          "re": -0.54508205539488
+        },
+        {
+          "im": 1.0469380348557633,
+          "re": 0.09858583140445788
+        }
+      ],
+      "strong_equation_defect": 2.8969697101189884e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -231.14273967792948,
+      "flux_residual": 7.606137941706947e-13,
+      "frequency_sensitivity_norm": 6.525149161816395,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.3860813404719465,
+          "re": 0.13887087478633475
+        },
+        {
+          "im": -2.577997175297,
+          "re": -2.627231398653322
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 889,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 361.79686166317634,
+      "record_sha256": "f03017cc9daee8af9b2e42815b562f2e3dcc917a51ac7fac204c6f448b7a24ab",
+      "soft_magnetic_norm": 1.5649983882753107,
+      "soft_magnetic_row": [
+        {
+          "im": 1.1240633917917735,
+          "re": -0.296501593203531
+        },
+        {
+          "im": 0.9935819545093362,
+          "re": 0.3325404508312784
+        }
+      ],
+      "strong_equation_defect": 2.9007709082486018e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -231.43721026918908,
+      "flux_residual": 7.566169912820442e-13,
+      "frequency_sensitivity_norm": 6.050625702128813,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.464474812145233,
+          "re": 0.9847167061100777
+        },
+        {
+          "im": -1.0854218941219216,
+          "re": -2.1451756886466455
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 890,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 362.74919269201183,
+      "record_sha256": "6d95e1fe4070abda3acb49f1b4c3e22d9d76b5551fe361cbfe231dde94b898d9",
+      "soft_magnetic_norm": 1.5671582231680337,
+      "soft_magnetic_row": [
+        {
+          "im": 1.1674392389260693,
+          "re": -0.02974975701481336
+        },
+        {
+          "im": 0.8893733579227987,
+          "re": 0.5488173667383288
+        }
+      ],
+      "strong_equation_defect": 2.9055561015686588e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -231.55135058797322,
+      "flux_residual": 7.638334409421077e-13,
+      "frequency_sensitivity_norm": 5.863331833956181,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.36586421079209,
+          "re": 2.0250323582590113
+        },
+        {
+          "im": 0.19318915468599585,
+          "re": -1.2033633553254788
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 891,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 363.67110189262644,
+      "record_sha256": "3dffd11261bea1a0a9481e3916ff09a1b8207d1456555400f7badf75ec4a11d9",
+      "soft_magnetic_norm": 1.5703809619545874,
+      "soft_magnetic_row": [
+        {
+          "im": 1.148354667563054,
+          "re": 0.24101658790175465
+        },
+        {
+          "im": 0.7395223227947265,
+          "re": 0.7364751602057271
+        }
+      ],
+      "strong_equation_defect": 2.9125225205708754e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -231.48812650082024,
+      "flux_residual": 7.58726415028832e-13,
+      "frequency_sensitivity_norm": 6.000875501830818,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.9567517438562305,
+          "re": 3.198555057661423
+        },
+        {
+          "im": 1.0973599332143067,
+          "re": 0.07852170614499698
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 892,
+      "matching_log_z": 0.2203575978271526,
+      "measured_delta": 9.999999717180685e-09,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 364.5668525137852,
+      "record_sha256": "b3a7a3590826aaa9f031cdbc919982d6acd30891c4afd567731eb689d33a2e85",
+      "soft_magnetic_norm": 1.5746702286965024,
+      "soft_magnetic_row": [
+        {
+          "im": 1.0672722750724943,
+          "re": 0.501290018881827
+        },
+        {
+          "im": 0.551558381540992,
+          "re": 0.886006709187925
+        }
+      ],
+      "strong_equation_defect": 2.9184942428970344e-08,
+      "target_delta": 1e-08
+    },
+    {
+      "common_phase_rate": -222.2492655013589,
+      "flux_residual": 8.393286066166183e-13,
+      "frequency_sensitivity_norm": 8.393144408799968,
+      "frequency_sensitivity_row": [
+        {
+          "im": -6.557739906753,
+          "re": 0.0005368001785939214
+        },
+        {
+          "im": -5.151119605376806,
+          "re": -0.9523060985300731
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 864,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 342.59355770144634,
+      "record_sha256": "38ad014ba483b5f10733777ae55e0c60632c8e3c8a904ae0af2cd9f06f3b2efa",
+      "soft_magnetic_norm": 1.5410207559104132,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1096111070505776,
+          "re": 0.22285798923587652
+        },
+        {
+          "im": -0.9405105354206963,
+          "re": -0.4574739453270645
+        }
+      ],
+      "strong_equation_defect": 4.635421446536688e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -221.60763765729396,
+      "flux_residual": 8.415490526658687e-13,
+      "frequency_sensitivity_norm": 8.86654661802062,
+      "frequency_sensitivity_row": [
+        {
+          "im": -6.268602183073106,
+          "re": -1.964766656056156
+        },
+        {
+          "im": -5.617286552585824,
+          "re": -1.9763753118505463
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 864,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 343.4609958165282,
+      "record_sha256": "b0996a5875debc5f2ddd95515433d3e4b5c820d7e5959070b4a6d7c0e5b0ac24",
+      "soft_magnetic_norm": 1.5493443011168575,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1377897085672262,
+          "re": -0.02854642340537081
+        },
+        {
+          "im": -0.8219799933637275,
+          "re": -0.6553139207298423
+        }
+      ],
+      "strong_equation_defect": 4.641330874423727e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -220.95696495679655,
+      "flux_residual": 8.422151864806438e-13,
+      "frequency_sensitivity_norm": 9.198413391683447,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.36955475618938,
+          "re": -3.809890061521571
+        },
+        {
+          "im": -5.696184130974785,
+          "re": -2.969328999914893
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 865,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 344.3398627631228,
+      "record_sha256": "2f4c71c9d6f54328fa93d477c0a729f436e1d007fb3a73f925fac14fbd99c08e",
+      "soft_magnetic_norm": 1.5578462596079194,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1093142911152252,
+          "re": -0.2811219062140261
+        },
+        {
+          "im": -0.663494815256451,
+          "re": -0.8228316207319157
+        }
+      ],
+      "strong_equation_defect": 4.649756145736182e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -220.33633984254777,
+      "flux_residual": 8.496536807456323e-13,
+      "frequency_sensitivity_norm": 9.385094202325478,
+      "frequency_sensitivity_row": [
+        {
+          "im": -3.9264440540475363,
+          "re": -5.321913141888558
+        },
+        {
+          "im": -5.464671219341113,
+          "re": -3.804949309998335
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 866,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 345.2342056593805,
+      "record_sha256": "340f18c637d0ddbbd184c982daf0766b1874af9be9a91aa8e92d441cfcb8027c",
+      "soft_magnetic_norm": 1.566271894885779,
+      "soft_magnetic_row": [
+        {
+          "im": -1.025065652921211,
+          "re": -0.522196406164957
+        },
+        {
+          "im": -0.47252506823854107,
+          "re": -0.952091922654985
+        }
+      ],
+      "strong_equation_defect": 4.659138536332692e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -219.78040083368728,
+      "flux_residual": 8.526512829121202e-13,
+      "frequency_sensitivity_norm": 9.44347762917305,
+      "frequency_sensitivity_row": [
+        {
+          "im": -2.0823109599486145,
+          "re": -6.328515498454976
+        },
+        {
+          "im": -5.036001236150213,
+          "re": -4.408155389057697
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 867,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 346.1469558192578,
+      "record_sha256": "44e5a640745e6bd82e6aea0697c26540bb5ffbf283881d51122b36802fe1387f",
+      "soft_magnetic_norm": 1.5743811252666697,
+      "soft_magnetic_row": [
+        {
+          "im": -0.8887395133299376,
+          "re": -0.7395488923924765
+        },
+        {
+          "im": -0.2580852606294272,
+          "re": -1.0369558520250093
+        }
+      ],
+      "strong_equation_defect": 4.668236200800078e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -219.31794260956093,
+      "flux_residual": 8.566480858007708e-13,
+      "frequency_sensitivity_norm": 9.404791464673373,
+      "frequency_sensitivity_row": [
+        {
+          "im": -0.03359784738509575,
+          "re": -6.7248563534604955
+        },
+        {
+          "im": -4.533132472821336,
+          "re": -4.761931403098845
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 868,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 347.07980440426553,
+      "record_sha256": "1320161ee7e04a92443ea0042fac3107322c8b042483eccbfd9ab08d8e3c1c2c",
+      "soft_magnetic_norm": 1.581960675297721,
+      "soft_magnetic_row": [
+        {
+          "im": -0.7066893916606347,
+          "re": -0.9220303123087491
+        },
+        {
+          "im": -0.03031094059568397,
+          "re": -1.0733736683777833
+        }
+      ],
+      "strong_equation_defect": 4.675375843941814e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -218.97105315737485,
+      "flux_residual": 8.58202398035246e-13,
+      "frequency_sensitivity_norm": 9.307911121978679,
+      "frequency_sensitivity_row": [
+        {
+          "im": 2.0017593982983044,
+          "re": -6.487642102569637
+        },
+        {
+          "im": -4.063116495209556,
+          "re": -4.902219197598228
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 869,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 348.03315135474134,
+      "record_sha256": "4d9c2e924e93799c27a8d3161879c975925af92413087086191d38883e959df5",
+      "soft_magnetic_norm": 1.588834036195813,
+      "soft_magnetic_row": [
+        {
+          "im": -0.4876334804915493,
+          "re": -1.0601370017771425
+        },
+        {
+          "im": 0.20001851769777643,
+          "re": -1.0595797814789274
+        }
+      ],
+      "strong_equation_defect": 4.683179508374998e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -218.75469093903024,
+      "flux_residual": 8.61644089411584e-13,
+      "frequency_sensitivity_norm": 9.191861212531988,
+      "frequency_sensitivity_row": [
+        {
+          "im": 3.81813254275653,
+          "re": -5.674777754995276
+        },
+        {
+          "im": -3.6972952818412352,
+          "re": -4.902966598568554
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 870,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 349.0061281554444,
+      "record_sha256": "9da0cf7188c7d6954876984dd385e1535b8970b71293b57876138f88a36c78bd",
+      "soft_magnetic_norm": 1.5948689442604573,
+      "soft_magnetic_row": [
+        {
+          "im": -0.24223887201397934,
+          "re": -1.1465069826451
+        },
+        {
+          "im": 0.4219885020320145,
+          "re": -0.9961800646221872
+        }
+      ],
+      "strong_equation_defect": 4.6934751039647633e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -218.67660335953673,
+      "flux_residual": 8.596456879672587e-13,
+      "frequency_sensitivity_norm": 9.088000634615756,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.251911715013023,
+          "re": -4.411666746513746
+        },
+        {
+          "im": -3.4604760269974975,
+          "re": -4.855046967513886
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 871,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 349.9966906807622,
+      "record_sha256": "9679c84bfb19a7e2d5c58ad7b3d5c0f7245a4bca51639f21a0ee6a122ea35880",
+      "soft_magnetic_norm": 1.5999822389456786,
+      "soft_magnetic_row": [
+        {
+          "im": 0.017397127497269814,
+          "re": -1.17631316452814
+        },
+        {
+          "im": 0.6250651464032717,
+          "re": -0.8861271955008039
+        }
+      ],
+      "strong_equation_defect": 4.702654042196397e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -218.73749909760764,
+      "flux_residual": 8.641976023682219e-13,
+      "frequency_sensitivity_norm": 9.013417392580537,
+      "frequency_sensitivity_row": [
+        {
+          "im": 6.202338379708067,
+          "re": -2.867405400128696
+        },
+        {
+          "im": -3.3303749387127937,
+          "re": -4.843478167121248
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 872,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 351.0017744200061,
+      "record_sha256": "647dd0b80e076b9470fd1644799fc55bc657cbe206912521311c568826c3f365",
+      "soft_magnetic_norm": 1.6041420810810625,
+      "soft_magnetic_row": [
+        {
+          "im": 0.2783434151784577,
+          "re": -1.1475324146365549
+        },
+        {
+          "im": 0.7995943243990989,
+          "re": -0.734584939451539
+        }
+      ],
+      "strong_equation_defect": 4.7107535545455464e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -218.93141157903517,
+      "flux_residual": 8.670841822322473e-13,
+      "frequency_sensitivity_norm": 8.967613648899121,
+      "frequency_sensitivity_row": [
+        {
+          "im": 6.640508353564115,
+          "re": -1.225570426095146
+        },
+        {
+          "im": -3.246749845919055,
+          "re": -4.927305138802808
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 873,
+      "matching_log_z": 0.22048285178970065,
+      "measured_delta": 3.162277617541065e-08,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 352.0175010482847,
+      "record_sha256": "c2ce688f4f5843ee101e6cf59fc6a9f1c84767912923e357c780b4ad25029f7c",
+      "soft_magnetic_norm": 1.6073676015846308,
+      "soft_magnetic_row": [
+        {
+          "im": 0.5274798358223765,
+          "re": -1.0610755327959471
+        },
+        {
+          "im": 0.9372600070134913,
+          "re": -0.5486875453111675
+        }
+      ],
+      "strong_equation_defect": 4.718454702358362e-08,
+      "target_delta": 3.162277660168379e-08
+    },
+    {
+      "common_phase_rate": -212.27766142155625,
+      "flux_residual": 9.321432514752814e-13,
+      "frequency_sensitivity_norm": 9.0868663623348,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.074782892549791,
+          "re": 4.599151660423811
+        },
+        {
+          "im": 6.464820573769373,
+          "re": -1.7381552344092768
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 845,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 331.0562400544573,
+      "record_sha256": "630ce61188d19a8c81f8b6252b7a5b7fcd62737d7865918a62e96dec32b4044b",
+      "soft_magnetic_norm": 1.5589558774609598,
+      "soft_magnetic_row": [
+        {
+          "im": 0.12826337504601346,
+          "re": 1.1222849623680586
+        },
+        {
+          "im": -0.5221390880255002,
+          "re": 0.9390096753975972
+        }
+      ],
+      "strong_equation_defect": 2.778102872535875e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -212.95513306303408,
+      "flux_residual": 9.374723219934822e-13,
+      "frequency_sensitivity_norm": 8.838542901375567,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.506147055695294,
+          "re": 3.756768149133144
+        },
+        {
+          "im": 6.547719909291715,
+          "re": -0.9102397459069209
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 846,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 332.03743160806886,
+      "record_sha256": "fa21921a0ab9e71b73b5d482423248d872a75f682a0dcae9a073b5ddb112bcd1",
+      "soft_magnetic_norm": 1.5586371123742806,
+      "soft_magnetic_row": [
+        {
+          "im": -0.11617967608727292,
+          "re": 1.1277707876151744
+        },
+        {
+          "im": -0.7018947572602521,
+          "re": 0.8070493982818606
+        }
+      ],
+      "strong_equation_defect": 2.7838426679328976e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -213.62672052681071,
+      "flux_residual": 9.410250356722827e-13,
+      "frequency_sensitivity_norm": 8.483899427780305,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.77051792157971,
+          "re": 2.990171484412002
+        },
+        {
+          "im": 6.346410983847051,
+          "re": 0.025502519338630236
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 847,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 333.00137108325674,
+      "record_sha256": "2d026605655248f3f77563285c7f05fcc38f62820ec3b8003047e2495b95afcd",
+      "soft_magnetic_norm": 1.558294207145602,
+      "soft_magnetic_row": [
+        {
+          "im": -0.35725790249855277,
+          "re": 1.080471507220237
+        },
+        {
+          "im": -0.8503367545096231,
+          "re": 0.640434503396831
+        }
+      ],
+      "strong_equation_defect": 2.7894840680091643e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -214.2631258787911,
+      "flux_residual": 9.446887716535457e-13,
+      "frequency_sensitivity_norm": 8.033994910918016,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.947976261115514,
+          "re": 2.3072209054162727
+        },
+        {
+          "im": 5.81639465970342,
+          "re": 0.9533572280512601
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 848,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 333.94695960505,
+      "record_sha256": "c80e2a1ac85c9e9dfc66c6ec9f90581eb1ce4a096533797db86e6ee68916ec4d",
+      "soft_magnetic_norm": 1.5581323409675412,
+      "soft_magnetic_row": [
+        {
+          "im": -0.5836393283724243,
+          "re": 0.9820893370902609
+        },
+        {
+          "im": -0.9609010496039214,
+          "re": 0.4464428666578393
+        }
+      ],
+      "strong_equation_defect": 2.7952131013694187e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -214.8370158482692,
+      "flux_residual": 9.492406860545088e-13,
+      "frequency_sensitivity_norm": 7.517368248584308,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.101428745224325,
+          "re": 1.6756524774584705
+        },
+        {
+          "im": 4.963342803811237,
+          "re": 1.7446108817914023
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 849,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 334.87391400098096,
+      "record_sha256": "7bd63825c9c1ea8d5633e73fae380107f434ec72645ea5e5c8cd6e8fcd65d2d2",
+      "soft_magnetic_norm": 1.5583419168889043,
+      "soft_magnetic_row": [
+        {
+          "im": -0.7845681264864636,
+          "re": 0.8367443638146977
+        },
+        {
+          "im": -1.028682291914118,
+          "re": 0.2335679703237554
+        }
+      ],
+      "strong_equation_defect": 2.8011553187596175e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -215.3245054023784,
+      "flux_residual": 9.516831767086842e-13,
+      "frequency_sensitivity_norm": 6.980404090919036,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.260295175047787,
+          "re": 1.03722883294256
+        },
+        {
+          "im": 3.845000591825799,
+          "re": 2.2793557732087493
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 849,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 335.7827536911676,
+      "record_sha256": "8640de544414dd5ce2883bd0c767b4900c52383446e402bdcbc70fc5879cebe1",
+      "soft_magnetic_norm": 1.559089567260338,
+      "soft_magnetic_row": [
+        {
+          "im": -0.9503773135745879,
+          "re": 0.650805675783149
+        },
+        {
+          "im": -1.050652634461087,
+          "re": 0.011146957037392392
+        }
+      ],
+      "strong_equation_defect": 2.807327837085291e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -215.70652103925653,
+      "flux_residual": 9.552358903874847e-13,
+      "frequency_sensitivity_norm": 6.485607521801574,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.412514829051091,
+          "re": 0.32772428317340996
+        },
+        {
+          "im": 2.563731470912046,
+          "re": 2.4673195762658793
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 850,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 336.67474956094003,
+      "record_sha256": "41fa481b1f97586aaf036cf388007bf5b2a5aa8c025aad70ccdf95d6682a12af",
+      "soft_magnetic_norm": 1.560510427244821,
+      "soft_magnetic_row": [
+        {
+          "im": -1.072955531500837,
+          "re": 0.43261448004073044
+        },
+        {
+          "im": -1.0257983033059903,
+          "re": -0.21104922069320667
+        }
+      ],
+      "strong_equation_defect": 2.813400103407066e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -215.9699084600238,
+      "flux_residual": 9.562350911096473e-13,
+      "frequency_sensitivity_norm": 6.104484777857187,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.506692095953909,
+          "re": -0.5016212885565778
+        },
+        {
+          "im": 1.250925628272853,
+          "re": 2.263766268598829
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 851,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 337.55183849530147,
+      "record_sha256": "9e0215d8fe1bd812cbd8e6504fa9649291cfe3fb78f370b3daeea8473ec29005",
+      "soft_magnetic_norm": 1.5627021275890018,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1461453133026285,
+          "re": 0.19211112194040988
+        },
+        {
+          "im": -0.9551677078196419,
+          "re": -0.4232455872551789
+        }
+      ],
+      "strong_equation_defect": 2.819544627391618e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -216.10816228298776,
+      "flux_residual": 9.591216709736727e-13,
+      "frequency_sensitivity_norm": 5.900875569951319,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.464011604487271,
+          "re": -1.4659756520920837
+        },
+        {
+          "im": 0.04615219588157515,
+          "re": 1.6774072374844593
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 852,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 338.4165087338643,
+      "record_sha256": "ab65e1634bf185156bd97f606378575426793a7a5aec26258e6e6cd2064cd677",
+      "soft_magnetic_norm": 1.565720865312575,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1660532295358381,
+          "re": -0.05961738131994084
+        },
+        {
+          "im": -0.8418287690769283,
+          "re": -0.6160939744577746
+        }
+      ],
+      "strong_equation_defect": 2.8259016729913187e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -216.12169170517376,
+      "flux_residual": 9.630074515598608e-13,
+      "frequency_sensitivity_norm": 5.906934496800287,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.197365021521485,
+          "re": -2.5362509759739
+        },
+        {
+          "im": -0.9249730840811594,
+          "re": 0.7688483355975109
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 853,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 339.27166241353177,
+      "record_sha256": "5ddd8f42651e8dbf34b020de0c6de105be2fc5207e7773c77671c6614983b34d",
+      "soft_magnetic_norm": 1.5695797775063525,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1312562736625844,
+          "re": -0.3108487242935517
+        },
+        {
+          "im": -0.6907371384283296,
+          "re": -0.7810859091398648
+        }
+      ],
+      "strong_equation_defect": 2.832503572339976e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -216.01758984355655,
+      "flux_residual": 9.665601652386613e-13,
+      "frequency_sensitivity_norm": 6.10751139411902,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.633491599825632,
+          "re": -3.638403908793265
+        },
+        {
+          "im": -1.569996810675292,
+          "re": -0.3599694911881528
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 854,
+      "matching_log_z": 0.22085204661762659,
+      "measured_delta": 1.0000000005838672e-07,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 340.1204625590027,
+      "record_sha256": "3c7f7ac26e44053adf11daebddd87043ae7910a732a842e0ef714a66d5af5e52",
+      "soft_magnetic_norm": 1.5742496820658396,
+      "soft_magnetic_row": [
+        {
+          "im": -1.0428935977685152,
+          "re": -0.5497720205571833
+        },
+        {
+          "im": -0.5085209105378582,
+          "re": -0.9109293134903824
+        }
+      ],
+      "strong_equation_defect": 2.8389911493501093e-07,
+      "target_delta": 1e-07
+    },
+    {
+      "common_phase_rate": -205.93936869863168,
+      "flux_residual": 1.0276224315930449e-12,
+      "frequency_sensitivity_norm": 8.634422818941866,
+      "frequency_sensitivity_row": [
+        {
+          "im": 6.241385800654198,
+          "re": 1.9080278987380836
+        },
+        {
+          "im": 5.546311359664799,
+          "re": 1.0937186763270006
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 826,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 318.26061047452544,
+      "record_sha256": "5a41dd81a94c5161b57122172fb47606122d554d21fce30cd4bb0c2c255a6939",
+      "soft_magnetic_norm": 1.5448404295406626,
+      "soft_magnetic_row": [
+        {
+          "im": 1.1310335712885662,
+          "re": -0.04392315705417183
+        },
+        {
+          "im": 0.8579386823397469,
+          "re": 0.6077063328460086
+        }
+      ],
+      "strong_equation_defect": 1.4779207095643303e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -205.4481738743649,
+      "flux_residual": 1.0333955913210957e-12,
+      "frequency_sensitivity_norm": 8.854289538100549,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.484988804951087,
+          "re": 3.57192532042248
+        },
+        {
+          "im": 5.6391575744634395,
+          "re": 1.9376770602384852
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 827,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 319.1550869609628,
+      "record_sha256": "3510e92188ca0bb833d77da6eff6e82ae2b3f0b4ae6ea7e3045fa437e920ea89",
+      "soft_magnetic_norm": 1.5528599521808415,
+      "soft_magnetic_row": [
+        {
+          "im": 1.1217682362120718,
+          "re": 0.19136699239791172
+        },
+        {
+          "im": 0.7211660926742822,
+          "re": 0.7722099431568005
+        }
+      ],
+      "strong_equation_defect": 1.5081792939294757e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -204.98690331237069,
+      "flux_residual": 1.035393992765421e-12,
+      "frequency_sensitivity_norm": 8.98251065064357,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.289110776429084,
+          "re": 4.979457571060863
+        },
+        {
+          "im": 5.500477280451662,
+          "re": 2.6904977832521695
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 828,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 320.06047670563044,
+      "record_sha256": "963469f12095e201e5df51322f34d84c7f0089b032bbb461c85f22115b13e7c8",
+      "soft_magnetic_norm": 1.5607553430854817,
+      "soft_magnetic_row": [
+        {
+          "im": 1.0637023684909632,
+          "re": 0.4207403573856895
+        },
+        {
+          "im": 0.5539980165324379,
+          "re": 0.9058467097592626
+        }
+      ],
+      "strong_equation_defect": 1.5388962335708516e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -204.57498482289148,
+      "flux_residual": 1.0419443086107094e-12,
+      "frequency_sensitivity_norm": 9.030500777414746,
+      "frequency_sensitivity_row": [
+        {
+          "im": 2.7503515359158826,
+          "re": 6.006852911122053
+        },
+        {
+          "im": 5.198015457984013,
+          "re": 3.299070190595714
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 829,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 320.9761015149126,
+      "record_sha256": "fe1f62ed060cd27d39438c8386db36f9538003cd2a26ff24a476550eb033e84c",
+      "soft_magnetic_norm": 1.5683688910018738,
+      "soft_magnetic_row": [
+        {
+          "im": 0.9588906271694947,
+          "re": 0.6341311619799995
+        },
+        {
+          "im": 0.3632463904770716,
+          "re": 1.0031148850456835
+        }
+      ],
+      "strong_equation_defect": 1.5700762158426566e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -204.22857823938602,
+      "flux_residual": 1.0467182676165976e-12,
+      "frequency_sensitivity_norm": 9.015997649122827,
+      "frequency_sensitivity_row": [
+        {
+          "im": 1.000275437953718,
+          "re": 6.570249024625298
+        },
+        {
+          "im": 4.807263403952135,
+          "re": 3.74295457849113
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 830,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 321.90078817573027,
+      "record_sha256": "46dc161bc3029bfb474230dec69e9b285a4a3a916ef72d84fe71f2bbb5be26e8",
+      "soft_magnetic_norm": 1.5755605965630748,
+      "soft_magnetic_row": [
+        {
+          "im": 0.8114528805494744,
+          "re": 0.8220705680354989
+        },
+        {
+          "im": 0.15669630070246365,
+          "re": 1.059991352137416
+        }
+      ],
+      "strong_equation_defect": 1.6017239809849315e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -203.9602636513647,
+      "flux_residual": 1.049826892085548e-12,
+      "frequency_sensitivity_norm": 8.960019363339706,
+      "frequency_sensitivity_row": [
+        {
+          "im": -0.8114061229053959,
+          "re": 6.634607302642237
+        },
+        {
+          "im": 4.398070522716267,
+          "re": 4.03268257020989
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 831,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 322.83293425505195,
+      "record_sha256": "a6bb62698ebbaf79386e80ffef1fc7934b3f1f6d8a899d8fd2ecc5997a819ab3",
+      "soft_magnetic_norm": 1.5822129504617903,
+      "soft_magnetic_row": [
+        {
+          "im": 0.6274151997449504,
+          "re": 0.9761081052360404
+        },
+        {
+          "im": -0.05721054081905807,
+          "re": 1.0740986494031661
+        }
+      ],
+      "strong_equation_defect": 1.633844294318578e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -203.77889956440578,
+      "flux_residual": 1.0538236949741986e-12,
+      "frequency_sensitivity_norm": 8.883646781353166,
+      "frequency_sensitivity_row": [
+        {
+          "im": -2.535231287780448,
+          "re": 6.215733691208655
+        },
+        {
+          "im": 4.02358982477142,
+          "re": 4.2032323342012745
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 831,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 323.7705899062157,
+      "record_sha256": "128757667277991c7cb36ecf1804a423a2f48d02ce3d519af48245dc3b926187",
+      "soft_magnetic_norm": 1.5882345645126326,
+      "soft_magnetic_row": [
+        {
+          "im": 0.41446534023348264,
+          "re": 1.089192879713368
+        },
+        {
+          "im": -0.26971981654971006,
+          "re": 1.0448050559792799
+        }
+      ],
+      "strong_equation_defect": 1.6664419730582964e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -203.68961401234262,
+      "flux_residual": 1.0557110741160614e-12,
+      "frequency_sensitivity_norm": 8.804825421423542,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.039314514623413,
+          "re": 5.375562591372933
+        },
+        {
+          "im": 3.713055764435012,
+          "re": 4.304118105968598
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 832,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 324.7115516396194,
+      "record_sha256": "749680de530f3bac06fe2bb4c8c8ed052a9cc28f1759be9c609ad82be29b7d6d",
+      "soft_magnetic_norm": 1.5935626180938633,
+      "soft_magnetic_row": [
+        {
+          "im": 0.18163254141213478,
+          "re": 1.1559973146199414
+        },
+        {
+          "im": -0.4721221165947572,
+          "re": 0.9732534887170495
+        }
+      ],
+      "strong_equation_defect": 1.6995218647944526e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -203.69389611087382,
+      "flux_residual": 1.0610401446342621e-12,
+      "frequency_sensitivity_norm": 8.735614667171095,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.223302483003323,
+          "re": 4.2117790469931915
+        },
+        {
+          "im": 3.469204280948105,
+          "re": 4.387893993786378
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 833,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 325.6534636457277,
+      "record_sha256": "e32884b457a058247f88691c7fc780f1a8a94dd79a5be23ad49f5f34981c2dda",
+      "soft_magnetic_norm": 1.598164122117637,
+      "soft_magnetic_row": [
+        {
+          "im": -0.06109507025269602,
+          "re": 1.1731685199433042
+        },
+        {
+          "im": -0.6561093531945573,
+          "re": 0.8623178613942265
+        }
+      ],
+      "strong_equation_defect": 1.7330888492851e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -203.78976345428006,
+      "flux_residual": 1.0618173007514997e-12,
+      "frequency_sensitivity_norm": 8.680444623907317,
+      "frequency_sensitivity_row": [
+        {
+          "im": -6.027275911181164,
+          "re": 2.843551293073105
+        },
+        {
+          "im": 3.2704191536114138,
+          "re": 4.498959720043132
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 834,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 326.59392210118057,
+      "record_sha256": "180f516ee801fc7790ee7a4fa7cda5d943d2b0a27e21cd8ab11b625f51fd0806",
+      "soft_magnetic_norm": 1.6020360330367065,
+      "soft_magnetic_row": [
+        {
+          "im": -0.3031992819006771,
+          "re": 1.1394954200774707
+        },
+        {
+          "im": -0.8141154916063332,
+          "re": 0.7164885208793983
+        }
+      ],
+      "strong_equation_defect": 1.7671478395731528e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -203.97198998516996,
+      "flux_residual": 1.0675904604795505e-12,
+      "frequency_sensitivity_norm": 8.635830469409845,
+      "frequency_sensitivity_row": [
+        {
+          "im": -6.434702320474798,
+          "re": 1.3955639556973694
+        },
+        {
+          "im": 3.0770120632643057,
+          "re": 4.664394060470016
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 835,
+      "matching_log_z": 0.2219333374912056,
+      "measured_delta": 3.162277661949986e-07,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 327.53057793949165,
+      "record_sha256": "0fdc0ea0fe4c9452f9d3b4ff4ee8409d8f70cc584efaad429d0228adf03f2e39",
+      "soft_magnetic_norm": 1.605204272985228,
+      "soft_magnetic_row": [
+        {
+          "im": -0.5340883833682764,
+          "re": 1.055983359672197
+        },
+        {
+          "im": -0.9396276160008377,
+          "re": 0.5416912811787704
+        }
+      ],
+      "strong_equation_defect": 1.801703777947166e-05,
+      "target_delta": 3.162277660168379e-07
+    },
+    {
+      "common_phase_rate": -196.96563671148712,
+      "flux_residual": 1.128208637624084e-12,
+      "frequency_sensitivity_norm": 8.46435217534838,
+      "frequency_sensitivity_row": [
+        {
+          "im": 3.883365712931692,
+          "re": -4.497820689101516
+        },
+        {
+          "im": -5.906343461392311,
+          "re": 1.203928757323311
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 808,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 305.5683961703179,
+      "record_sha256": "d4629a9f8b7771aaeb34ab67369f88acab1e2d6de3fa32245cd06a86d5c60524",
+      "soft_magnetic_norm": 1.5507839134027495,
+      "soft_magnetic_row": [
+        {
+          "im": -0.058971508470650545,
+          "re": -1.123258231371141
+        },
+        {
+          "im": 0.5736513577364714,
+          "re": -0.9003711305242532
+        }
+      ],
+      "strong_equation_defect": 1.4332510238525652e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -197.48664367969408,
+      "flux_residual": 1.1355361095866101e-12,
+      "frequency_sensitivity_norm": 8.220658999145465,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.3514922748701395,
+          "re": -3.7669138985771404
+        },
+        {
+          "im": -5.857262401506063,
+          "re": 0.38286577620181106
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 809,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 306.4114775413866,
+      "record_sha256": "523cd04deb9b429b47c931f7297160297371c5c14fcf1717cd483b9849d32be5",
+      "soft_magnetic_norm": 1.550996951919229,
+      "soft_magnetic_row": [
+        {
+          "im": 0.16679655088877518,
+          "re": -1.1167433401699558
+        },
+        {
+          "im": 0.7330051748548427,
+          "re": -0.7702974628651058
+        }
+      ],
+      "strong_equation_defect": 1.4628953752584206e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -197.99247495817374,
+      "flux_residual": 1.135314064981685e-12,
+      "frequency_sensitivity_norm": 7.918244611050551,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.69610134263516,
+          "re": -3.052907718294591
+        },
+        {
+          "im": -5.5771719414309615,
+          "re": -0.4691881279655945
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 809,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 307.2420750663729,
+      "record_sha256": "f7318c007f65f03d7167354b426f5a57ccc94ac202060704f91a4d46f7a664a8",
+      "soft_magnetic_norm": 1.551271196842006,
+      "soft_magnetic_row": [
+        {
+          "im": 0.38778747902583743,
+          "re": -1.0651564714633772
+        },
+        {
+          "im": 0.8643406212009533,
+          "re": -0.6118988307751976
+        }
+      ],
+      "strong_equation_defect": 1.4929929218641193e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -198.4675921324025,
+      "flux_residual": 1.1427525592466736e-12,
+      "frequency_sensitivity_norm": 7.568158626417044,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.955980443964677,
+          "re": -2.3602115876169165
+        },
+        {
+          "im": -5.05212629409138,
+          "re": -1.2730687349392156
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 810,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 308.0617065947051,
+      "record_sha256": "0bfc9d6a8dc22b23ffcbf466a8b3377cab6949cb14e1865ec1f16a1578018674",
+      "soft_magnetic_norm": 1.5517330849648072,
+      "soft_magnetic_row": [
+        {
+          "im": 0.595041512030283,
+          "re": -0.9701396763630549
+        },
+        {
+          "im": 0.9626936795437993,
+          "re": -0.43110445793069696
+        }
+      ],
+      "strong_equation_defect": 1.5235435799745402e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -198.89776834478565,
+      "flux_residual": 1.1479706074624119e-12,
+      "frequency_sensitivity_norm": 7.189132098211285,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.159753308927122,
+          "re": -1.6745754395304573
+        },
+        {
+          "im": -4.297270077317997,
+          "re": -1.9467493666253404
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 811,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 308.87215685059215,
+      "record_sha256": "23d7abfe89b09974f66d3844808de420e82a5e71edacccba9597e2463d6ef5d5",
+      "soft_magnetic_norm": 1.5524984670136655,
+      "soft_magnetic_row": [
+        {
+          "im": 0.7800634090599913,
+          "re": -0.8351084123185052
+        },
+        {
+          "im": 1.0243359813550266,
+          "re": -0.2346961970330713
+        }
+      ],
+      "strong_equation_defect": 1.5545613029806452e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -199.27066133274153,
+      "flux_residual": 1.1524114995609125e-12,
+      "frequency_sensitivity_norm": 6.8071285852447305,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.319022466572051,
+          "re": -0.9703273651325048
+        },
+        {
+          "im": -3.3564098178698365,
+          "re": -2.4161907033882244
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 812,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 309.6754069294195,
+      "record_sha256": "6df4a04eced83a898ffd41115880b0df0fb13f2c48c315f141e099901b9ebde3",
+      "soft_magnetic_norm": 1.5536686654509724,
+      "soft_magnetic_row": [
+        {
+          "im": 0.9351719270283239,
+          "re": -0.6651316626602817
+        },
+        {
+          "im": 1.0469175678428488,
+          "re": -0.030054390213741705
+        }
+      ],
+      "strong_equation_defect": 1.5860461452452397e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -199.57632591754052,
+      "flux_residual": 1.156630347054488e-12,
+      "frequency_sensitivity_norm": 6.453889411747292,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.42523882138795,
+          "re": -0.21976993292793168
+        },
+        {
+          "im": -2.2975523987641466,
+          "re": -2.625343105478379
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 813,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 310.4735589636346,
+      "record_sha256": "4acf8616a954a35628c448c1db7dc30b21de665286869bc354c7e1904fe106f8",
+      "soft_magnetic_norm": 1.5553271211093933,
+      "soft_magnetic_row": [
+        {
+          "im": 1.0538199743454237,
+          "re": -0.4667434983702234
+        },
+        {
+          "im": 1.0295579767466922,
+          "re": 0.1751193723590479
+        }
+      ],
+      "strong_equation_defect": 1.6180001107805125e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -199.80762675300718,
+      "flux_residual": 1.1611822614554512e-12,
+      "frequency_sensitivity_norm": 6.163720298665101,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.450871896531716,
+          "re": 0.5969820599527225
+        },
+        {
+          "im": -1.205011650116532,
+          "re": -2.5438165875225707
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 813,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 311.26875873117854,
+      "record_sha256": "9b78f6d38dced996a86fdfe5ae2943bb1482d6c4ea0ded9d2c24c97002299115",
+      "soft_magnetic_norm": 1.5575367719667044,
+      "soft_magnetic_row": [
+        {
+          "im": 1.1308720585513505,
+          "re": -0.24769300496208366
+        },
+        {
+          "im": 0.9728820957394813,
+          "re": 0.3730921954406186
+        }
+      ],
+      "strong_equation_defect": 1.650434465401909e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -199.96051705015518,
+      "flux_residual": 1.1614043060603763e-12,
+      "frequency_sensitivity_norm": 5.967906288950823,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.354698281126037,
+          "re": 1.4835430016931923
+        },
+        {
+          "im": -0.16922830957831536,
+          "re": -2.1710766299624424
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 814,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 312.0631189876815,
+      "record_sha256": "d9b12c65c8f390e3d04919b41fc3b864f806f7930707f7d96942a129cdbe9b8d",
+      "soft_magnetic_norm": 1.5603382764999871,
+      "soft_magnetic_row": [
+        {
+          "im": 1.1628272368780415,
+          "re": -0.016642097256160015
+        },
+        {
+          "im": 0.8789992971029285,
+          "re": 0.556391616199421
+        }
+      ],
+      "strong_equation_defect": 1.6833501196149478e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -200.03415885093358,
+      "flux_residual": 1.17084120176969e-12,
+      "frequency_sensitivity_norm": 5.887397632661924,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.090283786932062,
+          "re": 2.4217716101345275
+        },
+        {
+          "im": 0.7241884569216097,
+          "re": -1.5365660417885465
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 815,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 312.8586462150559,
+      "record_sha256": "8abcca72af7a46253ecbad7de5be78585339999af41b456bd49582fa4b05b165",
+      "soft_magnetic_norm": 1.5637491534460835,
+      "soft_magnetic_row": [
+        {
+          "im": 1.147977875126547,
+          "re": 0.21717701557648492
+        },
+        {
+          "im": 0.751426504213871,
+          "re": 0.7180881323302128
+        }
+      ],
+      "strong_equation_defect": 1.716751541418961e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -200.0308740242903,
+      "flux_residual": 1.1739498262386405e-12,
+      "frequency_sensitivity_norm": 5.926632564545786,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.616151578851998,
+          "re": 3.3703316050089143
+        },
+        {
+          "im": 1.4045801114190795,
+          "re": -0.695800071199173
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 816,
+      "matching_log_z": 0.22507027609464964,
+      "measured_delta": 9.999999999177334e-07,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 313.657173296836,
+      "record_sha256": "abb64496bdae3cd6a2f5c71c3ec95df6b6e5ad8ac17341184a648ac679a521b9",
+      "soft_magnetic_norm": 1.567763862495188,
+      "soft_magnetic_row": [
+        {
+          "im": 1.0864970384923038,
+          "re": 0.44433116944912876
+        },
+        {
+          "im": 0.5949579579274777,
+          "re": 0.852057834919684
+        }
+      ],
+      "strong_equation_defect": 1.7506479466975314e-07,
+      "target_delta": 1e-06
+    },
+    {
+      "common_phase_rate": -189.80763627427703,
+      "flux_residual": 1.2438938767900254e-12,
+      "frequency_sensitivity_norm": 7.828633257010804,
+      "frequency_sensitivity_row": [
+        {
+          "im": -6.211246548221538,
+          "re": -1.2040905981944547
+        },
+        {
+          "im": -4.60733405370668,
+          "re": -0.17479627821009558
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 790,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 289.52637303350957,
+      "record_sha256": "4187cb09f3b913d6274b5bd46c3295e8ef7dfc022f0198abda0e71bbc4f3d3e6",
+      "soft_magnetic_norm": 1.524809635699027,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1097704960193884,
+          "re": 0.14395503734446372
+        },
+        {
+          "im": -0.8968163851673301,
+          "re": -0.5181227555358261
+        }
+      ],
+      "strong_equation_defect": 3.6402246460567542e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -189.4731010264587,
+      "flux_residual": 1.2534417948018017e-12,
+      "frequency_sensitivity_norm": 8.04105962690245,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.758639328954903,
+          "re": -2.6587120329548384
+        },
+        {
+          "im": -4.857804080398353,
+          "re": -0.9108802581572775
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 791,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 290.38949030627884,
+      "record_sha256": "f8ff9e7b63a8ef57b3d1b318114e7d1758a41c239e0473e05ed8731ec01005c8",
+      "soft_magnetic_norm": 1.5320282219257892,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1228290116678836,
+          "re": -0.07032846131122958
+        },
+        {
+          "im": -0.787750936117607,
+          "re": -0.678872486929208
+        }
+      ],
+      "strong_equation_defect": 3.6863595585213284e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -189.1454958060421,
+      "flux_residual": 1.255884285455977e-12,
+      "frequency_sensitivity_norm": 8.203819579158761,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.9586568163677,
+          "re": -3.979529596736171
+        },
+        {
+          "im": -4.917096907744565,
+          "re": -1.643131295249546
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 791,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 291.26043929915625,
+      "record_sha256": "533d184a8366f6a2db9e66b8ebeded529aa9afedf2e3eed6208560d6f0d6f8d9",
+      "soft_magnetic_norm": 1.5392641428505176,
+      "soft_magnetic_row": [
+        {
+          "im": -1.0945939927841852,
+          "re": -0.28420251310204625
+        },
+        {
+          "im": -0.6506917569663073,
+          "re": -0.8167173693443128
+        }
+      ],
+      "strong_equation_defect": 3.726993702493228e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -188.83567774960005,
+      "flux_residual": 1.2579937092027649e-12,
+      "frequency_sensitivity_norm": 8.317239567123012,
+      "frequency_sensitivity_row": [
+        {
+          "im": -3.8548793648919144,
+          "re": -5.07660983836152
+        },
+        {
+          "im": -4.810699081484728,
+          "re": -2.324131234569194
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 792,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 292.1375024281625,
+      "record_sha256": "55e6892ff73bd8004c5fa9c68e4002d98d79508c2fbe434708a1ac7e986a743f",
+      "soft_magnetic_norm": 1.5464190072192008,
+      "soft_magnetic_row": [
+        {
+          "im": -1.0257028360374691,
+          "re": -0.48973808730900426
+        },
+        {
+          "im": -0.4903433437975332,
+          "re": -0.926857836491597
+        }
+      ],
+      "strong_equation_defect": 3.769954342340688e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -188.5532863278632,
+      "flux_residual": 1.2658762926776035e-12,
+      "frequency_sensitivity_norm": 8.38528353629021,
+      "frequency_sensitivity_row": [
+        {
+          "im": -2.5153652631635595,
+          "re": -5.876195450416446
+        },
+        {
+          "im": -4.574588286980969,
+          "re": -2.9205113610413065
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 793,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 293.018784684412,
+      "record_sha256": "fdc509970388b2ca84d2f341e655fe60e347124504876933462b5bf9353900c1",
+      "soft_magnetic_norm": 1.5534005558140866,
+      "soft_magnetic_row": [
+        {
+          "im": -0.918310291021174,
+          "re": -0.6792351106613622
+        },
+        {
+          "im": -0.3122210092133477,
+          "re": -1.0054437836392272
+        }
+      ],
+      "strong_equation_defect": 3.813136506386527e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -188.30656901186606,
+      "flux_residual": 1.269206961751479e-12,
+      "frequency_sensitivity_norm": 8.414548618063847,
+      "frequency_sensitivity_row": [
+        {
+          "im": -1.026277940167887,
+          "re": -6.327325447302485
+        },
+        {
+          "im": -4.249351434500284,
+          "re": -3.4145786131400975
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 794,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 293.9022754635151,
+      "record_sha256": "ccb29dc5e973a81ca39a3ab9243dc55b9b795783464511a15eac66ec9a1f29c9",
+      "soft_magnetic_norm": 1.5601250462825762,
+      "soft_magnetic_row": [
+        {
+          "im": -0.7760241627358188,
+          "re": -0.8455118839247018
+        },
+        {
+          "im": -0.12246196521454651,
+          "re": -1.0497091883499328
+        }
+      ],
+      "strong_equation_defect": 3.856644794061747e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -188.10227048282934,
+      "flux_residual": 1.276090344504155e-12,
+      "frequency_sensitivity_norm": 8.413241208902814,
+      "frequency_sensitivity_row": [
+        {
+          "im": 0.516132711371597,
+          "re": -6.405946712649907
+        },
+        {
+          "im": -3.8744289952195174,
+          "re": -3.803798277922322
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 794,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 294.7859116876654,
+      "record_sha256": "1919a33731ae88fc8eb35df77f0355da0637e903fe64e60231b8205dd4266b2a",
+      "soft_magnetic_norm": 1.5665192599185283,
+      "soft_magnetic_row": [
+        {
+          "im": -0.6037859926203957,
+          "re": -0.9821782684405755
+        },
+        {
+          "im": 0.07238546959786636,
+          "re": -1.0580695910975166
+        }
+      ],
+      "strong_equation_defect": 3.901527705738861e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -187.94557604015972,
+      "flux_residual": 1.2835288387691435e-12,
+      "frequency_sensitivity_norm": 8.390146433276477,
+      "frequency_sensitivity_row": [
+        {
+          "im": 2.0142478223134788,
+          "re": -6.116198539070581
+        },
+        {
+          "im": -3.4831818633902856,
+          "re": -4.098404862790801
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 795,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 295.66764029237044,
+      "record_sha256": "16b1a3f8bb6b5c3edf7d799f56fb74384a033f403c7268e161fae64888b94de7",
+      "soft_magnetic_norm": 1.5725221053532072,
+      "soft_magnetic_row": [
+        {
+          "im": -0.4077005772125802,
+          "re": -1.0838822175152802
+        },
+        {
+          "im": 0.2655873130016743,
+          "re": -1.0301789790573876
+        }
+      ],
+      "strong_equation_defect": 3.94375577853969e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -187.84009935981555,
+      "flux_residual": 1.2810863481149681e-12,
+      "frequency_sensitivity_norm": 8.353627779813982,
+      "frequency_sensitivity_row": [
+        {
+          "im": 3.3775355779790175,
+          "re": -5.488884509120332
+        },
+        {
+          "im": -3.0993148244377835,
+          "re": -4.317608709427574
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 796,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 296.54547824914073,
+      "record_sha256": "1662c3407140efa00b9c3dd4a4979c8ce572e9195d6488a453e2309094e117f9",
+      "soft_magnetic_norm": 1.5780858074643809,
+      "soft_magnetic_row": [
+        {
+          "im": -0.19482015187768445,
+          "re": -1.1465201107088812
+        },
+        {
+          "im": 0.4504562612990733,
+          "re": -0.9669440089991865
+        }
+      ],
+      "strong_equation_defect": 3.992626667801847e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -187.78790540021276,
+      "flux_residual": 1.2887468869848817e-12,
+      "frequency_sensitivity_norm": 8.310722449316229,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.529877147672437,
+          "re": -4.577448965972663
+        },
+        {
+          "im": -2.7349859129117817,
+          "re": -4.484989819013379
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 797,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 297.417568445884,
+      "record_sha256": "e88ccd558b26c085ad4beb84d4c222669fd12ab0f40b328e3c717ddfb3e0488f",
+      "soft_magnetic_norm": 1.5831766806923475,
+      "soft_magnetic_row": [
+        {
+          "im": 0.027109161422936137,
+          "re": -1.167402602496538
+        },
+        {
+          "im": 0.6205829202564319,
+          "re": -0.8704949732337881
+        }
+      ],
+      "strong_equation_defect": 4.035785101072054e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -187.78956066641206,
+      "flux_residual": 1.2922996006636822e-12,
+      "frequency_sensitivity_norm": 8.266419793456267,
+      "frequency_sensitivity_row": [
+        {
+          "im": 5.415069825860797,
+          "re": -3.4520209617768813
+        },
+        {
+          "im": -2.3907094933687745,
+          "re": -4.623718674450998
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 797,
+      "matching_log_z": 0.23410582862245344,
+      "measured_delta": 3.162277660173629e-06,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 298.2822299395805,
+      "record_sha256": "2232572536f3e74f83c5749256887df03c44bb74a18701fbb9c7598c6dff5652",
+      "soft_magnetic_norm": 1.587775494603253,
+      "soft_magnetic_row": [
+        {
+          "im": 0.24992953799336023,
+          "re": -1.1453692774236537
+        },
+        {
+          "im": 0.7700579310291699,
+          "re": -0.7441144055144492
+        }
+      ],
+      "strong_equation_defect": 4.0818367799968445e-09,
+      "target_delta": 3.162277660168379e-06
+    },
+    {
+      "common_phase_rate": -178.3243787948376,
+      "flux_residual": 1.3080647676133594e-12,
+      "frequency_sensitivity_norm": 8.074417926381177,
+      "frequency_sensitivity_row": [
+        {
+          "im": -2.510267363089639,
+          "re": 5.726529720678329
+        },
+        {
+          "im": 5.067966695052206,
+          "re": -0.6460290641310777
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 776,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 270.75708196476967,
+      "record_sha256": "c01d3322f957718840330a7ce1027c665d57e80716a30d87b1643da75bf20996",
+      "soft_magnetic_norm": 1.5176649477536626,
+      "soft_magnetic_row": [
+        {
+          "im": 0.44024273634512323,
+          "re": 1.0046830777616425
+        },
+        {
+          "im": -0.22692278854995027,
+          "re": 1.024017181511909
+        }
+      ],
+      "strong_equation_defect": 2.4103747692937818e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -178.6163674593596,
+      "flux_residual": 1.3138379273414102e-12,
+      "frequency_sensitivity_norm": 8.013808643577125,
+      "frequency_sensitivity_row": [
+        {
+          "im": -3.3934819036751662,
+          "re": 5.101850007247016
+        },
+        {
+          "im": 5.1616903321175585,
+          "re": -0.18299990212665307
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 776,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 271.50371038290405,
+      "record_sha256": "6613e729fe07fa4a5aa9d7470fd2eb67d8dd3e19dba77cb1818fe9636f2985d1",
+      "soft_magnetic_norm": 1.5193759627565862,
+      "soft_magnetic_row": [
+        {
+          "im": 0.2514534390826967,
+          "re": 1.0720231515473617
+        },
+        {
+          "im": -0.39996782464484393,
+          "re": 0.9675053415725006
+        }
+      ],
+      "strong_equation_defect": 5.2371969765130766e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -178.93108351808866,
+      "flux_residual": 1.318500864044836e-12,
+      "frequency_sensitivity_norm": 7.935436660247938,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.108890265119442,
+          "re": 4.3668535799352455
+        },
+        {
+          "im": 5.18636640139016,
+          "re": 0.3469425600177374
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 777,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 272.23602158610385,
+      "record_sha256": "6024d86fbca9caf97e473baa891fde2b9d106787bf1cfaa44c40ac95f2116ac3",
+      "soft_magnetic_norm": 1.5208108966633067,
+      "soft_magnetic_row": [
+        {
+          "im": 0.05263724664853015,
+          "re": 1.1040421954787647
+        },
+        {
+          "im": -0.560482098308561,
+          "re": 0.8815019862446
+        }
+      ],
+      "strong_equation_defect": 3.251561726875521e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -179.26200980151182,
+      "flux_residual": 1.3288259381738499e-12,
+      "frequency_sensitivity_norm": 7.834789401286338,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.6546927396043145,
+          "re": 3.5643861316860317
+        },
+        {
+          "im": 5.113841271243672,
+          "re": 0.928191477634229
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 778,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 272.95512961629004,
+      "record_sha256": "c0756757b26ef85d52d391f78700ac769eaa3a64fcc920c20769833c2c7d4e98",
+      "soft_magnetic_norm": 1.5220328250044057,
+      "soft_magnetic_row": [
+        {
+          "im": -0.1496178251642994,
+          "re": 1.0993228085404405
+        },
+        {
+          "im": -0.7034641041610047,
+          "re": 0.7686520952704874
+        }
+      ],
+      "strong_equation_defect": 3.583404400912786e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -179.6024003710475,
+      "flux_residual": 1.3280487820566123e-12,
+      "frequency_sensitivity_norm": 7.708877240086394,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.03926456107871,
+          "re": 2.7312162938775657
+        },
+        {
+          "im": 4.920993648248455,
+          "re": 1.535213358505672
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 778,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 273.6623785566081,
+      "record_sha256": "2440c7e8445284bc0ec58c6c34a8be170de55cc7dc71e7701727aee13db0f818",
+      "soft_magnetic_norm": 1.5231075955084454,
+      "soft_magnetic_row": [
+        {
+          "im": -0.34854094772534927,
+          "re": 1.0576729109343224
+        },
+        {
+          "im": -0.8244519649253601,
+          "re": 0.6324420339135153
+        }
+      ],
+      "strong_equation_defect": 2.885621037464047e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -179.94541906247585,
+      "flux_residual": 1.333155807969888e-12,
+      "frequency_sensitivity_norm": 7.556560304865719,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.27789778929511,
+          "re": 1.8958786635519118
+        },
+        {
+          "im": 4.592938105856348,
+          "re": 2.134470008148952
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 779,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 274.3593042605255,
+      "record_sha256": "8031289f84b9007baaacc67fe6aa3195761feae2832b35b6a3ba8ec222fee435",
+      "soft_magnetic_norm": 1.524102266128193,
+      "soft_magnetic_row": [
+        {
+          "im": -0.5374057899038742,
+          "re": 0.980145117462599
+        },
+        {
+          "im": -0.9196636893179034,
+          "re": 0.47709221525748796
+        }
+      ],
+      "strong_equation_defect": 4.264603114019769e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -180.2842875569634,
+      "flux_residual": 1.340039190722564e-12,
+      "frequency_sensitivity_norm": 7.378766897610536,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.3891819801941665,
+          "re": 1.0778149100397343
+        },
+        {
+          "im": 4.125479402993804,
+          "re": 2.687313384924323
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 780,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 275.04759284033315,
+      "record_sha256": "2e69fa35cacc74170ef19aba2e40c303950f8b518da19b64e8300781ce47deb2",
+      "soft_magnetic_norm": 1.5250835377178729,
+      "soft_magnetic_row": [
+        {
+          "im": -0.7097587785940537,
+          "re": 0.8690140435762747
+        },
+        {
+          "im": -0.986116494427418,
+          "re": 0.30742661679192973
+        }
+      ],
+      "strong_equation_defect": 3.396117733621808e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -180.61244000341895,
+      "flux_residual": 1.3425927036792018e-12,
+      "frequency_sensitivity_norm": 7.1786096694867005,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.391487896387531,
+          "re": 0.2878328008102642
+        },
+        {
+          "im": 3.5265340095773787,
+          "re": 3.153570231979387
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 781,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 275.72903694693116,
+      "record_sha256": "012db0f819f17c9b4f3354fda87546bdae0ff69881644e1510f786e90c478065",
+      "soft_magnetic_norm": 1.5261162159992072,
+      "soft_magnetic_row": [
+        {
+          "im": -0.8596405418516659,
+          "re": 0.7277118495372528
+        },
+        {
+          "im": -1.0217214164758834,
+          "re": 0.12872317079025933
+        }
+      ],
+      "strong_equation_defect": 3.6463722643045296e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -180.92367994111285,
+      "flux_residual": 1.351696532481128e-12,
+      "frequency_sensitivity_norm": 6.961398311593657,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.299997780544459,
+          "re": -0.47025570929224614
+        },
+        {
+          "im": 2.8163385771658653,
+          "re": 3.4954522690959777
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 781,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 276.40549089924406,
+      "record_sha256": "49c0aae7f2a6c9b395a3f64678436c97e7c52feac89f3b7d5316fd8558833e30",
+      "soft_magnetic_norm": 1.527261738696873,
+      "soft_magnetic_row": [
+        {
+          "im": -0.9817929116985492,
+          "re": 0.5607237592554443
+        },
+        {
+          "im": -1.0253501955656812,
+          "re": -0.053450344112478426
+        }
+      ],
+      "strong_equation_defect": 3.0188211479770554e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -181.21233416621376,
+      "flux_residual": 1.3522516439934407e-12,
+      "frequency_sensitivity_norm": 6.7345340658532225,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.124651153050593,
+          "re": -1.197100703409916
+        },
+        {
+          "im": 2.026391947192316,
+          "re": 3.6813836021154316
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 782,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 277.0788257254887,
+      "record_sha256": "ecb836ac0b730fe38eeb8b4b32081c34afb3247a932108b29dc79508c4099b6c",
+      "soft_magnetic_norm": 1.5285768039192118,
+      "soft_magnetic_row": [
+        {
+          "im": -1.0718442713804388,
+          "re": 0.3734466785487511
+        },
+        {
+          "im": -0.9968722780410672,
+          "re": -0.23340981758042598
+        }
+      ],
+      "strong_equation_defect": 3.525883145031189e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -181.47339739191003,
+      "flux_residual": 1.3584688929313415e-12,
+      "frequency_sensitivity_norm": 6.507253651726771,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.869253418211137,
+          "re": -1.8947798413376802
+        },
+        {
+          "im": 1.1972143915504887,
+          "re": 3.6893371072152377
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 783,
+      "matching_log_z": 0.2599076355405172,
+      "measured_delta": 1.0000000000065512e-05,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 277.75088515916957,
+      "record_sha256": "9c6c70b478b0f76dc5a55b746833249d945013951c0eb4da1938f9b9cf074f05",
+      "soft_magnetic_norm": 1.5301121347642248,
+      "soft_magnetic_row": [
+        {
+          "im": -1.1264666917831239,
+          "re": 0.17201533455893003
+        },
+        {
+          "im": -0.9371607079335682,
+          "re": -0.4055323284745008
+        }
+      ],
+      "strong_equation_defect": 3.524920833765035e-11,
+      "target_delta": 1e-05
+    },
+    {
+      "common_phase_rate": -169.99786092543818,
+      "flux_residual": 1.304734098539484e-12,
+      "frequency_sensitivity_norm": 6.42406367413986,
+      "frequency_sensitivity_row": [
+        {
+          "im": 3.658289607771877,
+          "re": -3.282596077971526
+        },
+        {
+          "im": -4.1269555684284,
+          "re": -0.27984274186653124
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 898,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 242.62883940932116,
+      "record_sha256": "043a39e942fc6d91302421a77241cbe3fc3f638eb64254dcae7e390e9213fe9a",
+      "soft_magnetic_norm": 1.4267460689111189,
+      "soft_magnetic_row": [
+        {
+          "im": 0.28509328657526356,
+          "re": -1.0035562805274167
+        },
+        {
+          "im": 0.7571578307576129,
+          "re": -0.6114842387498218
+        }
+      ],
+      "strong_equation_defect": 2.8468586317567314e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -170.24241531995239,
+      "flux_residual": 1.3105072582675348e-12,
+      "frequency_sensitivity_norm": 6.224006530038539,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.039979720708914,
+          "re": -2.7372352356254623
+        },
+        {
+          "im": -3.7506246752590755,
+          "re": -0.925839593240255
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 898,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 243.1550999154065,
+      "record_sha256": "2fb7d102b555d3aec1ffaf1636452d231d204cb34a1135a720ce2ee481d5ae55",
+      "soft_magnetic_norm": 1.427819435604135,
+      "soft_magnetic_row": [
+        {
+          "im": 0.45498213463005166,
+          "re": -0.9434784625641729
+        },
+        {
+          "im": 0.8458652837863091,
+          "re": -0.47541551322926273
+        }
+      ],
+      "strong_equation_defect": 2.8688451496656254e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -170.46138966967368,
+      "flux_residual": 1.318944953254686e-12,
+      "frequency_sensitivity_norm": 6.02895051676319,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.359243235379921,
+          "re": -2.14968677495807
+        },
+        {
+          "im": -3.2451063234506634,
+          "re": -1.4810045467332031
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 898,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 243.68452849024192,
+      "record_sha256": "526060b23b0c1934768e38ba564f3ee90014abc3012a116cc4cd17dcc838d89a",
+      "soft_magnetic_norm": 1.4291209112655636,
+      "soft_magnetic_row": [
+        {
+          "im": 0.6127466705555812,
+          "re": -0.8547692671241813
+        },
+        {
+          "im": 0.9108239878769437,
+          "re": -0.3266454650343334
+        }
+      ],
+      "strong_equation_defect": 2.847451594307532e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -170.65245479126756,
+      "flux_residual": 1.3212764216063988e-12,
+      "frequency_sensitivity_norm": 5.84634575563745,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.611414600206331,
+          "re": -1.5196610043745693
+        },
+        {
+          "im": -2.633304710754345,
+          "re": -1.9159725497945317
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 899,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 244.21867496155113,
+      "record_sha256": "ffc7da710387f56c0ba79d8d0165296cde2c93ee3120bf86087aa10e43713fe3",
+      "soft_magnetic_norm": 1.4306778502381126,
+      "soft_magnetic_row": [
+        {
+          "im": 0.7535738594046135,
+          "re": -0.7398128258350061
+        },
+        {
+          "im": 0.9502580272687877,
+          "re": -0.1692696485647624
+        }
+      ],
+      "strong_equation_defect": 2.8565629389605103e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -170.81387609492023,
+      "flux_residual": 1.3291590050812374e-12,
+      "frequency_sensitivity_norm": 5.683686146255503,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.788236796550564,
+          "re": -0.8479361459400252
+        },
+        {
+          "im": -1.9450795904479532,
+          "re": -2.2078827569703776
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 899,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 244.7589392012095,
+      "record_sha256": "244be1940c5f89e5fc5c9d85bc27fcee8a02fa86d11e0f51fefd340f6e8a13b9",
+      "soft_magnetic_norm": 1.4325120642811755,
+      "soft_magnetic_row": [
+        {
+          "im": 0.8731111365797138,
+          "re": -0.6018004441770635
+        },
+        {
+          "im": 0.96309183252232,
+          "re": -0.00762266414606121
+        }
+      ],
+      "strong_equation_defect": 2.849444452358612e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -170.94454143755607,
+      "flux_residual": 1.3320455849452628e-12,
+      "frequency_sensitivity_norm": 5.547941523657953,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.878396785653379,
+          "re": -0.13805059739488001
+        },
+        {
+          "im": -1.2152504381561897,
+          "re": -2.3420094698303444
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 899,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 245.30655154286833,
+      "record_sha256": "015ad593428635ae332205e92829cb49f1edc20272a7695e4e296a144cf9c22b",
+      "soft_magnetic_norm": 1.434639587387822,
+      "soft_magnetic_row": [
+        {
+          "im": 0.9676014340553247,
+          "re": -0.44464285450195895
+        },
+        {
+          "im": 0.9489804944443134,
+          "re": 0.1538407085883158
+        }
+      ],
+      "strong_equation_defect": 2.8705352631031598e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -171.04397261480074,
+      "flux_residual": 1.339817146117639e-12,
+      "frequency_sensitivity_norm": 5.4449139206658,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.8686649918191165,
+          "re": 0.6022792336585496
+        },
+        {
+          "im": -0.4812372971614778,
+          "re": -2.312760080384379
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 899,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 245.86255680802037,
+      "record_sha256": "e5850727d0fe3b98f13b4536ef640534c2483da9fb9ba551d04d9040363dad7b",
+      "soft_magnetic_norm": 1.4370705594704771,
+      "soft_magnetic_row": [
+        {
+          "im": 1.0340016601339477,
+          "re": -0.2728599441336526
+        },
+        {
+          "im": 0.9083200439861875,
+          "re": 0.31066784242554035
+        }
+      ],
+      "strong_equation_defect": 2.866652197462712e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -171.1123199081553,
+      "flux_residual": 1.3452572389383022e-12,
+      "frequency_sensitivity_norm": 5.378612514533022,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.745514060318907,
+          "re": 1.360207511662793
+        },
+        {
+          "im": 0.2194588934212902,
+          "re": -2.1239685035614855
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 900,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 246.4278021296757,
+      "record_sha256": "d1d397cca5cc99fbcb25ad6c0919d3abf2e54ce433b5f40484e4e20d86b009d1",
+      "soft_magnetic_norm": 1.4398092294329619,
+      "soft_magnetic_row": [
+        {
+          "im": 1.0700808868004446,
+          "re": -0.09145105260754659
+        },
+        {
+          "im": 0.8422373835222245,
+          "re": 0.4585307052306561
+        }
+      ],
+      "strong_equation_defect": 2.883020041929725e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -171.15033991939313,
+      "flux_residual": 1.3485879080121776e-12,
+      "frequency_sensitivity_norm": 5.350780687455371,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.497035273072804,
+          "re": 2.1174138760233916
+        },
+        {
+          "im": 0.8517240256250744,
+          "re": -1.7884776710322683
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 900,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 247.00292868681743,
+      "record_sha256": "88159b5eb6a6c465a9cd499e15111112330555476316fabc7d3c1336b501c7ad",
+      "soft_magnetic_norm": 1.4428540749321859,
+      "soft_magnetic_row": [
+        {
+          "im": 1.07449507334238,
+          "re": 0.0942504471304724
+        },
+        {
+          "im": 0.7525601128879692,
+          "re": 0.5933450502170896
+        }
+      ],
+      "strong_equation_defect": 2.877819767265111e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -171.15935772454506,
+      "flux_residual": 1.3533618670180658e-12,
+      "frequency_sensitivity_norm": 5.360703328946107,
+      "frequency_sensitivity_row": [
+        {
+          "im": 4.114934855461222,
+          "re": 2.850436689474151
+        },
+        {
+          "im": 1.3850453889778152,
+          "re": -1.3270686742045967
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 900,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 247.58836738519562,
+      "record_sha256": "5fa08a1740e67e47573bf5d7b4212e18ba171eb815b847213caf02d51b76ab9a",
+      "soft_magnetic_norm": 1.4461980330183453,
+      "soft_magnetic_row": [
+        {
+          "im": 1.046835831964526,
+          "re": 0.27873405408026997
+        },
+        {
+          "im": 0.6417670459661352,
+          "re": 0.7113830736172652
+        }
+      ],
+      "strong_equation_defect": 2.8753600485697773e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -171.14121510106455,
+      "flux_residual": 1.3598011605608917e-12,
+      "frequency_sensitivity_norm": 5.405358123020599,
+      "frequency_sensitivity_row": [
+        {
+          "im": 3.596380957710821,
+          "re": 3.531681017964104
+        },
+        {
+          "im": 1.7953022408261177,
+          "re": -0.766850374295089
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 900,
+      "matching_log_z": 0.3318765075417235,
+      "measured_delta": 3.1622776601514246e-05,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 248.18433844296294,
+      "record_sha256": "3065b65ad42fc54eb1dbd9653fb1ca3802936e914bd1fce5a35569acd7873cb1",
+      "soft_magnetic_norm": 1.4498288329794577,
+      "soft_magnetic_row": [
+        {
+          "im": 0.9876515011432017,
+          "re": 0.45647590988525083
+        },
+        {
+          "im": 0.5129207452973538,
+          "re": 0.809376432796382
+        }
+      ],
+      "strong_equation_defect": 2.8728672080132545e-12,
+      "target_delta": 3.1622776601683795e-05
+    },
+    {
+      "common_phase_rate": -157.21175067493343,
+      "flux_residual": 1.304956143144409e-12,
+      "frequency_sensitivity_norm": 9.741704179460372,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.81834374267558,
+          "re": 2.8298150581180437
+        },
+        {
+          "im": 3.8935307400010686,
+          "re": -6.965409464708436
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1282,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.195,
+      "raw_frequency_sensitivity_norm": 298.2422596616106,
+      "record_sha256": "9ce8bdabf5dfaaca036b61a5f85b9b12979f62e6a4b2c098735273b14593a5ac",
+      "soft_magnetic_norm": 1.8960613041489758,
+      "soft_magnetic_row": [
+        {
+          "im": 1.086426461686749,
+          "re": 0.8524117659119422
+        },
+        {
+          "im": 0.32833987664603953,
+          "re": 1.2571050549484215
+        }
+      ],
+      "strong_equation_defect": 4.444004644551765e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.20872503641226,
+      "flux_residual": 1.3167245072054357e-12,
+      "frequency_sensitivity_norm": 9.949254902579062,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.2542588944944555,
+          "re": 2.0291362072021855
+        },
+        {
+          "im": 4.9409971671681205,
+          "re": -6.545959809896264
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1282,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.196,
+      "raw_frequency_sensitivity_norm": 297.37527589351265,
+      "record_sha256": "48a11a720ada609677c9164778dcffae7ee59148d1c59c94fc87e2d5004b82c5",
+      "soft_magnetic_norm": 1.8905362511484012,
+      "soft_magnetic_row": [
+        {
+          "im": 0.9343443959173289,
+          "re": 1.0140285984928237
+        },
+        {
+          "im": 0.13241657305952215,
+          "re": 1.2866000619236673
+        }
+      ],
+      "strong_equation_defect": 4.490738248772614e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.226311272015,
+      "flux_residual": 1.318722908649761e-12,
+      "frequency_sensitivity_norm": 10.137482234413293,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.539957548526132,
+          "re": 1.1536293744451172
+        },
+        {
+          "im": 5.932000041186313,
+          "re": -5.963047139789891
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1282,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.197,
+      "raw_frequency_sensitivity_norm": 296.5179669152157,
+      "record_sha256": "ba7fa8723bef2c0134c4e459baf411ca632f8fdc3152fbc9183181d8cb3c83f4",
+      "soft_magnetic_norm": 1.8848284461748204,
+      "soft_magnetic_row": [
+        {
+          "im": 0.7585307243358814,
+          "re": 1.1489801416701582
+        },
+        {
+          "im": -0.06473795308579375,
+          "re": 1.2856372129127858
+        }
+      ],
+      "strong_equation_defect": 4.454316844987614e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.26371559337255,
+      "flux_residual": 1.3241630014704242e-12,
+      "frequency_sensitivity_norm": 10.304357518458412,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.662020165651086,
+          "re": 0.23516411638394175
+        },
+        {
+          "im": 6.840377026668875,
+          "re": -5.222571347847428
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1283,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.198,
+      "raw_frequency_sensitivity_norm": 295.66936716693135,
+      "record_sha256": "726e50b0664a3e2c9d9b9f0081f598f6aa56cee0e32f615a3b60d302512647a4",
+      "soft_magnetic_norm": 1.878944250975865,
+      "soft_magnetic_row": [
+        {
+          "im": 0.5635879049818634,
+          "re": 1.2538416682065632
+        },
+        {
+          "im": -0.2584468875827676,
+          "re": 1.2545463120192777
+        }
+      ],
+      "strong_equation_defect": 4.4424855323506765e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.31996308189932,
+      "flux_residual": 1.3291590050812374e-12,
+      "frequency_sensitivity_norm": 10.448033914194937,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.614471956002433,
+          "re": -0.6921515849649964
+        },
+        {
+          "im": 7.639800046818408,
+          "re": -4.335146912792425
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1283,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.199,
+      "raw_frequency_sensitivity_norm": 294.82876187102113,
+      "record_sha256": "c32fa9086fcb1e0c650c21969613d5b2bf0e53022c873665f60aacba54a0850f",
+      "soft_magnetic_norm": 1.8728937582804206,
+      "soft_magnetic_row": [
+        {
+          "im": 0.35460243051175694,
+          "re": 1.3259718095488562
+        },
+        {
+          "im": -0.44416297866012733,
+          "re": 1.194364330826406
+        }
+      ],
+      "strong_equation_defect": 4.418319202011444e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.39391454719836,
+      "flux_residual": 1.3311574065255627e-12,
+      "frequency_sensitivity_norm": 10.566854137014744,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.3990509055932705,
+          "re": -1.5938030033969959
+        },
+        {
+          "im": 8.304807733686147,
+          "re": -3.316416162761783
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1283,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.2,
+      "raw_frequency_sensitivity_norm": 293.9956757184782,
+      "record_sha256": "cfbf5031f40770d8a0994d9e34d3ee1ce7a164a6a5d26748b412d9b5bef5ede5",
+      "soft_magnetic_norm": 1.8666904444970611,
+      "soft_magnetic_row": [
+        {
+          "im": 0.13701311519730047,
+          "re": 1.3635792554090982
+        },
+        {
+          "im": -0.6175737778807956,
+          "re": 1.106803896330591
+        }
+      ],
+      "strong_equation_defect": 4.3952717519446e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.48428323552048,
+      "flux_residual": 1.3387069230930138e-12,
+      "frequency_sensitivity_norm": 10.659364820691028,
+      "frequency_sensitivity_row": [
+        {
+          "im": -5.025020941018283,
+          "re": -2.4366869975483993
+        },
+        {
+          "im": 8.811945214411338,
+          "re": -2.187098748823402
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1283,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.201,
+      "raw_frequency_sensitivity_norm": 293.16985955152904,
+      "record_sha256": "109a8cff24cd734c7af82104c5879fdaeede04006266373a1eb9bd326bc3bd35",
+      "soft_magnetic_norm": 1.8603508076416901,
+      "soft_magnetic_row": [
+        {
+          "im": -0.08352951520826189,
+          "re": 1.3657675406310896
+        },
+        {
+          "im": -0.774700380191071,
+          "re": 0.9942063636250156
+        }
+      ],
+      "strong_equation_defect": 4.392905613310126e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.58965151876308,
+      "flux_residual": 1.344147015913677e-12,
+      "frequency_sensitivity_norm": 10.724334252211364,
+      "frequency_sensitivity_row": [
+        {
+          "im": -4.508554645577988,
+          "re": -3.1908064136072127
+        },
+        {
+          "im": 9.140940224842808,
+          "re": -0.9727519713291883
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1284,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.202,
+      "raw_frequency_sensitivity_norm": 292.3512752965782,
+      "record_sha256": "39c123a33518b9d6afa5b26c1268e4d91396a4208306e7396954d57e77dec34d",
+      "soft_magnetic_norm": 1.8538939940508075,
+      "soft_magnetic_row": [
+        {
+          "im": -0.30130911857101383,
+          "re": 1.3325567848020237
+        },
+        {
+          "im": -0.9119874409661818,
+          "re": 0.8594807031234977
+        }
+      ],
+      "strong_equation_defect": 4.3404765665131376e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.70848770536875,
+      "flux_residual": 1.3454792835432272e-12,
+      "frequency_sensitivity_norm": 10.76077108538239,
+      "frequency_sensitivity_row": [
+        {
+          "im": -3.8717357692791836,
+          "re": -3.830741066136767
+        },
+        {
+          "im": 9.275840128447314,
+          "re": 0.29676468891307195
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1284,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.203,
+      "raw_frequency_sensitivity_norm": 291.54007940291774,
+      "record_sha256": "cf9556af11e65acbea11b4f4b028b4955cb9c0cdc53023fff6a8532d0e7465e0",
+      "soft_magnetic_norm": 1.8473414172816054,
+      "soft_magnetic_row": [
+        {
+          "im": -0.5106909692874467,
+          "re": 1.2648818407471096
+        },
+        {
+          "im": -1.026382468136825,
+          "re": 0.7060297472074539
+        }
+      ],
+      "strong_equation_defect": 4.469386962470761e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.83916311053454,
+      "flux_residual": 1.3535839116229909e-12,
+      "frequency_sensitivity_norm": 10.767942314692544,
+      "frequency_sensitivity_row": [
+        {
+          "im": -3.1412538397907213,
+          "re": -4.336812629478885
+        },
+        {
+          "im": 9.20603466114153,
+          "re": 1.5881083216202398
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1284,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.20400000000000001,
+      "raw_frequency_sensitivity_norm": 290.7366050418246,
+      "record_sha256": "7461e9cb5c7d9c8639d971e55a9163667bfc4b7d08dcbdb6588c9e0652f8e08e",
+      "soft_magnetic_norm": 1.8407163724853504,
+      "soft_magnetic_row": [
+        {
+          "im": -0.7062671427680147,
+          "re": 1.1645669128947764
+        },
+        {
+          "im": -1.1154026516233002,
+          "re": 0.5376656183208782
+        }
+      ],
+      "strong_equation_defect": 4.454020268705627e-12,
+      "target_delta": 0.0001
+    },
+    {
+      "common_phase_rate": -157.9799695057948,
+      "flux_residual": 1.3606893389805919e-12,
+      "frequency_sensitivity_norm": 10.745389312658379,
+      "frequency_sensitivity_row": [
+        {
+          "im": -2.3468802545069707,
+          "re": -4.6958822658483825
+        },
+        {
+          "im": 8.927094093362129,
+          "re": 2.865523572603763
+        }
+      ],
+      "horizon_normalization": "unit ingoing symplectic flux",
+      "integration_steps": 1284,
+      "matching_log_z": 0.5238972617947516,
+      "measured_delta": 9.99999999995449e-05,
+      "omega_M": 0.20500000000000002,
+      "raw_frequency_sensitivity_norm": 289.9413433181745,
+      "record_sha256": "41150f1a6e774fe6016b069490ec9120ce3079a36786b73d68bc8fcb85999068",
+      "soft_magnetic_norm": 1.8340436494599204,
+      "soft_magnetic_row": [
+        {
+          "im": -0.8829957231761236,
+          "re": 1.0342773100447562
+        },
+        {
+          "im": -1.1771877939949127,
+          "re": 0.35851639372964816
+        }
+      ],
+      "strong_equation_defect": 4.3855602933053364e-12,
+      "target_delta": 0.0001
     }
   ],
-  "schema_version": 1
+  "schema_version": 2
 }

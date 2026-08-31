@@ -10,14 +10,14 @@ inserted. Container files contain `content_sha256` calculated in the same way.
   finite-cutoff convergence values.
 - `high_precision_comparisons`: independent high-precision comparisons at
   `delta=10^-8` and `10^-9`.
-- `records`: five nonlinear backgrounds. `target_delta` is the requested
+- `records`: eleven nonlinear backgrounds on the half-decade grid. `target_delta` is the requested
   branch position and `measured_delta` is reconstructed from `q/q_c-1`.
 - `sigma_k`: geometric interior matching coordinate.
 - `beta_k`, `phi_k`, `chi_k`, `h_k`: background fields at that surface.
 
 ## `transfers.json`
 
-- `records`: nine soft magnetic rows at three frequencies on three critical
+- `records`: 121 soft magnetic rows at eleven frequencies on eleven critical
   backgrounds. Complex values use `{re, im}`.
 - `frequency_sensitivity_row`: derivative in a parallel-transported common
   horizon phase.
@@ -28,7 +28,7 @@ inserted. Container files contain `content_sha256` calculated in the same way.
 
 ## `trajectories.jsonl`
 
-Each of 225 lines is one complete physical input and result:
+Each of 495 lines is one complete physical input and result:
 
 - `input`: `delta`, carrier frequency, `kappa`, polarization, horizon
   amplitude, local magnetic amplitude, and wall fraction.
@@ -59,4 +59,3 @@ extrema used by the quick verifier and public figure.
 - normalized peak-clock drift below 5 percent;
 - direct versus finite-wall map difference below 2 percent;
 - Python/Wolfram transfer difference below `10^-8` after common-phase alignment.
-

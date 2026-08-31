@@ -30,7 +30,7 @@ Verify the committed results and analytic identities:
 python -m kasner_scattering verify
 ```
 
-Recompute the threshold, backgrounds, odd transfer, 225 first-wall
+Recompute the threshold, eleven backgrounds, 121 odd-transfer records, 495 first-wall
 trajectories, finite-wall map, and coupling controls into an ignored output
 directory:
 
@@ -71,4 +71,3 @@ when its additional generalized-Kasner shift is smaller than
 
 Source code is distributed under the BSD 3-Clause License. Data, figures, and
 documentation are distributed under CC BY 4.0; see `LICENSE-DATA`.
-

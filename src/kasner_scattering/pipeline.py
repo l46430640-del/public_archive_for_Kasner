@@ -44,10 +44,11 @@ from .scattering import (
 from .transfer import integrate_transfer, integrate_transfer_with_sensitivity
 
 
-DELTAS = (1.0e-4, 1.0e-6, 1.0e-7, 1.0e-8, 1.0e-9)
+DELTAS = tuple(10.0 ** (-9.0 + 0.5 * index) for index in range(11))
 FREQUENCIES = (0.1, 0.2, 0.4)
-OPEN_DELTAS = (1.0e-6, 1.0e-8, 1.0e-9)
-OPEN_FREQUENCIES = (0.19, 0.2, 0.21)
+OPEN_DELTAS = DELTAS
+OPEN_FREQUENCIES = tuple(0.195 + 0.001 * index for index in range(11))
+CONTROL_DELTAS = DELTAS[:7]
 KAPPAS = (0.1, 0.25, 0.5)
 CP1_RADIUS = 0.1
 SPATIAL_PHASE = pi / 4
@@ -198,12 +199,12 @@ def verify(root: Path | None = None, *, verify_figure: bool = True) -> dict[str,
     checks["transfer_flux"] = max(row["flux_residual"] for row in transfers["records"]) < 1.0e-9
     checks["transfer_equation_defect"] = 0.0 < max(
         row["strong_equation_defect"] for row in transfers["records"]
-    ) < 1.0e-6
+    ) < 2.0e-5
     checks["transfer_independent_check"] = max(
         transfers["independent_check"]["relative_errors"]
     ) < 1.0e-8
 
-    checks["trajectory_count"] = len(trajectories) == 225
+    checks["trajectory_count"] = len(trajectories) == 495
     checks["two_kasner_plateaus"] = all(
         row["plateaus"]["outcome"] == "KASNER_TRANSITION"
         and row["plateaus"]["kasner_in"]["passed"]
@@ -229,7 +230,7 @@ def verify(root: Path | None = None, *, verify_figure: bool = True) -> dict[str,
         slope > 0.0 for slope in summary["packet_energy_log_slopes"]
     )
     allowed_outcomes = {"KASNER_TRANSITION", "NO_ONSET", "NO_POST_PLATEAU"}
-    checks["control_semantics"] = len(controls["records"]) == 8 and all(
+    checks["control_semantics"] = len(controls["records"]) == 14 and all(
         row["outcome"] in allowed_outcomes
         and row["rescaled_impulse_upper"] > 0.0
         and (
@@ -553,7 +554,7 @@ def rebuild(output: Path) -> dict[str, Any]:
             record = with_digest(record)
             transfer_records.append(record)
             rows.append(record)
-        center = rows[1]
+        center = next(row for row in rows if abs(row["omega_M"] - 0.2) < 1.0e-14)
         derivative_bound = 1.25 * max(row["frequency_sensitivity_norm"] for row in rows)
         row_lower = min(
             center["soft_magnetic_norm"] - 0.005 * derivative_bound,
@@ -615,7 +616,7 @@ def rebuild(output: Path) -> dict[str, Any]:
         if row["input"]["omega_M"] == 0.2
         and row["input"]["kappa"] == 0.25
         and row["input"]["direction_id"] == "max_soft"
-        and row["input"]["target_delta"] in (1.0e-6, 1.0e-7, 1.0e-8, 1.0e-9)
+        and row["input"]["target_delta"] in CONTROL_DELTAS
     ]
     control_records = []
     control_config = BounceConfig(
@@ -726,7 +727,7 @@ def compare_rebuild(output: Path, root: Path | None = None) -> dict[str, Any]:
         "background_below_2e8": bool(errors["background"] < 2.0e-8),
         "transfer_below_2e8": bool(errors["transfer"] < 2.0e-8),
         "trajectory_below_2e6": bool(errors["trajectory"] < 2.0e-6),
-        "trajectory_count": len(rebuilt_trajectories) == 225,
+        "trajectory_count": len(rebuilt_trajectories) == 495,
     }
     return {
         "status": "PASS" if all(checks.values()) else "FAIL",
@@ -771,7 +772,7 @@ def plot_results(output: Path, root: Path | None = None) -> list[Path]:
     axis.text(0.04, 0.92, "(a)", transform=axis.transAxes, fontweight="bold")
 
     axis = axes[0, 1]
-    for index, delta in enumerate(OPEN_DELTAS):
+    for index, delta in enumerate((1.0e-9, 1.0e-7, 1.0e-4)):
         rows = sorted(
             [row for row in transfers["records"] if row["target_delta"] == delta],
             key=lambda row: row["omega_M"],

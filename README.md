@@ -1,73 +1,63 @@
-# Vanishing-energy first-wall Kasner scattering
+# Coherent Selection of Critical Kasner Response
 
-This repository is a self-contained reproduction package for the
-scientific results underlying *Vanishing-Energy Taub-Rescaled Kasner
-Scattering inside Scalarized Black Holes*. It contains the equations,
-numerical implementation, frozen machine-readable results, and compact
-reproduction figures. 
+Data and numerical source for the local Einstein-Maxwell-scalar mechanism in *Coherent Selection of Critical Kasner Response*, version 2.0.0.
 
-The package follows one causal chain: regular odd-parity data on the future
-horizon excite a soft magnetic component; near the scalarization threshold
-its horizon amplitude and flux energy vanish under a double scaling; the
-large-field coupling produces an essential first-wall clock; and the
-contracting magnetic layer retains a finite tangent-space Kasner reflection.
+Reconstruction coverage and comparison criteria are listed in
+[validation](docs/validation.md).
 
-For any question, contact: liyikun@xao.ac.cn
-
-## Install
-
-Python 3.11 is required. From a fresh virtual environment:
-
-```console
-python -m pip install -e ".[test]"
-```
+The central comparison fixes the initial reduced electromagnetic energy. A weak coherent component changes the first scalar response, and two fixed inputs reverse their response ordering between two critical backgrounds. This archive supplies fields, momenta, quadratic predictions, nonlinear observations, numerical controls, first exchange histories, and eight homogeneous magnetic controls.
 
 ## Reproduce
 
-Verify the committed results and analytic identities:
+Use Python 3.11 in a fresh environment from this checkout:
 
-```console
+```sh
+python -m venv .venv
+```
+
+Activate the environment for your shell, then:
+
+```sh
+python -m pip install -e ".[test]"
 python -m kasner_scattering verify
+python -m pytest
+python -m kasner_scattering plot --output build/figure
 ```
 
-Recompute the threshold, eleven backgrounds, 121 odd-transfer records, 495 first-wall
-trajectories, finite-wall map, and coupling controls into an ignored output
-directory:
+Verification checks all frozen file hashes and recomputes displayed comparisons from arrays. Tests check equations, constraints, normalization, interference, discretization and Fourier transforms.
 
-```console
-python -m kasner_scattering rebuild --output build/full
+```sh
+python -m kasner_scattering rebuild --study directed --output build/directed
+python -m kasner_scattering rebuild --study reference --output build/reference
+python -m kasner_scattering rebuild --study exchange --output build/exchange
+python -m kasner_scattering rebuild --study wall --output build/wall
+python -m kasner_scattering rebuild --study carrier --output build/carrier
+python -m kasner_scattering rebuild --study restricted-wall --output build/restricted
 ```
 
-Regenerate the public summary figure:
+Use `--study all` for the fixed complete list. Each output must be new and strictly below `build/`. The commands reject overwriting frozen evidence. Integration completion and successful comparison are distinct states. See [validation](docs/validation.md) for measured coverage and costs.
 
-```console
-python -m kasner_scattering plot --output build/figures
-```
+Reconstruction uses one BLAS thread and verifies the active setting, including
+when NumPy was imported earlier. Run each study in the main thread of a
+dedicated Python process. The thread setting is part of the numerical recipe;
+changing native-library operation ordering can affect derivative residuals
+near the floating-point noise level.
 
-An optional Wolfram Language calculation independently checks the exact
-threshold, three transfer frequencies, and the analytic inner reflection:
+## Evidence
 
-```console
-python -m kasner_scattering crosscheck-wolfram
-```
+| Location | Purpose |
+|---|---|
+| `data/inputs/` | Complex carrier data, background points, prescribed inputs and windows |
+| `data/response/` | Common-node comparisons, convergence evidence and exchange integrals |
+| `data/native/` | Propagated fields and momenta, continuous-frequency checks and histories |
+| `data/wall/` | Eight single-magnetic-axis controls and their independent integrations |
+| `data/tables/` | Displayed values and complete spatial profiles |
+| `data/trajectories.jsonl` | 495 historical restricted Hamiltonian records |
+| `src/kasner_scattering/` | Equations, solvers, reconstruction and verification |
+| `figures/response_profiles.*` | The current two-panel response figure |
 
-On Windows, `reproduce.ps1` provides the same workflow with `-Full` and
-`-Wolfram` switches.
+See [methods](docs/methods.md), [data dictionary](docs/data_dictionary.md), [evidence map](docs/evidence.md), and [provenance](docs/provenance.md).
 
-## Contents
+Propagation concerns finite-time dynamics with two Killing fields. Linear horizon data and locally constrained initial data have separate validity states. Full nonlinear horizon matching and outgoing packet platforms remain unestablished. Homogeneous controls supply a conditional reflection reference.
 
-- `data/` contains five normalized scientific artifacts and their hashes.
-- `src/kasner_scattering/` contains the compact numerical implementation.
-- `figures/results_summary.*` is generated entirely from committed data.
-- `docs/methods.md` records equations and normalizations.
-- `docs/data_dictionary.md` defines public fields and comparison tolerances.
-
-The result concerns the first isolated Taub-degenerate magnetic transition.
-A broader Einstein-Maxwell-scalar evolution belongs to the same local limit
-when its additional generalized-Kasner shift is smaller than
-`sqrt(delta)`.
-
-## Licensing
-
-Source code is distributed under the BSD 3-Clause License. Data, figures, and
-documentation are distributed under CC BY 4.0; see `LICENSE-DATA`.
+Code: [BSD 3-Clause](LICENSE). Data, figures and documentation: [CC BY 4.0](LICENSE-DATA).

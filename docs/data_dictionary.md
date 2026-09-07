@@ -1,61 +1,40 @@
 # Data dictionary
 
-All JSON files use sorted keys and LF line endings. Every scientific record
-contains `record_sha256`, calculated from the record before that field is
-inserted. Container files contain `content_sha256` calculated in the same way.
+Input protocols are stored once in `data/inputs/`. Metadata for native
+predictions and independent evolutions are stored under `data/native/`,
+including the metadata for reduced observation subsets under `data/response/`.
+The directed `linear.npz` corresponds to `prediction_N512_c0.4`.
+Separate domain-size runs retain their own arrays even when the observation
+values agree bit for bit; their domain parameters remain distinct.
 
-## `backgrounds.json`
+JSON stores parameters and diagnostics, CSV displayed values, and NPZ lossless numerical arrays. Load NPZ with `allow_pickle=False`. Complex input matrices use a final `[real, imaginary]` axis. Historical transfer rows use objects with `re` and `im` keys.
 
-- `threshold`: exact Legendre root, direct compactified integrations, and
-  finite-cutoff convergence values.
-- `high_precision_comparisons`: independent high-precision comparisons at
-  `delta=10^-8` and `10^-9`.
-- `records`: eleven nonlinear backgrounds on the half-decade grid. `target_delta` is the requested
-  branch position and `measured_delta` is reconstructed from `q/q_c-1`.
-- `sigma_k`: geometric interior matching coordinate.
-- `beta_k`, `phi_k`, `chi_k`, `h_k`: background fields at that surface.
+## Input and geometry
 
-## `transfers.json`
+`delta_target` selects a background; `measured_delta` is computed from its charge-to-mass ratio. `canonical` and `canonical_momentum` retain both odd-parity channels in basis `(V_g,V_e)`, harmonic degree two. Polarization maximizes the reference magnetic row at delta=1e-6 with unit Euclidean channel norm. `carrier.json` specifies the radial normalization.
 
-- `records`: 121 soft magnetic rows at eleven frequencies on eleven critical
-  backgrounds. Complex values use `{re, im}`.
-- `frequency_sensitivity_row`: derivative in a parallel-transported common
-  horizon phase.
-- `strong_equation_defect`: nonzero centered-difference defect of the
-  integrated radial solution.
-- `neighborhoods`: explicit frequency and `CP^1` lower bounds.
-- `independent_check`: separately integrated high-precision transfer rows.
+The interfaces remain `PacketSpec`, `MatchingData`, and `EvolutionResult`. A null platform/scattering value means unaccepted or unevaluated. Local constraints, linear horizon readiness and complete nonlinear matching are separate fields. Missing polar data and incompatible transverse flux are recorded.
 
-## `trajectories.jsonl`
+The evolution state has shape `(17, grid_points)`: seven fields `(r,sigma,P,Q,psi,a_1,a_2)`, their seven velocities, then two orbit connections and the longitudinal Maxwell potential. Here `r=log(rho)` is the orbit area variable. Three conserved charges fix auxiliary momenta. See `conformal.py` for the reconstructed metric.
 
-Each of 495 lines is one complete physical input and result:
+Spectra contain three sorted geometric spatial exponents followed by the canonical scalar exponent, with `varphi=sqrt(2)*psi`. Magnetic controls retain physical axis order before sorting.
 
-- `input`: `delta`, carrier frequency, `kappa`, polarization, horizon
-  amplitude, local magnetic amplitude, and wall fraction.
-- `packet_energy_tau_1`: Gaussian flux energy at `tau=1`.
-- `clock`: physical peak time, essential normalization, prediction, and error.
-- `plateaus`: incoming and outgoing generalized Kasner exponents, plateau
-  diagnostics, Hamiltonian constraint, and numerical energy drift.
-- `finite_q_map`: canonical momentum, Jacobian, predicted output, limiting
-  reflection, and comparison with the direct Hamiltonian solution.
-- `inner_limit`: rescaled distance from the explicit scalar reflection.
+## Response
 
-## `controls.json`
+Reference endpoint files have 175 shared nodes; directed files have 65 curves at three fixed times. `coherent` includes all quadratic parts; `omitted_cross` omits only the mixed diagnostic term. Evolution never filters frequencies.
 
-`map_value_status` separates a measured two-plateau transition from an upper
-bound. `NO_ONSET` and `NO_POST_PLATEAU` never contain a fabricated zero map.
+`quadratic_parts` is ordered carrier squared, mixed, soft squared and includes `N^2`, `lambda`, and `lambda^2`. Its component axis is zero for reference endpoints and one for directed three-time files. Both error fractions use denominator `max_y abs(coherent)`. `p0` normalizes displayed responses. Reference endpoints use the same-model final zero-packet scalar value; directed comparisons interpolate that background at each fixed time.
 
-## `summary.json`
+`linear.npz` retains propagated quadratic coefficients and background. Native `states` contains two linear fields and their momenta, followed by three sets of eight quadratic geometric/scalar variables. Expansion breakdown and numerical discretization error have separate diagnostics.
 
-This is derived from the four detailed datasets. It collects counts and global
-extrema used by the quick verifier and public figure.
+## Exchange
 
-## Numerical acceptance
+Each history retains all saved times on five observation curves. `magnetic` and `electric` are normalized transverse fractions; `volume` is logarithmic volume time. Rate arrays split the geometric spectral evolution into matter, spatial and vacuum contributions. `windows.json` fixes peak and half-height endpoints, integration windows and platform screening.
 
-- relative target-`delta` error below `10^-6`;
-- odd symplectic-flux residual below `10^-9`;
-- positive transfer lower bounds on the stated open set;
-- Hamiltonian/Kasner constraint below `10^-10`;
-- normalized peak-clock drift below 5 percent;
-- direct versus finite-wall map difference below 2 percent;
-- Python/Wolfram transfer difference below `10^-8` after common-phase alignment.
+The five columns of each curve's `rates` array are electric forcing, magnetic forcing, remaining matter, spatial terms and vacuum geometry. `weights @ rates` reconstructs the impulses with their saved trapezoidal measure. Finite quadrature closure is retained.
+
+## Magnetic controls
+
+Files named `d*_phi*_{DOP853,Radau}_r*` store prescribed inputs, peak roots, coupling slopes, platform windows and errors. DOP853 uses relative tolerances 1e-9, 1e-11 and 1e-13; Radau uses exact rescaled variables at 1e-11. All eight acceptance decisions and window/source checks appear in `verification.json`.
+
+Historical frequency and wall-slope meanings are documented in [provenance](provenance.md). Embedded historical hashes retain their original meaning; current file hashes appear in the manifest.

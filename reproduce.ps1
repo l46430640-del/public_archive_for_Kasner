@@ -1,10 +1,12 @@
 param(
-    [switch]$Full,
-    [switch]$Wolfram
+    [switch]$Full
 )
 
 $ErrorActionPreference = "Stop"
 $root = $PSScriptRoot
+$env:OPENBLAS_NUM_THREADS = "1"
+$env:MKL_NUM_THREADS = "1"
+$env:OMP_NUM_THREADS = "1"
 $watch = [Diagnostics.Stopwatch]::StartNew()
 
 function Invoke-ReproductionStep {
@@ -22,20 +24,14 @@ try {
     Invoke-ReproductionStep "committed evidence" @("verify")
     if ($Full) {
         Invoke-ReproductionStep "full reconstruction" @(
-            "rebuild", "--output", "build/full"
+            "rebuild", "--study", "all", "--output", "build/full"
         )
     }
-    Invoke-ReproductionStep "summary figure" @(
+    Invoke-ReproductionStep "response figure" @(
         "plot", "--output", "build/figures"
     )
-    if ($Wolfram) {
-        Invoke-ReproductionStep "independent Wolfram calculation" @(
-            "crosscheck-wolfram"
-        )
-    }
 } finally {
     Pop-Location
 }
 $watch.Stop()
 Write-Host "Completed in $([math]::Round($watch.Elapsed.TotalSeconds, 1)) s"
-

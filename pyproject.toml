@@ -4,15 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kasner-scattering"
-version = "1.0.0"
-description = "Minimal reproduction package for vanishing-energy first-wall Kasner scattering"
+version = "2.0.0"
+description = "Independent reproduction of coherent critical Kasner response"
+license = {file = "LICENSE"}
 requires-python = "==3.11.*"
 dependencies = [
   "matplotlib==3.8.0",
   "mpmath==1.3.0",
   "numpy==1.26.4",
+  "numba==0.59.0",
   "scipy==1.16.3",
   "sympy==1.13.1",
+  "threadpoolctl==3.6.0",
 ]
 
 [project.optional-dependencies]

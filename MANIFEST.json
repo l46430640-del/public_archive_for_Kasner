@@ -1,193 +1,2357 @@
 {
+  "schema_version": 2,
+  "package_version": "2.0.0",
+  "title": "Coherent Selection of Critical Kasner Response",
+  "scope": "Local two-Killing finite-time response, linear carrier contact and conditional homogeneous magnetic reflection",
+  "hash": "SHA-256",
+  "manifest_self_excluded": true,
+  "file_count": 335,
+  "total_bytes_excluding_manifest": 170638367,
   "files": [
     {
-      "bytes": 46,
-      "generation_command": "maintained source file",
       "path": ".gitattributes",
-      "role": "package configuration",
-      "sha256": "dd25928e5cf1a2938673d9a23f89061749fde078645b91e160ba947ad3a6f617"
+      "bytes": 58,
+      "sha256": "75ab34f82c76b82cda74f10206d2ef6407fb63ac727258417b8d5c747e321037",
+      "purpose": "Package installation, reproduction entry point, licensing or repository hygiene",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 86,
-      "generation_command": "maintained source file",
       "path": ".gitignore",
-      "role": "package configuration",
-      "sha256": "115c7e5ed508ad4b65f700f6550f12a6fe805c3221698f6ca0073e55c6333a11"
+      "bytes": 86,
+      "sha256": "115c7e5ed508ad4b65f700f6550f12a6fe805c3221698f6ca0073e55c6333a11",
+      "purpose": "Package installation, reproduction entry point, licensing or repository hygiene",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 1518,
-      "generation_command": "maintained source file",
-      "path": "LICENSE",
-      "role": "license",
-      "sha256": "3c0953652bd0e912e3662b59ed0a6c5e754f977ff7c60b025f4471d301446bc2"
-    },
-    {
-      "bytes": 516,
-      "generation_command": "maintained source file",
-      "path": "LICENSE-DATA",
-      "role": "license",
-      "sha256": "968ea45e72e2384e6aadb1fc8127e1f7e9db2a27486da291428a4a1b4d2126fe"
-    },
-    {
-      "bytes": 2464,
-      "generation_command": "maintained source file",
-      "path": "README.md",
-      "role": "scientific documentation",
-      "sha256": "788584e484f649ed0184d94df6c5407b46f707da3c0d9c871ec220aa687057df"
-    },
-    {
-      "bytes": 25258,
-      "generation_command": "python -m kasner_scattering rebuild --output build/full",
       "path": "data/backgrounds.json",
-      "role": "machine-readable scientific result",
-      "sha256": "d4bde6112fa036fa08e9bbb8b74ced2fba6c49665d5a5e362bb09403e7a8b0f8"
+      "bytes": 25258,
+      "sha256": "d4bde6112fa036fa08e9bbb8b74ced2fba6c49665d5a5e362bb09403e7a8b0f8",
+      "purpose": "Historical critical backgrounds for the restricted Hamiltonian records",
+      "reproduction": "restricted-wall"
     },
     {
-      "bytes": 7676,
-      "generation_command": "python -m kasner_scattering rebuild --output build/full",
-      "path": "data/controls.json",
-      "role": "machine-readable scientific result",
-      "sha256": "1c6fdc61036829ff5a63174f0e404d56a8e91ff397141f3ea9edfd664c88fd74"
+      "path": "data/inputs/background_points.json",
+      "bytes": 3587,
+      "sha256": "3a7a43ae5b4fca26a0e9db26963088ec2d9cb0794d0bbce78254064b649dafe7",
+      "purpose": "Existing critical-background sequence and measured homogeneous parameters",
+      "reproduction": "restricted-wall"
     },
     {
-      "bytes": 1181,
-      "generation_command": "python -m kasner_scattering rebuild --output build/full",
-      "path": "data/summary.json",
-      "role": "machine-readable scientific result",
-      "sha256": "21bc5ead8d157ff443d88d2948808fd521af35f349f10af3ffe0913dd901d65e"
+      "path": "data/inputs/carrier.json",
+      "bytes": 7338,
+      "sha256": "3392ce2daa157f59de0a2a585289993939fd9728025da3ccd497af351ee2e62c",
+      "purpose": "Prescribed physical input, normalization, selection or observation window",
+      "reproduction": "carrier"
     },
     {
-      "bytes": 1319380,
-      "generation_command": "python -m kasner_scattering rebuild --output build/full",
+      "path": "data/inputs/directed_prediction.json",
+      "bytes": 4376,
+      "sha256": "cb4a4e8ead50dad1277af95de8cc6c13fd3e523012f5fe4ee42c42df90ea991a",
+      "purpose": "Prescribed scientific parameters, selection rule or fixed comparison window",
+      "reproduction": "prescribed-input"
+    },
+    {
+      "path": "data/inputs/directed_protocol.json",
+      "bytes": 1633,
+      "sha256": "97fd846498bfaebd76b3b5f1b81b73ca8021e2750e7f24dbc50dcf163fa218df",
+      "purpose": "Prescribed scientific parameters, selection rule or fixed comparison window",
+      "reproduction": "prescribed-input"
+    },
+    {
+      "path": "data/inputs/exchange_protocol.json",
+      "bytes": 2683,
+      "sha256": "12ca2111698a0c224ecf8ddbc77c71254a1ee8c0232976c29cd72ee7549c1ed6",
+      "purpose": "Prescribed scientific parameters, selection rule or fixed comparison window",
+      "reproduction": "prescribed-input"
+    },
+    {
+      "path": "data/inputs/matching_data.json",
+      "bytes": 7338,
+      "sha256": "6873168cd7b2e78b3b73aed9bd80506c96d3b9b66dd76af90630d84e6ebde484",
+      "purpose": "Prescribed physical input, normalization, selection or observation window",
+      "reproduction": "carrier"
+    },
+    {
+      "path": "data/inputs/reference_selection.json",
+      "bytes": 1850,
+      "sha256": "a96ce5843803430810c2a43c30aa8394e388beadc424d9cd6dad850fc748ece3",
+      "purpose": "Prescribed scientific parameters, selection rule or fixed comparison window",
+      "reproduction": "prescribed-input"
+    },
+    {
+      "path": "data/inputs/regular_horizon.json",
+      "bytes": 47713,
+      "sha256": "8dc08d03004f44c9fba53d6ecbe50c12068a9a83910cffabf6a2f20a216bc03f",
+      "purpose": "Prescribed physical input, normalization, selection or observation window",
+      "reproduction": "carrier"
+    },
+    {
+      "path": "data/native/directed/independent_strong_N256.json",
+      "bytes": 10500,
+      "sha256": "d47b4a9e472901c662d1b9cccb45299a81f81156426a67ab501e9431f5e0dbad",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/independent_strong_N256.npz",
+      "bytes": 1048185,
+      "sha256": "37f1d0e0203ff7b809e17ea1644af13515a8d615066ffc3570d49eb7b3da3662",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/independent_strong_N512.json",
+      "bytes": 10482,
+      "sha256": "72ad3c1e7566a1823f873cd0bcb7851023c468060b41dc0da75fda03f9abff18",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/independent_strong_N512.npz",
+      "bytes": 1149412,
+      "sha256": "4c677d6e65de2e279ed13fb98ebf82018a6a1accf209f3d78988a9bbc9966e78",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/independent_weak_N256.json",
+      "bytes": 10478,
+      "sha256": "6163b9688cc26486a2dbcadaafac5749b41081dbda105953726941b84568e546",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/independent_weak_N256.npz",
+      "bytes": 1050974,
+      "sha256": "d4fac4bb54dbb60d444a106b72019211d4313620140d679c0aa92f4594dd8bff",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/independent_weak_N512.json",
+      "bytes": 10482,
+      "sha256": "dfbda925e2c8fe8fbc93a5309a652d5eeb189ba8e04354502fd47db8df8a78d2",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/independent_weak_N512.npz",
+      "bytes": 1150688,
+      "sha256": "bb97e21ce066c8a1559edaadb2ae9e4d07853f47a0d59bbf740f4dd29dfc7f01",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/modes_dxi0.125_K900_Q2048.json",
+      "bytes": 1422,
+      "sha256": "da68db64a9d3d3b89fb80d8621fceef5e54eca4f6758f57c3f16c0a3f1642257",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/modes_dxi0.125_K900_Q2048.npz",
+      "bytes": 1127805,
+      "sha256": "e6166d20be5f7cbfdbcf6b93ffc64012462f52e5944bdb0d7e8cb7333e02a9dc",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/modes_dxi0.25_K600_Q1536.json",
+      "bytes": 1422,
+      "sha256": "6dff17251f626ef3d90a070c1c13b31022a9fab5acfa0e0b899c8a35fcafa3af",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/modes_dxi0.25_K600_Q1536.npz",
+      "bytes": 399387,
+      "sha256": "f4653e5a4eee8ba5cf7041e347715da8d08bd95d9d529fc3e701d9c85fb6d48c",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/prediction_N256_c0.4_Kasner.json",
+      "bytes": 2801,
+      "sha256": "e1d57d3f59ff1a6ecc81d9d9e4f57172e975f103d099fc20bf1930c367f0ff4f",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/prediction_N256_c0.4_Kasner.npz",
+      "bytes": 2603433,
+      "sha256": "9088db6fca09a2ef8239ef97ded61a5b8609ec3390661be3b836075aaf6a108f",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/prediction_N512_c0.4.json",
+      "bytes": 2836,
+      "sha256": "4599d77b2eafb92bef720eea6e4f8399bb54446753277d7824a43e49ace783c1",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/directed/prediction_N512_c0.4.npz",
+      "bytes": 5053821,
+      "sha256": "4040d1da385ecf9d4f7b0d1ac52a171f205309d48ca0fbee1a3efe6296318b6c",
+      "purpose": "Fields, momenta or independent propagation control on the second background",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/native/exchange/event_near_h0.1_c0.4_T380_L4_exp_square.json",
+      "bytes": 945,
+      "sha256": "8fefd7bf67c4d8dee9b25aaf8c15a1d0774c797944e6e594d04a899d130ed6c1",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_near_h0.1_c0.4_T380_L4_exp_square.npz",
+      "bytes": 3237287,
+      "sha256": "27ff35b71ed1fb6ddf496e9d27a644f6efcae453f056af69bf353c8fdffa237f",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_near_h0.2_c0.4_T380_L4_exp_square.json",
+      "bytes": 945,
+      "sha256": "a66aed008039b8dd525efd2a3e076e1bd66276ba8424c6550444c901908b6a79",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_near_h0.2_c0.4_T380_L4_exp_square.npz",
+      "bytes": 2621385,
+      "sha256": "9d3fbe59d608ec14fe73ed0c6fddcd6e8f257408cb231678b01d8fb2fcfcfc7a",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_near_h0.4_c0.4_T380_L4_exp_square.json",
+      "bytes": 917,
+      "sha256": "0fabffc8a65ee78bf704ed23a63eabe41e76b9d74a26a6a3a89aea21e1079e52",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_near_h0.4_c0.4_T380_L4_exp_square.npz",
+      "bytes": 2160991,
+      "sha256": "adb75ad95f084359cd9e4a0a2859fa2dc12820c5328159952375bf86ae7829ab",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.1_c0.4_T380_L4_exp_square.json",
+      "bytes": 944,
+      "sha256": "166209e9f1a45b16e7bb3fc0e7663f3c7e769abb21d281664d977612e23df0a8",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.1_c0.4_T380_L4_exp_square.npz",
+      "bytes": 3248353,
+      "sha256": "5da4f86c470d4ed00b4e230754e2ee69644583bcf3778d30cce01fd05b156949",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.1_T380_L4_exp_square.json",
+      "bytes": 944,
+      "sha256": "9ca88d3804166af19474e9d4787afa334195f65bf5b4203204183614f5ae4709",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.1_T380_L4_exp_square.npz",
+      "bytes": 2636976,
+      "sha256": "e533c188e6c0dd47c7eee2792307f6c015135393aa1177db506b8ab24730cf2d",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.2_T380_L4_exp_square.json",
+      "bytes": 944,
+      "sha256": "f906c836dfb10ec6b1b31ff078e49a18af4ac2ebb3a465316c476c9f52b189a1",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.2_T380_L4_exp_square.npz",
+      "bytes": 2630566,
+      "sha256": "dc08cbf0e890ea2c6ad92fa65c79d20fe8e7ab57c406c463adaa5e443965305b",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.4_T380_L4_constant.json",
+      "bytes": 942,
+      "sha256": "8f6f424e556902b6304621f66e1759be0f3d9563bbd54afe69bde47b7c620817",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.4_T380_L4_constant.npz",
+      "bytes": 2149948,
+      "sha256": "fed2520fdc9e2846eca290416f25dcc61a8437e21c9a5604de41b71c4576790c",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.4_T380_L4_exp_square.json",
+      "bytes": 944,
+      "sha256": "a8f8f42060d70e7f3f29a965b5d930b0da679a3db68568e48279594ce7fade9d",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.4_T380_L4_exp_square.npz",
+      "bytes": 2632222,
+      "sha256": "4a3ddd83cdb58c566c5b9a26ee0ef1d581b80a03bf5dcc7d9b62315b828e0765",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.4_T380_L6_exp_square.json",
+      "bytes": 956,
+      "sha256": "6cd1380fe31c4429eb14648b7139d9b414a77200c0b5c966993f58a5d198355f",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.2_c0.4_T380_L6_exp_square.npz",
+      "bytes": 2666659,
+      "sha256": "92bc3e56f0be070ccf88f2e1277451b4b859780bffb8b8bfe153ea83dacde80b",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.4_c0.4_T380_L4_exp_square.json",
+      "bytes": 916,
+      "sha256": "bb7b82052ec12c5880c446efd783c16b76166c507c561f5e178d173332c351ed",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_strong_h0.4_c0.4_T380_L4_exp_square.npz",
+      "bytes": 2166710,
+      "sha256": "800225d8b30b2e02dbc77ecf1fd9ae213b2a7b46c78669d43c3b80ad2ae36f62",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.1_c0.4_T380_L4_exp_square.json",
+      "bytes": 945,
+      "sha256": "9fd012902ad524781bbe92788715f9b447f49572138f1d0d4d2c356eaf9cc83e",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.1_c0.4_T380_L4_exp_square.npz",
+      "bytes": 3229006,
+      "sha256": "fb8f7acb3f9973f9c4507eb03eba31883e5b8774d061a76217db29ede09163a8",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.2_c0.1_T380_L4_exp_square.json",
+      "bytes": 945,
+      "sha256": "d511bfb42fdf5b626cc2ca253462baec6ba4747daa85e657d44621279e50aa48",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.2_c0.1_T380_L4_exp_square.npz",
+      "bytes": 2619128,
+      "sha256": "8be69932b22db950b7cb5bc6f2faa95ff30c480a6537a70f462555b2c4a16bb6",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.2_c0.2_T380_L4_exp_square.json",
+      "bytes": 945,
+      "sha256": "f51c7be9e77c3f85267bc603756085697c212945d3be024f1f93c138e2583b45",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.2_c0.2_T380_L4_exp_square.npz",
+      "bytes": 2611845,
+      "sha256": "dd556ca352a8a68f171986a4bbfbb006aa41e09beb4c429ac648ac80beaf8c78",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.2_c0.4_T380_L4_exp_square.json",
+      "bytes": 945,
+      "sha256": "a854a36e3a2dfb488f965c81f42c9fcefcc982dca55cf5d624af8902234d7b19",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.2_c0.4_T380_L4_exp_square.npz",
+      "bytes": 2612531,
+      "sha256": "b98c2ed4d3c54a7f3ab187d51b71769d51e945bb8e35ac4baf19853fb0921f9e",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.4_c0.4_T380_L4_exp_square.json",
+      "bytes": 917,
+      "sha256": "1c77b1b76d6c8b65b096c437530b0cffdde65bbaa5427e13ed83afb87106b0da",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/event_weak_h0.4_c0.4_T380_L4_exp_square.npz",
+      "bytes": 2152787,
+      "sha256": "80f8a76a66167950a84e2eed9c842ddb66ec867fc4eeea2d84178a4c42689209",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/independent_strong_h0.1_T300_dt0.025_L5.json",
+      "bytes": 19660,
+      "sha256": "8f6ec96fb3be6896391a27d5cf433da44fcba022ce8ceb87e199b3b067ab8027",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/independent_strong_h0.1_T300_dt0.025_L5.npz",
+      "bytes": 736232,
+      "sha256": "3c3951f9aa0086c36381c4f76d45ae476e29cb15e1e9203b1e6f1ff60dc3739a",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/independent_strong_h0.2_T300_dt0.025_L5.json",
+      "bytes": 19647,
+      "sha256": "f9a80fabd0c192545453281c1b694e4ac04a1af837024467210d7dd01c96722c",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/independent_strong_h0.2_T300_dt0.025_L5.npz",
+      "bytes": 408272,
+      "sha256": "9cfde6fad28832d13307f76ac13499503793fcfaba851bccc39b7eb8208ba12a",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/independent_weak_h0.1_T300_dt0.025_L5.json",
+      "bytes": 19666,
+      "sha256": "78048b0a194ae5615fbd73845be386ea3a3f25fdf96a03760c155d9acd41812f",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/independent_weak_h0.1_T300_dt0.025_L5.npz",
+      "bytes": 734174,
+      "sha256": "cc195648d0ce8a16e47f9a6a4f8d670cb2acf49e6313f0e53b2e41df830ff039",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/independent_weak_h0.2_T300_dt0.025.json",
+      "bytes": 19619,
+      "sha256": "c995bf2986d0b1c15f64ac23580308fd31ed5f2fe7735673b25f113ad75e7bba",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/exchange/independent_weak_h0.2_T300_dt0.025.npz",
+      "bytes": 139300,
+      "sha256": "2e563c0057a6760a9432267440fa54b4afeef88b064de3554609e30e64c4a287",
+      "purpose": "Complete magnetic-exchange histories and independent interaction segments",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/native/reference/continuum_modes_dxi0.125_K900_Q2048.json",
+      "bytes": 1146,
+      "sha256": "ef763deecbc5b2dac263b2c7ce39c2ee7d40a032e3113480e895d567d335b6d5",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/continuum_modes_dxi0.125_K900_Q2048.npz",
+      "bytes": 11675,
+      "sha256": "ed90430ef7d747cae74988dba5e9dca412a188badb4ecae75863d95acdc0ff63",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/continuum_modes_dxi0.25_K600_Q1536.json",
+      "bytes": 1149,
+      "sha256": "d7c219ec55bf2fa7db159477d046f77f5962eb003b3aa470e181a59c266cda46",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/continuum_modes_dxi0.25_K600_Q1536.npz",
+      "bytes": 11668,
+      "sha256": "4237bc8915d3b74c14775f908f811ed7741356f650e701f3aed2f9d4bb084b11",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/independent_strong_h0.1.json",
+      "bytes": 5712,
+      "sha256": "5ae675f005dbe15c0c9668256bad6fa61036cf13b4d269808ea5b77b125c0ea3",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/independent_strong_h0.1.npz",
+      "bytes": 11231273,
+      "sha256": "b8d331517b9c36f5eada2db98c6f67f30b30e6e125ccf63354f10d1c2641e9c3",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/independent_strong_h0.2.json",
+      "bytes": 5724,
+      "sha256": "a6f9faf8b60a2082fb9290a5a79717bb5534241b5c87649530e41b43b9083a55",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/independent_strong_h0.2.npz",
+      "bytes": 6029815,
+      "sha256": "1b6422c653f0d6c7eba7896272e571abbd0a3f4691d688fc90b5dbdcfbf3fe2f",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/nonlinear_strong_h0.1_c0.4_p1.57080_L4_T1.4_exp_square.json",
+      "bytes": 70179,
+      "sha256": "2875aa6ab3cafc128e52ed29bb12216706741b05f0c3310984127580ea108471",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/nonlinear_strong_h0.1_c0.4_p1.57080_L4_T1.4_exp_square.npz",
+      "bytes": 31036,
+      "sha256": "9f88d7e6f01d309ad3b37e6b8ea992d02a47d512c2d7072cb78ac8ecf36db7d4",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/nonlinear_strong_h0.2_c0.4_p1.57080_L4_T1.4_exp_square.json",
+      "bytes": 70240,
+      "sha256": "03f54dded638a5a7994b3d8b32c17b2e34b9a0650bc2d0401976433e7b728b48",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/nonlinear_strong_h0.2_c0.4_p1.57080_L4_T1.4_exp_square.npz",
+      "bytes": 16061,
+      "sha256": "761b90b6860afb60565aa4f70d78385eeb1fcf4e0089fd48573abd28c44fd293",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/nonlinear_strong_h0.4_c0.4_p1.57080_L4_T1.4_exp_square.json",
+      "bytes": 70177,
+      "sha256": "7127b49805c0185e6a43babc7d8e3f2b0e838599d520f5d8c4b65298a2ff2ad0",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/nonlinear_strong_h0.4_c0.4_p1.57080_L4_T1.4_exp_square.npz",
+      "bytes": 8467,
+      "sha256": "9a7cd1ef1f16fde42e9375f71e9cb03e911e7c4830c4220a7b5fa496a9e3e316",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.1_c0.4_p0.00000_T1.4.json",
+      "bytes": 737,
+      "sha256": "1df6cd624e20c261490b2037dc8754869a143cf9c03a3d621c5f687f8814cbea",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.1_c0.4_p0.00000_T1.4.npz",
+      "bytes": 17645961,
+      "sha256": "27454d4bc764aab4921c7848a6a66a4dcaa4d91e19226262d1e911dba3ae6a72",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.2_c0.4_p0.00000_T1.4.json",
+      "bytes": 736,
+      "sha256": "4430667446d170948005f43e11d39b74fb4b493cb9a660f3277e552835ad23e4",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.2_c0.4_p0.00000_T1.4.npz",
+      "bytes": 8046700,
+      "sha256": "32aa2d687a7a1a5c462f510982d8afcfee94fb00144aca6737b88e617eb6bbba",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.2_c0.4_p0.00000_T1.4_Kasner.json",
+      "bytes": 717,
+      "sha256": "4b3e116c4e6f86a4e63887b92d47f073de1f5bd028143fec825cce96ec745b8f",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.2_c0.4_p0.00000_T1.4_Kasner.npz",
+      "bytes": 793615,
+      "sha256": "6e91d7946536ab03ca2bc92210e619f0ae02f3f2d4c2e0171117716adb30924f",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.2_c0.4_p1.57080_T1.4.json",
+      "bytes": 751,
+      "sha256": "fb2e2e18e464d2dddfd1e4cce13aea539990ea4bbce9fa9b13af458ff3c01cd6",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.2_c0.4_p1.57080_T1.4.npz",
+      "bytes": 790610,
+      "sha256": "260cfb5764b7f0b24fa40e9ce8d6d726e6fb4397bfd5d64580ed85276447afff",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.4_c0.4_p0.00000_T1.4.json",
+      "bytes": 732,
+      "sha256": "c75d57ad1033f270166bb8c2c91cc07549377a6e9274e722b6ccf7c62a853e86",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/native/reference/prediction_h0.4_c0.4_p0.00000_T1.4.npz",
+      "bytes": 4057524,
+      "sha256": "65c1dc46bf8c490893efbbbe4a83354a4f6dc90773f3235499243a10d6d52b0f",
+      "purpose": "Fields, momenta or independent propagation control on the reference background",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/directed/comparison_rows.json",
+      "bytes": 2697,
+      "sha256": "d94f5cf827d0682564d9b5ea9f4c49534dc905b569242f1e5aaef504295dc24a",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/independent_strong_N256.npz",
+      "bytes": 916899,
+      "sha256": "b43b2ee644f54c94468900a01e2524a08c55d601763001d26cf7a4aba9c14445",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/independent_strong_N512.npz",
+      "bytes": 914683,
+      "sha256": "bf991f003c5b6aefeadf7f13103fc0f3fb1dd25a0b0c41c0d365dfda206687b1",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/independent_weak_N256.npz",
+      "bytes": 920354,
+      "sha256": "615bb47e1453c8039083347ebda70a192c53b8599236817608b2a43e703ae520",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/independent_weak_N512.npz",
+      "bytes": 918551,
+      "sha256": "07dc4e03c61fa97170d1a548f075fdf2ad1da9fd3445673493c372543813207b",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/linear.npz",
+      "bytes": 4448447,
+      "sha256": "51bd77040ff781c9306d818d4833f803d5ded16b350b192f5117fe132fc96020",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/mechanism.json",
+      "bytes": 5454,
+      "sha256": "bde305d4f681cba15625c2ff2713d8c04f59834349aafee092f4c483250447e6",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N128_c0.4_L4.json",
+      "bytes": 1035,
+      "sha256": "f39ecca2e0af933ce43d34baa9c33bc9d9db9683a9bda82cf8a297a86cf539c4",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N128_c0.4_L4.npz",
+      "bytes": 644080,
+      "sha256": "c07956b2d10836a5cbce15cbdba7720b9843ec6e2b584cc27b2897d9c51d6186",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N256_c0.1_L4.json",
+      "bytes": 1187,
+      "sha256": "e5e4d2e0f9570af419c59ce39cf1b8ba8044605f122c55ed5f5a3e2a882d3bc8",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N256_c0.1_L4.npz",
+      "bytes": 1281323,
+      "sha256": "38876d327a13ecb29eeb547a2cc02b4dc104c7e8feb986b08628afe739b9e29c",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N256_c0.2_L4.json",
+      "bytes": 1188,
+      "sha256": "1f790ad6bc56a27fc55d1c1b66bda81ffd1bf6aded0d9227d6575720e24fa3e1",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N256_c0.2_L4.npz",
+      "bytes": 1281064,
+      "sha256": "997fed5f6d4a484580193356f7b3c85240f7426e22e2860e1340d3836c1cfbb7",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N256_c0.4_L4.json",
+      "bytes": 1186,
+      "sha256": "00b22bbe0f01c05c5e8e4c233a47d0c8aa9e2d70e7ad51949f61114010b5df12",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N256_c0.4_L4.npz",
+      "bytes": 1278489,
+      "sha256": "c8c434e0f72ac788281c07b72c493fcc6bac53843a1a35b8b350cc9cd5da70c5",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N256_c0.4_L8.json",
+      "bytes": 1186,
+      "sha256": "2ba9e9feafc8d2d8e61903416c74b559274682533f239401aa91c550e52ddd6d",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N256_c0.4_L8.npz",
+      "bytes": 1278489,
+      "sha256": "c8c434e0f72ac788281c07b72c493fcc6bac53843a1a35b8b350cc9cd5da70c5",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N512_c0.4_L4.json",
+      "bytes": 1188,
+      "sha256": "3587823b612648250caabd254e84f95039547f269ec9ec968adfc0063485a20a",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_strong_N512_c0.4_L4.npz",
+      "bytes": 11885774,
+      "sha256": "8bf1b7bdc1b08c9c507733a49b3d31de737d27eec61d8de847fbe9ea7234cdaf",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_verification.json",
+      "bytes": 6464,
+      "sha256": "13fbcf2fd1784f8388443545936150c5775f84e428d2583be36c1132e3bc5e14",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N128_c0.4_L4.json",
+      "bytes": 1036,
+      "sha256": "519e84021f24a45296f5a8fdb14d4b9f51df4fa22a9e65b6839dec92938a81c7",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N128_c0.4_L4.npz",
+      "bytes": 645898,
+      "sha256": "fd0f2b1692d86f590e9b9c79d0187fc5859a6958de1c49f2f812b35c3bba12d5",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N256_c0.1_L4.json",
+      "bytes": 1188,
+      "sha256": "9e17dff9286ef307109b3aeb3211c63c6e48b02b17850658073bca5b353889c1",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N256_c0.1_L4.npz",
+      "bytes": 1284833,
+      "sha256": "06ff2b3aaca6bec5af3dbcb50fb54c7798b99ef4c1b5925ca08f8779d7593f2a",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N256_c0.2_L4.json",
+      "bytes": 1189,
+      "sha256": "58ab94b2c9047129ae255da463f32e2b8256c6f8075d0835981c8aeb6e694db3",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N256_c0.2_L4.npz",
+      "bytes": 1284517,
+      "sha256": "5c151f507e1439eed451c66e91bacb6996192d68eb999b7c4b31a812f544215d",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N256_c0.4_L4.json",
+      "bytes": 1187,
+      "sha256": "43d2ee4a35a84f1c5bd865c2c666da1e20792c727262f1184d3ffd6ec1324ba8",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N256_c0.4_L4.npz",
+      "bytes": 1282191,
+      "sha256": "7e270c63c9e8789c3012d3af620059cbc8730516c873ba24aefb53fe0a46a110",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N256_c0.4_L8.json",
+      "bytes": 1187,
+      "sha256": "f5502b3e7a8858cb5e8ad0584f7c9fa43e5459c4051319a6928414344c1e27a9",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N256_c0.4_L8.npz",
+      "bytes": 1282191,
+      "sha256": "7e270c63c9e8789c3012d3af620059cbc8730516c873ba24aefb53fe0a46a110",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N512_c0.4_L4.json",
+      "bytes": 1189,
+      "sha256": "4512db0303f57e4c22369d5488b17b6a605e4e33d5093865c6e8d7f30e0c5c90",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/nonlinear_weak_N512_c0.4_L4.npz",
+      "bytes": 11907230,
+      "sha256": "6c0f6a2f1f2edf4964501fd6bce8d44a96b1fbcd02f2d696d86aa01553b9c203",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/prediction_N128_c0.4.json",
+      "bytes": 2833,
+      "sha256": "7800e4fa8442e4f88bde88749886a9c1fef8e8d6bac4151af58f3f2cf92b556d",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/prediction_N128_c0.4.npz",
+      "bytes": 579114,
+      "sha256": "799db84d837e51da1aaee5ee5be9f60a7f6afa0e553a72ddab0d9557ab300e20",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/prediction_N256_c0.1.json",
+      "bytes": 2836,
+      "sha256": "8f3d00dc345621f6967cf1ddc9dd2a539bdae380b9213464c2af0beeed06b28e",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/prediction_N256_c0.1.npz",
+      "bytes": 1802227,
+      "sha256": "9227e326c7d4381c75cd932f48c9f051f5205063e80d523c190203531fada17a",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/prediction_N256_c0.2.json",
+      "bytes": 2836,
+      "sha256": "00a83ea4d5250225ef370fce65a43b9169df8b1ccbcfddb6a4feabf54ccb7d7f",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/prediction_N256_c0.2.npz",
+      "bytes": 2253020,
+      "sha256": "13f601f2ec53971d7128f3529572384e5068039957bf2d11fcba7ccf2fe9d0d3",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/prediction_N256_c0.4.json",
+      "bytes": 2836,
+      "sha256": "2728bbe5a373e92ec1936c6bc8024113832ae1af5a6026235df8edcb7c405180",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/prediction_N256_c0.4.npz",
+      "bytes": 2253057,
+      "sha256": "a0ddbdd0923c2f42610c66faf37c01ab12723f96ce2df1ba43bea960cdb72ed3",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/strong.npz",
+      "bytes": 13749,
+      "sha256": "5e718942bd6316b51a0466c854f9e9f4321e9fc4f0dc3254fef7c3d2688a3a5b",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/directed/weak.npz",
+      "bytes": 13778,
+      "sha256": "fc0162f6269cfb0b3fc9694d1c12dda29fda7b8237b21d5243a0f021dd76555a",
+      "purpose": "Cross-background response, source or numerical comparison",
+      "reproduction": "directed"
+    },
+    {
+      "path": "data/response/exchange/exchange.json",
+      "bytes": 17538,
+      "sha256": "cdfbd73193bead8346a1bbda146b9761f7e958972c016f1623d430d17ce29347",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/independent_comparison.json",
+      "bytes": 6066,
+      "sha256": "5b3819930d51d653e19679ba9bc0d54229a467ccfbb668dd4dc066d70edc57e9",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/near_curve0.npz",
+      "bytes": 10834,
+      "sha256": "e6cb4b0eb595ede74dc8a286e4e738fd7311baf71942ea3bf814339f5a6492ad",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/near_curve1.npz",
+      "bytes": 10844,
+      "sha256": "655e977ef7110a35c2ad720bdf4a7a057c3dcb3f1e1fd0abe4f94127f9341d0d",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/near_curve2.npz",
+      "bytes": 10688,
+      "sha256": "a33da02b2063073618caf60f3cef0226aa235e3d02c3a963c9149e1ee37cfd2c",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/near_curve3.npz",
+      "bytes": 8253,
+      "sha256": "624bd577652a1d788370a386815ed7c138699cde51471ab5241680bfe10a5217",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/near_curve4.npz",
+      "bytes": 9952,
+      "sha256": "69889b3e19af2527807038ebce2d213ac391ea2e00fe3913ef990fa0a2c21d1f",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/near_history.npz",
+      "bytes": 1946772,
+      "sha256": "a46ea20ad0b925c0deef31e4d48fc18e8028f38bb0fb6e9229a51bcfbe722b1c",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/screen_h0.1_c0.4_T380.json",
+      "bytes": 103657,
+      "sha256": "90c7cc1739e35a49100ddf1cd8b98b8d7c9940a3b966350b40c95346de7af216",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/strong_curve0.npz",
+      "bytes": 10821,
+      "sha256": "95fa7174207f681fc104c7ff6ce72b68e026eeff30f928974e2814d7b9891a6a",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/strong_curve1.npz",
+      "bytes": 11115,
+      "sha256": "c07d8f922c767ac7529a3d8c8fb418050509cdfbde7af6089fb73d1ca0657e97",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/strong_curve2.npz",
+      "bytes": 10809,
+      "sha256": "0b1b162a183834fd5390c1f694fd020775597a1555847f61cb337bb0d75079ad",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/strong_curve3.npz",
+      "bytes": 9233,
+      "sha256": "a8364b74b2992b96f3df0b6af369b4dbf4454e4f0e48b1cfdc30e348bc5a6422",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/strong_curve4.npz",
+      "bytes": 10087,
+      "sha256": "0734295c5e9880bdc4dc1ee2e95e065344c0b159c7e8c8c1fe6efab947b07a8c",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/strong_history.npz",
+      "bytes": 1952404,
+      "sha256": "d9739df4522a0dc464a5ffd88c1182d0a06822c57641f141722796380d9ca726",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/verification.json",
+      "bytes": 151851,
+      "sha256": "4c3c08b92fda0840aeb23ddc82fac4001019b95a7c352f4a7f4261f22dc726c0",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/weak_curve0.npz",
+      "bytes": 10580,
+      "sha256": "7bd658b0d7db2d3c1861dcb0b0569d49dffdceddae619bb48f462ce0052619e9",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/weak_curve1.npz",
+      "bytes": 10547,
+      "sha256": "1a4b2dde3af265be42cd41f10767b35dfbef023356d1bef80247a3737ccb4450",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/weak_curve2.npz",
+      "bytes": 9796,
+      "sha256": "838e8cb795839b443274c055262b8b4081e46442dc350176a6f01d0b732ee455",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/weak_curve3.npz",
+      "bytes": 9228,
+      "sha256": "9afba583058001eb7e31f0caac5a63381beefc5dde84d88c6d01bde8b83315b7",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/weak_curve4.npz",
+      "bytes": 10411,
+      "sha256": "2a7067f7e7b7b4bc4b5960d83f35e9c505570698c94f0833fd95bf66fd7358a4",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/weak_history.npz",
+      "bytes": 1938445,
+      "sha256": "bcce0ed80cbd6e94145bc69f0a556a0285582297393e85cf43ed4e8e07e760d7",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/exchange/windows.json",
+      "bytes": 20479,
+      "sha256": "87625f5b51175cbeca26b7b8f63d326d3dcf7f756b034a4f4281badb11287405",
+      "purpose": "First-exchange history, source integral or platform screen",
+      "reproduction": "exchange"
+    },
+    {
+      "path": "data/response/reference/coherence.json",
+      "bytes": 1235,
+      "sha256": "155247c7b9f005164438f812035bc507839bde3bc0915651ebd6ec4a77ca8a53",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/comparison_rows.json",
+      "bytes": 1927,
+      "sha256": "616f4b6a17a947064ce294a032b9a7e8c22dbea197d736dcb124e69b0f33a4f9",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/independent_strong_h0.1.npz",
+      "bytes": 269397,
+      "sha256": "b1be6bbc81e4c3fa6dcb8f342008a46fa914f77487322db97ca1675debe2f9f6",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/independent_strong_h0.2.npz",
+      "bytes": 267948,
+      "sha256": "8b300dddb2453693d7574d9a9badaea46cf4c9a8b6f3c618645b8b5d2dbd68fd",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/linear.npz",
+      "bytes": 400468,
+      "sha256": "cdf29bf39018a72c0e11e2ba3b93cbe973b84a6e1a6ce4a1ea2b7dad313e4ab5",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/near.npz",
+      "bytes": 19119,
+      "sha256": "80d07f2a6799c91e016ce22d7a4f4ff551a9152ff5303b747c97e8544e4286c2",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_near_h0.1_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70263,
+      "sha256": "22141a0f7eb81e5ce1b6e2f8e632230ae969f9708216ae890000f1696dfca484",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_near_h0.1_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8389,
+      "sha256": "a7fc8e256df2af7befc2f36f7fb82634592e2ccc8494989d123cdbf2f2d4d3f1",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_near_h0.2_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70327,
+      "sha256": "a498becbf8f76d672a210299ea7bd7186345b02c1ccb518b3c8a44e1c23c95f9",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_near_h0.2_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8393,
+      "sha256": "a39de8f1e89159bdda48fc7d3bb9bcab9ee8079fa37122d5f6235f35be237431",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_near_h0.4_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70424,
+      "sha256": "52af491df4ba464861871f9cc8ccf9f3eafe3e82091d6967183cdbca1fdd01f3",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_near_h0.4_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8390,
+      "sha256": "56b3bd061be3c327d6075cccf1389710f97de0d58fcab63a841e117b62117cce",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.1_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70109,
+      "sha256": "7321a7bea764e6921417ef677b8cbe8dffbf7858ea0c869c41524e4305e5dc23",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.1_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8486,
+      "sha256": "7154d61b34b03d4411543d580bfe7ff755f08683726696d82be0797f72757356",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.1_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70366,
+      "sha256": "048d69719a298916a507ffefb7c526e9c72c5f7bf11413036f672aeb4caaeffd",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.1_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8484,
+      "sha256": "02cac2a5d36649b56c510a3e0ea27caa6a389c6081a921ff1ba6c3d0d6cb6551",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.2_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70348,
+      "sha256": "a09dc5a41e7369643706c38fa37b3b0c39b17c5a6c41f415f4bf33673acf198b",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.2_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8494,
+      "sha256": "6c86694ad8c48d910684ee42f8506487b8343dd56b89c7eb00d333d27b430da6",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.4_p0.00000_L4_T1.4_constant.json",
+      "bytes": 70382,
+      "sha256": "ed2297238913586e64f3c1e76b342637b1e4162d4e537dd570fd7da07d2b6bad",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.4_p0.00000_L4_T1.4_constant.npz",
+      "bytes": 5415,
+      "sha256": "9b46e39a3232767dd54924f87af34a7aeada4eba2eb65552fef2c011ab526305",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70445,
+      "sha256": "3373d1ea66f094d239886c44a96a2e5f7b88190cecfeebde06f833474ab09b7b",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8485,
+      "sha256": "7f5d4b4d74c62644ee1e4c97bc2f8dd3a5d371ab0997f6f7a352df1468ed50e8",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.4_p0.00000_L6_T1.4_exp_square.json",
+      "bytes": 70457,
+      "sha256": "9facc930e84bb9030999459dce3599b5fa08d4d9e4f3030ce2001e48692a546d",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.2_c0.4_p0.00000_L6_T1.4_exp_square.npz",
+      "bytes": 8485,
+      "sha256": "7f5d4b4d74c62644ee1e4c97bc2f8dd3a5d371ab0997f6f7a352df1468ed50e8",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.4_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70448,
+      "sha256": "5aba33e03617bf8d1f71ec7b130a8b28c15a68e520542f355291203b439a8b30",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_strong_h0.4_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8485,
+      "sha256": "ba7e8d54471840c9e387d44622534a676eb02859a8346a08b9ec06190050bc61",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_weak_h0.1_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70283,
+      "sha256": "458ee9079278e183bc379fd799f2fa6c96a819cd9e6963947f90134f41bcc01a",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_weak_h0.1_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8068,
+      "sha256": "e03118bb094ef3e8ab3a48cc01c14af752220c0c14ce8d75862836dff97e5d21",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_weak_h0.2_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70371,
+      "sha256": "d5bc30ffaf3f76d205d0893e5a0f70d1f3e423e65c2cb19b19d0d87ca2083f6c",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_weak_h0.2_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8077,
+      "sha256": "40a520f1205de47dc9a66c41374218a04d699349e89db5245ddd0b4de141d59f",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_weak_h0.4_c0.4_p0.00000_L4_T1.4_exp_square.json",
+      "bytes": 70375,
+      "sha256": "4f4c373658b45b75e120050bc8b8652e638cfa95a1b38fc3767645878c6a2cf6",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/nonlinear_weak_h0.4_c0.4_p0.00000_L4_T1.4_exp_square.npz",
+      "bytes": 8075,
+      "sha256": "dd126455da0843539a133535a28ce440b6dec345e0a0772908f3ea9e58c7d1a3",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/prediction_h0.2_c0.1_p0.00000_T1.4.json",
+      "bytes": 738,
+      "sha256": "dbfec5209a7313f8402c62a4384852f8b8449bb1c5909ba2c21cec6b88f9e75e",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/prediction_h0.2_c0.1_p0.00000_T1.4.npz",
+      "bytes": 399586,
+      "sha256": "6f0da319d48495e0927b4d17f363bc1a376c313b74025f5bf81f3e2879cc057d",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/prediction_h0.2_c0.2_p0.00000_T1.4.json",
+      "bytes": 737,
+      "sha256": "eebdee799a790ace946b269847f9f772787e11f595d45a23ed52be325cc9b1ae",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/prediction_h0.2_c0.2_p0.00000_T1.4.npz",
+      "bytes": 399613,
+      "sha256": "011aacbb763e3807c3601666260cc59e977b5322b71ec231f50bb881f4fc9b97",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/prediction_h0.2_c0.4_p0.00000_T1.4.npz",
+      "bytes": 399328,
+      "sha256": "bddc7e3c8d9557921a3c84c2917e5cab7daf3818ab454ee3dc788235c534bcee",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/prediction_h0.4_c0.4_p0.00000_T1.4.npz",
+      "bytes": 399389,
+      "sha256": "83d12bf02ac026849dc1685f11b249cb92d455a519cba3cfa185eb552c20191e",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/strong.npz",
+      "bytes": 19379,
+      "sha256": "be980a6eb6374bc7d24d49ab37cd9eb6a77c655159c513dd51fd3010653ce3fc",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/verification.json",
+      "bytes": 12786,
+      "sha256": "f5d52ce1be7e823e153436fb3f509b74e4912e9953cc9ca742eb24eebbcabd92",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/response/reference/weak.npz",
+      "bytes": 18718,
+      "sha256": "213b7bb588f088a40c09f3f48f1f69615deefe9a16d7b1a310a2b92d839e2666",
+      "purpose": "Reference response, quadratic source or numerical comparison",
+      "reproduction": "reference"
+    },
+    {
+      "path": "data/tables/background_initial_data.csv",
+      "bytes": 411,
+      "sha256": "af378cfa3089c111aee0491f69ddb5f966f0d06195c805989bbfecfba0c3d78d",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
+      "path": "data/tables/directed.csv",
+      "bytes": 371,
+      "sha256": "c1078b8f4b0dd71b8c3b48c60fd280220875c0ced0ab9f9f3173666dc0e51291",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
+      "path": "data/tables/first_exchange.csv",
+      "bytes": 882,
+      "sha256": "5f43f4779c68acf07442aed24af6ab90af9be7cae7cc65a86513fed7bdb5b3ed",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
+      "path": "data/tables/isolated_wall_495.csv",
+      "bytes": 49061,
+      "sha256": "8727f993b4ef12c30b2712ca69a274216d902b8e26a3b09c6677d12ef3797f72",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
+      "path": "data/tables/letter_ordering.csv",
+      "bytes": 681,
+      "sha256": "39d1003306f2b84194f4081d1071a80f884d7fe4b6f40f01c1a740422a1a25f6",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
+      "path": "data/tables/prediction_errors.csv",
+      "bytes": 334,
+      "sha256": "5ff8911463e77975886a0e47eced5ad2884da2ba93a5bd4fd5d9cfe18334e6a1",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
+      "path": "data/tables/reference.csv",
+      "bytes": 719,
+      "sha256": "5ee7e1f88d42cbae6cfa790d91e3c4eefdb14bfbcc313a282015289c01ee4872",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
+      "path": "data/tables/response_profiles.csv",
+      "bytes": 48597,
+      "sha256": "367d75f144fec092790ee09973f9db65df95e641a6d98c9e91b2ae6d5fb92cc3",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
+      "path": "data/tables/signed_sources.json",
+      "bytes": 704,
+      "sha256": "e56cca04bf9ca479e6de337fdc214bce4af6f0ca14d6f4d0e2a3680e95129b41",
+      "purpose": "Displayed scientific values derived from the frozen observations",
+      "reproduction": "verify"
+    },
+    {
       "path": "data/trajectories.jsonl",
-      "role": "machine-readable scientific result",
-      "sha256": "593ad42bca3683eb81675e1b47fc6800ecfbd4a52365f6e648428450305e3e99"
+      "bytes": 1319380,
+      "sha256": "593ad42bca3683eb81675e1b47fc6800ecfbd4a52365f6e648428450305e3e99",
+      "purpose": "495 restricted Hamiltonian comparisons in their original numerical conventions",
+      "reproduction": "restricted-wall"
     },
     {
-      "bytes": 143827,
-      "generation_command": "python -m kasner_scattering rebuild --output build/full",
-      "path": "data/transfers.json",
-      "role": "machine-readable scientific result",
-      "sha256": "e01824aba27d48a80fd28aa3ac6a0e048ec60d464338962cf33ae5b57cef4559"
+      "path": "data/wall/d1e-06_phi10_DOP853_r1e-09.json",
+      "bytes": 5134,
+      "sha256": "5afdf3be2e763aaff9a8cc31bf0d89f5ef4472849d9c80f7f6a96d990009b528",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
     },
     {
-      "bytes": 2704,
-      "generation_command": "maintained source file",
+      "path": "data/wall/d1e-06_phi10_DOP853_r1e-09.npz",
+      "bytes": 130067,
+      "sha256": "d3c96cdcb506ff920844a37df8f17fbd2d1099fee7ca772c7962a70ff673d2d9",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi10_DOP853_r1e-11.json",
+      "bytes": 5131,
+      "sha256": "f74ce7690129a18e94503bf6cf36c6b0230cbb3ebe30bfee92168c6305ac8683",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi10_DOP853_r1e-11.npz",
+      "bytes": 130590,
+      "sha256": "bf380569cb37489b07cbc00cf5e0f3bf1ff0586a3ccacf5ab3560876beb1b48a",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi10_DOP853_r1e-13.json",
+      "bytes": 5123,
+      "sha256": "631419cde30da05bccbda4037f1ce49d37628084b279da1fe01c2edf2b46d5b9",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi10_DOP853_r1e-13.npz",
+      "bytes": 130429,
+      "sha256": "bcccf655604153b27539b9f09ec552caf1dc2cae7088bf14fa4d3d153e83718d",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi10_Radau_r1e-11.json",
+      "bytes": 5126,
+      "sha256": "c85a8f2962a99e9a9e80f87b7b43dadfd7ba01c54d1ebe80fc2603d284148681",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi10_Radau_r1e-11.npz",
+      "bytes": 131948,
+      "sha256": "4d9e71845695d45ef64fbeee0a040489d9d2ef28af96fc15b95eb60cd7f7e1c7",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi20_DOP853_r1e-09.json",
+      "bytes": 5120,
+      "sha256": "893e47d6bca464e35a36105b8daaa0261d2c2d6a530d5e81cd7ae08a28a3ab1e",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi20_DOP853_r1e-09.npz",
+      "bytes": 130607,
+      "sha256": "fcdf50945f0e759404b93532fb2919b7978fe58b8842a4457c492d416c1edd42",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi20_DOP853_r1e-11.json",
+      "bytes": 5133,
+      "sha256": "66d4a72554386b03627771aba816d8fb6907c9e5145088ed859d34a19fc4f2f4",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi20_DOP853_r1e-11.npz",
+      "bytes": 130851,
+      "sha256": "745cfa1d864f6fb173f5bd02fe8bb1c498160927bcd192d277c0dca1757009fe",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi20_DOP853_r1e-13.json",
+      "bytes": 5127,
+      "sha256": "1ff4c2677ab7af6ea3fb19d47b5a18b8e29faf2bd5febf57aae4ad3681e17bc0",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi20_DOP853_r1e-13.npz",
+      "bytes": 131142,
+      "sha256": "7a7443f09794034c3c546d29d0b10b8a5da9c106ea6bce2eeec50d477f5d5b3e",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi20_Radau_r1e-11.json",
+      "bytes": 5126,
+      "sha256": "e54802523178ec4a9491f72c95fd651d594076428cfdb305a9dd40e6f49134c4",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi20_Radau_r1e-11.npz",
+      "bytes": 132815,
+      "sha256": "9c845340c0bea2544687cce5d57c3e4c81e1311073087ee87a2dc1fd16e9a248",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi40_DOP853_r1e-09.json",
+      "bytes": 5132,
+      "sha256": "229ba7c1f8ff192bb0b19a0c062ddee79974f0392853ba08e07e4860014ccb42",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi40_DOP853_r1e-09.npz",
+      "bytes": 129364,
+      "sha256": "d3c297badaa1f8ed823d8d7a2cdb832b0d8ce99a2e6d1266754fb08ade1a9358",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi40_DOP853_r1e-11.json",
+      "bytes": 5134,
+      "sha256": "afcf2c4761434cc4046a9e0eade80090592e40256d221445142bb8b81a3988b7",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi40_DOP853_r1e-11.npz",
+      "bytes": 129562,
+      "sha256": "b9e04c87d0b84239ba642e8f6bc85d4ea8c72d2c25ae8d513010b930cccfc2fa",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi40_DOP853_r1e-13.json",
+      "bytes": 5130,
+      "sha256": "19c14a85e908d4edd5d893f6c7597448b4a6eb5003f5f43cdd98524ab3d96710",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi40_DOP853_r1e-13.npz",
+      "bytes": 129573,
+      "sha256": "3e10b03c153768aec8be8f1fa3bf90b44ae1fa279b0253409911d76de15c1069",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi40_Radau_r1e-11.json",
+      "bytes": 5130,
+      "sha256": "5c54f75ce0b508b971ded0f8b049790af6af8c7e5d930d7d4231515b2108b6d3",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi40_Radau_r1e-11.npz",
+      "bytes": 131443,
+      "sha256": "2a49ed2e063b90b1c1edbb66b299c5b9cb64bc25fd76438c3aafbc667fd231c9",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi80_DOP853_r1e-09.json",
+      "bytes": 5149,
+      "sha256": "697bfce95bb196ba1f7e87f316d83bd08ae00285a7dc9bbf56d222a217dc88bd",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi80_DOP853_r1e-09.npz",
+      "bytes": 128754,
+      "sha256": "e604f68a4a7c800f2aaa4f51e743ba6297b2eb58b89f62ae823f605ab6d6026a",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi80_DOP853_r1e-11.json",
+      "bytes": 5142,
+      "sha256": "ea5378f6ac8d405cde89892435cf10af18f66a20eb829a69b076dffe58e7e33d",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi80_DOP853_r1e-11.npz",
+      "bytes": 128913,
+      "sha256": "a6efe545dafda052b4ec2f4a2fe4366e5105c2a22a7839876e6fd6644410b87a",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi80_DOP853_r1e-13.json",
+      "bytes": 5150,
+      "sha256": "fbe5eba752e04a05e92f8da0e1a279f56a9bf6df136cf75e1672f431c065d079",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi80_DOP853_r1e-13.npz",
+      "bytes": 129081,
+      "sha256": "425bb51c13ac98a62a1ae12d28bc14daaa441dcb41f3465e771a4da22e211af5",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi80_Radau_r1e-11.json",
+      "bytes": 5140,
+      "sha256": "87024145a0e781de18cd57138a0812edd5006713cb0928de3e9bd4e4275c12f0",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-06_phi80_Radau_r1e-11.npz",
+      "bytes": 130767,
+      "sha256": "3e4c9b739e273767a59f99b39706841cb9cc39c1993f4e5454329562a23b2017",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi10_DOP853_r1e-09.json",
+      "bytes": 5163,
+      "sha256": "2d7f11ce717485b093364af23fabf63b9a2be96635ce8dcb6b257b0caf3e750e",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi10_DOP853_r1e-09.npz",
+      "bytes": 129074,
+      "sha256": "6199b972ed2efe78bcd101e9d2cacdcb2e5b3a1b846ddd54d12963b1a1c01cdf",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi10_DOP853_r1e-11.json",
+      "bytes": 5161,
+      "sha256": "e1f3f53a5d42690d11fcb806568b02a5d784ab1b4009982195fde3ba00054fe8",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi10_DOP853_r1e-11.npz",
+      "bytes": 129082,
+      "sha256": "edc548b62830e6bd22d79150fe930878db510cf7f57c7e8be403414641b8f260",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi10_DOP853_r1e-13.json",
+      "bytes": 5149,
+      "sha256": "41a5cfa43642f7959fbd0092d4690a81bea0a69420edd7fe0c514ded2104bd2b",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi10_DOP853_r1e-13.npz",
+      "bytes": 128864,
+      "sha256": "6cb3e5a98022dd750a1ab44cb36a8f5b6d5d816ee1350ef936555104ad913682",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi10_Radau_r1e-11.json",
+      "bytes": 5157,
+      "sha256": "5753d910b16be8420e56c397b23f3545b4e871638efd7dd97fc474a1131f7566",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi10_Radau_r1e-11.npz",
+      "bytes": 129451,
+      "sha256": "e4b7036f6a1c2b9a39fb49d2d8004ee25a8b3575159c6293def09c90be46aa5d",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi20_DOP853_r1e-09.json",
+      "bytes": 5164,
+      "sha256": "acc6fea65ea7bf38664b99f5d4d7206727f08a09a10ca22295da040ba6fda960",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi20_DOP853_r1e-09.npz",
+      "bytes": 129688,
+      "sha256": "4f7a9d3734ae9c22d3326ce0c589a845419d08a92ab669ee2e435dafb9587913",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi20_DOP853_r1e-11.json",
+      "bytes": 5145,
+      "sha256": "7f7cd93dc0aa69d48b5dba8da84409d928640dc7d05d7c477591fed6d78b7ad7",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi20_DOP853_r1e-11.npz",
+      "bytes": 129668,
+      "sha256": "7dc0e40fe495092b175921e8d705efce7ad850c413758b4d6cb800f5603648dc",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi20_DOP853_r1e-13.json",
+      "bytes": 5153,
+      "sha256": "9423f3d656944bf7de3a6bca74769cd9163261ba27284a01b9a3df7e98ab7c03",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi20_DOP853_r1e-13.npz",
+      "bytes": 127789,
+      "sha256": "4007608c9ac0063f9f2a550c679d8af5089cc0d5fab332e48251d20f572d8c9c",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi20_Radau_r1e-11.json",
+      "bytes": 5162,
+      "sha256": "e16e593ed196a78e573868d37407cc5e96e3b4836caca175861ae4f9fefef8ac",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi20_Radau_r1e-11.npz",
+      "bytes": 129560,
+      "sha256": "ce2a75cbe6511cfd547f0bbaa3c857b594f463e8ebda880a37d46e1aa26b62d5",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi40_DOP853_r1e-09.json",
+      "bytes": 5175,
+      "sha256": "106709e55151dd702eec0fb9cfd4d344bf98b207fd488198b77771e50efaa4d5",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi40_DOP853_r1e-09.npz",
+      "bytes": 128437,
+      "sha256": "61f5c3c51f9197442aa4bd4d1886f6cf7e23cb27564d885a138f94c5aa9ae10f",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi40_DOP853_r1e-11.json",
+      "bytes": 5175,
+      "sha256": "cc41cc89fcdd59b28cb851053c4273d578556b6977c81409fd146557fa6b871a",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi40_DOP853_r1e-11.npz",
+      "bytes": 128590,
+      "sha256": "08497c22d49890593e01840cea89f4bd17a7fa70cb13c5c26e6d57d99d1943b6",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi40_DOP853_r1e-13.json",
+      "bytes": 5158,
+      "sha256": "c03499ef9498d89dc93347c3319ca9740a88a686308e4918ed6680f944cb58b3",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi40_DOP853_r1e-13.npz",
+      "bytes": 128629,
+      "sha256": "b3cb087023fe7cc38c398a524f01f9bf93fad26c3b6e2077e64b9f0116d3085c",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi40_Radau_r1e-11.json",
+      "bytes": 5178,
+      "sha256": "68d166c07a6a4b8267920ea7960247146695820a2d2bf46100a5db39d589f7ad",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi40_Radau_r1e-11.npz",
+      "bytes": 129563,
+      "sha256": "b6affc261f04ca3ef594c9fdb8cc2b7e7b12729c43842ab535375a0055648090",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi80_DOP853_r1e-09.json",
+      "bytes": 5175,
+      "sha256": "e6b2c8aed82d9587390764e64a4052c817d9f3610023bc8c27eb1820e4b8b60e",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi80_DOP853_r1e-09.npz",
+      "bytes": 127379,
+      "sha256": "5016b040bb539c4bc3692499c4ecbbc68ae6948200f58813331a3d515557813e",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi80_DOP853_r1e-11.json",
+      "bytes": 5166,
+      "sha256": "85f56969f7aba2862e89280983b54153d4c9bea527ba10a7ed038ca7f3a93538",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi80_DOP853_r1e-11.npz",
+      "bytes": 127613,
+      "sha256": "c55386e7e65d15e8172ce554fdd2e6785595c2a893eeecd0b5b3f108cf60e29b",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi80_DOP853_r1e-13.json",
+      "bytes": 5171,
+      "sha256": "4a9ce27053a133fc0adaf2551bdd712c372e803954c84e0892736e5bedb18085",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi80_DOP853_r1e-13.npz",
+      "bytes": 127771,
+      "sha256": "f236b53290e42480edcedd9a560c4386819816cc492cc632c812016e6e6a35c2",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi80_Radau_r1e-11.json",
+      "bytes": 5170,
+      "sha256": "33ac31ceb130e2ddeb7ecfcc50ea8f38b59bb1402fea8d090826ca54d2de79b7",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/d1e-08_phi80_Radau_r1e-11.npz",
+      "bytes": 128908,
+      "sha256": "619961386d4a0fc108363f37acd2e7c40fe3fb88f6a8653781895d2901f090fc",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/protocol.json",
+      "bytes": 867,
+      "sha256": "d204ad149d400e1e730348031e51912b4dc6ea17d41bea9fc5b7c11f5ff3266f",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/verification.json",
+      "bytes": 13102,
+      "sha256": "b11abe95a8e7ad91c233719075f77941dc3d6aae80e7a267bc1e1e03ed86bd9d",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
+      "path": "data/wall/wall_algebra.json",
+      "bytes": 843,
+      "sha256": "a66a060b7955317f89acbd8f36cb57832b9a559be5be398a6ac18c0476469f83",
+      "purpose": "Single-axis magnetic controls, equations or platform error estimates",
+      "reproduction": "wall"
+    },
+    {
       "path": "docs/data_dictionary.md",
-      "role": "scientific documentation",
-      "sha256": "2b2a8ce6fd0d1ba10adb36459f5641651ed6b3b69237b49038561af39f3321a7"
+      "bytes": 4046,
+      "sha256": "4656cfd0e900da8921ac27248578ccb09af366326b5968c05c2149bba0c75c57",
+      "purpose": "Scientific definitions, evidence coverage and reproduction interpretation",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 4220,
-      "generation_command": "maintained source file",
+      "path": "docs/evidence.md",
+      "bytes": 3367,
+      "sha256": "e00051f1ca74dad2f427230732ae9defd9f27876e435b7bab9c1507b464fce3c",
+      "purpose": "Scientific definitions, evidence coverage and reproduction interpretation",
+      "reproduction": "documentation"
+    },
+    {
       "path": "docs/methods.md",
-      "role": "scientific documentation",
-      "sha256": "c0ae0e2416d851d4b30436cc86990764fdcf2484847972c32049bb13a980c925"
+      "bytes": 5840,
+      "sha256": "da65c37b0da892c6761d307a0db9b84d3660bbee87d70313e7038b7072b771eb",
+      "purpose": "Scientific definitions, evidence coverage and reproduction interpretation",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 858,
-      "generation_command": "maintained source file",
       "path": "docs/provenance.md",
-      "role": "scientific documentation",
-      "sha256": "1350c4f0c3131b979b5028a81df0d9ed4e9d44d0bc550915862ea0a0d21ec280"
+      "bytes": 2955,
+      "sha256": "b473bfa5e3c9d7a3a9ee0028a3af1b9fac04319543bf21bc4e4494020a2c439d",
+      "purpose": "Scientific definitions, evidence coverage and reproduction interpretation",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 45552,
-      "generation_command": "python -m kasner_scattering plot --output figures",
-      "path": "figures/results_summary.pdf",
-      "role": "public reproduction figure",
-      "sha256": "763c8b9440c49b338ef638fe294c6ba54bdf45cb9c0a0a43f24ea596629d07c4"
+      "path": "docs/validation.json",
+      "bytes": 35957,
+      "sha256": "0869cc34e1bc1b1fdacc84c7c46809d7cfac12d953eed149d1887d8fba6dba82",
+      "purpose": "Scientific definitions, evidence coverage and reproduction interpretation",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 303958,
-      "generation_command": "python -m kasner_scattering plot --output figures",
-      "path": "figures/results_summary.png",
-      "role": "public reproduction figure",
-      "sha256": "fe26a30a165fcda0c4b23e9ccbf3b7944344632de04e25bd1d8f4f892c24c971"
+      "path": "docs/validation.md",
+      "bytes": 4112,
+      "sha256": "f11822f4e699f068c986a50da95b12bfae963135dd7df6a1e88266b9c5e83070",
+      "purpose": "Scientific definitions, evidence coverage and reproduction interpretation",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 690,
-      "generation_command": "maintained source file",
+      "path": "figures/response_profiles.pdf",
+      "bytes": 19776,
+      "sha256": "9f2d69289a582453ae03f1d94a927e5e1117864a103a71f03c03e5cab3567638",
+      "purpose": "Two-panel spatial comparison of coherent prediction and nonlinear response",
+      "reproduction": "plot"
+    },
+    {
+      "path": "figures/response_profiles.png",
+      "bytes": 64101,
+      "sha256": "b5118b12c608ea946972437e6a9918fabe60521d9895ce02e76bfbf210b8dc18",
+      "purpose": "Two-panel spatial comparison of coherent prediction and nonlinear response",
+      "reproduction": "plot"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1518,
+      "sha256": "3c0953652bd0e912e3662b59ed0a6c5e754f977ff7c60b025f4471d301446bc2",
+      "purpose": "Package installation, reproduction entry point, licensing or repository hygiene",
+      "reproduction": "documentation"
+    },
+    {
+      "path": "LICENSE-DATA",
+      "bytes": 516,
+      "sha256": "968ea45e72e2384e6aadb1fc8127e1f7e9db2a27486da291428a4a1b4d2126fe",
+      "purpose": "Package installation, reproduction entry point, licensing or repository hygiene",
+      "reproduction": "documentation"
+    },
+    {
       "path": "pyproject.toml",
-      "role": "package configuration",
-      "sha256": "cd07658a59e601693513f2e27f564fddaaaf98ccb409e0efb1f04653cc0ec31a"
+      "bytes": 747,
+      "sha256": "dce12519825fec036d2a62225bf4b49ca62a1cc01c87b1d724b6a72766a802be",
+      "purpose": "Package installation, reproduction entry point, licensing or repository hygiene",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 1017,
-      "generation_command": "maintained source file",
+      "path": "README.md",
+      "bytes": 3558,
+      "sha256": "9f689a2c624c5ef1755e7a0801292ff32c50c90a793f5f25deeb925ae3d58843",
+      "purpose": "Package installation, reproduction entry point, licensing or repository hygiene",
+      "reproduction": "documentation"
+    },
+    {
       "path": "reproduce.ps1",
-      "role": "package configuration",
-      "sha256": "7afe8a4ddae0da5e1e536c8c92b8421f92da7f8322b43280579e02faf76f20b2"
+      "bytes": 961,
+      "sha256": "37862ae7100678d7d412a1a3fe25117c15e3792d4737f2bb320b0080449912cf",
+      "purpose": "Package installation, reproduction entry point, licensing or repository hygiene",
+      "reproduction": "documentation"
     },
     {
-      "bytes": 93,
-      "generation_command": "source implementation of the equations in docs/methods.md",
       "path": "src/kasner_scattering/__init__.py",
-      "role": "scientific implementation",
-      "sha256": "24ca164cd71e15617790d3386c167163559553aea27bc100946b471f23d552f2"
+      "bytes": 204,
+      "sha256": "224c441b320e971b56b43030ba2a8b1c67503216a662968eca626ab89a8ab5b1",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
     },
     {
-      "bytes": 1396,
-      "generation_command": "source implementation of the equations in docs/methods.md",
       "path": "src/kasner_scattering/__main__.py",
-      "role": "scientific implementation",
-      "sha256": "6cce2a1636022cb88ba87e04e94d9ab8db1d632d5e305330c6f806c90a7cfc37"
+      "bytes": 1802,
+      "sha256": "fbb8bab6b69eafab75c15eb3066b59ae8017bec0f3ef62d778c79e9d030adc85",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
     },
     {
-      "bytes": 29621,
-      "generation_command": "source implementation of the equations in docs/methods.md",
       "path": "src/kasner_scattering/background.py",
-      "role": "scientific implementation",
-      "sha256": "4d6f11a28266bbb06169946f97bb19964d743c2d88b700a0c05eb605cd7f2b80"
+      "bytes": 29621,
+      "sha256": "4d6f11a28266bbb06169946f97bb19964d743c2d88b700a0c05eb605cd7f2b80",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
     },
     {
-      "bytes": 39558,
-      "generation_command": "source implementation of the equations in docs/methods.md",
-      "path": "src/kasner_scattering/pipeline.py",
-      "role": "scientific implementation",
-      "sha256": "3037a548901a435dec647b417f1b83f68cb51d8e8cc5d810119364b3a39faac0"
+      "path": "src/kasner_scattering/comparison.py",
+      "bytes": 8547,
+      "sha256": "b268e5e5c7190e2a0c9e188ffafa5ebf6a85517b4cebd723a74484a571212147",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
     },
     {
-      "bytes": 44220,
-      "generation_command": "source implementation of the equations in docs/methods.md",
+      "path": "src/kasner_scattering/plotting.py",
+      "bytes": 2683,
+      "sha256": "4c55e8a1df872df0843e815d7cce3604d814d4105236f07accbfb6c3b78792d8",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/__init__.py",
+      "bytes": 80,
+      "sha256": "feee01c5bca72f028d24ece6da280dd5d5994967eecd55b2d8699c0fd072f8a8",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/accelerated.py",
+      "bytes": 2126,
+      "sha256": "fa2774b7f36ffbba59b370bcefd9400b0f752682a80e332e1fcaeaf04e23c9e1",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/carrier.py",
+      "bytes": 3630,
+      "sha256": "ee954be0b85dafed731487fb8687c9c8251fc3c833b4d0aba66a14c9eb7978cf",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/compact_spectrum.py",
+      "bytes": 2633,
+      "sha256": "cc6140cd372336113e76341f826fc7c0bfe86cbac1a3d1e571db28d7d22cb451",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/conformal.py",
+      "bytes": 6158,
+      "sha256": "6e21252caf7e4f95d95aba3c0fc60b64e84f81aa83a1206950a70b65c8b2e1ce",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/contracts.py",
+      "bytes": 2220,
+      "sha256": "990e6ed6acd1561afe77600929f824514b335703f6145ece6b95202240214604",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/directed.py",
+      "bytes": 5904,
+      "sha256": "28eee3d86258d5425079dafefd9095d2db124e9afc4ec24ea1c1c2ebc6374d2d",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/directed_analysis.py",
+      "bytes": 924,
+      "sha256": "76cdfbcbbd8f5feac9e2aaebd77a748f864a3ceb0dbe3f2bd7cded1b96268549",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/directed_independent.py",
+      "bytes": 4060,
+      "sha256": "7f52a9796b50a41fba700da97fb8ecdf56143e89050ce9aefcff089e547fd7aa",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/directed_modes.py",
+      "bytes": 5432,
+      "sha256": "4a9c287b3db3ff88439a29caa5ec355f4677064f13bec5eaa220fdaef189f21c",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/directed_nonlinear.py",
+      "bytes": 3862,
+      "sha256": "366a158938777d57a85392f67f67c8e11fed7a9cefe0a30afc84fa688a36cc31",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/evolution.py",
+      "bytes": 6474,
+      "sha256": "054b427d218fdabd40ed2cb1ee43c5e849ccb44aae12b17c8ae71267744de14b",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/four_dimensional.py",
+      "bytes": 5125,
+      "sha256": "6141f61f66513454b6e86ee2e47705eba382f507bc1a664faea6ff8f30e518de",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/horizon_low_frequency.py",
+      "bytes": 5555,
+      "sha256": "9795f642fe3717ef0458dfefd9dbe1439f67d54e66d65ac66c95be8f82afe93b",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/independent.py",
+      "bytes": 5893,
+      "sha256": "f4fb5f640af9d81fc643d28ea32e9095767a2d43c693e41c92fc6d76937dac37",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/independent_segment.py",
+      "bytes": 289,
+      "sha256": "e668e912df8ffa8c571fa436ccffae2606148f8177573f5a04c674d5c67f3beb",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/inputs.py",
+      "bytes": 827,
+      "sha256": "a7045e548e1d0d743ce1e82fa1add98c9aa41d0611d78caf8d59bedfecb9d7e0",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/io.py",
+      "bytes": 3768,
+      "sha256": "b6440886773196d5295a747bfa677a6877422cebf1c23ef8f91e2cc5c4e167d3",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/normalized.py",
+      "bytes": 2105,
+      "sha256": "85cccd1f25d5fcc5eba49f907bffa2e994a8823b6bc1668aba7756185b820b05",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/response_experiment.py",
+      "bytes": 5931,
+      "sha256": "54ee8ed6878364c4c7e1599e82dd800b05234eb5aafe51d0184b55df7219344c",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/response_independent.py",
+      "bytes": 4167,
+      "sha256": "836c2f14f0c685fc98639130db1a272ccad2fc7229d155e49e7355c237fdc3f7",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/response_model.py",
+      "bytes": 7115,
+      "sha256": "e50ea9bbf295e9830de41092c518df51eed92ad6a01fb5b9b5663989704e2ab5",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/response_modes.py",
+      "bytes": 5018,
+      "sha256": "bed715e8da1420194b48c29dce6ee812689fb6a1866357485db46cecadd68e63",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/response_summary.py",
+      "bytes": 374,
+      "sha256": "808aa8cd513fad9135c9cb2ca3e4d7e7ae1c76cf0c7250084f861ca3dda90d42",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/scales.py",
+      "bytes": 2531,
+      "sha256": "453d15a5dcdfc71cfff19d9d14acaf0037f480a02e1dc6d900482cf25d2c3fd3",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/second_analysis.py",
+      "bytes": 4773,
+      "sha256": "f6a3f4365cc198185a974c68a4aba8ab6e7e041a6461a2837eedf48300bb3d5b",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/second_event.py",
+      "bytes": 5842,
+      "sha256": "efb815a67fe13e4aadd8794bf9ffec22f7f1e46cd377b66a4e1876058afde1e6",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/second_independent.py",
+      "bytes": 5591,
+      "sha256": "cce8fe6fc204666a465408104c215155b2f264c159c71044272adabf1b2ae85f",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/single_wall.py",
+      "bytes": 6910,
+      "sha256": "84fed8b04c14888017e9ce63970712af680879e4fd7db1911916b80edf5a5f32",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/studies.py",
+      "bytes": 6531,
+      "sha256": "7288216d5788672126d432ba9738c0b0df5d8c03da8ed79dc7645973fd97b0cc",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/propagation/wall_verification.py",
+      "bytes": 5016,
+      "sha256": "c3cf113fbd26cb4515241c65d6da35f8ed99a0b4ad4ef9b203b5c939802795ee",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/restricted.py",
+      "bytes": 3625,
+      "sha256": "5e1a6e2917428f023d6a5748609bf3ece6f46c3d1c9fe41b2e339c8662b01133",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/restricted_helpers.py",
+      "bytes": 5439,
+      "sha256": "b18f92211dc20b85c202594068ab240f4d592e834b024d00f02f1941d9ce7cda",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
+      "path": "src/kasner_scattering/runtime.py",
+      "bytes": 802,
+      "sha256": "c1a8ab8f522991a1d89717b13e0f1c42f66fc89ce480cf967e6d9475be1b2672",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
+    },
+    {
       "path": "src/kasner_scattering/scattering.py",
-      "role": "scientific implementation",
-      "sha256": "0cc361bd5b9af76daf3fda9764c7e4d1270f4484b047cb0c6eecf17f0d0bb33f"
+      "bytes": 44220,
+      "sha256": "0cc361bd5b9af76daf3fda9764c7e4d1270f4484b047cb0c6eecf17f0d0bb33f",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
     },
     {
-      "bytes": 18604,
-      "generation_command": "source implementation of the equations in docs/methods.md",
       "path": "src/kasner_scattering/transfer.py",
-      "role": "scientific implementation",
-      "sha256": "1ac87cd302d970ca2ef9d1347d3cf14e6803a0495ee483e723c3ad327eea362f"
+      "bytes": 18604,
+      "sha256": "1ac87cd302d970ca2ef9d1347d3cf14e6803a0495ee483e723c3ad327eea362f",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
     },
     {
-      "bytes": 228,
-      "generation_command": "python -m pytest",
-      "path": "tests/test_full_rebuild.py",
-      "role": "reproduction test",
-      "sha256": "7d9735811a36fef44d913c9087c5c403228a2372b1045fd2dfa1aca41a6ec859"
+      "path": "src/kasner_scattering/verification.py",
+      "bytes": 22242,
+      "sha256": "821bbd53c1d8381883de18ed2db5311193f9dd81c63dfa3fb07dc90e7da37aa9",
+      "purpose": "Public equations, numerical integration, reconstruction or verification",
+      "reproduction": "source"
     },
     {
-      "bytes": 2757,
-      "generation_command": "python -m pytest",
-      "path": "tests/test_reproduction.py",
-      "role": "reproduction test",
-      "sha256": "7f895e69767ca5befcd0daefaf1433966662d644a071baa69e93c0b113a3fae7"
+      "path": "tests/conftest.py",
+      "bytes": 103,
+      "sha256": "2c8907b5eb40844b648ac1182d9fbbe56f8e2d71fb2eaabba0cff0d646fb2da4",
+      "purpose": "Focused equation, normalization, transform, state and integrity tests",
+      "reproduction": "test"
     },
     {
-      "bytes": 9918,
-      "generation_command": "python -m kasner_scattering crosscheck-wolfram",
-      "path": "wolfram/crosscheck.wls",
-      "role": "independent symbolic and numerical cross-check",
-      "sha256": "37c13e183a587e829e3768a2f7cf424dc60e013b0c16096ebdbc0643bc9c18bf"
+      "path": "tests/test_archive.py",
+      "bytes": 3488,
+      "sha256": "6ed03c6353cb58e54aa0cdce18ac8a1f15697f1628d3c9dd73d8e4347e0d9801",
+      "purpose": "Focused equation, normalization, transform, state and integrity tests",
+      "reproduction": "test"
+    },
+    {
+      "path": "tests/test_compact_spectrum.py",
+      "bytes": 1467,
+      "sha256": "0dc922cdc0c63b7ea975b832832005c83a887dd62a40c86107d11121eb7475bd",
+      "purpose": "Focused equation, normalization, transform, state and integrity tests",
+      "reproduction": "test"
+    },
+    {
+      "path": "tests/test_directed.py",
+      "bytes": 3317,
+      "sha256": "f04e348c40c1771a895127e34dd6f6f706f9693963a89c024a4c090b008b2380",
+      "purpose": "Focused equation, normalization, transform, state and integrity tests",
+      "reproduction": "test"
+    },
+    {
+      "path": "tests/test_equations.py",
+      "bytes": 5211,
+      "sha256": "41fe7f12d4ceef92e63994b76e30ae3a6cf746b2fdea0cf7be76976fc862a243",
+      "purpose": "Focused equation, normalization, transform, state and integrity tests",
+      "reproduction": "test"
+    },
+    {
+      "path": "tests/test_response.py",
+      "bytes": 4871,
+      "sha256": "3d1f69b2c26b50b050ca79df050fe03ed224ce112050fa8b82e16524d5dac15d",
+      "purpose": "Focused equation, normalization, transform, state and integrity tests",
+      "reproduction": "test"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "bytes": 1322,
+      "sha256": "46f2317554f640745f7e860026a36044892ceb6d221642ab26679e396c557d57",
+      "purpose": "Focused equation, normalization, transform, state and integrity tests",
+      "reproduction": "test"
+    },
+    {
+      "path": "tests/test_second_event.py",
+      "bytes": 3335,
+      "sha256": "dca562993fc2f89e8cfc788d8cb72a39b9290ac58f1253d695577f8fd520d93f",
+      "purpose": "Focused equation, normalization, transform, state and integrity tests",
+      "reproduction": "test"
     }
-  ],
-  "licenses": {
-    "data_figures_documentation": "CC-BY-4.0",
-    "source_code": "BSD-3-Clause"
-  },
-  "manifest_excludes_itself": true,
-  "package": "minimal first-wall Kasner scattering reproduction",
-  "schema_version": 2
+  ]
 }

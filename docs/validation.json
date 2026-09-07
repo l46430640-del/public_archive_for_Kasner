@@ -1,0 +1,1268 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "scope": "Frozen evidence and prescribed numerical reconstruction; local two-Killing response and stated homogeneous controls",
+  "numerical_runtime": {
+    "blas_threads": 1,
+    "active_setting_verified": true
+  },
+  "reconstruction": {
+    "directed": {
+      "status": "PASS",
+      "prescribed_jobs": [
+        {
+          "module": "directed",
+          "function": "predict",
+          "parameters": {
+            "cells": 128,
+            "cfl": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed",
+          "function": "predict",
+          "parameters": {
+            "cells": 256,
+            "cfl": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed",
+          "function": "predict",
+          "parameters": {
+            "cells": 512,
+            "cfl": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed",
+          "function": "predict",
+          "parameters": {
+            "cells": 256,
+            "cfl": 0.2
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed",
+          "function": "predict",
+          "parameters": {
+            "cells": 256,
+            "cfl": 0.1
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed",
+          "function": "predict",
+          "parameters": {
+            "cells": 256,
+            "fixed_kasner": true
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "cells": 128,
+            "cfl": 0.4,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "cells": 256,
+            "cfl": 0.4,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "cells": 512,
+            "cfl": 0.4,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "cells": 256,
+            "cfl": 0.2,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "cells": 256,
+            "cfl": 0.1,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "cells": 256,
+            "cfl": 0.4,
+            "domain_factor": 8.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_independent",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "cells": 256
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_independent",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "cells": 512
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "cells": 128,
+            "cfl": 0.4,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "cells": 256,
+            "cfl": 0.4,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "cells": 512,
+            "cfl": 0.4,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "cells": 256,
+            "cfl": 0.2,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "cells": 256,
+            "cfl": 0.1,
+            "domain_factor": 4.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_nonlinear",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "cells": 256,
+            "cfl": 0.4,
+            "domain_factor": 8.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_independent",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "cells": 256
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_independent",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "cells": 512
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_modes",
+          "function": "run",
+          "parameters": {
+            "dxi": 0.25,
+            "cutoff": 600.0,
+            "nodes": 1536
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "directed_modes",
+          "function": "run",
+          "parameters": {
+            "dxi": 0.125,
+            "cutoff": 900.0,
+            "nodes": 2048
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        }
+      ],
+      "compared_array_files": 24,
+      "complete_study_under_isolated_io": true,
+      "independent_diagnostics": {
+        "status": "PASS",
+        "scope": "Derivative-fit residual ceilings and independent spectrum error are separate checks",
+        "rows": [
+          {
+            "input": "weak",
+            "maxima": {
+              "einstein_relative": 5.706242325681614e-10,
+              "maxwell_relative": 5.001022769745397e-12,
+              "scalar_over_expansion_squared": 8.851536065448824e-13,
+              "reduced_energy_balance_absolute": 9.348566675512843e-12
+            },
+            "reported_ceilings": {
+              "einstein_relative": 9.21e-10,
+              "maxwell_relative": 1.43e-10,
+              "scalar_over_expansion_squared": 8.86e-13,
+              "reduced_energy_balance_absolute": 9.35e-12
+            },
+            "within_reported_ceilings": true,
+            "independent_spectrum_difference": 1.2859367737316774e-10,
+            "spectrum_within_reported_error": true
+          },
+          {
+            "input": "strong",
+            "maxima": {
+              "einstein_relative": 9.204536712579909e-10,
+              "maxwell_relative": 1.4223737606115421e-10,
+              "scalar_over_expansion_squared": 6.729672550860259e-13,
+              "reduced_energy_balance_absolute": 7.972700742750262e-12
+            },
+            "reported_ceilings": {
+              "einstein_relative": 9.21e-10,
+              "maxwell_relative": 1.43e-10,
+              "scalar_over_expansion_squared": 8.86e-13,
+              "reduced_energy_balance_absolute": 9.35e-12
+            },
+            "within_reported_ceilings": true,
+            "independent_spectrum_difference": 1.2526366055531923e-10,
+            "spectrum_within_reported_error": true
+          }
+        ]
+      }
+    },
+    "reference": {
+      "status": "PASS",
+      "prescribed_jobs": [
+        {
+          "module": "response_experiment",
+          "function": "predict",
+          "parameters": {
+            "spacing": 0.4,
+            "cfl": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "predict",
+          "parameters": {
+            "spacing": 0.2,
+            "cfl": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "predict",
+          "parameters": {
+            "spacing": 0.1,
+            "cfl": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "response_experiment",
+          "function": "predict",
+          "parameters": {
+            "spacing": 0.2,
+            "cfl": 0.2
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "predict",
+          "parameters": {
+            "spacing": 0.2,
+            "cfl": 0.1
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "predict",
+          "parameters": {
+            "spacing": 0.2,
+            "phase": 1.5707963267948966
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "predict",
+          "parameters": {
+            "spacing": 0.2,
+            "fixed_kasner": true
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.2
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.1
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "near",
+            "spacing": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "near",
+            "spacing": 0.2
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "near",
+            "spacing": 0.1
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.4
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.1
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "cfl": 0.2
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "cfl": 0.1
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "domain_factor": 6.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "coupling": "constant"
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.4,
+            "phase": 1.5707963267948966
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "phase": 1.5707963267948966
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_experiment",
+          "function": "run_nonlinear",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.1,
+            "phase": 1.5707963267948966
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_independent",
+          "function": "run",
+          "parameters": {
+            "spacing": 0.2
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_independent",
+          "function": "run",
+          "parameters": {
+            "spacing": 0.1
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "response_modes",
+          "function": "run",
+          "parameters": {
+            "dxi": 0.25,
+            "cutoff": 600.0,
+            "quadrature": 1536
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "response_modes",
+          "function": "run",
+          "parameters": {
+            "dxi": 0.125,
+            "cutoff": 900.0,
+            "quadrature": 2048
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        }
+      ],
+      "compared_array_files": 27,
+      "complete_study_under_isolated_io": false
+    },
+    "exchange": {
+      "status": "PASS",
+      "prescribed_jobs": [
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.4,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.2,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.1,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "near",
+            "spacing": 0.4,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "near",
+            "spacing": 0.2,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "near",
+            "spacing": 0.1,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.4,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.1,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.2,
+            "cfl": 0.2,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.2,
+            "cfl": 0.1,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "cfl": 0.2,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "cfl": 0.1,
+            "end": 380.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": false
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "end": 380.0,
+            "domain_factor": 6.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "second_event",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "end": 380.0,
+            "coupling": "constant"
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "second_independent",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.2,
+            "end": 300.0,
+            "domain_factor": 1.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "second_independent",
+          "function": "run",
+          "parameters": {
+            "label": "weak",
+            "spacing": 0.1,
+            "end": 300.0,
+            "domain_factor": 5.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "second_independent",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.2,
+            "end": 300.0,
+            "domain_factor": 5.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        },
+        {
+          "module": "second_independent",
+          "function": "run",
+          "parameters": {
+            "label": "strong",
+            "spacing": 0.1,
+            "end": 300.0,
+            "domain_factor": 5.0
+          },
+          "comparison": "PASS",
+          "isolated_io_check": true
+        }
+      ],
+      "compared_array_files": 19,
+      "complete_study_under_isolated_io": false
+    },
+    "wall": {
+      "status": "PASS",
+      "prescribed_jobs": [],
+      "compared_array_files": 32,
+      "complete_study_under_isolated_io": true,
+      "integrations": 32,
+      "accepted_controls": 8
+    },
+    "carrier": {
+      "status": "PASS",
+      "prescribed_jobs": [],
+      "compared_array_files": 0,
+      "complete_study_under_isolated_io": true,
+      "backgrounds": 2,
+      "regular_horizon_evaluations": 22
+    },
+    "restricted-wall": {
+      "status": "PASS",
+      "prescribed_jobs": [],
+      "compared_array_files": 0,
+      "complete_study_under_isolated_io": true,
+      "output_comparison": {
+        "status": "PASS",
+        "count": 495,
+        "max_tangent_reproduction_difference": 0.0,
+        "scope": "restricted diagonal Hamiltonian; main retains perpendicular electric energy, comparison omits it"
+      }
+    }
+  },
+  "tests": {
+    "passed": 42,
+    "scope": "Equations, normalization, interference, transforms, states, integrity and active BLAS control"
+  },
+  "frozen_verification": {
+    "status": "PASS",
+    "response": [
+      {
+        "background": "reference",
+        "input": "weak",
+        "coherent_percent_error": 0.5188343038208458,
+        "omitted_percent_error": 48.3775535092158
+      },
+      {
+        "background": "reference",
+        "input": "near",
+        "coherent_percent_error": 4.952484592184843,
+        "omitted_percent_error": 24.676465549511274
+      },
+      {
+        "background": "reference",
+        "input": "strong",
+        "coherent_percent_error": 34.227652860250565,
+        "omitted_percent_error": 23.442824371376197
+      },
+      {
+        "background": "directed",
+        "input": "weak",
+        "coherent_percent_error": [
+          0.527592876988252,
+          1.5630892277778827,
+          4.805451055630932
+        ],
+        "omitted_percent_error": [
+          2.027615686310558,
+          3.060102741613539,
+          6.299558216533003
+        ]
+      },
+      {
+        "background": "directed",
+        "input": "strong",
+        "coherent_percent_error": [
+          0.37707882749316235,
+          1.1210421598042914,
+          3.4805279137143534
+        ],
+        "omitted_percent_error": [
+          46.901023550066526,
+          47.517763698078774,
+          49.75452858228746
+        ]
+      }
+    ],
+    "exchange": {
+      "curves": 15,
+      "accepted_output_platform": false
+    },
+    "tables": {
+      "figure_points": 240,
+      "ordering_rows": 4
+    },
+    "carrier": [
+      {
+        "delta": 1e-05,
+        "kw": 63.24555320336759
+      },
+      {
+        "delta": 1e-06,
+        "kw": 199.99999999999997
+      }
+    ],
+    "regular_horizon": {
+      "frequencies": 12,
+      "start_and_accuracy_comparisons": 9,
+      "zero_frequency_in_same_basis": true,
+      "negative_frequency_conjugation": true
+    },
+    "continuous_fields": [
+      {
+        "background": "reference",
+        "frequency_spacing": 0.125,
+        "input": "weak",
+        "relative_em_error": 5.05196822259981e-08
+      },
+      {
+        "background": "reference",
+        "frequency_spacing": 0.125,
+        "input": "near",
+        "relative_em_error": 1.616966020390075e-08
+      },
+      {
+        "background": "reference",
+        "frequency_spacing": 0.125,
+        "input": "strong",
+        "relative_em_error": 5.910552760207765e-09
+      },
+      {
+        "background": "reference",
+        "frequency_spacing": 0.25,
+        "input": "weak",
+        "relative_em_error": 1.505110490514158e-08
+      },
+      {
+        "background": "reference",
+        "frequency_spacing": 0.25,
+        "input": "near",
+        "relative_em_error": 4.54889103797778e-09
+      },
+      {
+        "background": "reference",
+        "frequency_spacing": 0.25,
+        "input": "strong",
+        "relative_em_error": 1.2437067146482933e-09
+      },
+      {
+        "background": "directed",
+        "frequency_spacing": 0.125,
+        "input": "weak",
+        "relative_em_error": 5.631752946487006e-08
+      },
+      {
+        "background": "directed",
+        "frequency_spacing": 0.125,
+        "input": "strong",
+        "relative_em_error": 6.229244265207921e-08
+      },
+      {
+        "background": "directed",
+        "frequency_spacing": 0.25,
+        "input": "weak",
+        "relative_em_error": 5.6489791479087044e-08
+      },
+      {
+        "background": "directed",
+        "frequency_spacing": 0.25,
+        "input": "strong",
+        "relative_em_error": 6.24967589543911e-08
+      }
+    ],
+    "frozen_four_dimensional_diagnostics": {
+      "status": "PASS",
+      "scope": "Derivative-fit residual ceilings and independent spectrum error are separate checks",
+      "rows": [
+        {
+          "input": "weak",
+          "maxima": {
+            "einstein_relative": 5.706242325681614e-10,
+            "maxwell_relative": 5.001022769745397e-12,
+            "scalar_over_expansion_squared": 8.851536065448824e-13,
+            "reduced_energy_balance_absolute": 9.348566675512843e-12
+          },
+          "reported_ceilings": {
+            "einstein_relative": 9.21e-10,
+            "maxwell_relative": 1.43e-10,
+            "scalar_over_expansion_squared": 8.86e-13,
+            "reduced_energy_balance_absolute": 9.35e-12
+          },
+          "within_reported_ceilings": true,
+          "independent_spectrum_difference": 1.2859367737316774e-10,
+          "spectrum_within_reported_error": true
+        },
+        {
+          "input": "strong",
+          "maxima": {
+            "einstein_relative": 9.204536712579909e-10,
+            "maxwell_relative": 1.4223737606115421e-10,
+            "scalar_over_expansion_squared": 6.729672550860259e-13,
+            "reduced_energy_balance_absolute": 7.972700742750262e-12
+          },
+          "reported_ceilings": {
+            "einstein_relative": 9.21e-10,
+            "maxwell_relative": 1.43e-10,
+            "scalar_over_expansion_squared": 8.86e-13,
+            "reduced_energy_balance_absolute": 9.35e-12
+          },
+          "within_reported_ceilings": true,
+          "independent_spectrum_difference": 1.2526366055531923e-10,
+          "spectrum_within_reported_error": true
+        }
+      ]
+    },
+    "convergence": {
+      "reference_weak": [
+        2.5239393908194074e-12,
+        1.1862941184936915e-12
+      ],
+      "reference_near": [
+        1.115668668560943e-11,
+        3.2345862099880662e-12
+      ],
+      "reference_strong": [
+        7.599322612156234e-10,
+        4.349242667400777e-11
+      ],
+      "directed_weak": {
+        "space": [
+          3.0250260268926965e-08,
+          1.920365269580948e-09
+        ],
+        "time": [
+          5.602370511947896e-10,
+          3.60488860984276e-11
+        ]
+      },
+      "directed_strong": {
+        "space": [
+          2.9801683509855792e-08,
+          1.8878550667178473e-09
+        ],
+        "time": [
+          5.850866041656744e-10,
+          3.815880944557648e-11
+        ]
+      },
+      "exchange_weak": [
+        5.319953034091038e-05,
+        3.335721006171577e-06
+      ],
+      "exchange_near": [
+        3.609296856765549e-05,
+        2.26498501700121e-06
+      ],
+      "exchange_strong": [
+        3.175854254322194e-05,
+        1.992202084618276e-06
+      ]
+    },
+    "magnetic_controls": {
+      "count": 8,
+      "all_eight_accepted": true
+    },
+    "finite_arrays": 981,
+    "array_files": 135,
+    "restricted_trajectories": 495
+  },
+  "figure": {
+    "status": "PASS",
+    "visual_review": "Both panels, all curves, markers, legend entries and physical labels are visible and legible in the rendered PDF. Shared limits and panel alignment are consistent; no label crowding or clipping was found.",
+    "assets": [
+      {
+        "file": "figures/response_profiles.pdf",
+        "sha256": "9f2d69289a582453ae03f1d94a927e5e1117864a103a71f03c03e5cab3567638",
+        "regenerated_bytes_identical": true
+      },
+      {
+        "file": "figures/response_profiles.png",
+        "sha256": "b5118b12c608ea946972437e6a9918fabe60521d9895ce02e76bfbf210b8dc18",
+        "regenerated_bytes_identical": true
+      }
+    ],
+    "intersections": [],
+    "out_of_page": []
+  },
+  "independent_record_checks": {
+    "status": "PASS",
+    "scope": "Newly reconstructed derivative neighborhoods compared with the retained residual records; no historical neighborhoods are inferred",
+    "rows": [
+      {
+        "study": "reference",
+        "result": "independent_strong_h0.1",
+        "records": 9,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [
+          "maxwell_energy_balance_absolute",
+          "maxwell_work",
+          "scalar_energy_balance_absolute",
+          "scalar_work"
+        ],
+        "maxima": {
+          "einstein_relative": 3.178248700106983e-08,
+          "maxwell_relative": 2.793048334173189e-10,
+          "scalar_over_expansion_squared": 1.710104788280388e-12,
+          "reduced_energy_balance_absolute": 6.858435374352726e-13
+        }
+      },
+      {
+        "study": "reference",
+        "result": "independent_strong_h0.2",
+        "records": 9,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [
+          "maxwell_energy_balance_absolute",
+          "maxwell_work",
+          "scalar_energy_balance_absolute",
+          "scalar_work"
+        ],
+        "maxima": {
+          "einstein_relative": 8.995510307028843e-09,
+          "maxwell_relative": 1.6274544869220137e-10,
+          "scalar_over_expansion_squared": 2.2502727165457077e-13,
+          "reduced_energy_balance_absolute": 1.7070120025432972e-13
+        }
+      },
+      {
+        "study": "directed",
+        "result": "independent_strong_N256",
+        "records": 12,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [],
+        "maxima": {
+          "einstein_relative": 2.73056121708911e-10,
+          "maxwell_relative": 4.5084601168991294e-11,
+          "scalar_over_expansion_squared": 4.424124113297447e-13,
+          "reduced_energy_balance_absolute": 1.6338146193127714e-11
+        }
+      },
+      {
+        "study": "directed",
+        "result": "independent_strong_N512",
+        "records": 12,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [],
+        "maxima": {
+          "einstein_relative": 9.204536712579909e-10,
+          "maxwell_relative": 1.4223737606115421e-10,
+          "scalar_over_expansion_squared": 6.729672550860259e-13,
+          "reduced_energy_balance_absolute": 7.972700742750262e-12
+        }
+      },
+      {
+        "study": "directed",
+        "result": "independent_weak_N256",
+        "records": 12,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [],
+        "maxima": {
+          "einstein_relative": 1.3222014042326138e-10,
+          "maxwell_relative": 3.122608066944923e-12,
+          "scalar_over_expansion_squared": 7.628387038048793e-13,
+          "reduced_energy_balance_absolute": 1.6533764111213782e-11
+        }
+      },
+      {
+        "study": "directed",
+        "result": "independent_weak_N512",
+        "records": 12,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [],
+        "maxima": {
+          "einstein_relative": 5.706242325681614e-10,
+          "maxwell_relative": 5.001022769745397e-12,
+          "scalar_over_expansion_squared": 8.851536065448824e-13,
+          "reduced_energy_balance_absolute": 9.348566675512843e-12
+        }
+      },
+      {
+        "study": "exchange",
+        "result": "independent_strong_h0.1_T300_dt0.025_L5",
+        "records": 24,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [],
+        "maxima": {
+          "einstein_relative": 6.042753567282157e-08,
+          "maxwell_relative": 1.1418185119306406e-10,
+          "scalar_over_expansion_squared": 8.41269423853782e-13,
+          "reduced_energy_balance_absolute": 1.535645814792116e-12
+        },
+        "spectrum_difference": 7.4247368097440924e-09,
+        "published_spectrum_ceiling": 7.5e-09
+      },
+      {
+        "study": "exchange",
+        "result": "independent_strong_h0.2_T300_dt0.025_L5",
+        "records": 24,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [],
+        "maxima": {
+          "einstein_relative": 3.396536004050721e-08,
+          "maxwell_relative": 2.8398873743109532e-11,
+          "scalar_over_expansion_squared": 3.494135302439523e-13,
+          "reduced_energy_balance_absolute": 4.576392570348335e-13
+        }
+      },
+      {
+        "study": "exchange",
+        "result": "independent_weak_h0.1_T300_dt0.025_L5",
+        "records": 24,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [],
+        "maxima": {
+          "einstein_relative": 1.2191645333043152e-07,
+          "maxwell_relative": 4.513716959335974e-11,
+          "scalar_over_expansion_squared": 1.085509758560461e-12,
+          "reduced_energy_balance_absolute": 2.21812495154649e-12
+        },
+        "spectrum_difference": 6.478656174035979e-09,
+        "published_spectrum_ceiling": 7.5e-09
+      },
+      {
+        "study": "exchange",
+        "result": "independent_weak_h0.2_T300_dt0.025",
+        "records": 24,
+        "stored_residual_fields_exact": true,
+        "additional_reconstructed_fields": [],
+        "maxima": {
+          "einstein_relative": 3.210191207622758e-08,
+          "maxwell_relative": 3.087340779844761e-11,
+          "scalar_over_expansion_squared": 4.2901771927702146e-13,
+          "reduced_energy_balance_absolute": 3.1073397571386808e-12
+        }
+      }
+    ]
+  }
+}

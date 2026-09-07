@@ -112,6 +112,11 @@ def compare(output):
                 regular_rows.append({"omega_times_mass": value["omega_times_mass"],
                                      "start": value["start"], "field_and_momentum": "PASS"})
         rows.append({"regular_horizon_transfer": regular_rows})
+    if "restricted-wall" in status["studies"]:
+        restricted = json.loads((output / "restricted-wall/comparison.json").read_text())
+        if restricted["status"] != "PASS" or restricted["count"] != 495 or restricted["max_tangent_reproduction_difference"] >= 1e-6:
+            raise ValueError("restricted Hamiltonian reconstruction is incomplete or outside its comparison limit")
+        rows.append({"restricted_hamiltonian": restricted})
     if not rows and "restricted-wall" not in status["studies"]:
         raise ValueError("no reconstructed arrays were compared")
     report = {"status": "PASS", "studies": status["studies"], "comparisons": rows,

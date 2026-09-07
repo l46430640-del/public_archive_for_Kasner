@@ -1,0 +1,299 @@
+{
+  "time_step_check": {
+    "cfl_values": [
+      0.4,
+      0.2,
+      0.1
+    ],
+    "em_differences": [
+      5.225938388628282e-12,
+      2.627051354231469e-12
+    ],
+    "spectrum_differences": [
+      5.053946670885434e-11,
+      1.7997547896442256e-12
+    ]
+  },
+  "domain_check": {
+    "em_difference": 0.0,
+    "spectrum_difference": 0.0
+  },
+  "constant_Z": {
+    "max_sampled_em": 5.425016467855368e-12,
+    "max_spectrum_change": 2.947298238797913e-10
+  },
+  "initial_geometry_comparison": {
+    "max_spectrum_difference_from_weak": [
+      0.0,
+      6.938893903907228e-18,
+      1.1102230246251565e-16
+    ]
+  },
+  "charged_vs_Kasner": {
+    "max_background_state_difference": 4.0635654841025826e-08,
+    "final_prediction_relative_differences": [
+      3.3952624249487802e-09,
+      2.2169449678463273e-09,
+      1.8435586042946638e-09
+    ]
+  },
+  "independent": [
+    {
+      "spacing": 0.2,
+      "center_difference_from_FD4": 8.814005081347887e-12,
+      "four_dimensional_residuals": [
+        {
+          "time": 224.44843145461283,
+          "position": -34.800000000000004,
+          "scalar": 2.8850315221808815e+197,
+          "scalar_over_expansion_squared": 9.929301046340043e-15,
+          "maxwell_relative": 1.665322390129054e-11,
+          "einstein_relative": 1.8177616049807144e-09,
+          "reduced_energy_balance_absolute": 7.918626196037625e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -5.715855866378736e-07,
+          "scalar_energy_balance_relative": 7.317677387039419e-08,
+          "maxwell_energy_balance_relative": 5.992493303835301e-12
+        },
+        {
+          "time": 232.44843145461283,
+          "position": -34.800000000000004,
+          "scalar": 4.794076294928932e+206,
+          "scalar_over_expansion_squared": 9.939146866143839e-14,
+          "maxwell_relative": 1.8695786211764988e-11,
+          "einstein_relative": 8.995510307028843e-09,
+          "reduced_energy_balance_absolute": 2.3891060268037743e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -1.6706552100862544e-05,
+          "scalar_energy_balance_relative": 2.9341565912674157e-09,
+          "maxwell_energy_balance_relative": 1.7648404878672714e-13
+        },
+        {
+          "time": 239.44843145461283,
+          "position": -34.800000000000004,
+          "scalar": 1.6075715021742985e+214,
+          "scalar_over_expansion_squared": 1.9468537003191695e-13,
+          "maxwell_relative": 1.6274544869220137e-10,
+          "einstein_relative": 5.78960623889759e-09,
+          "reduced_energy_balance_absolute": 2.75496009197794e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -0.00022477705988760703,
+          "scalar_energy_balance_relative": 1.6725798647104458e-10,
+          "maxwell_energy_balance_relative": 3.2315466754127567e-12
+        },
+        {
+          "time": 224.44843145461283,
+          "position": 0.0,
+          "scalar": -1.759989974590605e+198,
+          "scalar_over_expansion_squared": -6.057230844168287e-14,
+          "maxwell_relative": 1.8592060569411647e-11,
+          "einstein_relative": 3.2946118931066646e-09,
+          "reduced_energy_balance_absolute": 2.266576457608298e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -1.5598862139336619e-07,
+          "scalar_energy_balance_relative": 2.0593270779638497e-08,
+          "maxwell_energy_balance_relative": 2.275690851047911e-11
+        },
+        {
+          "time": 232.44843145461283,
+          "position": 0.0,
+          "scalar": 2.5034395966203918e+206,
+          "scalar_over_expansion_squared": 5.188832539855591e-14,
+          "maxwell_relative": 4.810271939249306e-12,
+          "einstein_relative": 5.052213319012695e-09,
+          "reduced_energy_balance_absolute": 1.4030255531206638e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -4.617265774200469e-06,
+          "scalar_energy_balance_relative": 1.4284400412779217e-08,
+          "maxwell_energy_balance_relative": 4.05726450585253e-12
+        },
+        {
+          "time": 239.44843145461283,
+          "position": 0.0,
+          "scalar": -5.3522088272313355e+213,
+          "scalar_over_expansion_squared": -6.451583553927248e-14,
+          "maxwell_relative": 3.456892376481378e-11,
+          "einstein_relative": 2.066916521094317e-09,
+          "reduced_energy_balance_absolute": 1.7070120025432972e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -8.815563272019483e-05,
+          "scalar_energy_balance_relative": 2.0402042208997564e-09,
+          "maxwell_energy_balance_relative": 3.4090986830630514e-12
+        },
+        {
+          "time": 224.44843145461283,
+          "position": 34.800000000000004,
+          "scalar": 2.0138815522707113e+198,
+          "scalar_over_expansion_squared": 6.93101326557393e-14,
+          "maxwell_relative": 4.833483224501995e-12,
+          "einstein_relative": 2.8161473404010777e-09,
+          "reduced_energy_balance_absolute": 6.91706920528752e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -4.334575683739621e-08,
+          "scalar_energy_balance_relative": 5.5090328518191984e-08,
+          "maxwell_energy_balance_relative": 1.4273413071878622e-11
+        },
+        {
+          "time": 232.44843145461283,
+          "position": 34.800000000000004,
+          "scalar": 1.0857564485177476e+207,
+          "scalar_over_expansion_squared": 2.2502727165457077e-13,
+          "maxwell_relative": 1.756501420284686e-11,
+          "einstein_relative": 1.5342038379093236e-09,
+          "reduced_energy_balance_absolute": 9.785220635873483e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -1.3034654246076011e-06,
+          "scalar_energy_balance_relative": 6.877963542222488e-06,
+          "maxwell_energy_balance_relative": 3.0760919973302403e-11
+        },
+        {
+          "time": 239.44843145461283,
+          "position": 34.800000000000004,
+          "scalar": -1.3883435237188974e+214,
+          "scalar_over_expansion_squared": -1.6713017808946445e-13,
+          "maxwell_relative": 5.025576431018252e-12,
+          "einstein_relative": 6.458826001975665e-09,
+          "reduced_energy_balance_absolute": 1.1886432519998637e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -2.7648797933346333e-05,
+          "scalar_energy_balance_relative": 4.196028876187824e-09,
+          "maxwell_energy_balance_relative": 1.5512323638261026e-11
+        }
+      ]
+    },
+    {
+      "spacing": 0.1,
+      "center_difference_from_FD4": 2.042747915265153e-12,
+      "four_dimensional_residuals": [
+        {
+          "time": 224.44843145461283,
+          "position": -34.800000000000004,
+          "scalar": 8.154338193504748e+198,
+          "scalar_over_expansion_squared": 2.8064469358426427e-13,
+          "maxwell_relative": 2.793048334173189e-10,
+          "einstein_relative": 5.660081759757121e-09,
+          "reduced_energy_balance_absolute": 1.2451798081262932e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -5.715855864121268e-07,
+          "scalar_energy_balance_relative": 3.6155997837249093e-07,
+          "maxwell_energy_balance_relative": 1.4090602421110118e-11
+        },
+        {
+          "time": 232.44843145461283,
+          "position": -34.800000000000004,
+          "scalar": 4.1364257048897374e+206,
+          "scalar_over_expansion_squared": 8.575696349312327e-14,
+          "maxwell_relative": 1.5640300627334252e-10,
+          "einstein_relative": 4.614304786472481e-09,
+          "reduced_energy_balance_absolute": 6.520911328752685e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -1.67065520939393e-05,
+          "scalar_energy_balance_relative": 8.035059127211684e-09,
+          "maxwell_energy_balance_relative": 8.569213420674839e-12
+        },
+        {
+          "time": 239.44843145461283,
+          "position": -34.800000000000004,
+          "scalar": -1.4040617755207996e+214,
+          "scalar_over_expansion_squared": -1.7003927099729595e-13,
+          "maxwell_relative": 1.3214015354518792e-11,
+          "einstein_relative": 1.3228801091930437e-09,
+          "reduced_energy_balance_absolute": 3.5060247201749595e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -0.00022477705983293492,
+          "scalar_energy_balance_relative": 1.1441453452260437e-09,
+          "maxwell_energy_balance_relative": 1.2472404334894401e-11
+        },
+        {
+          "time": 224.44843145461283,
+          "position": 0.0,
+          "scalar": 2.0323126855678267e+199,
+          "scalar_over_expansion_squared": 6.994464321465251e-13,
+          "maxwell_relative": 1.2180237549917213e-10,
+          "einstein_relative": 2.475190528746235e-08,
+          "reduced_energy_balance_absolute": 6.858435374352726e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -1.5598862143544186e-07,
+          "scalar_energy_balance_relative": 3.350987693482488e-07,
+          "maxwell_energy_balance_relative": 1.2038212508687762e-11
+        },
+        {
+          "time": 232.44843145461283,
+          "position": 0.0,
+          "scalar": 9.1572426038746e+206,
+          "scalar_over_expansion_squared": 1.8980045877752874e-13,
+          "maxwell_relative": 4.280678925616801e-11,
+          "einstein_relative": 5.413367813322226e-09,
+          "reduced_energy_balance_absolute": 5.974227242282159e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -4.617265775260201e-06,
+          "scalar_energy_balance_relative": 1.4677214521610345e-07,
+          "maxwell_energy_balance_relative": 1.813266084596194e-11
+        },
+        {
+          "time": 239.44843145461283,
+          "position": 0.0,
+          "scalar": -5.429159889567639e+214,
+          "scalar_over_expansion_squared": -6.544340810497592e-13,
+          "maxwell_relative": 6.774388113049793e-11,
+          "einstein_relative": 3.1708161164298064e-08,
+          "reduced_energy_balance_absolute": 9.083166393148663e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -8.815563273632023e-05,
+          "scalar_energy_balance_relative": 6.909594646304011e-10,
+          "maxwell_energy_balance_relative": 1.5325009386721077e-11
+        },
+        {
+          "time": 224.44843145461283,
+          "position": 34.800000000000004,
+          "scalar": 4.968896110599233e+199,
+          "scalar_over_expansion_squared": 1.710104788280388e-12,
+          "maxwell_relative": 3.581844945366365e-12,
+          "einstein_relative": 4.8450070557627865e-09,
+          "reduced_energy_balance_absolute": 8.6158809724049e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -4.334575677388664e-08,
+          "scalar_energy_balance_relative": 8.976441863937729e-08,
+          "maxwell_energy_balance_relative": 1.7670138550314299e-10
+        },
+        {
+          "time": 232.44843145461283,
+          "position": 34.800000000000004,
+          "scalar": 1.4827219141672986e+207,
+          "scalar_over_expansion_squared": 3.0729991740390473e-13,
+          "maxwell_relative": 4.073781226034535e-11,
+          "einstein_relative": 7.233889323531262e-10,
+          "reduced_energy_balance_absolute": 2.2544251659175026e-13,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -1.303465422719225e-06,
+          "scalar_energy_balance_relative": 3.462550809494262e-05,
+          "maxwell_energy_balance_relative": 5.901636104514593e-11
+        },
+        {
+          "time": 239.44843145461283,
+          "position": 34.800000000000004,
+          "scalar": 5.610309415473238e+214,
+          "scalar_over_expansion_squared": 6.753746429874164e-13,
+          "maxwell_relative": 5.873132151600093e-11,
+          "einstein_relative": 3.178248700106983e-08,
+          "reduced_energy_balance_absolute": 4.379956548275152e-14,
+          "reduced_energy_balance_relative": null,
+          "scalar_maxwell_exchange": -2.7648797894588318e-05,
+          "scalar_energy_balance_relative": 2.813243882864865e-08,
+          "maxwell_energy_balance_relative": 7.377419573252357e-11
+        }
+      ]
+    }
+  ],
+  "tests": {
+    "tests": 39,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "unresolved": [
+    "No outgoing Kasner platform.",
+    "No complete frequency-convolved horizon input.",
+    "No full angular embedding or second-order horizon data."
+  ]
+}

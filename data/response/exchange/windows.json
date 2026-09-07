@@ -1,0 +1,742 @@
+{
+  "curves": [
+    {
+      "case": "weak",
+      "position": -34.8,
+      "peak_index": 1015,
+      "peak_T": 253.72,
+      "peak_s": 278.3713255446808,
+      "fwhm_indices": [
+        1000,
+        1031
+      ],
+      "fwhm_T": [
+        250.0,
+        257.72
+      ],
+      "fwhm_s": [
+        273.89556134746664,
+        283.1858335239795
+      ],
+      "window": [
+        253.72,
+        269.24
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.047645828428828765,
+        "magnetic_scalar_impulse": -0.03593549183927138,
+        "remaining_matter_impulse": 2.7586603130562958e-17,
+        "spatial_scalar_impulse": 0.0016004292060785286,
+        "vacuum_scalar_impulse": -9.856757220853168e-05
+      },
+      "scalar_change": 0.013219131481199024,
+      "quadrature_closure": -6.93325777161545e-06
+    },
+    {
+      "case": "weak",
+      "position": -17.6,
+      "peak_index": 1023,
+      "peak_T": 255.72,
+      "peak_s": 280.78774323292157,
+      "fwhm_indices": [
+        1007,
+        1038
+      ],
+      "fwhm_T": [
+        251.72,
+        259.48
+      ],
+      "fwhm_s": [
+        275.9677376035554,
+        285.32010981413225
+      ],
+      "window": [
+        255.72,
+        271.24
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.0547313118734482,
+        "magnetic_scalar_impulse": -0.034231705111988545,
+        "remaining_matter_impulse": 2.6279389888558918e-17,
+        "spatial_scalar_impulse": 0.00426890804060556,
+        "vacuum_scalar_impulse": -5.6482285947555306e-05
+      },
+      "scalar_change": 0.02472274825266012,
+      "quadrature_closure": -1.071573654243263e-05
+    },
+    {
+      "case": "weak",
+      "position": 0.0,
+      "peak_index": 1037,
+      "peak_T": 259.24,
+      "peak_s": 285.0518840191903,
+      "fwhm_indices": [
+        1022,
+        1050
+      ],
+      "fwhm_T": [
+        255.48000000000002,
+        262.48
+      ],
+      "fwhm_s": [
+        280.5072967317047,
+        288.9678962364621
+      ],
+      "window": [
+        259.24,
+        273.48
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.02515368602017075,
+        "magnetic_scalar_impulse": -0.04975995695004629,
+        "remaining_matter_impulse": 1.4122859850442078e-17,
+        "spatial_scalar_impulse": 0.013854238135891636,
+        "vacuum_scalar_impulse": 5.77843756599488e-07
+      },
+      "scalar_change": -0.010750755510748593,
+      "quadrature_closure": -6.994394787015329e-07
+    },
+    {
+      "case": "weak",
+      "position": 17.6,
+      "peak_index": 1040,
+      "peak_T": 260.0,
+      "peak_s": 285.97467693291,
+      "fwhm_indices": [
+        1026,
+        1052
+      ],
+      "fwhm_T": [
+        256.48,
+        263.0
+      ],
+      "fwhm_s": [
+        281.7169888278347,
+        289.6022628370426
+      ],
+      "window": [
+        260.0,
+        273.24
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.011089154818211149,
+        "magnetic_scalar_impulse": -0.04679990479492536,
+        "remaining_matter_impulse": 9.403488729875995e-18,
+        "spatial_scalar_impulse": 0.011491886959644109,
+        "vacuum_scalar_impulse": -2.106895514776186e-06
+      },
+      "scalar_change": -0.024225519856653777,
+      "quadrature_closure": 4.549944068905909e-06
+    },
+    {
+      "case": "weak",
+      "position": 34.8,
+      "peak_index": 1022,
+      "peak_T": 255.48000000000002,
+      "peak_s": 280.4981207272342,
+      "fwhm_indices": [
+        1007,
+        1037
+      ],
+      "fwhm_T": [
+        251.72,
+        259.24
+      ],
+      "fwhm_s": [
+        275.9676429760366,
+        285.02984046510926
+      ],
+      "window": [
+        255.48000000000002,
+        270.72
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.05278718622812308,
+        "magnetic_scalar_impulse": -0.03532243061133843,
+        "remaining_matter_impulse": -3.753726243887062e-17,
+        "spatial_scalar_impulse": 0.004890194255787872,
+        "vacuum_scalar_impulse": -4.188258897356151e-05
+      },
+      "scalar_change": 0.022323883258365398,
+      "quadrature_closure": -1.0815974766473224e-05
+    },
+    {
+      "case": "near",
+      "position": -34.8,
+      "peak_index": 996,
+      "peak_T": 249.0,
+      "peak_s": 272.6821747975992,
+      "fwhm_indices": [
+        980,
+        1012
+      ],
+      "fwhm_T": [
+        245.0,
+        253.0
+      ],
+      "fwhm_s": [
+        267.88887941107777,
+        277.4775850880589
+      ],
+      "window": [
+        249.0,
+        265.0
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.02774985791960223,
+        "magnetic_scalar_impulse": -0.036603801003450225,
+        "remaining_matter_impulse": 6.490572917452611e-17,
+        "spatial_scalar_impulse": 0.0021278802249722257,
+        "vacuum_scalar_impulse": -0.00011965721923247835
+      },
+      "scalar_change": -0.006848315466793048,
+      "quadrature_closure": 2.595388684864877e-06
+    },
+    {
+      "case": "near",
+      "position": -17.6,
+      "peak_index": 1000,
+      "peak_T": 250.0,
+      "peak_s": 273.8858528270046,
+      "fwhm_indices": [
+        984,
+        1016
+      ],
+      "fwhm_T": [
+        246.0,
+        254.0
+      ],
+      "fwhm_s": [
+        269.0883795321892,
+        278.68535624344526
+      ],
+      "window": [
+        250.0,
+        266.0
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.04819547958826718,
+        "magnetic_scalar_impulse": -0.03608251261949144,
+        "remaining_matter_impulse": 6.595348113701138e-17,
+        "spatial_scalar_impulse": 0.0031985648604378144,
+        "vacuum_scalar_impulse": -9.683152719924893e-05
+      },
+      "scalar_change": 0.015223604688392244,
+      "quadrature_closure": -8.904386377876425e-06
+    },
+    {
+      "case": "near",
+      "position": 0.0,
+      "peak_index": 1009,
+      "peak_T": 252.24,
+      "peak_s": 276.5848684294502,
+      "fwhm_indices": [
+        993,
+        1024
+      ],
+      "fwhm_T": [
+        248.24,
+        256.0
+      ],
+      "fwhm_s": [
+        271.7785833349115,
+        281.1041195830342
+      ],
+      "window": [
+        252.24,
+        268.0
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.04827611582884487,
+        "magnetic_scalar_impulse": -0.038869384492359625,
+        "remaining_matter_impulse": 2.9200850992869475e-17,
+        "spatial_scalar_impulse": 0.008107649667197986,
+        "vacuum_scalar_impulse": -3.0569928616994815e-05
+      },
+      "scalar_change": 0.0174970246440266,
+      "quadrature_closure": -1.3213568960335209e-05
+    },
+    {
+      "case": "near",
+      "position": 17.6,
+      "peak_index": 1030,
+      "peak_T": 257.48,
+      "peak_s": 282.92069439196393,
+      "fwhm_indices": [
+        1016,
+        1039
+      ],
+      "fwhm_T": [
+        254.0,
+        259.72
+      ],
+      "fwhm_s": [
+        278.71918327043585,
+        285.62327075599563
+      ],
+      "window": [
+        257.48,
+        269.0
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.0283142384303089,
+        "magnetic_scalar_impulse": -0.01280716713771071,
+        "remaining_matter_impulse": 8.716443365697548e-18,
+        "spatial_scalar_impulse": -0.06833663427719523,
+        "vacuum_scalar_impulse": -2.68636042571526e-05
+      },
+      "scalar_change": -0.052863929185271614,
+      "quadrature_closure": 7.502596417428842e-06
+    },
+    {
+      "case": "near",
+      "position": 34.8,
+      "peak_index": 1012,
+      "peak_T": 253.0,
+      "peak_s": 277.5018420725754,
+      "fwhm_indices": [
+        997,
+        1026
+      ],
+      "fwhm_T": [
+        249.24,
+        256.48
+      ],
+      "fwhm_s": [
+        272.98092823418034,
+        281.68656378275574
+      ],
+      "window": [
+        253.0,
+        267.48
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.03923650729760632,
+        "magnetic_scalar_impulse": -0.03873223441227456,
+        "remaining_matter_impulse": 4.28185742748886e-17,
+        "spatial_scalar_impulse": 0.010483948779658279,
+        "vacuum_scalar_impulse": -8.927189018284236e-06
+      },
+      "scalar_change": 0.010992353483758608,
+      "quadrature_closure": -1.305900778681042e-05
+    },
+    {
+      "case": "strong",
+      "position": -34.8,
+      "peak_index": 976,
+      "peak_T": 244.0,
+      "peak_s": 266.67987525348997,
+      "fwhm_indices": [
+        960,
+        992
+      ],
+      "fwhm_T": [
+        240.0,
+        248.0
+      ],
+      "fwhm_s": [
+        261.90633512954696,
+        271.45549419095266
+      ],
+      "window": [
+        244.0,
+        260.0
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.014478387631960125,
+        "magnetic_scalar_impulse": -0.03735661656353871,
+        "remaining_matter_impulse": 3.7066703872935917e-17,
+        "spatial_scalar_impulse": 0.0026314598204057265,
+        "vacuum_scalar_impulse": -0.00010683152533973724
+      },
+      "scalar_change": -0.02035985514119681,
+      "quadrature_closure": 6.2545046842499286e-06
+    },
+    {
+      "case": "strong",
+      "position": -17.6,
+      "peak_index": 979,
+      "peak_T": 244.72,
+      "peak_s": 267.5432704387332,
+      "fwhm_indices": [
+        963,
+        996
+      ],
+      "fwhm_T": [
+        240.72,
+        249.0
+      ],
+      "fwhm_s": [
+        262.76649359935936,
+        272.65675724616347
+      ],
+      "window": [
+        244.72,
+        261.24
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.043991771217403886,
+        "magnetic_scalar_impulse": -0.03716479402599518,
+        "remaining_matter_impulse": 2.914273672410188e-17,
+        "spatial_scalar_impulse": 0.0033317437346143722,
+        "vacuum_scalar_impulse": -0.00010935717829502583
+      },
+      "scalar_change": 0.010055796981264162,
+      "quadrature_closure": -6.433233536079497e-06
+    },
+    {
+      "case": "strong",
+      "position": 0.0,
+      "peak_index": 987,
+      "peak_T": 246.72,
+      "peak_s": 269.9424018453953,
+      "fwhm_indices": [
+        971,
+        1003
+      ],
+      "fwhm_T": [
+        242.72,
+        250.72
+      ],
+      "fwhm_s": [
+        265.157925838477,
+        274.7285121507155
+      ],
+      "window": [
+        246.72,
+        262.72
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.05003225421320743,
+        "magnetic_scalar_impulse": -0.036804032317400204,
+        "remaining_matter_impulse": 7.862456277946248e-18,
+        "spatial_scalar_impulse": 0.006687222731534782,
+        "vacuum_scalar_impulse": -4.79977581672469e-05
+      },
+      "scalar_change": 0.01987931790881298,
+      "quadrature_closure": -1.1871039638209485e-05
+    },
+    {
+      "case": "strong",
+      "position": 17.6,
+      "peak_index": 1006,
+      "peak_T": 251.48000000000002,
+      "peak_s": 275.66950891164123,
+      "fwhm_indices": [
+        991,
+        1017
+      ],
+      "fwhm_T": [
+        247.72,
+        254.24
+      ],
+      "fwhm_s": [
+        271.15374082667364,
+        278.98283721320405
+      ],
+      "window": [
+        251.48000000000002,
+        264.72
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.0034924203118362894,
+        "magnetic_scalar_impulse": -0.038503072736412146,
+        "remaining_matter_impulse": -1.561342607937508e-17,
+        "spatial_scalar_impulse": -0.0012238837693475551,
+        "vacuum_scalar_impulse": -2.212590270350872e-05
+      },
+      "scalar_change": -0.0362620982636103,
+      "quadrature_closure": 5.436166983369128e-06
+    },
+    {
+      "case": "strong",
+      "position": 34.8,
+      "peak_index": 996,
+      "peak_T": 249.0,
+      "peak_s": 272.6830965666501,
+      "fwhm_indices": [
+        981,
+        1010
+      ],
+      "fwhm_T": [
+        245.24,
+        252.48000000000002
+      ],
+      "fwhm_s": [
+        268.17667366137215,
+        276.85401210049235
+      ],
+      "window": [
+        249.0,
+        263.72
+      ],
+      "definition": "stored-node peak and first outside-half-height endpoints; no continuous peak precision claimed",
+      "integrals": {
+        "electric_scalar_impulse": 0.028292234727271524,
+        "magnetic_scalar_impulse": -0.045220892297914095,
+        "remaining_matter_impulse": 6.686599846608853e-18,
+        "spatial_scalar_impulse": 0.013031777594315215,
+        "vacuum_scalar_impulse": 3.3445781861931815e-06
+      },
+      "scalar_change": -0.0038880437286523007,
+      "quadrature_closure": -5.491669488855676e-06
+    }
+  ],
+  "platform_screen": [
+    {
+      "case": "weak",
+      "position": -34.8,
+      "through_T": 340.0,
+      "windows_checked": 299,
+      "minimum_required_tolerance": 0.017760242821161704,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": -34.8,
+      "through_T": 380.0,
+      "windows_checked": 459,
+      "minimum_required_tolerance": 0.017760242821161704,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": -17.6,
+      "through_T": 340.0,
+      "windows_checked": 292,
+      "minimum_required_tolerance": 0.0010471570287113041,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": -17.6,
+      "through_T": 380.0,
+      "windows_checked": 452,
+      "minimum_required_tolerance": 0.0010471570287113041,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": 0.0,
+      "through_T": 340.0,
+      "windows_checked": 283,
+      "minimum_required_tolerance": 0.0014031708963506972,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": 0.0,
+      "through_T": 380.0,
+      "windows_checked": 443,
+      "minimum_required_tolerance": 0.0014031708963506972,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": 17.6,
+      "through_T": 340.0,
+      "windows_checked": 283,
+      "minimum_required_tolerance": 0.0021749113613848403,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": 17.6,
+      "through_T": 380.0,
+      "windows_checked": 443,
+      "minimum_required_tolerance": 0.0021749113613848403,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": 34.8,
+      "through_T": 340.0,
+      "windows_checked": 294,
+      "minimum_required_tolerance": 0.011993624724059015,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "weak",
+      "position": 34.8,
+      "through_T": 380.0,
+      "windows_checked": 454,
+      "minimum_required_tolerance": 0.004170228780379925,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": -34.8,
+      "through_T": 340.0,
+      "windows_checked": 317,
+      "minimum_required_tolerance": 0.010086620774452326,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": -34.8,
+      "through_T": 380.0,
+      "windows_checked": 477,
+      "minimum_required_tolerance": 0.0036423151263959563,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": -17.6,
+      "through_T": 340.0,
+      "windows_checked": 313,
+      "minimum_required_tolerance": 0.0029419783829652754,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": -17.6,
+      "through_T": 380.0,
+      "windows_checked": 473,
+      "minimum_required_tolerance": 0.0029419783829652754,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": 0.0,
+      "through_T": 340.0,
+      "windows_checked": 306,
+      "minimum_required_tolerance": 0.0067384717487437296,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": 0.0,
+      "through_T": 380.0,
+      "windows_checked": 466,
+      "minimum_required_tolerance": 0.002661383271962414,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": 17.6,
+      "through_T": 340.0,
+      "windows_checked": 299,
+      "minimum_required_tolerance": 0.002555575019204684,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": 17.6,
+      "through_T": 380.0,
+      "windows_checked": 459,
+      "minimum_required_tolerance": 0.002157141755068509,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": 34.8,
+      "through_T": 340.0,
+      "windows_checked": 306,
+      "minimum_required_tolerance": 0.006140450791749241,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "near",
+      "position": 34.8,
+      "through_T": 380.0,
+      "windows_checked": 466,
+      "minimum_required_tolerance": 0.0059510295402567664,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": -34.8,
+      "through_T": 340.0,
+      "windows_checked": 337,
+      "minimum_required_tolerance": 0.0008000830957042293,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": -34.8,
+      "through_T": 380.0,
+      "windows_checked": 497,
+      "minimum_required_tolerance": 0.0008000830957042293,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": -17.6,
+      "through_T": 340.0,
+      "windows_checked": 332,
+      "minimum_required_tolerance": 0.00810031456466051,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": -17.6,
+      "through_T": 380.0,
+      "windows_checked": 492,
+      "minimum_required_tolerance": 0.00810031456466051,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": 0.0,
+      "through_T": 340.0,
+      "windows_checked": 326,
+      "minimum_required_tolerance": 0.01103397366894529,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": 0.0,
+      "through_T": 380.0,
+      "windows_checked": 486,
+      "minimum_required_tolerance": 0.01103397366894529,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": 17.6,
+      "through_T": 340.0,
+      "windows_checked": 318,
+      "minimum_required_tolerance": 0.003130716277702783,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": 17.6,
+      "through_T": 380.0,
+      "windows_checked": 478,
+      "minimum_required_tolerance": 0.003130716277702783,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": 34.8,
+      "through_T": 340.0,
+      "windows_checked": 322,
+      "minimum_required_tolerance": 0.005209945340062111,
+      "accepted_at_1e_minus4": false
+    },
+    {
+      "case": "strong",
+      "position": 34.8,
+      "through_T": 380.0,
+      "windows_checked": 482,
+      "minimum_required_tolerance": 0.005121855615968174,
+      "accepted_at_1e_minus4": false
+    }
+  ],
+  "interpretation": "finite stored history; no accepted output platform or scattering error"
+}

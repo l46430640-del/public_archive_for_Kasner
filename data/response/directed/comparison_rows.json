@@ -1,0 +1,76 @@
+{
+  "curves": 65,
+  "fixed_times": [
+    53.394915714005144,
+    54.060738241707526,
+    54.74884195159861
+  ],
+  "rows": [
+    {
+      "case": "weak",
+      "time": 53.394915714005144,
+      "nonlinear_percent": 0.9947240712301175,
+      "numeric_absolute": 1.915653429179591e-08,
+      "denominator": 0.0011549504437266933,
+      "coherent_error_absolute": 6.093436273846243e-06,
+      "omitted_error_absolute": 2.3417956366115827e-05,
+      "coherent_error_fraction": 0.00527592876988252,
+      "omitted_error_fraction": 0.02027615686310558
+    },
+    {
+      "case": "weak",
+      "time": 54.060738241707526,
+      "nonlinear_percent": 2.9531073231666807,
+      "numeric_absolute": 2.0526072239471227e-08,
+      "denominator": 0.0034648513311800995,
+      "coherent_error_absolute": 5.4158717916194705e-05,
+      "omitted_error_absolute": 0.00010602801057827543,
+      "coherent_error_fraction": 0.015630892277778828,
+      "omitted_error_fraction": 0.030601027416135393
+    },
+    {
+      "case": "weak",
+      "time": 54.74884195159861,
+      "nonlinear_percent": 9.096872694472426,
+      "numeric_absolute": 1.659473586861776e-07,
+      "denominator": 0.011036805438456403,
+      "coherent_error_absolute": 0.0005303682834502353,
+      "omitted_error_absolute": 0.0006952699838410417,
+      "coherent_error_fraction": 0.04805451055630932,
+      "omitted_error_fraction": 0.06299558216533004
+    },
+    {
+      "case": "strong",
+      "time": 53.394915714005144,
+      "nonlinear_percent": 0.7084628325333808,
+      "numeric_absolute": 1.4356840505064944e-08,
+      "denominator": 0.0008213365490271424,
+      "coherent_error_absolute": 3.0970862288443512e-06,
+      "omitted_error_absolute": 0.00038521524828452375,
+      "coherent_error_fraction": 0.0037707882749316237,
+      "omitted_error_fraction": 0.46901023550066523
+    },
+    {
+      "case": "strong",
+      "time": 54.060738241707526,
+      "nonlinear_percent": 2.111057338506162,
+      "numeric_absolute": 1.639266418483956e-08,
+      "denominator": 0.0024658093724861593,
+      "coherent_error_absolute": 2.7642762645975483e-05,
+      "omitted_error_absolute": 0.0011716974708630523,
+      "coherent_error_fraction": 0.011210421598042914,
+      "omitted_error_fraction": 0.47517763698078774
+    },
+    {
+      "case": "strong",
+      "time": 54.74884195159861,
+      "nonlinear_percent": 6.568650280681997,
+      "numeric_absolute": 1.3420613489663683e-07,
+      "denominator": 0.007860036314306668,
+      "coherent_error_absolute": 0.0002735707579475284,
+      "omitted_error_absolute": 0.003910724014579885,
+      "coherent_error_fraction": 0.034805279137143534,
+      "omitted_error_fraction": 0.4975452858228746
+    }
+  ]
+}

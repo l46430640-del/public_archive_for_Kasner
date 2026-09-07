@@ -1,0 +1,55 @@
+{
+  "common_nodes": 175,
+  "normalization": "same initial reduced electromagnetic energy",
+  "background_subtraction": "same-model zero-packet scalar spectrum; initial value used for the published percentage",
+  "rows": [
+    {
+      "case": "weak",
+      "mixing": 8.103112480050155e-07,
+      "N_squared": 0.9999999999999999,
+      "prediction_percent": 1.0000000090266656,
+      "nonlinear_percent": 0.9948116659416238,
+      "denominator": 0.0003679019979885851,
+      "coherent_error_absolute": 1.908801770007058e-06,
+      "omitted_error_absolute": 0.0001779819859384018,
+      "coherent_error_fraction": 0.005188343038208459,
+      "omitted_error_fraction": 0.483775535092158,
+      "space_differences": [
+        2.5239393908194074e-12,
+        1.1862941184936915e-12
+      ]
+    },
+    {
+      "case": "near",
+      "mixing": 4.910111501785908e-06,
+      "N_squared": 0.9999999999999962,
+      "prediction_percent": 10.000000112450854,
+      "nonlinear_percent": 9.504751647663259,
+      "denominator": 0.003679019988047461,
+      "coherent_error_absolute": 0.00018220289805145114,
+      "omitted_error_absolute": 0.0009078520999101654,
+      "coherent_error_fraction": 0.04952484592184842,
+      "omitted_error_fraction": 0.24676465549511273,
+      "space_differences": [
+        1.115668668560943e-11,
+        3.2345862099880662e-12
+      ]
+    },
+    {
+      "case": "strong",
+      "mixing": 1.78726246450643e-05,
+      "N_squared": 0.9999999999999502,
+      "prediction_percent": 100.00000120565907,
+      "nonlinear_percent": 65.77234793273972,
+      "denominator": 0.03679019991033006,
+      "coherent_error_absolute": 0.012592421911899986,
+      "omitted_error_absolute": 0.008624661950856878,
+      "coherent_error_fraction": 0.3422765286025056,
+      "omitted_error_fraction": 0.23442824371376197,
+      "space_differences": [
+        7.599322612156234e-10,
+        4.349242667400777e-11
+      ]
+    }
+  ]
+}

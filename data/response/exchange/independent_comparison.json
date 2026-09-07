@@ -1,0 +1,231 @@
+{
+  "independent": [
+    {
+      "label": "weak",
+      "spectrum_differences": [
+        1.0335577442163735e-07,
+        6.478656174035979e-09
+      ],
+      "center_spectrum_differences": [
+        9.672735420962475e-08,
+        6.0370819211785776e-09
+      ],
+      "ends": [
+        300.0,
+        300.0
+      ],
+      "residuals": {
+        "einstein_relative": {
+          "maxima": [
+            3.210191207622758e-08,
+            1.2191645333043152e-07
+          ],
+          "minima": [
+            7.110927490915413e-11,
+            9.036920166412305e-10
+          ],
+          "spatial_refinement_decreases": 1,
+          "points": 24
+        },
+        "maxwell_relative": {
+          "maxima": [
+            3.087340779844761e-11,
+            4.513716959335974e-11
+          ],
+          "minima": [
+            5.512698069042286e-14,
+            1.992765899060059e-14
+          ],
+          "spatial_refinement_decreases": 6,
+          "points": 24
+        },
+        "scalar_over_expansion_squared": {
+          "maxima": [
+            4.2901771927702146e-13,
+            1.085509758560461e-12
+          ],
+          "minima": [
+            2.3798662992883516e-14,
+            2.60039534694602e-14
+          ],
+          "spatial_refinement_decreases": 2,
+          "points": 24
+        },
+        "reduced_energy_balance_absolute": {
+          "maxima": [
+            3.1073397571386808e-12,
+            2.21812495154649e-12
+          ],
+          "minima": [
+            3.63965539926279e-15,
+            5.9976257178273425e-15
+          ],
+          "spatial_refinement_decreases": 5,
+          "points": 24
+        },
+        "scalar_energy_balance_absolute": {
+          "maxima": [
+            5.531333075218473e-12,
+            1.4434149676282454e-12
+          ],
+          "minima": [
+            2.4655706079221296e-15,
+            1.5370734199326996e-15
+          ],
+          "spatial_refinement_decreases": 4,
+          "points": 24
+        },
+        "maxwell_energy_balance_absolute": {
+          "maxima": [
+            2.66164312947648e-12,
+            6.881783283421011e-13
+          ],
+          "minima": [
+            2.1558682573516452e-17,
+            8.906720846968419e-17
+          ],
+          "spatial_refinement_decreases": 6,
+          "points": 24
+        },
+        "scalar_energy_balance_relative": {
+          "maxima": [
+            1.4609990063315355e-07,
+            4.1514211636867866e-07
+          ],
+          "minima": [
+            3.6779811382402833e-11,
+            8.068271484717011e-12
+          ],
+          "spatial_refinement_decreases": 4,
+          "points": 24
+        },
+        "maxwell_energy_balance_relative": {
+          "maxima": [
+            6.91145947465603e-08,
+            4.0490859420125815e-09
+          ],
+          "minima": [
+            3.9447147443056494e-13,
+            1.3066867650003302e-12
+          ],
+          "spatial_refinement_decreases": 6,
+          "points": 24
+        }
+      }
+    },
+    {
+      "label": "strong",
+      "spectrum_differences": [
+        1.1851946711896599e-07,
+        7.4247368097440924e-09
+      ],
+      "center_spectrum_differences": [
+        5.70899916091383e-08,
+        3.58947604278681e-09
+      ],
+      "ends": [
+        300.0,
+        300.0
+      ],
+      "residuals": {
+        "einstein_relative": {
+          "maxima": [
+            3.396536004050721e-08,
+            6.042753567282157e-08
+          ],
+          "minima": [
+            7.319334710232073e-10,
+            6.828375220119349e-10
+          ],
+          "spatial_refinement_decreases": 5,
+          "points": 24
+        },
+        "maxwell_relative": {
+          "maxima": [
+            2.8398873743109532e-11,
+            1.1418185119306406e-10
+          ],
+          "minima": [
+            4.6737982331445364e-14,
+            7.317866772555858e-14
+          ],
+          "spatial_refinement_decreases": 4,
+          "points": 24
+        },
+        "scalar_over_expansion_squared": {
+          "maxima": [
+            3.494135302439523e-13,
+            8.41269423853782e-13
+          ],
+          "minima": [
+            2.1745090039160326e-15,
+            6.925311467762805e-14
+          ],
+          "spatial_refinement_decreases": 2,
+          "points": 24
+        },
+        "reduced_energy_balance_absolute": {
+          "maxima": [
+            4.576392570348335e-13,
+            1.535645814792116e-12
+          ],
+          "minima": [
+            5.822399447340626e-15,
+            7.378411394598226e-15
+          ],
+          "spatial_refinement_decreases": 6,
+          "points": 24
+        },
+        "scalar_energy_balance_absolute": {
+          "maxima": [
+            2.412327455169781e-13,
+            1.5279583264396078e-12
+          ],
+          "minima": [
+            6.423111825401562e-15,
+            1.8697337515055645e-15
+          ],
+          "spatial_refinement_decreases": 3,
+          "points": 24
+        },
+        "maxwell_energy_balance_absolute": {
+          "maxima": [
+            1.2962924462144032e-13,
+            9.431209068919144e-13
+          ],
+          "minima": [
+            8.649222831003112e-16,
+            1.3779515045274013e-15
+          ],
+          "spatial_refinement_decreases": 8,
+          "points": 24
+        },
+        "scalar_energy_balance_relative": {
+          "maxima": [
+            3.8518351815036864e-08,
+            2.4397362939677063e-07
+          ],
+          "minima": [
+            4.508960912235871e-11,
+            2.8354834673793406e-11
+          ],
+          "spatial_refinement_decreases": 3,
+          "points": 24
+        },
+        "maxwell_energy_balance_relative": {
+          "maxima": [
+            2.354704212965753e-09,
+            1.2149831911060727e-08
+          ],
+          "minima": [
+            3.5144449825014426e-12,
+            3.454002256509066e-11
+          ],
+          "spatial_refinement_decreases": 8,
+          "points": 24
+        }
+      }
+    }
+  ],
+  "scope": "Independent discretization through T300 only; shared earlier data; no omitted angular equations"
+}

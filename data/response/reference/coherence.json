@@ -1,0 +1,27 @@
+{
+  "scope": "algebraic decomposition of the already propagated quadratic sources; no new inputs selected",
+  "rows": [
+    {
+      "case": "weak",
+      "max_cross_term_over_full_prediction": 0.48896387813036635,
+      "coherent_error_over_full_prediction": 0.005188343038208166,
+      "incoherent_error_over_full_prediction": 0.4837755350921581,
+      "comparison_validity": "quantitative only for small perturbative response; strong case includes nonlinear breakdown"
+    },
+    {
+      "case": "near",
+      "max_cross_term_over_full_prediction": 0.29628950141696114,
+      "coherent_error_over_full_prediction": 0.04952484592184831,
+      "incoherent_error_over_full_prediction": 0.24676465549511287,
+      "comparison_validity": "quantitative only for small perturbative response; strong case includes nonlinear breakdown"
+    },
+    {
+      "case": "strong",
+      "max_cross_term_over_full_prediction": 0.10784828488874382,
+      "coherent_error_over_full_prediction": 0.3422765286025055,
+      "incoherent_error_over_full_prediction": 0.2344282437137618,
+      "comparison_validity": "quantitative only for small perturbative response; strong case includes nonlinear breakdown"
+    }
+  ],
+  "physical_modes_filtered": false
+}

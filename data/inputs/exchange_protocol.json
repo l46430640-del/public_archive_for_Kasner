@@ -1,0 +1,70 @@
+{
+  "delta": 1e-06,
+  "phase": 0.0,
+  "control_direction": "low_frequency_content_only",
+  "cases": [
+    {
+      "label": "weak",
+      "status": "frozen_before_nonlinear",
+      "target": 0.01,
+      "mixing": 8.103112480050155e-07,
+      "normalization": 0.9999999999999999,
+      "predicted_final_max_relative_scalar_change": 0.01,
+      "predicted_final_center_scalar_change": -2.3784358682516222e-05,
+      "predicted_first_10_percent_sample": null
+    },
+    {
+      "label": "near",
+      "status": "frozen_before_nonlinear",
+      "target": 0.1,
+      "mixing": 4.910111501785908e-06,
+      "normalization": 0.9999999999999981,
+      "predicted_final_max_relative_scalar_change": 0.1,
+      "predicted_final_center_scalar_change": -0.000772416935815796,
+      "predicted_first_10_percent_sample": 242.44843145461286
+    },
+    {
+      "label": "strong",
+      "status": "frozen_before_nonlinear",
+      "target": 1.0,
+      "mixing": 1.78726246450643e-05,
+      "normalization": 0.999999999999975,
+      "predicted_final_max_relative_scalar_change": 0.9999999999999998,
+      "predicted_final_center_scalar_change": -0.010066549265934253,
+      "predicted_first_10_percent_sample": 237.32909802897933
+    }
+  ],
+  "new_fit_or_reselection": false,
+  "points": [
+    -34.8,
+    -17.6,
+    0.0,
+    17.6,
+    34.8
+  ],
+  "windows": [
+    340.0,
+    380.0,
+    440.0
+  ],
+  "window_rule": "Start 340; extend all cases to 380; only extend to 440 if a candidate plateau can be tested or the first pulse is not yet separated. No infinite-bounce search.",
+  "event_definition": "first local maximum of magnetic fraction above 0.01*p_scalar_initial^2; width is its connected half-maximum interval",
+  "clock": "minus change of log spatial volume r+sigma on each fixed-y normal curve; not a propagating front",
+  "plateau_rule": "duration at least one resolved event width; full spectrum drift and integrated absolute matter and spatial contributions each <=1e-4; normalized matter and spatial fractions <=1e-4; checked against window extension",
+  "tolerance": 0.0001,
+  "numerical_error_limit": 1e-05,
+  "spectral_definition": "sorted geometric eigenvalues and sqrt(2)*n(psi)/abs(K), contraction toward increasing T",
+  "same_incidence_wall_rule": "Only after both platforms qualify: use fitted incoming geometric spectrum, scalar value and local magnetic strength; retain physical magnetic axis before sorting",
+  "grids": [
+    0.4,
+    0.2,
+    0.1
+  ],
+  "time_step_factors": [
+    0.4,
+    0.2,
+    0.1
+  ],
+  "independent_check": "FD6/DOP853 interaction segment and direct four-dimensional jets, shared early checkpoint explicitly marked",
+  "complete_horizon_input": false
+}

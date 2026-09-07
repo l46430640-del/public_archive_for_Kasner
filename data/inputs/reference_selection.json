@@ -1,0 +1,48 @@
+{
+  "selection_rule": "first nonnegative mixing bracket for final max |Delta p_scalar|/|p_scalar,0| = 0.01, 0.1, 1",
+  "window_rule": "T=1.4 times the previously defined frozen unit-wall clock; not a measured event",
+  "observation_radius": 34.800000000000004,
+  "nonlinear_fit_used": false,
+  "delta": 1e-06,
+  "kappa": 0.5,
+  "omega_times_mass": 0.2,
+  "tau0": 1.0,
+  "soft_frequency_over_carrier": 0.01,
+  "soft_momentum": "E_scaled = -d_y U_soft at the initial surface",
+  "target_transverse_reduced_energy": 7.459409684008947e-10,
+  "energy_definition": "2 integral [(U_T-gU)^2+U_y^2] dy at r=P=0; not ADM or horizon energy",
+  "phase_zero_cases": [
+    {
+      "label": "weak",
+      "status": "frozen_before_nonlinear",
+      "target": 0.01,
+      "mixing": 8.103112480050155e-07,
+      "normalization": 0.9999999999999999,
+      "predicted_final_max_relative_scalar_change": 0.01,
+      "predicted_final_center_scalar_change": -2.3784358682516222e-05,
+      "predicted_first_10_percent_sample": null
+    },
+    {
+      "label": "near",
+      "status": "frozen_before_nonlinear",
+      "target": 0.1,
+      "mixing": 4.910111501785908e-06,
+      "normalization": 0.9999999999999981,
+      "predicted_final_max_relative_scalar_change": 0.1,
+      "predicted_final_center_scalar_change": -0.000772416935815796,
+      "predicted_first_10_percent_sample": 242.44843145461286
+    },
+    {
+      "label": "strong",
+      "status": "frozen_before_nonlinear",
+      "target": 1.0,
+      "mixing": 1.78726246450643e-05,
+      "normalization": 0.999999999999975,
+      "predicted_final_max_relative_scalar_change": 0.9999999999999998,
+      "predicted_final_center_scalar_change": -0.010066549265934253,
+      "predicted_first_10_percent_sample": 237.32909802897933
+    }
+  ],
+  "phase_pi_over_two_control": "strong",
+  "output_platform_claim": false
+}

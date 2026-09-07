@@ -1,0 +1,46 @@
+{
+  "status": "FINITE_TIME_LOCAL_RESPONSE_NO_PLATFORM_CLAIM",
+  "model": "constrained_two_Killing_EMS",
+  "diagnostics": {
+    "packet": {
+      "delta": 1e-05,
+      "omega_times_mass": 0.2,
+      "kappa": 0.5,
+      "tau0": 1.0,
+      "phase": 0.0,
+      "envelope": "compact",
+      "input_spectrum": {
+        "mixing": 8.103112480050155e-07,
+        "soft_frequency_ratio": 0.01
+      },
+      "energy_normalization": {
+        "target": 2.3551321591824167e-08,
+        "factor": 1.0000000000012153,
+        "definition": "initial transverse reduced EM Hamiltonian"
+      }
+    },
+    "spacing": 0.1856978380937326,
+    "cells_per_width": 256,
+    "step": 0.01856522277097274,
+    "end_time": 54.74884195159861,
+    "half_domain": 190.1545862079822,
+    "charges": [
+      1.557382947500168e-05,
+      0.0,
+      0.0
+    ],
+    "failure": null,
+    "coupling": "exp_square"
+  },
+  "p_minus": null,
+  "p_plus": null,
+  "scattering_error": null,
+  "nonlinear_horizon_embedding": false,
+  "prediction": {},
+  "validity": {
+    "local_constraints_constructed": true,
+    "complete_horizon_input": false,
+    "full_nonlinear_matching": false,
+    "platform_search_performed": false
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "status": "POSTHOC_SOURCE_INTERPRETATION_FIXED_ALL_CASES",
+  "scope": "first magnetic peak to two resolved pulse widths; not asymptotic billiards or extra initial-data tests",
+  "causal_limit": "Source accounting on the full solution is not a counterfactual simulation deleting propagation",
+  "cases": [
+    {
+      "label": "weak",
+      "curves": [
+        {
+          "position": -34.8,
+          "window": [
+            253.72,
+            269.24
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              260.48,
+              260.72
+            ],
+            "linear_interpolation": 260.6508008271858
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              253.72,
+              254.0
+            ],
+            "linear_interpolation": 253.83945045702498
+          },
+          "first_electric_peak": {
+            "time": 267.24,
+            "fraction": 0.000644551288014381
+          },
+          "first_scalar_minimum": {
+            "time": 260.48,
+            "p_scalar": -0.029640821341723005,
+            "E": 8.475901834478796e-05,
+            "B": 9.991357634481629e-05
+          },
+          "electric_scalar_impulse": 0.04764582842882877,
+          "magnetic_scalar_impulse": -0.03593549183927139,
+          "remaining_matter_impulse": 2.7586603130562958e-17,
+          "spatial_scalar_impulse": 0.0016004292060785288,
+          "vacuum_scalar_impulse": -9.85675722085317e-05,
+          "actual_scalar_change": 0.013219131481199024
+        },
+        {
+          "position": -17.6,
+          "window": [
+            255.72,
+            271.24
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              261.24,
+              261.48
+            ],
+            "linear_interpolation": 261.44379237772785
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              255.72,
+              256.0
+            ],
+            "linear_interpolation": 255.72979712675
+          },
+          "first_electric_peak": {
+            "time": 267.0,
+            "fraction": 0.000614610850605659
+          },
+          "first_scalar_minimum": {
+            "time": 261.24,
+            "p_scalar": -0.026123472633578202,
+            "E": 0.00011645263069837999,
+            "B": 0.00014333986967072482
+          },
+          "electric_scalar_impulse": 0.054731311873448214,
+          "magnetic_scalar_impulse": -0.03423170511198855,
+          "remaining_matter_impulse": 2.6279389888558912e-17,
+          "spatial_scalar_impulse": 0.00426890804060556,
+          "vacuum_scalar_impulse": -5.6482285947555286e-05,
+          "actual_scalar_change": 0.02472274825266012
+        },
+        {
+          "position": 0.0,
+          "window": [
+            259.24,
+            273.48
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              263.48,
+              263.72
+            ],
+            "linear_interpolation": 263.49368021639737
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              259.72,
+              260.0
+            ],
+            "linear_interpolation": 259.78738806591605
+          },
+          "first_electric_peak": {
+            "time": 266.24,
+            "fraction": 0.0003521196377828428
+          },
+          "first_scalar_minimum": {
+            "time": 263.0,
+            "p_scalar": -0.013222897928290851,
+            "E": 0.00011399046845365103,
+            "B": 0.00021240003135464494
+          },
+          "electric_scalar_impulse": 0.02515368602017075,
+          "magnetic_scalar_impulse": -0.04975995695004629,
+          "remaining_matter_impulse": 1.412285985044208e-17,
+          "spatial_scalar_impulse": 0.013854238135891634,
+          "vacuum_scalar_impulse": 5.778437565994822e-07,
+          "actual_scalar_change": -0.010750755510748593
+        },
+        {
+          "position": 17.6,
+          "window": [
+            260.0,
+            273.24
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              264.0,
+              264.24
+            ],
+            "linear_interpolation": 264.0117650897961
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              261.0,
+              261.24
+            ],
+            "linear_interpolation": 261.17958136184694
+          },
+          "first_electric_peak": {
+            "time": 266.0,
+            "fraction": 0.00018549235822058258
+          },
+          "first_scalar_minimum": {
+            "time": 263.48,
+            "p_scalar": -0.006748393356375214,
+            "E": 7.005692510641637e-05,
+            "B": 0.00016391110447454778
+          },
+          "electric_scalar_impulse": 0.011089154818211149,
+          "magnetic_scalar_impulse": -0.04679990479492535,
+          "remaining_matter_impulse": 9.403488729875998e-18,
+          "spatial_scalar_impulse": 0.01149188695964411,
+          "vacuum_scalar_impulse": -2.1068955147761906e-06,
+          "actual_scalar_change": -0.024225519856653777
+        },
+        {
+          "position": 34.8,
+          "window": [
+            255.48000000000002,
+            270.72
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              260.72,
+              261.0
+            ],
+            "linear_interpolation": 260.9129663584535
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              255.48000000000002,
+              255.72
+            ],
+            "linear_interpolation": 255.6772181100623
+          },
+          "first_electric_peak": {
+            "time": 266.0,
+            "fraction": 0.0005902897124843051
+          },
+          "first_scalar_minimum": {
+            "time": 260.72,
+            "p_scalar": -0.02391138211972957,
+            "E": 0.00013211601215861108,
+            "B": 0.00016170213044360403
+          },
+          "electric_scalar_impulse": 0.05278718622812309,
+          "magnetic_scalar_impulse": -0.03532243061133844,
+          "remaining_matter_impulse": -3.753726243887062e-17,
+          "spatial_scalar_impulse": 0.004890194255787873,
+          "vacuum_scalar_impulse": -4.188258897356151e-05,
+          "actual_scalar_change": 0.022323883258365398
+        }
+      ]
+    },
+    {
+      "label": "near",
+      "curves": [
+        {
+          "position": -34.8,
+          "window": [
+            249.0,
+            265.0
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              257.48,
+              257.72
+            ],
+            "linear_interpolation": 257.5575734516017
+          },
+          "first_negative_Maxwell_damping": null,
+          "first_electric_peak": null,
+          "first_scalar_minimum": {
+            "time": 257.24,
+            "p_scalar": -0.032266912251794136,
+            "E": 4.798109622465833e-05,
+            "B": 6.31057596820358e-05
+          },
+          "electric_scalar_impulse": 0.027749857919602227,
+          "magnetic_scalar_impulse": -0.03660380100345024,
+          "remaining_matter_impulse": 6.490572917452611e-17,
+          "spatial_scalar_impulse": 0.0021278802249722257,
+          "vacuum_scalar_impulse": -0.00011965721923247832,
+          "actual_scalar_change": -0.006848315466793048
+        },
+        {
+          "position": -17.6,
+          "window": [
+            250.0,
+            266.0
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              257.0,
+              257.24
+            ],
+            "linear_interpolation": 257.05785008036054
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              250.0,
+              250.24
+            ],
+            "linear_interpolation": 250.0699418614397
+          },
+          "first_electric_peak": {
+            "time": 263.72,
+            "fraction": 0.0006264566718709903
+          },
+          "first_scalar_minimum": {
+            "time": 256.72,
+            "p_scalar": -0.029330922609581308,
+            "E": 8.09675729617901e-05,
+            "B": 0.00011058635831596747
+          },
+          "electric_scalar_impulse": 0.04819547958826717,
+          "magnetic_scalar_impulse": -0.03608251261949145,
+          "remaining_matter_impulse": 6.595348113701138e-17,
+          "spatial_scalar_impulse": 0.0031985648604378144,
+          "vacuum_scalar_impulse": -9.683152719924899e-05,
+          "actual_scalar_change": 0.015223604688392244
+        },
+        {
+          "position": 0.0,
+          "window": [
+            252.24,
+            268.0
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              257.48,
+              257.72
+            ],
+            "linear_interpolation": 257.6249687967182
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              252.24,
+              252.48000000000002
+            ],
+            "linear_interpolation": 252.3854726713959
+          },
+          "first_electric_peak": {
+            "time": 262.24,
+            "fraction": 0.0005502972190510068
+          },
+          "first_scalar_minimum": {
+            "time": 257.24,
+            "p_scalar": -0.022691686445329835,
+            "E": 0.0001247237999937072,
+            "B": 0.00018467329141724984
+          },
+          "electric_scalar_impulse": 0.04827611582884486,
+          "magnetic_scalar_impulse": -0.03886938449235962,
+          "remaining_matter_impulse": 2.9200850992869475e-17,
+          "spatial_scalar_impulse": 0.008107649667197988,
+          "vacuum_scalar_impulse": -3.05699286169948e-05,
+          "actual_scalar_change": 0.0174970246440266
+        },
+        {
+          "position": 17.6,
+          "window": [
+            257.48,
+            269.0
+          ],
+          "first_E_exceeds_B": null,
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              261.48,
+              261.72
+            ],
+            "linear_interpolation": 261.5463757492616
+          },
+          "first_electric_peak": {
+            "time": 260.0,
+            "fraction": 0.0002084306915964722
+          },
+          "first_scalar_minimum": null,
+          "electric_scalar_impulse": 0.028314238430308898,
+          "magnetic_scalar_impulse": -0.01280716713771071,
+          "remaining_matter_impulse": 8.716443365697548e-18,
+          "spatial_scalar_impulse": -0.06833663427719523,
+          "vacuum_scalar_impulse": -2.6863604257152595e-05,
+          "actual_scalar_change": -0.052863929185271614
+        },
+        {
+          "position": 34.8,
+          "window": [
+            253.0,
+            267.48
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              257.48,
+              257.72
+            ],
+            "linear_interpolation": 257.71352617504124
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              253.24,
+              253.48000000000002
+            ],
+            "linear_interpolation": 253.2868588565049
+          },
+          "first_electric_peak": {
+            "time": 261.48,
+            "fraction": 0.0004783429143718559
+          },
+          "first_scalar_minimum": {
+            "time": 257.48,
+            "p_scalar": -0.018089849390147048,
+            "E": 0.00014653864233456156,
+            "B": 0.00018980035243744634
+          },
+          "electric_scalar_impulse": 0.03923650729760631,
+          "magnetic_scalar_impulse": -0.03873223441227456,
+          "remaining_matter_impulse": 4.281857427488859e-17,
+          "spatial_scalar_impulse": 0.010483948779658279,
+          "vacuum_scalar_impulse": -8.927189018284229e-06,
+          "actual_scalar_change": 0.010992353483758608
+        }
+      ]
+    },
+    {
+      "label": "strong",
+      "curves": [
+        {
+          "position": -34.8,
+          "window": [
+            244.0,
+            260.0
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              253.72,
+              254.0
+            ],
+            "linear_interpolation": 253.77521940941992
+          },
+          "first_negative_Maxwell_damping": null,
+          "first_electric_peak": null,
+          "first_scalar_minimum": {
+            "time": 253.48000000000002,
+            "p_scalar": -0.033070906039382356,
+            "E": 3.7330520909705734e-05,
+            "B": 4.69829223681997e-05
+          },
+          "electric_scalar_impulse": 0.014478387631960124,
+          "magnetic_scalar_impulse": -0.0373566165635387,
+          "remaining_matter_impulse": 3.706670387293592e-17,
+          "spatial_scalar_impulse": 0.0026314598204057265,
+          "vacuum_scalar_impulse": -0.00010683152533973721,
+          "actual_scalar_change": -0.02035985514119681
+        },
+        {
+          "position": -17.6,
+          "window": [
+            244.72,
+            261.24
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              252.24,
+              252.48000000000002
+            ],
+            "linear_interpolation": 252.4255018670358
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              244.72,
+              245.0
+            ],
+            "linear_interpolation": 244.85082291868866
+          },
+          "first_electric_peak": {
+            "time": 259.48,
+            "fraction": 0.0006207050877414733
+          },
+          "first_scalar_minimum": {
+            "time": 252.24,
+            "p_scalar": -0.030047263754356693,
+            "E": 7.90433419963884e-05,
+            "B": 9.286622141351193e-05
+          },
+          "electric_scalar_impulse": 0.04399177121740389,
+          "magnetic_scalar_impulse": -0.03716479402599517,
+          "remaining_matter_impulse": 2.9142736724101877e-17,
+          "spatial_scalar_impulse": 0.0033317437346143722,
+          "vacuum_scalar_impulse": -0.00010935717829502581,
+          "actual_scalar_change": 0.010055796981264162
+        },
+        {
+          "position": 0.0,
+          "window": [
+            246.72,
+            262.72
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              252.48000000000002,
+              252.72
+            ],
+            "linear_interpolation": 252.57589219172857
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              246.72,
+              247.0
+            ],
+            "linear_interpolation": 246.8707383065058
+          },
+          "first_electric_peak": {
+            "time": 257.72,
+            "fraction": 0.0005691684880836011
+          },
+          "first_scalar_minimum": {
+            "time": 252.24,
+            "p_scalar": -0.024149787923439928,
+            "E": 0.00012167112796668467,
+            "B": 0.00016824170883438408
+          },
+          "electric_scalar_impulse": 0.050032254213207436,
+          "magnetic_scalar_impulse": -0.0368040323174002,
+          "remaining_matter_impulse": 7.862456277946243e-18,
+          "spatial_scalar_impulse": 0.006687222731534784,
+          "vacuum_scalar_impulse": -4.7997758167246894e-05,
+          "actual_scalar_change": 0.01987931790881298
+        },
+        {
+          "position": 17.6,
+          "window": [
+            251.48000000000002,
+            264.72
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              255.72,
+              256.0
+            ],
+            "linear_interpolation": 255.9287096768654
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              253.48000000000002,
+              253.72
+            ],
+            "linear_interpolation": 253.68866619684917
+          },
+          "first_electric_peak": {
+            "time": 256.72,
+            "fraction": 3.622427208706411e-05
+          },
+          "first_scalar_minimum": {
+            "time": 255.0,
+            "p_scalar": -0.0015692573972730295,
+            "E": 1.3607691999482238e-05,
+            "B": 0.00010799422988543326
+          },
+          "electric_scalar_impulse": 0.00349242031183629,
+          "magnetic_scalar_impulse": -0.03850307273641216,
+          "remaining_matter_impulse": -1.561342607937508e-17,
+          "spatial_scalar_impulse": -0.0012238837693475538,
+          "vacuum_scalar_impulse": -2.212590270350872e-05,
+          "actual_scalar_change": -0.0362620982636103
+        },
+        {
+          "position": 34.8,
+          "window": [
+            249.0,
+            263.72
+          ],
+          "first_E_exceeds_B": {
+            "bracket": [
+              253.48000000000002,
+              253.72
+            ],
+            "linear_interpolation": 253.65389204588342
+          },
+          "first_negative_Maxwell_damping": {
+            "bracket": [
+              249.48000000000002,
+              249.72
+            ],
+            "linear_interpolation": 249.63239530768092
+          },
+          "first_electric_peak": {
+            "time": 257.0,
+            "fraction": 0.00038007204935465796
+          },
+          "first_scalar_minimum": {
+            "time": 253.24,
+            "p_scalar": -0.014139199933370667,
+            "E": 0.00012594428637940179,
+            "B": 0.00020388312666410246
+          },
+          "electric_scalar_impulse": 0.028292234727271524,
+          "magnetic_scalar_impulse": -0.04522089229791411,
+          "remaining_matter_impulse": 6.686599846608856e-18,
+          "spatial_scalar_impulse": 0.013031777594315218,
+          "vacuum_scalar_impulse": 3.3445781861931985e-06,
+          "actual_scalar_change": -0.0038880437286523007
+        }
+      ]
+    }
+  ]
+}

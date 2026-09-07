@@ -1,0 +1,117 @@
+{
+  "status": "FROZEN_BEFORE_NONLINEAR",
+  "end_time": 54.74884195159861,
+  "comparison_times": [
+    53.394915714005144,
+    54.060738241707526,
+    54.74884195159861
+  ],
+  "predictions": [
+    {
+      "case": "weak",
+      "time": 53.394915714005144,
+      "maximum_target": 0.01,
+      "maximum_relative_response": 0.009999999999999998,
+      "maximum_relative_cross": 0.0001500022809322325,
+      "signed_response_at_maximum": -0.001154950443726693,
+      "maximum_position": -11.884661637998887,
+      "numerical_estimate_absolute": 1.025421377215223e-08,
+      "formal_next_order_scale_not_bound": 1.154950443726693e-05,
+      "background_volume_clock": 66.09355072690612
+    },
+    {
+      "case": "strong",
+      "time": 53.394915714005144,
+      "maximum_target": 0.01,
+      "maximum_relative_response": 0.0071114440752706705,
+      "maximum_relative_cross": 0.003308524310555645,
+      "signed_response_at_maximum": -0.0008213365490271424,
+      "maximum_position": -11.884661637998887,
+      "numerical_estimate_absolute": 7.586741634663802e-09,
+      "formal_next_order_scale_not_bound": 8.213365490271424e-06,
+      "background_volume_clock": 66.09355072690612
+    },
+    {
+      "case": "weak",
+      "time": 54.060738241707526,
+      "maximum_target": 0.03,
+      "maximum_relative_response": 0.03000000000000017,
+      "maximum_relative_cross": 0.0004491040541507033,
+      "signed_response_at_maximum": -0.003464851331180099,
+      "maximum_position": -11.884661637998887,
+      "numerical_estimate_absolute": 1.4279995680724356e-08,
+      "formal_next_order_scale_not_bound": 0.00010394553993540355,
+      "background_volume_clock": 67.13414850109083
+    },
+    {
+      "case": "strong",
+      "time": 54.060738241707526,
+      "maximum_target": 0.03,
+      "maximum_relative_response": 0.021349914932537722,
+      "maximum_relative_cross": 0.009905660579908009,
+      "signed_response_at_maximum": -0.0024658093724861593,
+      "maximum_position": -11.884661637998887,
+      "numerical_estimate_absolute": 1.1042910836190495e-08,
+      "formal_next_order_scale_not_bound": 7.39742811745852e-05,
+      "background_volume_clock": 67.13414850109083
+    },
+    {
+      "case": "weak",
+      "time": 54.74884195159861,
+      "maximum_target": 0.0955608571640858,
+      "maximum_relative_response": 0.0955608571640858,
+      "maximum_relative_cross": 0.0014277816099080062,
+      "signed_response_at_maximum": -0.011036805438456403,
+      "maximum_position": -11.884661637998887,
+      "numerical_estimate_absolute": 1.6399094451662044e-07,
+      "formal_next_order_scale_not_bound": 0.0010546865880521378,
+      "background_volume_clock": 68.21725079605282
+    },
+    {
+      "case": "strong",
+      "time": 54.74884195159861,
+      "maximum_target": 0.0955608571640858,
+      "maximum_relative_response": 0.06805518242795414,
+      "maximum_relative_cross": 0.031491855571710144,
+      "signed_response_at_maximum": -0.007860036314306668,
+      "maximum_position": -11.884661637998887,
+      "numerical_estimate_absolute": 1.3228012099271783e-07,
+      "formal_next_order_scale_not_bound": 0.0007511118075359869,
+      "background_volume_clock": 68.21725079605282
+    }
+  ],
+  "decisive_case": "strong",
+  "pair_separation_absolute": [
+    0.00033361389469955063,
+    0.0009990419586939398,
+    0.003176769124149735
+  ],
+  "preflight_resolvable": [
+    true,
+    true,
+    true
+  ],
+  "inputs_retuned": false,
+  "interpolation_error_estimated_by_time_decimation": true,
+  "acceptance": {
+    "numeric_limit_absolute_by_time": [
+      3.336138946995506e-05,
+      9.990419586939397e-05,
+      0.0003176769124149735
+    ],
+    "strong_prediction_error_limit_by_time": [
+      9.552954051391985e-05,
+      0.0002860136770542692,
+      0.0009092883141580891
+    ],
+    "rule": "At all three predetermined times, full prediction must be closer than omitted-cross by > numerical uncertainty, strong profile error < one quarter cross separation, and weak response exceeds strong. No claim that power counting bounds the remainder.",
+    "time_thresholds": [
+      0.01,
+      0.03
+    ],
+    "time_prediction_rule": "Compare first 1 and 3 percent maximum scalar thresholds if reached in the fixed window; report sampling uncertainty and nonlinear truncation separately"
+  },
+  "complete_horizon_input": false,
+  "output_platform": null,
+  "scattering_error": null
+}

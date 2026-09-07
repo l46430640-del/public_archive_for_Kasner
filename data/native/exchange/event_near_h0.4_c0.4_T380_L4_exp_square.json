@@ -1,0 +1,40 @@
+{
+  "status": "FINITE_EVENT_HISTORY_NO_PLATFORM_ACCEPTANCE",
+  "model": "constrained_two_Killing_EMS",
+  "diagnostics": {
+    "packet": {
+      "delta": 1e-06,
+      "omega_times_mass": 0.2,
+      "kappa": 0.5,
+      "tau0": 1.0,
+      "phase": 0.0,
+      "envelope": "compact",
+      "input_spectrum": {
+        "mixing": 4.910111501785908e-06,
+        "soft_frequency_ratio": 0.01
+      },
+      "energy_normalization": null
+    },
+    "spacing": 0.4,
+    "step": 0.16,
+    "end_time": 380.0,
+    "half_domain": 559.2,
+    "charges": [
+      1.463755132164102e-06,
+      0.0,
+      0.0
+    ],
+    "failure": null,
+    "coupling": "exp_square"
+  },
+  "p_minus": null,
+  "p_plus": null,
+  "scattering_error": null,
+  "nonlinear_horizon_embedding": false,
+  "prediction": null,
+  "validity": {
+    "complete_horizon_input": false,
+    "local_constraints_constructed": true,
+    "platform_analysis_pending": true
+  }
+}

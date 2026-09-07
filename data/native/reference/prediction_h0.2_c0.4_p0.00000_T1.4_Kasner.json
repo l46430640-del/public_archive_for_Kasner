@@ -1,0 +1,30 @@
+{
+  "model": "local_EMS_amplitude_expansion_order_two",
+  "fixed_Kasner": true,
+  "phase": 0.0,
+  "spacing": 0.2,
+  "step": 0.07998958477552387,
+  "end_time": 242.44843145461283,
+  "steps": 3031,
+  "charge": 0.0,
+  "background_final": [
+    -0.17932120458708212,
+    -264.6565176057087,
+    7.284033282358107,
+    -0.0008100896839940454,
+    -1.1955948835379275,
+    0.031123996252315704
+  ],
+  "background_p_scalar": 0.036790199472958654,
+  "max_scalar_coefficient_over_background": [
+    0.0033255266285636773,
+    6079.34617066391,
+    2788428357.3208847
+  ],
+  "energy_coefficients": [
+    7.459409684008947e-10,
+    -1.4000528406043391e-21,
+    1.165415941292523e-13
+  ],
+  "physical_horizon_embedding": false
+}

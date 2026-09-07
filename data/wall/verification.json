@@ -1,0 +1,311 @@
+{
+  "all_eight_accepted": true,
+  "rows": [
+    {
+      "delta": 1e-06,
+      "phi_k": 10,
+      "q_B": 6.028165470032537,
+      "tangent_error": 8.63493528221014,
+      "q_times_error": 52.05281870418482,
+      "full_spectrum_numerical_difference": 4.284216511420467e-10,
+      "full_spectrum_window_difference": 1.794656116308897e-09,
+      "platform_drift": 2.613733468523654e-09,
+      "finite_window_residual_bound": 1.352354244438768e-08,
+      "peak_q_difference": 3.517186542012496e-13,
+      "max_H_over_delta": 3.2004542245556156e-07,
+      "max_exact_exchange_over_delta": 6.396969745906499e-07,
+      "direct_4d_difference_checks": [
+        {
+          "stride": 4,
+          "Einstein_over_delta": 0.08510102798701177,
+          "scalar_over_delta": 1.0378012258761837,
+          "magnetic_log_equation": 1.5495953012728547e-05,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 2,
+          "Einstein_over_delta": 0.005632273851301217,
+          "scalar_over_delta": 0.06870435121167362,
+          "magnetic_log_equation": 9.835522046253153e-07,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 1,
+          "Einstein_over_delta": 0.00035416805295798715,
+          "scalar_over_delta": 0.004320353789999398,
+          "magnetic_log_equation": 6.188374437887667e-08,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "delta": 1e-06,
+      "phi_k": 20,
+      "q_B": 10.551229530693078,
+      "tangent_error": 4.935822516830889,
+      "q_times_error": 52.07899629784591,
+      "full_spectrum_numerical_difference": 1.2846842986049253e-10,
+      "full_spectrum_window_difference": 1.5971274322627178e-09,
+      "platform_drift": 2.6431420213838396e-09,
+      "finite_window_residual_bound": 1.2098384476718837e-08,
+      "peak_q_difference": 1.708855279503041e-12,
+      "max_H_over_delta": 1.2011539766293433e-07,
+      "max_exact_exchange_over_delta": 2.399469410327166e-07,
+      "direct_4d_difference_checks": [
+        {
+          "stride": 4,
+          "Einstein_over_delta": 0.05367192080184269,
+          "scalar_over_delta": 1.1369927434088518,
+          "magnetic_log_equation": 1.6100642944660848e-05,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 2,
+          "Einstein_over_delta": 0.003417601984398444,
+          "scalar_over_delta": 0.07240060911385682,
+          "magnetic_log_equation": 1.0186264444156379e-06,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 1,
+          "Einstein_over_delta": 0.00021460833631026244,
+          "scalar_over_delta": 0.004546384496303957,
+          "magnetic_log_equation": 6.387930595597169e-08,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "delta": 1e-06,
+      "phi_k": 40,
+      "q_B": 20.281098934999886,
+      "tangent_error": 2.56734489620986,
+      "q_times_error": 52.06857584029918,
+      "full_spectrum_numerical_difference": 8.982921267875736e-11,
+      "full_spectrum_window_difference": 1.5384179765470001e-09,
+      "platform_drift": 2.6440616883307445e-09,
+      "finite_window_residual_bound": 1.145549125492851e-08,
+      "peak_q_difference": 7.780442956573097e-13,
+      "max_H_over_delta": 8.72530129744642e-08,
+      "max_exact_exchange_over_delta": 1.7462181238820274e-07,
+      "direct_4d_difference_checks": [
+        {
+          "stride": 4,
+          "Einstein_over_delta": 0.04687169171649526,
+          "scalar_over_delta": 1.9032222421042078,
+          "magnetic_log_equation": 2.6706655084862696e-05,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 2,
+          "Einstein_over_delta": 0.002980769636218121,
+          "scalar_over_delta": 0.1210346250654637,
+          "magnetic_log_equation": 1.6883573272785668e-06,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 1,
+          "Einstein_over_delta": 0.0001871154775177561,
+          "scalar_over_delta": 0.0075978016864097775,
+          "magnetic_log_equation": 1.0582489451405053e-07,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "delta": 1e-06,
+      "phi_k": 80,
+      "q_B": 40.141254276932536,
+      "tangent_error": 1.2967789971735755,
+      "q_times_error": 52.05433546653007,
+      "full_spectrum_numerical_difference": 8.131642391139798e-11,
+      "full_spectrum_window_difference": 1.522568193040355e-09,
+      "platform_drift": 2.6418155022445324e-09,
+      "finite_window_residual_bound": 1.1156458548733461e-08,
+      "peak_q_difference": 1.1368683772161603e-13,
+      "max_H_over_delta": 7.746136631431311e-08,
+      "max_exact_exchange_over_delta": 1.5499764390484403e-07,
+      "direct_4d_difference_checks": [
+        {
+          "stride": 4,
+          "Einstein_over_delta": 0.045247158917413946,
+          "scalar_over_delta": 3.6335338558235453,
+          "magnetic_log_equation": 5.0872106610366785e-05,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 2,
+          "Einstein_over_delta": 0.0028765288018293284,
+          "scalar_over_delta": 0.23099730533937546,
+          "magnetic_log_equation": 3.2156277884887174e-06,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 1,
+          "Einstein_over_delta": 0.00018055414823837934,
+          "scalar_over_delta": 0.01449938175079879,
+          "magnetic_log_equation": 2.0154634183811027e-07,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "delta": 1e-08,
+      "phi_k": 10,
+      "q_B": 6.026856333398691,
+      "tangent_error": 8.619572530288288,
+      "q_times_error": 51.94892529535735,
+      "full_spectrum_numerical_difference": 4.268423854701747e-10,
+      "full_spectrum_window_difference": 1.785942686603093e-09,
+      "platform_drift": 2.589854664521843e-09,
+      "finite_window_residual_bound": 1.347502317728043e-08,
+      "peak_q_difference": 5.4498627832799684e-12,
+      "max_H_over_delta": 3.4575275043198517e-07,
+      "max_exact_exchange_over_delta": 6.806968892949286e-07,
+      "direct_4d_difference_checks": [
+        {
+          "stride": 4,
+          "Einstein_over_delta": 0.08688163736667055,
+          "scalar_over_delta": 1.0593758316935977,
+          "magnetic_log_equation": 1.557179387271651e-06,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 2,
+          "Einstein_over_delta": 0.005646815551298688,
+          "scalar_over_delta": 0.06886750874429692,
+          "magnetic_log_equation": 9.889889192316037e-08,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 1,
+          "Einstein_over_delta": 0.0003553979221409631,
+          "scalar_over_delta": 0.0043343292523883095,
+          "magnetic_log_equation": 6.206198964464615e-09,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "delta": 1e-08,
+      "phi_k": 20,
+      "q_B": 10.55084685487054,
+      "tangent_error": 4.931867358291219,
+      "q_times_error": 52.03537720586559,
+      "full_spectrum_numerical_difference": 1.271285400272118e-10,
+      "full_spectrum_window_difference": 1.5920253453208073e-09,
+      "platform_drift": 2.6259685831173543e-09,
+      "finite_window_residual_bound": 1.206949375164832e-08,
+      "peak_q_difference": 1.5027978861326119e-12,
+      "max_H_over_delta": 1.201406121397082e-07,
+      "max_exact_exchange_over_delta": 2.3847952299662443e-07,
+      "direct_4d_difference_checks": [
+        {
+          "stride": 4,
+          "Einstein_over_delta": 0.05388066845396158,
+          "scalar_over_delta": 1.141374649811901,
+          "magnetic_log_equation": 1.6127720605732532e-06,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 2,
+          "Einstein_over_delta": 0.0034309240718976273,
+          "scalar_over_delta": 0.07268023054869589,
+          "magnetic_log_equation": 1.0202874944909013e-07,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 1,
+          "Einstein_over_delta": 0.00021544914171543446,
+          "scalar_over_delta": 0.004563976871126488,
+          "magnetic_log_equation": 6.401273976164301e-09,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "delta": 1e-08,
+      "phi_k": 40,
+      "q_B": 20.281007253313238,
+      "tangent_error": 2.5671299006284847,
+      "q_times_error": 52.06398013484359,
+      "full_spectrum_numerical_difference": 9.116357928942313e-11,
+      "full_spectrum_window_difference": 1.535247765981474e-09,
+      "platform_drift": 2.6340965218725397e-09,
+      "finite_window_residual_bound": 1.143683573113186e-08,
+      "peak_q_difference": 6.679101716144942e-13,
+      "max_H_over_delta": 8.162424525886593e-08,
+      "max_exact_exchange_over_delta": 1.6533396074187156e-07,
+      "direct_4d_difference_checks": [
+        {
+          "stride": 4,
+          "Einstein_over_delta": 0.04699719526866003,
+          "scalar_over_delta": 1.9083096582052286,
+          "magnetic_log_equation": 2.6744979227805166e-06,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 2,
+          "Einstein_over_delta": 0.0029887598630048127,
+          "scalar_over_delta": 0.12135839499126388,
+          "magnetic_log_equation": 1.6907698451029685e-07,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 1,
+          "Einstein_over_delta": 0.00018762589570591316,
+          "scalar_over_delta": 0.007618045652852193,
+          "magnetic_log_equation": 1.0597559649272448e-08,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        }
+      ],
+      "accepted": true
+    },
+    {
+      "delta": 1e-08,
+      "phi_k": 80,
+      "q_B": 40.141236031494536,
+      "tangent_error": 1.2971884935506446,
+      "q_times_error": 52.07074949695525,
+      "full_spectrum_numerical_difference": 8.834930247222682e-11,
+      "full_spectrum_window_difference": 1.5204024353060612e-09,
+      "platform_drift": 2.635748856425482e-09,
+      "finite_window_residual_bound": 1.1142806830307574e-08,
+      "peak_q_difference": 2.2026824808563106e-13,
+      "max_H_over_delta": 7.230586639953192e-08,
+      "max_exact_exchange_over_delta": 1.6356547431755024e-07,
+      "direct_4d_difference_checks": [
+        {
+          "stride": 4,
+          "Einstein_over_delta": 0.04534799423433722,
+          "scalar_over_delta": 3.6416299102203125,
+          "magnetic_log_equation": 5.093358144192539e-06,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 2,
+          "Einstein_over_delta": 0.0028829425508981204,
+          "scalar_over_delta": 0.23151226208458983,
+          "magnetic_log_equation": 3.2195163521264725e-07,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        },
+        {
+          "stride": 1,
+          "Einstein_over_delta": 0.00018096946340358613,
+          "scalar_over_delta": 0.014532064581632836,
+          "magnetic_log_equation": 2.0178881232624235e-08,
+          "scope": "fourth-order derivative of stored geometric velocities; no RHS acceleration substitution"
+        }
+      ],
+      "accepted": true
+    }
+  ],
+  "normalization": "d_K(P_out,R_infinity P_in)/sqrt(delta), same trajectory and geometric volume normalization",
+  "qualification": "finite single-axis controls, not black-hole matching or a proof inferred from a trend"
+}

@@ -1,0 +1,171 @@
+{
+  "status": "PROSPECTIVE_NONLINEAR_COMPARISON_SUPPORTED",
+  "rows": [
+    {
+      "case": "weak",
+      "time": 53.394915714005144,
+      "predicted_relative_response": 0.009999999999999998,
+      "actual_relative_response": 0.009947240712301176,
+      "full_profile_error_absolute": 6.093436273846026e-06,
+      "omitted_cross_error_absolute": 2.3417956366115827e-05,
+      "full_profile_relative_error": 0.005275928769882333,
+      "omitted_cross_relative_error": 0.020276156863105584,
+      "combined_numerical_estimate": 1.915653429179591e-08,
+      "numeric_pass": true,
+      "coherent_closer": true,
+      "strong_truncation_pass": null
+    },
+    {
+      "case": "weak",
+      "time": 54.060738241707526,
+      "predicted_relative_response": 0.03000000000000017,
+      "actual_relative_response": 0.029531073231666805,
+      "full_profile_error_absolute": 5.415871791619427e-05,
+      "omitted_cross_error_absolute": 0.00010602801057827543,
+      "full_profile_relative_error": 0.015630892277778703,
+      "omitted_cross_relative_error": 0.030601027416135396,
+      "combined_numerical_estimate": 2.0526072239471227e-08,
+      "numeric_pass": true,
+      "coherent_closer": true,
+      "strong_truncation_pass": null
+    },
+    {
+      "case": "weak",
+      "time": 54.74884195159861,
+      "predicted_relative_response": 0.0955608571640858,
+      "actual_relative_response": 0.09096872694472427,
+      "full_profile_error_absolute": 0.0005303682834502353,
+      "omitted_cross_error_absolute": 0.0006952699838410417,
+      "full_profile_relative_error": 0.04805451055630932,
+      "omitted_cross_relative_error": 0.06299558216533004,
+      "combined_numerical_estimate": 1.659473586861776e-07,
+      "numeric_pass": true,
+      "coherent_closer": true,
+      "strong_truncation_pass": null
+    },
+    {
+      "case": "strong",
+      "time": 53.394915714005144,
+      "predicted_relative_response": 0.0071114440752706705,
+      "actual_relative_response": 0.007084628325333808,
+      "full_profile_error_absolute": 3.0970862288443512e-06,
+      "omitted_cross_error_absolute": 0.00038521524828452375,
+      "full_profile_relative_error": 0.0037707882749316237,
+      "omitted_cross_relative_error": 0.46901023550066523,
+      "combined_numerical_estimate": 1.4356840505064944e-08,
+      "numeric_pass": true,
+      "coherent_closer": true,
+      "strong_truncation_pass": true
+    },
+    {
+      "case": "strong",
+      "time": 54.060738241707526,
+      "predicted_relative_response": 0.021349914932537722,
+      "actual_relative_response": 0.021110573385061622,
+      "full_profile_error_absolute": 2.7642762645975483e-05,
+      "omitted_cross_error_absolute": 0.0011716974708630523,
+      "full_profile_relative_error": 0.011210421598042914,
+      "omitted_cross_relative_error": 0.47517763698078774,
+      "combined_numerical_estimate": 1.639266418483956e-08,
+      "numeric_pass": true,
+      "coherent_closer": true,
+      "strong_truncation_pass": true
+    },
+    {
+      "case": "strong",
+      "time": 54.74884195159861,
+      "predicted_relative_response": 0.06805518242795414,
+      "actual_relative_response": 0.06568650280681997,
+      "full_profile_error_absolute": 0.0002735707579475284,
+      "omitted_cross_error_absolute": 0.003910724014579885,
+      "full_profile_relative_error": 0.034805279137143534,
+      "omitted_cross_relative_error": 0.4975452858228746,
+      "combined_numerical_estimate": 1.3420613489663683e-07,
+      "numeric_pass": true,
+      "coherent_closer": true,
+      "strong_truncation_pass": true
+    }
+  ],
+  "cases": [
+    {
+      "case": "weak",
+      "space_final_differences": [
+        3.0250260268926965e-08,
+        1.920365269580948e-09
+      ],
+      "space_final_order": 3.9774949003258304,
+      "time_final_differences": [
+        5.602370511947896e-10,
+        3.60488860984276e-11
+      ],
+      "time_final_order": 3.9580108126402433,
+      "max_fine_constraint": 6.136136507002498e-11,
+      "max_fine_geometric_axis_check": 1.1102230246251565e-16,
+      "domain_doubling_spectrum_difference": 0.0,
+      "source_integral_absolute_closure": 2.45995403908017e-08,
+      "initial_target_energy": 2.3551321591824167e-08,
+      "initial_normalization": 1.0000000000012153,
+      "coarse_metadata_note": "N128 packet energy_normalization is null; actual construction used the same normalized profiles verified here and by the frozen prediction",
+      "thresholds": [
+        {
+          "target": 0.01,
+          "prediction_time": 53.394915714005144,
+          "nonlinear_time": 53.39817088998129,
+          "time_difference": 0.003255175976143221,
+          "max_saved_time_spacing": 0.07423571790047845
+        },
+        {
+          "target": 0.03,
+          "prediction_time": 54.06073824170752,
+          "nonlinear_time": 54.07034171497748,
+          "time_difference": 0.009603473269962137,
+          "max_saved_time_spacing": 0.07423571790047845
+        }
+      ]
+    },
+    {
+      "case": "strong",
+      "space_final_differences": [
+        2.9801683509855792e-08,
+        1.8878550667178473e-09
+      ],
+      "space_final_order": 3.980573915108478,
+      "time_final_differences": [
+        5.850866041656744e-10,
+        3.815880944557648e-11
+      ],
+      "time_final_order": 3.9385621222612404,
+      "max_fine_constraint": 5.5768609915245954e-11,
+      "max_fine_geometric_axis_check": 1.1102230246251565e-16,
+      "domain_doubling_spectrum_difference": 0.0,
+      "source_integral_absolute_closure": 2.363110260597545e-08,
+      "initial_target_energy": 2.3551321591824167e-08,
+      "initial_normalization": 1.0000000000265832,
+      "coarse_metadata_note": "N128 packet energy_normalization is null; actual construction used the same normalized profiles verified here and by the frozen prediction",
+      "thresholds": [
+        {
+          "target": 0.01,
+          "prediction_time": 53.60278812426873,
+          "nonlinear_time": 53.60602994550074,
+          "time_difference": 0.0032418212320095563,
+          "max_saved_time_spacing": 0.07423571790047845
+        },
+        {
+          "target": 0.03,
+          "prediction_time": 54.264104447042,
+          "nonlinear_time": 54.27366880416792,
+          "time_difference": 0.009564357125917411,
+          "max_saved_time_spacing": 0.07423571790047845
+        }
+      ]
+    }
+  ],
+  "weak_exceeds_strong": [
+    true,
+    true,
+    true
+  ],
+  "complete_horizon_input": false,
+  "p_plus": null,
+  "scattering_error": null
+}

@@ -1,0 +1,52 @@
+{
+  "status": "CONTINUUM_LINEAR_CHECK",
+  "delta": 1e-05,
+  "frequency_spacing": 0.25,
+  "cutoff": 600.0,
+  "quadrature_nodes": 1536,
+  "comparisons": [
+    {
+      "case": "weak",
+      "absolute_field_error": [
+        1.2966321044638462e-08,
+        3.55250883397884e-10,
+        2.5338813200437293e-09
+      ],
+      "relative_em_error": 5.6489791479087044e-08,
+      "left_em_components": [
+        0.003815383030554336,
+        -0.04485556157490494
+      ]
+    },
+    {
+      "case": "strong",
+      "absolute_field_error": [
+        2.809958365990184e-08,
+        2.5923466349356446e-10,
+        2.3636316376363098e-09
+      ],
+      "relative_em_error": 6.24967589543911e-08,
+      "left_em_components": [
+        0.0035968548923817406,
+        -0.037820067427196374
+      ]
+    }
+  ],
+  "carrier_kw": 63.24555320336759,
+  "soft_kw": 0.6324555320336759,
+  "compact_transform_at_carrier_50digits": -7.719246233847045e-05,
+  "compact_transform_at_carrier_double": -7.719246233706294e-05,
+  "compact_transform_at_soft": 1.169158669185742,
+  "basis_tail_absolute_em_bounds": [
+    [
+      4.704128582704792e-12,
+      4.373197420881298e-12
+    ],
+    [
+      7.599428567483043e-12,
+      7.117119665846213e-12
+    ]
+  ],
+  "scope": "charged homogeneous background; independent continuum Maxwell propagation, not second-order geometry; tail bounds exclude arithmetic and quadrature error",
+  "no_modes_removed": true
+}

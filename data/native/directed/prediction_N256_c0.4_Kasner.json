@@ -1,0 +1,94 @@
+{
+  "status": "PREFLIGHT_ONLY",
+  "packet": {
+    "delta": 1e-05,
+    "omega_times_mass": 0.2,
+    "kappa": 0.5,
+    "tau0": 1.0,
+    "phase": 0.0,
+    "envelope": "compact",
+    "input_spectrum": {
+      "mixing": {
+        "weak": 8.103112480050155e-07,
+        "strong": 1.78726246450643e-05
+      },
+      "soft_frequency_ratio": 0.01
+    },
+    "energy_normalization": {
+      "target": 2.3551321591824167e-08,
+      "definition": "initial transverse reduced EM Hamiltonian"
+    }
+  },
+  "scale": {
+    "delta": 1e-05,
+    "k": 1.330402899337754,
+    "ps": 0.00335162642295103,
+    "pt": 0.993296747154098,
+    "scalar_velocity": 0.08166732912777906,
+    "area_rate": 0.00670325284590206,
+    "packet_width": 47.53864655199555,
+    "packet_amplitude": 1e-05,
+    "frozen_unit_wall_clock_s": 46.50547094752221,
+    "frozen_unit_wall_clock_T": 39.954723884290125,
+    "area_at_clock": 0.7321733834154012,
+    "pump_over_carrier_at_clock": 0.4065751814510179,
+    "pump_potential_over_k2_at_clock": 0.17513040427101917,
+    "canonical_oscillator_energy_log_bound": 3.2123878970078326,
+    "frozen_efolding_carrier_phase": 1.2402811909215528,
+    "packet_residence_over_clock": 1.189812916481882,
+    "mass_drift_scale_E_over_Mdelta": 0.005604991216397928,
+    "hard_to_soft_magnetic_ratio": 6.170893461189969e-06,
+    "coordinate_omega": 0.22192272423216927
+  },
+  "model": "fixed vacuum Kasner",
+  "spacing": 0.1856978380937326,
+  "cells_per_width": 256,
+  "cfl": 0.4,
+  "step": 0.07418648997083047,
+  "maximum_end": 55.93661343800617,
+  "valid_end": 54.749629598472886,
+  "first_invalid_response_step": {
+    "first_above_step": 739,
+    "time": 54.823816088443714,
+    "strengths": [
+      0.1085748654803261,
+      0.07732901756997605
+    ]
+  },
+  "charge": 0.0,
+  "background_final_p_scalar": 0.11549504445529242,
+  "cases": {
+    "weak": {
+      "mixing": 8.103112480050155e-07,
+      "normalization": 1.0000000000012153,
+      "final_max_relative_response": 0.09568885880509194,
+      "final_max_relative_cross": 0.0014296912161206035,
+      "center_relative_response": -0.000477065080627628
+    },
+    "strong": {
+      "mixing": 1.78726246450643e-05,
+      "normalization": 1.0000000000265832,
+      "final_max_relative_response": 0.06814638766516953,
+      "final_max_relative_cross": 0.03153397478842245,
+      "center_relative_response": -6.755805587356479e-05
+    }
+  },
+  "energy_coefficients": [
+    2.3551321591824167e-08,
+    -7.067770376156616e-14,
+    3.462324743341797e-11
+  ],
+  "background_scale_columns": [
+    "g",
+    "pump",
+    "beta",
+    "pump_over_k2",
+    "g_times_width",
+    "volume_clock"
+  ],
+  "local_constraints_constructed_order": 2,
+  "complete_horizon_input": false,
+  "full_nonlinear_matching": false,
+  "output_platform": null,
+  "scattering_error": null
+}

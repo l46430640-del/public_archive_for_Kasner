@@ -1,0 +1,3985 @@
+{
+  "cases": [
+    {
+      "label": "weak",
+      "convergence": {
+        "common_times": 381,
+        "last_common_time": 380.0,
+        "spectrum": {
+          "differences": [
+            5.319953034091038e-05,
+            3.335721006171577e-06
+          ],
+          "order": 3.9953429748316935
+        },
+        "magnetic": {
+          "differences": [
+            9.74296232975427e-07,
+            6.105239039907832e-08
+          ],
+          "order": 3.996240800156014
+        },
+        "electric": {
+          "differences": [
+            4.676489960205336e-07,
+            2.9363473855962413e-08
+          ],
+          "order": 3.993331528362386
+        },
+        "spatial_fraction": {
+          "differences": [
+            8.221371268103813e-07,
+            5.134994706041448e-08
+          ],
+          "order": 4.000944351273092
+        },
+        "constraint": {
+          "differences": [
+            5.769626505116406e-07,
+            3.685314692558244e-08
+          ],
+          "order": 3.968618206695058
+        },
+        "spectrum_until_T300": {
+          "differences": [
+            1.5497925761158438e-06,
+            9.719979367911469e-08
+          ],
+          "order": 3.9949780767186347
+        }
+      },
+      "curves": [
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": -34.8,
+          "peak_time": 253.72,
+          "peak_volume_clock": 278.3713256773559,
+          "peak_fraction": 0.0006618573183097541,
+          "quadratic_peak_time": 253.81498259907175,
+          "quadratic_peak_volume_clock": 278.48562811066324,
+          "peak_time_bracket": [
+            253.48000000000002,
+            254.0
+          ],
+          "half_maximum_times": [
+            250.0,
+            257.72
+          ],
+          "width_volume": 9.290272176512872,
+          "samples_across_width": 31,
+          "peak_spectrum": [
+            -0.0029825615490018074,
+            0.003661931091127834,
+            0.9993206304578739,
+            0.0016536408293217715
+          ],
+          "initial_spectrum": [
+            0.0003385516181797607,
+            0.0003385516181797607,
+            0.9993228967636405,
+            0.036790199262739326
+          ],
+          "final_spectrum": [
+            -0.00032000360740544166,
+            0.001065384414640497,
+            0.9992546191927649,
+            0.03134511353313033
+          ],
+          "incoming_candidate": {
+            "start_time": 231.48000000000002,
+            "end_time": 239.48000000000002,
+            "duration_volume": 9.517520143207264,
+            "drift": 9.400782446707112e-05,
+            "mean_spectrum": [
+              0.00033578998042115964,
+              0.0003413151388380177,
+              0.9993228948807411,
+              0.03676272213528675
+            ],
+            "max_em_fraction": 3.5692381454829763e-06,
+            "max_spatial_fraction": 4.268063086259384e-11,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 9.411800216549029e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.335588154470664e-06,
+              9.335588154470664e-06,
+              -9.411800216549029e-05
+            ],
+            "matter_rate_quadrature_difference": 9.82868049577109e-08,
+            "spatial_rate_absolute_integral": 3.333095524539948e-07,
+            "spatial_rate_signed_integral": [
+              -2.2833995786106287e-11,
+              -3.386683868388782e-08,
+              3.3889672679673923e-08,
+              -3.333095524539948e-07
+            ],
+            "spatial_rate_quadrature_difference": 3.2005013551374557e-10,
+            "vacuum_rate_absolute_integral": 3.445571798393187e-07,
+            "vacuum_rate_signed_integral": [
+              -6.350032524375465e-09,
+              3.1281154286560208e-09,
+              3.2219170955621105e-09,
+              3.445571798393187e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.514455892380203e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 282.0,
+            "end_time": 289.72,
+            "duration_volume": 9.377879560085603,
+            "drift": 0.01045755869586278,
+            "mean_spectrum": [
+              -0.005701694572086676,
+              0.006392879254683164,
+              0.9993088153174035,
+              -0.027899061789165725
+            ],
+            "max_em_fraction": 0.00043070869736358335,
+            "max_spatial_fraction": 1.938652615712852e-05,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.01776024282116164,
+            "matter_rate_signed_integral": [
+              0.0,
+              7.683354673852639e-06,
+              -7.683354673852639e-06,
+              -7.828524478889964e-05
+            ],
+            "matter_rate_quadrature_difference": 2.8379755161712927e-05,
+            "spatial_rate_absolute_integral": 0.0027641840990549073,
+            "spatial_rate_signed_integral": [
+              -1.3501473475476238e-07,
+              -0.00026804191848807905,
+              0.0002681769332228339,
+              -0.0027641840990549073
+            ],
+            "spatial_rate_quadrature_difference": 3.398426794104341e-07,
+            "vacuum_rate_absolute_integral": 6.522137107756217e-05,
+            "vacuum_rate_signed_integral": [
+              -1.6526985366728686e-06,
+              -1.34915349536531e-05,
+              1.5144233490326045e-05,
+              -6.522137107756217e-05
+            ],
+            "vacuum_rate_quadrature_difference": 6.135431761084643e-09
+          },
+          "minimum_required_tolerance": 0.01776024282116164,
+          "last_width_diagnostics": {
+            "start_time": 372.48,
+            "end_time": 380.0,
+            "duration_volume": 9.184361086063916,
+            "drift": 0.006325907683202729,
+            "mean_spectrum": [
+              -0.00039899998780620693,
+              0.0011429128843281015,
+              0.9992560871034784,
+              0.03025010835882238
+            ],
+            "max_em_fraction": 0.000396843487794179,
+            "max_spatial_fraction": 1.4213596971653122e-05,
+            "max_axis_error": 4.336808689942018e-19,
+            "matter_rate_absolute_integral": 0.026514218278481026,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.002448785591238623,
+              0.002448785591238623,
+              -0.026514218278481026
+            ],
+            "matter_rate_quadrature_difference": 6.702652496567985e-07,
+            "spatial_rate_absolute_integral": 0.03175297595023903,
+            "spatial_rate_signed_integral": [
+              -1.1911399860369337e-06,
+              0.0028959033037813933,
+              -0.0028947121637953556,
+              0.03175297595023903
+            ],
+            "spatial_rate_quadrature_difference": 5.9484011944166415e-06,
+            "vacuum_rate_absolute_integral": 7.73868702906122e-05,
+            "vacuum_rate_signed_integral": [
+              -1.9249343538599603e-06,
+              -1.1098287107947063e-06,
+              3.0347630646545536e-06,
+              7.73868702906122e-05
+            ],
+            "vacuum_rate_quadrature_difference": 8.952704949277235e-09
+          },
+          "interaction_integrals": {
+            "start_time": 250.0,
+            "end_time": 257.72,
+            "duration_volume": 9.290272176512872,
+            "drift": 0.05138052627629812,
+            "mean_spectrum": [
+              -0.0030804583681819987,
+              0.0037599073938753298,
+              0.9993205509743067,
+              0.0006116482314354454
+            ],
+            "max_em_fraction": 0.0006618605389207923,
+            "max_spatial_fraction": 1.455006136841341e-05,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.05161220958477135,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.00484318208722638,
+              0.00484318208722638,
+              -0.05161220958477135
+            ],
+            "matter_rate_quadrature_difference": 1.5611902271152334e-05,
+            "spatial_rate_absolute_integral": 0.00027869221886013827,
+            "spatial_rate_signed_integral": [
+              -2.2447450182730183e-08,
+              2.230367080994123e-05,
+              -2.2281223359758504e-05,
+              0.000244838881457582
+            ],
+            "spatial_rate_quadrature_difference": 9.31190439776926e-08,
+            "vacuum_rate_absolute_integral": 6.415434077162528e-05,
+            "vacuum_rate_signed_integral": [
+              -3.3567733406712813e-06,
+              -1.526430719449716e-05,
+              1.862108053516844e-05,
+              2.5376668372523287e-06
+            ],
+            "vacuum_rate_quadrature_difference": 4.125702222256477e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 260.48,
+            "value": -0.029640821341723005
+          },
+          "post_minimum_one_width": {
+            "start_time": 260.48,
+            "end_time": 268.24,
+            "duration_volume": 9.372385932467353,
+            "drift": 0.03723640416581598,
+            "mean_spectrum": [
+              -0.004714779848449237,
+              0.005397637629536925,
+              0.9993171422189123,
+              -0.016908869398647615
+            ],
+            "max_em_fraction": 0.0006445796848823656,
+            "max_spatial_fraction": 2.9332056066328856e-05,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.03638833132911783,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0035018828620691127,
+              -0.0035018828620691127,
+              0.03634219842585288
+            ],
+            "matter_rate_quadrature_difference": 8.28685644891497e-06,
+            "spatial_rate_absolute_integral": 0.0009371937537511571,
+            "spatial_rate_signed_integral": [
+              -4.547737104712437e-08,
+              8.858532072343591e-05,
+              -8.853984335238879e-05,
+              0.0009371937537511571
+            ],
+            "spatial_rate_quadrature_difference": 1.2860341064540714e-07,
+            "vacuum_rate_absolute_integral": 5.902351640373184e-05,
+            "vacuum_rate_signed_integral": [
+              -2.8407393173725166e-06,
+              -1.7963183701869306e-05,
+              2.0803923019241938e-05,
+              -5.3192273662552046e-05
+            ],
+            "vacuum_rate_quadrature_difference": 5.82669137600203e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": -17.6,
+          "peak_time": 255.72,
+          "peak_volume_clock": 280.78774330282346,
+          "peak_fraction": 0.0006539458952233411,
+          "quadratic_peak_time": 255.65366106434774,
+          "quadratic_peak_volume_clock": 280.7077886497381,
+          "peak_time_bracket": [
+            255.48000000000002,
+            256.0
+          ],
+          "half_maximum_times": [
+            251.72,
+            259.48
+          ],
+          "width_volume": 9.352372210576846,
+          "samples_across_width": 31,
+          "peak_spectrum": [
+            -0.0030445257553101484,
+            0.00372396763980036,
+            0.9993205581155097,
+            0.0007131565385594721
+          ],
+          "initial_spectrum": [
+            0.0003385516174353231,
+            0.0003385516174353231,
+            0.9993228967651294,
+            0.036790199181841746
+          ],
+          "final_spectrum": [
+            -0.0009455965263292676,
+            0.0016931168198457771,
+            0.9992524797064835,
+            0.02453635584314249
+          ],
+          "incoming_candidate": {
+            "start_time": 233.48000000000002,
+            "end_time": 241.48000000000002,
+            "duration_volume": 9.53287900705243,
+            "drift": 9.340426815551e-05,
+            "mean_spectrum": [
+              0.00033585981979468633,
+              0.0003412452651674853,
+              0.9993228949150377,
+              0.03676318124822139
+            ],
+            "max_em_fraction": 3.542083596861307e-06,
+            "max_spatial_fraction": 1.0781465565309957e-10,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 9.279740830886752e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.124565619270902e-06,
+              9.124565619270902e-06,
+              -9.279740830886752e-05
+            ],
+            "matter_rate_quadrature_difference": 9.900191093762203e-08,
+            "spatial_rate_absolute_integral": 1.046443121310027e-06,
+            "spatial_rate_signed_integral": [
+              -7.155169315482488e-11,
+              -1.0537099588336216e-07,
+              1.0544254757651696e-07,
+              -1.046443121310027e-06
+            ],
+            "spatial_rate_quadrature_difference": 1.0544853035069826e-09,
+            "vacuum_rate_absolute_integral": 3.3918598653047287e-07,
+            "vacuum_rate_signed_integral": [
+              -6.250970626426181e-09,
+              3.0801099481237563e-09,
+              3.1708606783483764e-09,
+              3.3918598653047287e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.5348978057101357e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 285.48,
+            "end_time": 293.24,
+            "duration_volume": 9.45559112553866,
+            "drift": 0.0010471570287113041,
+            "mean_spectrum": [
+              -0.006421561476761263,
+              0.007112650567930578,
+              0.9993089109088306,
+              -0.03560659808266545
+            ],
+            "max_em_fraction": 3.9833079352410584e-05,
+            "max_spatial_fraction": 8.646151484070966e-08,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.0007930158568830632,
+            "matter_rate_signed_integral": [
+              0.0,
+              -6.9938528905946e-05,
+              6.9938528905946e-05,
+              -0.0007299905267243212
+            ],
+            "matter_rate_quadrature_difference": 2.2841839170936523e-06,
+            "spatial_rate_absolute_integral": 0.0010370174414373122,
+            "spatial_rate_signed_integral": [
+              -1.4041235264855487e-07,
+              1.4506327210671723e-05,
+              -1.436591485802315e-05,
+              0.00018515930293493826
+            ],
+            "spatial_rate_quadrature_difference": 9.528000962631417e-07,
+            "vacuum_rate_absolute_integral": 3.4757124297354513e-06,
+            "vacuum_rate_signed_integral": [
+              -6.785866521586517e-08,
+              -6.285664232640338e-07,
+              6.964250884798479e-07,
+              -3.4757124297354513e-06
+            ],
+            "vacuum_rate_quadrature_difference": 7.744127117391173e-09
+          },
+          "minimum_required_tolerance": 0.0010471570287113041,
+          "last_width_diagnostics": {
+            "start_time": 372.48,
+            "end_time": 380.0,
+            "duration_volume": 9.164972199596946,
+            "drift": 0.013362865192552347,
+            "mean_spectrum": [
+              -0.0013074796099556462,
+              0.0020529565784328757,
+              0.9992545230315227,
+              0.020464239890385073
+            ],
+            "max_em_fraction": 0.0006580662480074857,
+            "max_spatial_fraction": 1.3342371465789454e-05,
+            "max_axis_error": 1.3010426069826053e-18,
+            "matter_rate_absolute_integral": 0.05034496285578676,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.004715752066785914,
+              0.004715752066785914,
+              -0.05034496285578676
+            ],
+            "matter_rate_quadrature_difference": 2.772708933271306e-06,
+            "spatial_rate_absolute_integral": 0.06341387242367516,
+            "spatial_rate_signed_integral": [
+              -1.2698279064446685e-06,
+              0.005902631437490349,
+              -0.005901361609583904,
+              0.06341387242367516
+            ],
+            "spatial_rate_quadrature_difference": 7.296073430279604e-07,
+            "vacuum_rate_absolute_integral": 9.55697241343433e-05,
+            "vacuum_rate_signed_integral": [
+              -3.569303677021086e-06,
+              -6.479681129983798e-06,
+              1.004898480700485e-05,
+              9.55697241343433e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.1389606349945943e-08
+          },
+          "interaction_integrals": {
+            "start_time": 251.72,
+            "end_time": 259.48,
+            "duration_volume": 9.352372210576846,
+            "drift": 0.050622241993942635,
+            "mean_spectrum": [
+              -0.002950938706078124,
+              0.003630345585499544,
+              0.9993205931205783,
+              0.001716269037100011
+            ],
+            "max_em_fraction": 0.000653945895958021,
+            "max_spatial_fraction": 3.853084904083834e-05,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.050941844730564054,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.004742652031697225,
+              0.004742652031697225,
+              -0.050941844730564054
+            ],
+            "matter_rate_quadrature_difference": 1.6775698602339295e-05,
+            "spatial_rate_absolute_integral": 0.0005572920848593876,
+            "spatial_rate_signed_integral": [
+              -7.926695626797276e-08,
+              2.8427611586592385e-05,
+              -2.8348344630324414e-05,
+              0.000331010548908969
+            ],
+            "spatial_rate_quadrature_difference": 4.4034303968302005e-07,
+            "vacuum_rate_absolute_integral": 6.461435824953715e-05,
+            "vacuum_rate_signed_integral": [
+              -3.3874966064053497e-06,
+              -1.4987296206112837e-05,
+              1.837479281251816e-05,
+              5.614757003195781e-06
+            ],
+            "vacuum_rate_quadrature_difference": 4.0325729094162015e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 261.24,
+            "value": -0.026123472633578202
+          },
+          "post_minimum_one_width": {
+            "start_time": 261.24,
+            "end_time": 269.0,
+            "duration_volume": 9.373100250999585,
+            "drift": 0.042369370565943365,
+            "mean_spectrum": [
+              -0.00403369074741455,
+              0.00471691735446996,
+              0.9993167733929443,
+              -0.009952086675262177
+            ],
+            "max_em_fraction": 0.0006146299054533264,
+            "max_spatial_fraction": 6.0475770698905797e-05,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.03984496950389304,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.003769829327473359,
+              -0.003769829327473359,
+              0.03976205675904022
+            ],
+            "matter_rate_quadrature_difference": 9.610926960688937e-06,
+            "spatial_rate_absolute_integral": 0.002624391750610695,
+            "spatial_rate_signed_integral": [
+              -1.8166511964792132e-07,
+              0.0002430166987525429,
+              -0.00024283503363289497,
+              0.002624391750610695
+            ],
+            "spatial_rate_quadrature_difference": 1.874819281020429e-07,
+            "vacuum_rate_absolute_integral": 6.227444434070707e-05,
+            "vacuum_rate_signed_integral": [
+              -3.324579062450032e-06,
+              -1.8369197149173858e-05,
+              2.1693776211623877e-05,
+              -3.512895511124278e-05
+            ],
+            "vacuum_rate_quadrature_difference": 3.6384692413907876e-09
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 0.0,
+          "peak_time": 259.24,
+          "peak_volume_clock": 285.0518840191903,
+          "peak_fraction": 0.0005809642772186518,
+          "quadratic_peak_time": 259.2126741142407,
+          "quadratic_peak_volume_clock": 285.01885140810646,
+          "peak_time_bracket": [
+            259.0,
+            259.48
+          ],
+          "half_maximum_times": [
+            255.48000000000002,
+            262.48
+          ],
+          "width_volume": 8.460599504757397,
+          "samples_across_width": 28,
+          "peak_spectrum": [
+            -0.0026229175293424802,
+            0.0033023030050974085,
+            0.999320614524245,
+            0.004771193340459346
+          ],
+          "initial_spectrum": [
+            0.0003385516173438588,
+            0.0003385516173438588,
+            0.9993228967653124,
+            0.03679019917190237
+          ],
+          "final_spectrum": [
+            -0.0021316189852926405,
+            0.002879189659801046,
+            0.9992524293254916,
+            0.011629717679326924
+          ],
+          "incoming_candidate": {
+            "start_time": 238.24,
+            "end_time": 245.48000000000002,
+            "duration_volume": 8.657844431640058,
+            "drift": 9.029395514294908e-05,
+            "mean_spectrum": [
+              0.0003357735672885566,
+              0.0003413317052724066,
+              0.999322894727439,
+              0.03676185493689309
+            ],
+            "max_em_fraction": 3.457793943500979e-06,
+            "max_spatial_fraction": 6.745754473728626e-10,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 8.408804857725112e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -8.124541870104285e-06,
+              8.124541870104285e-06,
+              -8.408804857725112e-05
+            ],
+            "matter_rate_quadrature_difference": 9.332798956176688e-08,
+            "spatial_rate_absolute_integral": 6.629855009110504e-06,
+            "spatial_rate_signed_integral": [
+              -4.4636967026882833e-10,
+              -6.554525764421951e-07,
+              6.558989461124639e-07,
+              -6.629855009110504e-06
+            ],
+            "spatial_rate_quadrature_difference": 7.138945515366643e-09,
+            "vacuum_rate_absolute_integral": 3.2389601855821503e-07,
+            "vacuum_rate_signed_integral": [
+              -5.969072094567364e-09,
+              2.9425104550983866e-09,
+              3.026561639560987e-09,
+              3.2389601855821503e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.5075003510649217e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 283.24,
+            "end_time": 290.24,
+            "duration_volume": 8.511447789661815,
+            "drift": 0.00031401886757113223,
+            "mean_spectrum": [
+              -0.00641199035504012,
+              0.007103022053472374,
+              0.9993089683015676,
+              -0.03541466102788325
+            ],
+            "max_em_fraction": 2.5748629838890625e-05,
+            "max_spatial_fraction": 1.0590617773480283e-07,
+            "max_axis_error": 3.469446951953614e-18,
+            "matter_rate_absolute_integral": 0.0014031708963507126,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.00013406372508875813,
+              0.00013406372508875813,
+              -0.0014031708963507126
+            ],
+            "matter_rate_quadrature_difference": 7.004005609192489e-07,
+            "spatial_rate_absolute_integral": 0.0013653090969036265,
+            "spatial_rate_signed_integral": [
+              -9.873447890576195e-08,
+              0.00012864322086825387,
+              -0.0001285444863893481,
+              0.0013653090969036265
+            ],
+            "spatial_rate_quadrature_difference": 6.492399573572883e-07,
+            "vacuum_rate_absolute_integral": 5.317821345622715e-06,
+            "vacuum_rate_signed_integral": [
+              -1.03788656006324e-07,
+              -9.62922043726852e-07,
+              1.0667106997333781e-06,
+              -5.317821345622715e-06
+            ],
+            "vacuum_rate_quadrature_difference": 3.275646136055086e-09
+          },
+          "minimum_required_tolerance": 0.0014031708963507126,
+          "last_width_diagnostics": {
+            "start_time": 373.24,
+            "end_time": 380.0,
+            "duration_volume": 8.240873341035467,
+            "drift": 0.010706009867825515,
+            "mean_spectrum": [
+              -0.0027731030881593846,
+              0.0035186467387250267,
+              0.9992544563494343,
+              0.004696271640742134
+            ],
+            "max_em_fraction": 0.0003459854881064351,
+            "max_spatial_fraction": 0.0006328785860022379,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.019539168791500968,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0018199475528551405,
+              -0.0018199475528551405,
+              0.019539168791500968
+            ],
+            "matter_rate_quadrature_difference": 8.117947454908125e-06,
+            "spatial_rate_absolute_integral": 0.008890074114924634,
+            "spatial_rate_signed_integral": [
+              1.1474097076480606e-07,
+              -0.0008234894757624759,
+              0.0008233747347917112,
+              -0.008890074114924634
+            ],
+            "spatial_rate_quadrature_difference": 3.5197587312258555e-06,
+            "vacuum_rate_absolute_integral": 2.7107555100060363e-05,
+            "vacuum_rate_signed_integral": [
+              -4.413446212764586e-06,
+              -1.6481422562076435e-05,
+              2.089486877484102e-05,
+              2.7107555100060363e-05
+            ],
+            "vacuum_rate_quadrature_difference": 7.961850342322503e-09
+          },
+          "interaction_integrals": {
+            "start_time": 255.48000000000002,
+            "end_time": 262.48,
+            "duration_volume": 8.460599504757397,
+            "drift": 0.04073300723155295,
+            "mean_spectrum": [
+              -0.0024295397197344757,
+              0.003108888858003017,
+              0.9993206508617315,
+              0.006878737430910254
+            ],
+            "max_em_fraction": 0.0005820870396556848,
+            "max_spatial_fraction": 0.00022566729174730335,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.04138951870836402,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0037907357897557534,
+              0.0037907357897557534,
+              -0.04138951870836402
+            ],
+            "matter_rate_quadrature_difference": 2.0242884547300166e-05,
+            "spatial_rate_absolute_integral": 0.0024620369990786014,
+            "spatial_rate_signed_integral": [
+              -4.6437398359279126e-07,
+              4.6145056995004236e-05,
+              -4.5680683011411416e-05,
+              0.0006562902235589636
+            ],
+            "spatial_rate_quadrature_difference": 5.608382844532814e-07,
+            "vacuum_rate_absolute_integral": 5.240714809161097e-05,
+            "vacuum_rate_signed_integral": [
+              -3.2114888881563894e-06,
+              -1.2389941098273097e-05,
+              1.5601429986429473e-05,
+              2.2660546566563296e-05
+            ],
+            "vacuum_rate_quadrature_difference": 5.716977202960814e-09
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 263.0,
+            "value": -0.013222897928290851
+          },
+          "post_minimum_one_width": {
+            "start_time": 263.0,
+            "end_time": 270.24,
+            "duration_volume": 8.744639285967423,
+            "drift": 0.026707439410757407,
+            "mean_spectrum": [
+              -0.0029987664765057653,
+              0.0036828613394682143,
+              0.9993159051370376,
+              0.0010722210079255874
+            ],
+            "max_em_fraction": 0.0003528118893764474,
+            "max_spatial_fraction": 0.0003213019133382995,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.018683655538859752,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0013845179806884216,
+              -0.0013845179806884216,
+              0.01505153152194608
+            ],
+            "matter_rate_quadrature_difference": 1.899476195933031e-05,
+            "spatial_rate_absolute_integral": 0.01102511153423893,
+            "spatial_rate_signed_integral": [
+              -1.1261553133343935e-06,
+              0.00098054716801554,
+              -0.0009794210127022057,
+              0.01102511153423893
+            ],
+            "spatial_rate_quadrature_difference": 3.8856952367157666e-06,
+            "vacuum_rate_absolute_integral": 4.7573815568004224e-05,
+            "vacuum_rate_signed_integral": [
+              -3.7289052498125336e-06,
+              -1.629172373577869e-05,
+              2.0020628985591226e-05,
+              6.434368394610012e-06
+            ],
+            "vacuum_rate_quadrature_difference": 4.437991347978681e-09
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 17.6,
+          "peak_time": 260.0,
+          "peak_volume_clock": 285.9746768630082,
+          "peak_fraction": 0.000500453499531486,
+          "quadratic_peak_time": 260.0026004481737,
+          "quadratic_peak_volume_clock": 285.97782238781826,
+          "peak_time_bracket": [
+            259.72,
+            260.24
+          ],
+          "half_maximum_times": [
+            256.48,
+            263.0
+          ],
+          "width_volume": 7.885274009207876,
+          "samples_across_width": 26,
+          "peak_spectrum": [
+            -0.0022678008896611585,
+            0.002947158700452282,
+            0.9993206421892088,
+            0.00856928781908054
+          ],
+          "initial_spectrum": [
+            0.0003385516174375606,
+            0.0003385516174375606,
+            0.999322896765125,
+            0.03679019918208489
+          ],
+          "final_spectrum": [
+            -0.003080385906548733,
+            0.0038264941181314397,
+            0.9992538917884173,
+            0.0010230846964224525
+          ],
+          "incoming_candidate": {
+            "start_time": 240.24,
+            "end_time": 247.0,
+            "duration_volume": 8.095371647528395,
+            "drift": 9.724212267341742e-05,
+            "mean_spectrum": [
+              0.0003354491082800461,
+              0.00034165663469894745,
+              0.9993228942570209,
+              0.03675841268957284
+            ],
+            "max_em_fraction": 3.747119395660532e-06,
+            "max_spatial_fraction": 1.7660795815823599e-09,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 7.884401214938385e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -7.566291449663448e-06,
+              7.566291449663448e-06,
+              -7.884401214938385e-05
+            ],
+            "matter_rate_quadrature_difference": 9.372572153286342e-08,
+            "spatial_rate_absolute_integral": 1.885477928706184e-05,
+            "spatial_rate_signed_integral": [
+              -1.2554381032301014e-09,
+              -1.850911227448577e-06,
+              1.852166665551807e-06,
+              -1.885477928706184e-05
+            ],
+            "spatial_rate_quadrature_difference": 2.0775461939985182e-08,
+            "vacuum_rate_absolute_integral": 3.420321665444789e-07,
+            "vacuum_rate_signed_integral": [
+              -6.304071581326724e-09,
+              3.1038033546063825e-09,
+              3.2002682268926877e-09,
+              3.420321665444789e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.9236645031116846e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 278.48,
+            "end_time": 285.0,
+            "duration_volume": 7.895952585685279,
+            "drift": 0.0015415194829429685,
+            "mean_spectrum": [
+              -0.006320798785278936,
+              0.0070117142077206025,
+              0.9993090845775583,
+              -0.03444690068656451
+            ],
+            "max_em_fraction": 9.080991607238924e-05,
+            "max_spatial_fraction": 1.8914156814683525e-06,
+            "max_axis_error": 3.469446951953614e-18,
+            "matter_rate_absolute_integral": 0.002174911361384869,
+            "matter_rate_signed_integral": [
+              0.0,
+              1.5104162218533512e-05,
+              -1.5104162218533512e-05,
+              0.00014208758758919588
+            ],
+            "matter_rate_quadrature_difference": 2.2306850997414612e-06,
+            "spatial_rate_absolute_integral": 0.0009077557601818507,
+            "spatial_rate_signed_integral": [
+              -6.03289976528246e-08,
+              -8.67486565273128e-05,
+              8.680898552496562e-05,
+              -0.0009077557601818507
+            ],
+            "spatial_rate_quadrature_difference": 3.086621277257739e-07,
+            "vacuum_rate_absolute_integral": 1.4049584633438288e-05,
+            "vacuum_rate_signed_integral": [
+              -2.824073952599545e-07,
+              -2.5807329211017676e-06,
+              2.8631403163617367e-06,
+              -1.4049584633438288e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.1392519226156186e-08
+          },
+          "minimum_required_tolerance": 0.002174911361384869,
+          "last_width_diagnostics": {
+            "start_time": 373.72,
+            "end_time": 380.0,
+            "duration_volume": 7.676353201505833,
+            "drift": 0.005971734147929953,
+            "mean_spectrum": [
+              -0.0027307163503891003,
+              0.003474435117492924,
+              0.9992562812328961,
+              0.004651716730743244
+            ],
+            "max_em_fraction": 0.0003008608944735119,
+            "max_spatial_fraction": 0.0007240984978028493,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.0070535242678257375,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0006348495259459723,
+              -0.0006348495259459723,
+              0.006939307980812657
+            ],
+            "matter_rate_quadrature_difference": 2.4395690253571287e-06,
+            "spatial_rate_absolute_integral": 0.012282792138910103,
+            "spatial_rate_signed_integral": [
+              -3.5836476572614304e-07,
+              -0.0011328705789373505,
+              0.0011332289437030766,
+              -0.012282792138910103
+            ],
+            "spatial_rate_quadrature_difference": 5.175691925716e-06,
+            "vacuum_rate_absolute_integral": 2.5775064762947202e-05,
+            "vacuum_rate_signed_integral": [
+              -4.113626276021132e-06,
+              -1.5099284006678473e-05,
+              1.9212910282699605e-05,
+              2.5775064762947202e-05
+            ],
+            "vacuum_rate_quadrature_difference": 7.85651275673433e-09
+          },
+          "interaction_integrals": {
+            "start_time": 256.48,
+            "end_time": 263.0,
+            "duration_volume": 7.885274009207876,
+            "drift": 0.03508715541443418,
+            "mean_spectrum": [
+              -0.0020901445541626467,
+              0.00276949894770467,
+              0.9993206456064582,
+              0.010516107112590751
+            ],
+            "max_em_fraction": 0.0005084826577137075,
+            "max_spatial_fraction": 0.00037532598469864833,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.03306236724205063,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0030136434530019674,
+              0.0030136434530019674,
+              -0.03306236724205063
+            ],
+            "matter_rate_quadrature_difference": 1.8660327177136282e-05,
+            "spatial_rate_absolute_integral": 0.003895894269428446,
+            "spatial_rate_signed_integral": [
+              -9.030832007409556e-07,
+              -0.00021272234248082865,
+              0.00021362542568156964,
+              -0.002036947140678544
+            ],
+            "spatial_rate_quadrature_difference": 3.577618923579322e-06,
+            "vacuum_rate_absolute_integral": 4.562017059561751e-05,
+            "vacuum_rate_signed_integral": [
+              -2.9584511763294455e-06,
+              -1.008792480724134e-05,
+              1.3046375983570783e-05,
+              3.503915393353942e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.8571279663866117e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 263.48,
+            "value": -0.006748393356375214
+          },
+          "post_minimum_one_width": {
+            "start_time": 263.48,
+            "end_time": 270.24,
+            "duration_volume": 8.15982058119971,
+            "drift": 0.015182969423532809,
+            "mean_spectrum": [
+              -0.002898002058438439,
+              0.003582661582131143,
+              0.9993153404763074,
+              0.002322831234749166
+            ],
+            "max_em_fraction": 0.00040438541157820695,
+            "max_spatial_fraction": 0.0004863486731244921,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.012906331813977179,
+            "matter_rate_signed_integral": [
+              0.0,
+              -3.669058942023692e-05,
+              3.669058942023692e-05,
+              -0.00041656740287722145
+            ],
+            "matter_rate_quadrature_difference": 9.152747695449076e-06,
+            "spatial_rate_absolute_integral": 0.011282876227078206,
+            "spatial_rate_signed_integral": [
+              -1.6828400319392e-06,
+              0.0009790085290052658,
+              -0.000977325688973327,
+              0.011282876227078206
+            ],
+            "spatial_rate_quadrature_difference": 6.387384121682438e-06,
+            "vacuum_rate_absolute_integral": 2.860410671209318e-05,
+            "vacuum_rate_signed_integral": [
+              -3.6669486146524677e-06,
+              -1.546681946825546e-05,
+              1.9133768082907936e-05,
+              1.3039365241000947e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.3921086579556394e-09
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 34.8,
+          "peak_time": 255.48000000000002,
+          "peak_volume_clock": 280.4981205945681,
+          "peak_fraction": 0.0006459189141760166,
+          "quadratic_peak_time": 255.55088166350137,
+          "quadratic_peak_volume_clock": 280.5835428587986,
+          "peak_time_bracket": [
+            255.24,
+            255.72
+          ],
+          "half_maximum_times": [
+            251.72,
+            259.24
+          ],
+          "width_volume": 9.062197489072673,
+          "samples_across_width": 30,
+          "peak_spectrum": [
+            -0.0028996616323440907,
+            0.003579028652943968,
+            0.9993206329794001,
+            0.00228355721203456
+          ],
+          "initial_spectrum": [
+            0.00033855161816308634,
+            0.00033855161816308634,
+            0.9993228967636739,
+            0.03679019926092733
+          ],
+          "final_spectrum": [
+            -0.005277597472848133,
+            0.006027380930782179,
+            0.999250216542066,
+            -0.022391209420579285
+          ],
+          "incoming_candidate": {
+            "start_time": 233.72,
+            "end_time": 241.48000000000002,
+            "duration_volume": 9.247784532915205,
+            "drift": 9.579220354917484e-05,
+            "mean_spectrum": [
+              0.0003357066957908554,
+              0.00034139851039378764,
+              0.9993228947938154,
+              0.036761647801519914
+            ],
+            "max_em_fraction": 3.6441023235827036e-06,
+            "max_spatial_fraction": 1.9293623558616173e-10,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 9.428184999743489e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.269660609945223e-06,
+              9.269660609945223e-06,
+              -9.428184999743489e-05
+            ],
+            "matter_rate_quadrature_difference": 1.016656173708771e-07,
+            "spatial_rate_absolute_integral": 1.9610099474392735e-06,
+            "spatial_rate_signed_integral": [
+              -1.3310528458473187e-10,
+              -1.97413997235794e-07,
+              1.9754710252037873e-07,
+              -1.9610099474392735e-06
+            ],
+            "spatial_rate_quadrature_difference": 1.9734343112906696e-09,
+            "vacuum_rate_absolute_integral": 3.4746540633717204e-07,
+            "vacuum_rate_signed_integral": [
+              -6.403832565808534e-09,
+              3.1539317394040002e-09,
+              3.249900826498699e-09,
+              3.4746540633717204e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.6571804223489003e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 354.24,
+            "end_time": 361.72,
+            "duration_volume": 9.135185089254378,
+            "drift": 0.0027129470268112063,
+            "mean_spectrum": [
+              0.00026394666189394914,
+              0.00046785523655452406,
+              0.9992681981015515,
+              0.03647183117369233
+            ],
+            "max_em_fraction": 0.0001342612731489293,
+            "max_spatial_fraction": 5.348484516866078e-06,
+            "max_axis_error": 2.168404344971009e-19,
+            "matter_rate_absolute_integral": 0.004131051997130292,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0002467682386624308,
+              0.0002467682386624308,
+              -0.002688426199057534
+            ],
+            "matter_rate_quadrature_difference": 7.5516554604365335e-06,
+            "spatial_rate_absolute_integral": 0.004170228780379909,
+            "spatial_rate_signed_integral": [
+              -5.5270918651460557e-08,
+              0.0003934778118129576,
+              -0.0003934225408943061,
+              0.004170228780379909
+            ],
+            "spatial_rate_quadrature_difference": 1.8833529267471213e-06,
+            "vacuum_rate_absolute_integral": 2.1341486084919743e-05,
+            "vacuum_rate_signed_integral": [
+              -4.3022281761428296e-07,
+              1.455919347066032e-07,
+              2.846308829076685e-07,
+              2.1341486084919743e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.8494391877201292e-08
+          },
+          "minimum_required_tolerance": 0.004170228780379909,
+          "last_width_diagnostics": {
+            "start_time": 372.72,
+            "end_time": 380.0,
+            "duration_volume": 8.899403260728093,
+            "drift": 0.026948986423982274,
+            "mean_spectrum": [
+              -0.0037030088143880963,
+              0.004446332951624176,
+              0.999256675862764,
+              -0.006105046174064559
+            ],
+            "max_em_fraction": 0.0004969787365544105,
+            "max_spatial_fraction": 0.0007162432856145945,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.023703143812484156,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0020919285737980024,
+              0.0020919285737980024,
+              -0.023524987537395268
+            ],
+            "matter_rate_quadrature_difference": 1.4277735826181276e-05,
+            "spatial_rate_absolute_integral": 0.016348918930658006,
+            "spatial_rate_signed_integral": [
+              -9.11830938028256e-06,
+              -0.000542087250526476,
+              0.0005512055599067585,
+              -0.0033896903746481665
+            ],
+            "spatial_rate_quadrature_difference": 2.7958079725172447e-05,
+            "vacuum_rate_absolute_integral": 4.061056298194311e-05,
+            "vacuum_rate_signed_integral": [
+              -4.427246424546237e-06,
+              -2.142317668545086e-05,
+              2.5850423109997096e-05,
+              -2.9702689356077356e-05
+            ],
+            "vacuum_rate_quadrature_difference": 3.005620521703969e-09
+          },
+          "interaction_integrals": {
+            "start_time": 251.72,
+            "end_time": 259.24,
+            "duration_volume": 9.062197489072673,
+            "drift": 0.0487447168072994,
+            "mean_spectrum": [
+              -0.00289538893800314,
+              0.003574796935041305,
+              0.9993205920029622,
+              0.002329752207065728
+            ],
+            "max_em_fraction": 0.0006459580685941941,
+            "max_spatial_fraction": 5.961823566256219e-05,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.049028648796458525,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.004565286128406436,
+              0.004565286128406436,
+              -0.049028648796458525
+            ],
+            "matter_rate_quadrature_difference": 1.776305116211324e-05,
+            "spatial_rate_absolute_integral": 0.0007559639717889248,
+            "spatial_rate_signed_integral": [
+              -1.3076110056234632e-07,
+              2.348128746688388e-05,
+              -2.3350526366321527e-05,
+              0.0002948350369616281
+            ],
+            "spatial_rate_quadrature_difference": 3.798743074128223e-07,
+            "vacuum_rate_absolute_integral": 6.172224504240744e-05,
+            "vacuum_rate_signed_integral": [
+              -3.338121991878052e-06,
+              -1.4613990924286796e-05,
+              1.7952112916164832e-05,
+              7.280098178446689e-06
+            ],
+            "vacuum_rate_quadrature_difference": 6.566364458308806e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 260.72,
+            "value": -0.02391138211972957
+          },
+          "post_minimum_one_width": {
+            "start_time": 260.72,
+            "end_time": 268.24,
+            "duration_volume": 9.076468705515367,
+            "drift": 0.04115490536170116,
+            "mean_spectrum": [
+              -0.0038048291204480326,
+              0.00448820706540187,
+              0.9993166220550462,
+              -0.007405982684726365
+            ],
+            "max_em_fraction": 0.0005903388688998512,
+            "max_spatial_fraction": 8.26520916192859e-05,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.038200447649081336,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.003599793448920515,
+              -0.003599793448920515,
+              0.03809389500847303
+            ],
+            "matter_rate_quadrature_difference": 1.116150425439083e-05,
+            "spatial_rate_absolute_integral": 0.0030685183342953415,
+            "spatial_rate_signed_integral": [
+              -2.29285614680272e-07,
+              0.00028273941413474836,
+              -0.00028251012852006805,
+              0.0030685183342953415
+            ],
+            "spatial_rate_quadrature_difference": 3.535707802124026e-07,
+            "vacuum_rate_absolute_integral": 6.0161876195874016e-05,
+            "vacuum_rate_signed_integral": [
+              -3.390493666972851e-06,
+              -1.8037082536646646e-05,
+              2.1427576203619506e-05,
+              -2.7835978404400392e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.54545893787868e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        }
+      ],
+      "max_fine_constraint": 2.5305647279244787e-09,
+      "max_fine_axis_error": 3.469446951953614e-18
+    },
+    {
+      "label": "near",
+      "convergence": {
+        "common_times": 381,
+        "last_common_time": 380.0,
+        "spectrum": {
+          "differences": [
+            3.609296856765549e-05,
+            2.26498501700121e-06
+          ],
+          "order": 3.994144394714366
+        },
+        "magnetic": {
+          "differences": [
+            3.673963785004756e-07,
+            2.3073056438865057e-08
+          ],
+          "order": 3.9930563730402064
+        },
+        "electric": {
+          "differences": [
+            5.723974080144899e-07,
+            3.603968741977071e-08
+          ],
+          "order": 3.9893587356244304
+        },
+        "spatial_fraction": {
+          "differences": [
+            3.912349653623559e-07,
+            2.4504052459410576e-08
+          ],
+          "order": 3.9969430465114146
+        },
+        "constraint": {
+          "differences": [
+            1.0056057738898556e-06,
+            6.484839621662434e-08
+          ],
+          "order": 3.9548501329626613
+        },
+        "spectrum_until_T300": {
+          "differences": [
+            2.190397716407555e-06,
+            1.3733340887070455e-07
+          ],
+          "order": 3.995438312307481
+        }
+      },
+      "curves": [
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": -34.8,
+          "peak_time": 249.0,
+          "peak_volume_clock": 272.6821749302743,
+          "peak_fraction": 0.0006654326375441858,
+          "quadratic_peak_time": 248.97970875056689,
+          "quadratic_peak_volume_clock": 272.65785426049206,
+          "peak_time_bracket": [
+            248.72,
+            249.24
+          ],
+          "half_maximum_times": [
+            245.0,
+            253.0
+          ],
+          "width_volume": 9.588705676981135,
+          "samples_across_width": 32,
+          "peak_spectrum": [
+            -0.00316251437415846,
+            0.0038419937554255933,
+            0.999320520618733,
+            0.000506697724027601
+          ],
+          "initial_spectrum": [
+            0.0003385516181797607,
+            0.0003385516181797607,
+            0.9993228967636405,
+            0.036790199262739326
+          ],
+          "final_spectrum": [
+            -0.0016447112541737178,
+            0.0023933278698184462,
+            0.9992513833843553,
+            0.017155098541926827
+          ],
+          "incoming_candidate": {
+            "start_time": 226.0,
+            "end_time": 234.24,
+            "duration_volume": 9.760901976960895,
+            "drift": 9.487297072152678e-05,
+            "mean_spectrum": [
+              0.00033571215103671845,
+              0.0003413930144898962,
+              0.9993228948344737,
+              0.036762611831068624
+            ],
+            "max_em_fraction": 3.602724044283171e-06,
+            "max_spatial_fraction": 1.0893372687328045e-11,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 9.557333603854056e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.703201711655649e-06,
+              9.703201711655649e-06,
+              -9.557333603854056e-05
+            ],
+            "matter_rate_quadrature_difference": 9.444333579209827e-08,
+            "spatial_rate_absolute_integral": 2.484235743524595e-07,
+            "spatial_rate_signed_integral": [
+              1.7415436368343163e-11,
+              2.586199050826528e-08,
+              -2.5879405944633625e-08,
+              2.484235743524595e-07
+            ],
+            "spatial_rate_quadrature_difference": 2.3567064325230194e-10,
+            "vacuum_rate_absolute_integral": 3.568971061362994e-07,
+            "vacuum_rate_signed_integral": [
+              -6.57753436627116e-09,
+              3.2385746350194648e-09,
+              3.3389597312357144e-09,
+              3.568971061362994e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.4420286456839324e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 353.72,
+            "end_time": 361.72,
+            "duration_volume": 9.732394471365637,
+            "drift": 0.0027239110272865227,
+            "mean_spectrum": [
+              0.00030644094783083547,
+              0.00042804127426119214,
+              0.999265517777908,
+              0.0371091028134628
+            ],
+            "max_em_fraction": 0.00011266691427083877,
+            "max_spatial_fraction": 2.4976990741068655e-06,
+            "max_axis_error": 3.2526065174565133e-19,
+            "matter_rate_absolute_integral": 0.003642315126395897,
+            "matter_rate_signed_integral": [
+              0.0,
+              -4.07701071026849e-05,
+              4.07701071026849e-05,
+              -0.00047219045726451704
+            ],
+            "matter_rate_quadrature_difference": 5.692112156369545e-06,
+            "spatial_rate_absolute_integral": 0.0012660323023109016,
+            "spatial_rate_signed_integral": [
+              -1.8620804625268295e-07,
+              -2.8811154452925675e-05,
+              2.8997362499178346e-05,
+              -0.00024568810367824035
+            ],
+            "spatial_rate_quadrature_difference": 3.5791639385540034e-06,
+            "vacuum_rate_absolute_integral": 1.5521562393363432e-05,
+            "vacuum_rate_signed_integral": [
+              -3.104277736104177e-07,
+              1.2297856231569257e-07,
+              1.8744921129477599e-07,
+              1.5521562393363432e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.9727501301331673e-08
+          },
+          "minimum_required_tolerance": 0.003642315126395897,
+          "last_width_diagnostics": {
+            "start_time": 372.24,
+            "end_time": 380.0,
+            "duration_volume": 9.490483627190258,
+            "drift": 0.046406658059976194,
+            "mean_spectrum": [
+              -0.004671007140952488,
+              0.00541385661756994,
+              0.9992571505233826,
+              -0.016312265516219022
+            ],
+            "max_em_fraction": 0.00047655692787283016,
+            "max_spatial_fraction": 0.0002660261567790732,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.028852461874072456,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.00016340460876906713,
+              -0.00016340460876906713,
+              0.0015913906059528248
+            ],
+            "matter_rate_quadrature_difference": 4.828312394592263e-05,
+            "spatial_rate_absolute_integral": 0.038190816390199576,
+            "spatial_rate_signed_integral": [
+              -5.768357600103462e-06,
+              0.0034165326545343147,
+              -0.003410764296934211,
+              0.038190816390199576
+            ],
+            "spatial_rate_quadrature_difference": 8.611973321012711e-06,
+            "vacuum_rate_absolute_integral": 7.617294780226723e-05,
+            "vacuum_rate_signed_integral": [
+              -3.3239810462741608e-06,
+              -1.9219057199307282e-05,
+              2.2543038245581426e-05,
+              -5.446469613918765e-05
+            ],
+            "vacuum_rate_quadrature_difference": 5.059907909985982e-08
+          },
+          "interaction_integrals": {
+            "start_time": 245.0,
+            "end_time": 253.0,
+            "duration_volume": 9.588705676981135,
+            "drift": 0.052098706041861856,
+            "mean_spectrum": [
+              -0.0031467817576961237,
+              0.003826253720964564,
+              0.9993205280367315,
+              0.0006689731082383042
+            ],
+            "max_em_fraction": 0.0006654326938041306,
+            "max_spatial_fraction": 3.835552730670005e-06,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.052549301476238416,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.005034633953594301,
+              0.005034633953594301,
+              -0.052549301476238416
+            ],
+            "matter_rate_quadrature_difference": 1.4045539379461958e-05,
+            "spatial_rate_absolute_integral": 0.00046186789634034307,
+            "spatial_rate_signed_integral": [
+              1.9976359963498507e-08,
+              4.492583122437571e-05,
+              -4.49458075843392e-05,
+              0.00046186789634034307
+            ],
+            "spatial_rate_quadrature_difference": 2.558389603808794e-08,
+            "vacuum_rate_absolute_integral": 6.623391971009637e-05,
+            "vacuum_rate_signed_integral": [
+              -3.438858310242475e-06,
+              -1.5983381370644218e-05,
+              1.942223968088667e-05,
+              2.7895886055238183e-06
+            ],
+            "vacuum_rate_quadrature_difference": 5.596917749713917e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 257.24,
+            "value": -0.032266912251794136
+          },
+          "post_minimum_one_width": {
+            "start_time": 257.24,
+            "end_time": 265.24,
+            "duration_volume": 9.641773947776755,
+            "drift": 0.027755787453454805,
+            "mean_spectrum": [
+              -0.0054866350799143634,
+              0.006169186778987798,
+              0.9993174483009265,
+              -0.02384931621245308
+            ],
+            "max_em_fraction": 0.000625970819850498,
+            "max_spatial_fraction": 3.219840317815486e-05,
+            "max_axis_error": 3.469446951953614e-18,
+            "matter_rate_absolute_integral": 0.02660693541427401,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.002641112807365486,
+              -0.002641112807365486,
+              0.026540356190955246
+            ],
+            "matter_rate_quadrature_difference": 6.608353252245125e-06,
+            "spatial_rate_absolute_integral": 0.0012756604744790661,
+            "spatial_rate_signed_integral": [
+              -2.0951162232528645e-08,
+              0.000125723415885664,
+              -0.0001257024647234315,
+              0.0012756604744790661
+            ],
+            "spatial_rate_quadrature_difference": 2.0941686969450958e-07,
+            "vacuum_rate_absolute_integral": 6.13366179769875e-05,
+            "vacuum_rate_signed_integral": [
+              -2.1461262202748994e-06,
+              -1.589493583856376e-05,
+              1.804106205883873e-05,
+              -6.13366179769875e-05
+            ],
+            "vacuum_rate_quadrature_difference": 3.1112906632584135e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": -17.6,
+          "peak_time": 250.0,
+          "peak_volume_clock": 273.8858528969065,
+          "peak_fraction": 0.0006616817441008356,
+          "quadratic_peak_time": 250.04409568394757,
+          "quadratic_peak_volume_clock": 273.93875189789514,
+          "peak_time_bracket": [
+            249.72,
+            250.24
+          ],
+          "half_maximum_times": [
+            246.0,
+            254.0
+          ],
+          "width_volume": 9.596976711256048,
+          "samples_across_width": 32,
+          "peak_spectrum": [
+            -0.0030764824684804248,
+            0.0037559167102417528,
+            0.9993205657582386,
+            0.0012393960078636056
+          ],
+          "initial_spectrum": [
+            0.0003385516174353231,
+            0.0003385516174353231,
+            0.9993228967651294,
+            0.036790199181841746
+          ],
+          "final_spectrum": [
+            6.721395932435638e-05,
+            0.0006805080187065314,
+            0.9992522780219691,
+            0.03645810796627075
+          ],
+          "incoming_candidate": {
+            "start_time": 227.24,
+            "end_time": 235.48000000000002,
+            "duration_volume": 9.770618879536187,
+            "drift": 9.851173759062998e-05,
+            "mean_spectrum": [
+              0.0003356246888390703,
+              0.000341480542678467,
+              0.9993228947684822,
+              0.036761601734548364
+            ],
+            "max_em_fraction": 3.7382326055174775e-06,
+            "max_spatial_fraction": 4.576768923854175e-11,
+            "max_axis_error": 1.0842021724855044e-19,
+            "matter_rate_absolute_integral": 9.896771223859115e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.992505638303722e-06,
+              9.992505638303722e-06,
+              -9.896771223859115e-05
+            ],
+            "matter_rate_quadrature_difference": 9.931056451262417e-08,
+            "spatial_rate_absolute_integral": 1.1625740547203537e-08,
+            "spatial_rate_signed_integral": [
+              -9.48758363645829e-13,
+              -1.208386979387473e-09,
+              1.209335737751119e-09,
+              -1.1625740547203537e-08
+            ],
+            "spatial_rate_quadrature_difference": 8.406926941886132e-12,
+            "vacuum_rate_absolute_integral": 3.687299263621228e-07,
+            "vacuum_rate_signed_integral": [
+              -6.795956966693172e-09,
+              3.3444962855008257e-09,
+              3.4514606813841583e-09,
+              3.687299263621228e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.6106545753610597e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 296.48,
+            "end_time": 304.48,
+            "duration_volume": 9.762779355614384,
+            "drift": 0.0029419783829652754,
+            "mean_spectrum": [
+              0.00017079578982191605,
+              0.0005257748686999528,
+              0.9993034293414781,
+              0.035971903932741
+            ],
+            "max_em_fraction": 0.00012281382890999695,
+            "max_spatial_fraction": 2.9840413437503012e-06,
+            "max_axis_error": 2.168404344971009e-19,
+            "matter_rate_absolute_integral": 0.002710237291166547,
+            "matter_rate_signed_integral": [
+              0.0,
+              9.636909096458872e-05,
+              -9.636909096458872e-05,
+              0.0009648514005895912
+            ],
+            "matter_rate_quadrature_difference": 3.3245077695502265e-06,
+            "spatial_rate_absolute_integral": 0.002848431838621178,
+            "spatial_rate_signed_integral": [
+              -6.107238888086075e-07,
+              -1.5857931856417867e-05,
+              1.6468655745226493e-05,
+              4.817623254953939e-05
+            ],
+            "spatial_rate_quadrature_difference": 3.795282416283949e-06,
+            "vacuum_rate_absolute_integral": 1.6359552314866508e-05,
+            "vacuum_rate_signed_integral": [
+              -3.2004176136690834e-07,
+              2.2464162832537594e-07,
+              9.540013304153917e-08,
+              1.6359552314866508e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.0079205426796906e-08
+          },
+          "minimum_required_tolerance": 0.0029419783829652754,
+          "last_width_diagnostics": {
+            "start_time": 372.24,
+            "end_time": 380.0,
+            "duration_volume": 9.46175577458257,
+            "drift": 0.02575811828172761,
+            "mean_spectrum": [
+              -0.0010679006989009721,
+              0.001812960175160967,
+              0.9992549405237401,
+              0.023448047075979944
+            ],
+            "max_em_fraction": 0.00038427810796689323,
+            "max_spatial_fraction": 0.00032890231294050045,
+            "max_axis_error": 8.673617379884035e-19,
+            "matter_rate_absolute_integral": 0.013805853529975189,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0012627930526034792,
+              0.0012627930526034792,
+              -0.013784674181177044
+            ],
+            "matter_rate_quadrature_difference": 3.026913718333357e-06,
+            "spatial_rate_absolute_integral": 0.03945110336673961,
+            "spatial_rate_signed_integral": [
+              -2.7152290545789225e-06,
+              0.003525795474328805,
+              -0.003523080245274225,
+              0.03945110336673961
+            ],
+            "spatial_rate_quadrature_difference": 1.0188355368201396e-05,
+            "vacuum_rate_absolute_integral": 8.221662967634113e-05,
+            "vacuum_rate_signed_integral": [
+              -3.0568846267644687e-06,
+              -5.62175457072588e-06,
+              8.678639197490226e-06,
+              8.221662967634113e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.395938667152937e-08
+          },
+          "interaction_integrals": {
+            "start_time": 246.0,
+            "end_time": 254.0,
+            "duration_volume": 9.596976711256048,
+            "drift": 0.05163645556010002,
+            "mean_spectrum": [
+              -0.0030674273026028718,
+              0.003746867675581761,
+              0.9993205596270212,
+              0.0013320171423724645
+            ],
+            "max_em_fraction": 0.0006616827074011944,
+            "max_spatial_fraction": 1.505323796530854e-05,
+            "max_axis_error": 2.168404344971009e-18,
+            "matter_rate_absolute_integral": 0.05221491586757782,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.004979434603998658,
+              0.004979434603998658,
+              -0.05221491586757782
+            ],
+            "matter_rate_quadrature_difference": 1.4694966063162618e-05,
+            "spatial_rate_absolute_integral": 0.0005887100423478924,
+            "spatial_rate_signed_integral": [
+              -1.6069675320564647e-09,
+              5.61312257420989e-05,
+              -5.612961877456684e-05,
+              0.0005887100423478924
+            ],
+            "spatial_rate_quadrature_difference": 1.0348974944097544e-07,
+            "vacuum_rate_absolute_integral": 6.63501324005914e-05,
+            "vacuum_rate_signed_integral": [
+              -3.4509909974944817e-06,
+              -1.5792031038917192e-05,
+              1.924302203641166e-05,
+              4.543452569582362e-06
+            ],
+            "vacuum_rate_quadrature_difference": 7.578912116081938e-09
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 256.72,
+            "value": -0.029330922609581308
+          },
+          "post_minimum_one_width": {
+            "start_time": 256.72,
+            "end_time": 264.72,
+            "duration_volume": 9.631992394138251,
+            "drift": 0.03727283733468839,
+            "mean_spectrum": [
+              -0.0047631737957172715,
+              0.005446132877482492,
+              0.9993170409182348,
+              -0.016561820858001237
+            ],
+            "max_em_fraction": 0.000626465898986282,
+            "max_spatial_fraction": 5.275732987089882e-05,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.03554923319636972,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0034691782166648634,
+              -0.0034691782166648634,
+              0.03541314339358691
+            ],
+            "matter_rate_quadrature_difference": 8.566241512707184e-06,
+            "spatial_rate_absolute_integral": 0.001903372722626203,
+            "spatial_rate_signed_integral": [
+              -7.893431931370758e-08,
+              0.00018346359416287483,
+              -0.00018338465984356114,
+              0.001903372722626203
+            ],
+            "spatial_rate_quadrature_difference": 1.9420543339318877e-07,
+            "vacuum_rate_absolute_integral": 6.0735850549379944e-05,
+            "vacuum_rate_signed_integral": [
+              -2.942478054109743e-06,
+              -1.884131671747944e-05,
+              2.178379477158917e-05,
+              -5.417722583961879e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.6312932510887046e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 0.0,
+          "peak_time": 252.24,
+          "peak_volume_clock": 276.5848684294502,
+          "peak_fraction": 0.0006424929050016859,
+          "quadratic_peak_time": 252.2318030141163,
+          "quadratic_peak_volume_clock": 276.5750171362102,
+          "peak_time_bracket": [
+            252.0,
+            252.48000000000002
+          ],
+          "half_maximum_times": [
+            248.24,
+            256.0
+          ],
+          "width_volume": 9.325536248122717,
+          "samples_across_width": 31,
+          "peak_spectrum": [
+            -0.0029892643151877714,
+            0.003668707051535957,
+            0.9993205572636519,
+            0.0018264228649178562
+          ],
+          "initial_spectrum": [
+            0.0003385516173438588,
+            0.0003385516173438588,
+            0.9993228967653124,
+            0.03679019917190237
+          ],
+          "final_spectrum": [
+            -0.0023868932622450926,
+            0.003136848033072029,
+            0.9992500452291732,
+            0.009497088569513633
+          ],
+          "incoming_candidate": {
+            "start_time": 229.72,
+            "end_time": 237.72,
+            "duration_volume": 9.504045390933697,
+            "drift": 9.122836499819709e-05,
+            "mean_spectrum": [
+              0.00033580206057742877,
+              0.00034130308295311833,
+              0.9993228948564692,
+              0.03676306863392412
+            ],
+            "max_em_fraction": 3.46946538115864e-06,
+            "max_spatial_fraction": 1.9096718577575579e-10,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 9.024428004323208e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.021110281597252e-06,
+              9.021110281597252e-06,
+              -9.024428004323208e-05
+            ],
+            "matter_rate_quadrature_difference": 9.201234997137223e-08,
+            "spatial_rate_absolute_integral": 1.4154082209808095e-06,
+            "spatial_rate_signed_integral": [
+              -9.82970222803309e-11,
+              -1.4499340966705894e-07,
+              1.450917066893393e-07,
+              -1.4154082209808095e-06
+            ],
+            "spatial_rate_quadrature_difference": 1.3879100413810303e-09,
+            "vacuum_rate_absolute_integral": 3.3873943906994645e-07,
+            "vacuum_rate_signed_integral": [
+              -6.242587198810425e-09,
+              3.0760462457593606e-09,
+              3.1665409529714805e-09,
+              3.3873943906994645e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.3702156116542393e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 363.48,
+            "end_time": 371.24,
+            "duration_volume": 9.431537832153879,
+            "drift": 0.0025833277669022802,
+            "mean_spectrum": [
+              -0.003204035712434967,
+              0.003945592885041539,
+              0.9992584428273932,
+              0.00046245820785656877
+            ],
+            "max_em_fraction": 9.76862493120056e-05,
+            "max_spatial_fraction": 0.0007275248354028724,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.0020278224078702145,
+            "matter_rate_signed_integral": [
+              0.0,
+              -5.979413891274965e-05,
+              5.979413891274965e-05,
+              -0.0006379952279171328
+            ],
+            "matter_rate_quadrature_difference": 7.02291651920664e-06,
+            "spatial_rate_absolute_integral": 0.0026613832719623804,
+            "spatial_rate_signed_integral": [
+              -7.312807800100036e-07,
+              -0.00020134808362760447,
+              0.0002020793644076145,
+              -0.0019505494736897552
+            ],
+            "spatial_rate_quadrature_difference": 2.3680807274273352e-06,
+            "vacuum_rate_absolute_integral": 2.709494195692127e-05,
+            "vacuum_rate_signed_integral": [
+              -5.092023554310929e-06,
+              -2.2002918402610337e-05,
+              2.709494195692127e-05,
+              3.162128082132164e-06
+            ],
+            "vacuum_rate_quadrature_difference": 1.0026185631002616e-08
+          },
+          "minimum_required_tolerance": 0.0026613832719623804,
+          "last_width_diagnostics": {
+            "start_time": 372.48,
+            "end_time": 380.0,
+            "duration_volume": 9.138084953724501,
+            "drift": 0.010248844950791142,
+            "mean_spectrum": [
+              -0.0027613186766854213,
+              0.0035089984128116036,
+              0.999252320263874,
+              0.005468237437059299
+            ],
+            "max_em_fraction": 0.00027805222096883507,
+            "max_spatial_fraction": 0.0006095505265206292,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.012071574493510337,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0009473770699342284,
+              -0.0009473770699342284,
+              0.01011711276987944
+            ],
+            "matter_rate_quadrature_difference": 1.6608578280086564e-05,
+            "spatial_rate_absolute_integral": 0.003100100277582571,
+            "spatial_rate_signed_integral": [
+              1.748018710171923e-07,
+              -7.777111990125781e-06,
+              7.602310119108564e-06,
+              -0.00022433547291822144
+            ],
+            "spatial_rate_quadrature_difference": 2.0141164352458288e-06,
+            "vacuum_rate_absolute_integral": 3.5733164669628334e-05,
+            "vacuum_rate_signed_integral": [
+              -4.890385105866022e-06,
+              -1.8084559467148493e-05,
+              2.2974944573014505e-05,
+              3.5522103416019146e-05
+            ],
+            "vacuum_rate_quadrature_difference": 8.991655823087483e-09
+          },
+          "interaction_integrals": {
+            "start_time": 248.24,
+            "end_time": 256.0,
+            "duration_volume": 9.325536248122717,
+            "drift": 0.04827278292904642,
+            "mean_spectrum": [
+              -0.002883972645253736,
+              0.003563390792550819,
+              0.999320581852703,
+              0.0029382899824325717
+            ],
+            "max_em_fraction": 0.0006425158541246796,
+            "max_spatial_fraction": 7.081711883198875e-05,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.04925324845434036,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.004651116619070155,
+              0.004651116619070155,
+              -0.04925324845434036
+            ],
+            "matter_rate_quadrature_difference": 1.7255850442550458e-05,
+            "spatial_rate_absolute_integral": 0.0011855776210988678,
+            "spatial_rate_signed_integral": [
+              -1.1526961911812735e-07,
+              8.983414357125419e-05,
+              -8.971887395213607e-05,
+              0.000989171323501682
+            ],
+            "spatial_rate_quadrature_difference": 2.3193473867345882e-07,
+            "vacuum_rate_absolute_integral": 6.323491163645477e-05,
+            "vacuum_rate_signed_integral": [
+              -3.4359631454710484e-06,
+              -1.5139062833334693e-05,
+              1.857502597880575e-05,
+              8.993731621511194e-06
+            ],
+            "vacuum_rate_quadrature_difference": 3.6836332134552335e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 257.24,
+            "value": -0.022691686445329835
+          },
+          "post_minimum_one_width": {
+            "start_time": 257.24,
+            "end_time": 265.0,
+            "duration_volume": 9.338165029844788,
+            "drift": 0.039926180041174604,
+            "mean_spectrum": [
+              -0.0037694658299274072,
+              0.004452989936243173,
+              0.9993164758936841,
+              -0.006378867785705105
+            ],
+            "max_em_fraction": 0.0005504615534516321,
+            "max_spatial_fraction": 0.00013499701378938997,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.03518909694602683,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0033380729736199005,
+              -0.0033380729736199005,
+              0.03486977526477553
+            ],
+            "matter_rate_quadrature_difference": 6.657031057101526e-06,
+            "spatial_rate_absolute_integral": 0.005059342952082051,
+            "spatial_rate_signed_integral": [
+              -3.604642163602161e-07,
+              0.0004728816294341081,
+              -0.0004725211652177479,
+              0.005059342952082051
+            ],
+            "spatial_rate_quadrature_difference": 6.592882722481624e-07,
+            "vacuum_rate_absolute_integral": 6.152796022466776e-05,
+            "vacuum_rate_signed_integral": [
+              -3.5553587558840545e-06,
+              -1.883451228573655e-05,
+              2.2389871041620595e-05,
+              -2.5090402782889146e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.695616148743233e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 17.6,
+          "peak_time": 257.48,
+          "peak_volume_clock": 282.92069432206216,
+          "peak_fraction": 0.0001511018776894883,
+          "quadratic_peak_time": 257.4178017295669,
+          "quadratic_peak_volume_clock": 282.8455995471433,
+          "peak_time_bracket": [
+            257.24,
+            257.72
+          ],
+          "half_maximum_times": [
+            254.0,
+            259.72
+          ],
+          "width_volume": 6.904087485559785,
+          "samples_across_width": 23,
+          "peak_spectrum": [
+            -0.0011175133643751966,
+            0.0017967784612592209,
+            0.9993207349031159,
+            0.021436683814100715
+          ],
+          "initial_spectrum": [
+            0.0003385516174375606,
+            0.0003385516174375606,
+            0.999322896765125,
+            0.03679019918208489
+          ],
+          "final_spectrum": [
+            -0.002338445123857471,
+            0.0030882757472872066,
+            0.9992501693765703,
+            0.010005082831406808
+          ],
+          "incoming_candidate": {
+            "start_time": 239.72,
+            "end_time": 245.72,
+            "duration_volume": 7.179975604238791,
+            "drift": 9.224035133020142e-05,
+            "mean_spectrum": [
+              0.0003349995670557024,
+              0.0003421083167736702,
+              0.9993228921161706,
+              0.03675461401005593
+            ],
+            "max_em_fraction": 3.6541913818184003e-06,
+            "max_spatial_fraction": 5.043334764329736e-09,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 7.051766782597251e-06,
+            "matter_rate_signed_integral": [
+              0.0,
+              -6.802227684345721e-07,
+              6.802227684345721e-07,
+              -7.051766782597251e-06
+            ],
+            "matter_rate_quadrature_difference": 7.78417871487648e-09,
+            "spatial_rate_absolute_integral": 8.562375824173275e-05,
+            "spatial_rate_signed_integral": [
+              -5.706310713542123e-09,
+              -8.449088030077483e-06,
+              8.454794340791024e-06,
+              -8.562375824173275e-05
+            ],
+            "spatial_rate_quadrature_difference": 9.090284467777035e-08,
+            "vacuum_rate_absolute_integral": 3.3734877103964143e-07,
+            "vacuum_rate_signed_integral": [
+              -6.217759604397252e-09,
+              3.0602878706457466e-09,
+              3.1574717337582748e-09,
+              3.3734877103964143e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.5110558410265557e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 364.0,
+            "end_time": 369.72,
+            "duration_volume": 6.952063725567712,
+            "drift": 0.001543293600968807,
+            "mean_spectrum": [
+              -0.003212751226466745,
+              0.0039539806502846605,
+              0.9992587705761821,
+              0.00025540635016497255
+            ],
+            "max_em_fraction": 5.519464823770986e-05,
+            "max_spatial_fraction": 0.0007235564763254351,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.000757058004251215,
+            "matter_rate_signed_integral": [
+              0.0,
+              4.762123692737121e-05,
+              -4.762123692737121e-05,
+              0.0005072267154096606
+            ],
+            "matter_rate_quadrature_difference": 2.1688959177599935e-06,
+            "spatial_rate_absolute_integral": 0.0021571417550685836,
+            "spatial_rate_signed_integral": [
+              -4.007325418341563e-07,
+              -1.8609665317785027e-05,
+              1.9010397859619174e-05,
+              -0.0001155247469209009
+            ],
+            "spatial_rate_quadrature_difference": 2.7010544069558558e-06,
+            "vacuum_rate_absolute_integral": 1.9989315692727284e-05,
+            "vacuum_rate_signed_integral": [
+              -3.7507676477582667e-06,
+              -1.6238548044969018e-05,
+              1.9989315692727284e-05,
+              1.4909517012700365e-06
+            ],
+            "vacuum_rate_quadrature_difference": 7.528001548860584e-09
+          },
+          "minimum_required_tolerance": 0.0021571417550685836,
+          "last_width_diagnostics": {
+            "start_time": 374.48,
+            "end_time": 380.0,
+            "duration_volume": 6.709044773278208,
+            "drift": 0.0066063371369740765,
+            "mean_spectrum": [
+              -0.0025336529288014077,
+              0.003281867384790704,
+              0.9992517855440105,
+              0.007868346210262594
+            ],
+            "max_em_fraction": 0.000277955978744086,
+            "max_spatial_fraction": 0.0005254286258009605,
+            "max_axis_error": 1.3010426069826053e-18,
+            "matter_rate_absolute_integral": 0.007254517995507175,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0005986102627456491,
+              -0.0005986102627456491,
+              0.0063845645966366755
+            ],
+            "matter_rate_quadrature_difference": 3.3645102505133404e-06,
+            "spatial_rate_absolute_integral": 0.001229311334157916,
+            "spatial_rate_signed_integral": [
+              2.455045888681424e-07,
+              1.0123349214176385e-05,
+              -1.036885380304451e-05,
+              6.63101395716518e-05
+            ],
+            "spatial_rate_quadrature_difference": 1.4767314477448588e-06,
+            "vacuum_rate_absolute_integral": 3.732404479653475e-05,
+            "vacuum_rate_signed_integral": [
+              -3.5428516895360316e-06,
+              -1.1990924243967474e-05,
+              1.55337759335035e-05,
+              3.732404479653475e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.034793139899153e-08
+          },
+          "interaction_integrals": {
+            "start_time": 254.0,
+            "end_time": 259.72,
+            "duration_volume": 6.904087485559785,
+            "drift": 0.023049805676708286,
+            "mean_spectrum": [
+              -0.0009637933052330673,
+              0.0016429028871469261,
+              0.9993208904180858,
+              0.023073206058333757
+            ],
+            "max_em_fraction": 0.00033464107887123734,
+            "max_spatial_fraction": 0.00035038228395539126,
+            "max_axis_error": 8.673617379884035e-19,
+            "matter_rate_absolute_integral": 0.0025829014114946577,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.00020011082113309412,
+              -0.00020011082113309412,
+              0.0021922475140553374
+            ],
+            "matter_rate_quadrature_difference": 4.228562236784691e-06,
+            "spatial_rate_absolute_integral": 0.025291012702322986,
+            "spatial_rate_signed_integral": [
+              -2.153592795275404e-06,
+              -0.002382095982895071,
+              0.0023842495756903467,
+              -0.025291012702322986
+            ],
+            "spatial_rate_quadrature_difference": 9.26000832505991e-07,
+            "vacuum_rate_absolute_integral": 5.426276266230228e-05,
+            "vacuum_rate_signed_integral": [
+              -1.80331983447134e-06,
+              -3.2171848781305903e-06,
+              5.020504712601894e-06,
+              5.426276266230228e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.8229308832292046e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 274.48,
+            "value": -0.03463064144625323
+          },
+          "post_minimum_one_width": {
+            "start_time": 274.48,
+            "end_time": 280.24,
+            "duration_volume": 6.946712849786024,
+            "drift": 0.0036132509371057248,
+            "mean_spectrum": [
+              -0.006372397050817525,
+              0.007063650906268307,
+              0.999308746144549,
+              -0.03356372113284221
+            ],
+            "max_em_fraction": 0.00016771000106360583,
+            "max_spatial_fraction": 4.677937219503448e-07,
+            "max_axis_error": 3.469446951953614e-18,
+            "matter_rate_absolute_integral": 0.005419550541952469,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0005190741105118863,
+              -0.0005190741105118863,
+              0.005419550541952469
+            ],
+            "matter_rate_quadrature_difference": 3.319569554517156e-06,
+            "spatial_rate_absolute_integral": 0.0017848309587704058,
+            "spatial_rate_signed_integral": [
+              -3.3189328288311324e-09,
+              -0.00016960665387600877,
+              0.0001696099728088376,
+              -0.0017848309587704058
+            ],
+            "spatial_rate_quadrature_difference": 4.980549415177331e-07,
+            "vacuum_rate_absolute_integral": 1.8632268833325332e-05,
+            "vacuum_rate_signed_integral": [
+              -3.885934203868761e-07,
+              -3.559640431953366e-06,
+              3.948233852340157e-06,
+              -1.8632268833325332e-05
+            ],
+            "vacuum_rate_quadrature_difference": 9.250079551382796e-09
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 34.8,
+          "peak_time": 253.0,
+          "peak_volume_clock": 277.5018419399093,
+          "peak_fraction": 0.0006168427526938518,
+          "quadratic_peak_time": 252.96360735925677,
+          "quadratic_peak_volume_clock": 277.45807793290584,
+          "peak_time_bracket": [
+            252.72,
+            253.24
+          ],
+          "half_maximum_times": [
+            249.24,
+            256.48
+          ],
+          "width_volume": 8.705635548575401,
+          "samples_across_width": 29,
+          "peak_spectrum": [
+            -0.0028784220781244278,
+            0.003557875988260323,
+            0.999320546089864,
+            0.002898125722029714
+          ],
+          "initial_spectrum": [
+            0.00033855161816308634,
+            0.00033855161816308634,
+            0.9993228967636739,
+            0.03679019926092733
+          ],
+          "final_spectrum": [
+            -0.004203738853802565,
+            0.004953776082934643,
+            0.999249962770868,
+            -0.009747512471663727
+          ],
+          "incoming_candidate": {
+            "start_time": 231.24,
+            "end_time": 238.72,
+            "duration_volume": 8.89529199871518,
+            "drift": 9.267701561703479e-05,
+            "mean_spectrum": [
+              0.0003356121002198171,
+              0.00034149322806198087,
+              0.9993228946717182,
+              0.03676107733538456
+            ],
+            "max_em_fraction": 3.5490519961882166e-06,
+            "max_spatial_fraction": 4.345276914643713e-10,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 8.890948184589142e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -8.846621245319439e-06,
+              8.846621245319439e-06,
+              -8.890948184589142e-05
+            ],
+            "matter_rate_quadrature_difference": 9.233779186258143e-08,
+            "spatial_rate_absolute_integral": 4.204447633986866e-06,
+            "spatial_rate_signed_integral": [
+              -2.887952307065526e-10,
+              -4.2857135825032024e-07,
+              4.288601534810268e-07,
+              -4.204447633986866e-06
+            ],
+            "spatial_rate_quadrature_difference": 4.109098675734363e-09,
+            "vacuum_rate_absolute_integral": 3.413031370133281e-07,
+            "vacuum_rate_signed_integral": [
+              -6.2900844378676436e-09,
+              3.098262253217399e-09,
+              3.191822184777615e-09,
+              3.413031370133281e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.453117582057773e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 333.48,
+            "end_time": 340.72,
+            "duration_volume": 8.796318865404373,
+            "drift": 0.003859676868060844,
+            "mean_spectrum": [
+              -0.003224084275569733,
+              0.003946226904641995,
+              0.9992778573709277,
+              -0.0006206508913062033
+            ],
+            "max_em_fraction": 0.00013667323696545783,
+            "max_spatial_fraction": 0.0006912739409127665,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.0026398772175279302,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0001134498028294275,
+              0.0001134498028294275,
+              -0.001206634253193898
+            ],
+            "matter_rate_quadrature_difference": 4.113403201143513e-06,
+            "spatial_rate_absolute_integral": 0.005951029540256746,
+            "spatial_rate_signed_integral": [
+              -9.44801754157716e-07,
+              0.00011111728081807805,
+              -0.00011017247906392022,
+              0.001418813827292261
+            ],
+            "spatial_rate_quadrature_difference": 5.943482727212811e-06,
+            "vacuum_rate_absolute_integral": 2.452970981872237e-05,
+            "vacuum_rate_signed_integral": [
+              -4.497312961046332e-06,
+              -2.0032396857676052e-05,
+              2.452970981872237e-05,
+              -3.3743688635153823e-06
+            ],
+            "vacuum_rate_quadrature_difference": 1.0198915805063213e-09
+          },
+          "minimum_required_tolerance": 0.005951029540256746,
+          "last_width_diagnostics": {
+            "start_time": 373.0,
+            "end_time": 380.0,
+            "duration_volume": 8.507845946870646,
+            "drift": 0.006874178635306679,
+            "mean_spectrum": [
+              -0.004644544471955261,
+              0.005392259652834308,
+              0.9992522848191211,
+              -0.014619981377517861
+            ],
+            "max_em_fraction": 0.0004357617443700664,
+            "max_spatial_fraction": 0.00028647217988854716,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.02695079952764797,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0025178284401413363,
+              0.0025178284401413363,
+              -0.02695079952764797
+            ],
+            "matter_rate_quadrature_difference": 2.2624561326137216e-06,
+            "spatial_rate_absolute_integral": 0.03266786003554179,
+            "spatial_rate_signed_integral": [
+              -3.4635453027943865e-07,
+              0.0030478194284022024,
+              -0.003047473073871924,
+              0.03266786003554179
+            ],
+            "spatial_rate_quadrature_difference": 1.2607239569042972e-06,
+            "vacuum_rate_absolute_integral": 7.592274062625418e-05,
+            "vacuum_rate_signed_integral": [
+              -3.89469256915076e-06,
+              -2.417083041070658e-05,
+              2.806552297985732e-05,
+              -7.592274062625418e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.1057466935951357e-08
+          },
+          "interaction_integrals": {
+            "start_time": 249.24,
+            "end_time": 256.48,
+            "duration_volume": 8.705635548575401,
+            "drift": 0.04400369211482107,
+            "mean_spectrum": [
+              -0.002753648368544892,
+              0.0034330927491964137,
+              0.9993205556193485,
+              0.004223020345243302
+            ],
+            "max_em_fraction": 0.0006170287925398414,
+            "max_spatial_fraction": 0.000135441752377487,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.04466305068118365,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.004201475336548391,
+              0.004201475336548391,
+              -0.04466305068118365
+            ],
+            "matter_rate_quadrature_difference": 1.9066218656937917e-05,
+            "spatial_rate_absolute_integral": 0.001603208621566539,
+            "spatial_rate_signed_integral": [
+              -2.798385551799558e-07,
+              5.389016588946403e-05,
+              -5.361032733428409e-05,
+              0.0006659246715627828
+            ],
+            "spatial_rate_quadrature_difference": 1.7924908090379693e-06,
+            "vacuum_rate_absolute_integral": 5.648903256408837e-05,
+            "vacuum_rate_signed_integral": [
+              -3.3063771646156845e-06,
+              -1.4061501761725061e-05,
+              1.7367878926340744e-05,
+              1.3527221394736673e-05
+            ],
+            "vacuum_rate_quadrature_difference": 9.166376580291107e-09
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 257.48,
+            "value": -0.018089849390147048
+          },
+          "post_minimum_one_width": {
+            "start_time": 257.48,
+            "end_time": 264.72,
+            "duration_volume": 8.70810923239435,
+            "drift": 0.035416403418971475,
+            "mean_spectrum": [
+              -0.003344614438191773,
+              0.004028472175470998,
+              0.9993161422627208,
+              -0.0018351128449396528
+            ],
+            "max_em_fraction": 0.0004785173810115983,
+            "max_spatial_fraction": 0.0001956849112726439,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.028549541190474325,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0026954453251205593,
+              -0.0026954453251205593,
+              0.028417318075618776
+            ],
+            "matter_rate_quadrature_difference": 2.7678524442367736e-05,
+            "spatial_rate_absolute_integral": 0.006980531532535526,
+            "spatial_rate_signed_integral": [
+              -5.822744221649782e-07,
+              0.0006441081186528261,
+              -0.0006435258442306614,
+              0.006980531532535526
+            ],
+            "spatial_rate_quadrature_difference": 1.3453982469820852e-06,
+            "vacuum_rate_absolute_integral": 5.337297682573584e-05,
+            "vacuum_rate_signed_integral": [
+              -3.5467153196836704e-06,
+              -1.717778875528852e-05,
+              2.0724504074972186e-05,
+              -7.73259417412734e-06
+            ],
+            "vacuum_rate_quadrature_difference": 4.163342756612461e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        }
+      ],
+      "max_fine_constraint": 4.348522876632808e-09,
+      "max_fine_axis_error": 1.1102230246251565e-16
+    },
+    {
+      "label": "strong",
+      "convergence": {
+        "common_times": 381,
+        "last_common_time": 380.0,
+        "spectrum": {
+          "differences": [
+            3.175854254322194e-05,
+            1.992202084618276e-06
+          ],
+          "order": 3.9947088023551793
+        },
+        "magnetic": {
+          "differences": [
+            3.548217897833485e-07,
+            2.235384578288223e-08
+          ],
+          "order": 3.9884996480945563
+        },
+        "electric": {
+          "differences": [
+            1.3088435834959127e-06,
+            8.232796503511094e-08
+          ],
+          "order": 3.9907663183111386
+        },
+        "spatial_fraction": {
+          "differences": [
+            1.1819249804962241e-06,
+            7.435984029853559e-08
+          ],
+          "order": 3.9904709852081983
+        },
+        "constraint": {
+          "differences": [
+            3.9105678985162737e-07,
+            2.4681837746992285e-08
+          ],
+          "order": 3.985856410067163
+        },
+        "spectrum_until_T300": {
+          "differences": [
+            1.7752063699843362e-06,
+            1.1136265433073222e-07
+          ],
+          "order": 3.9946493410064607
+        }
+      },
+      "curves": [
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": -34.8,
+          "peak_time": 244.0,
+          "peak_volume_clock": 266.67987538616507,
+          "peak_fraction": 0.000665627587497377,
+          "quadratic_peak_time": 243.98487208342127,
+          "quadratic_peak_volume_clock": 266.6618181896037,
+          "peak_time_bracket": [
+            243.72,
+            244.24
+          ],
+          "half_maximum_times": [
+            240.0,
+            248.0
+          ],
+          "width_volume": 9.549159061405703,
+          "samples_across_width": 32,
+          "peak_spectrum": [
+            -0.003236472569898912,
+            0.003915999648193002,
+            0.999320472921706,
+            0.0005441543297106072
+          ],
+          "initial_spectrum": [
+            0.0003385516181797607,
+            0.0003385516181797607,
+            0.9993228967636405,
+            0.036790199262739326
+          ],
+          "final_spectrum": [
+            -0.0034266654460427784,
+            0.004169878986038524,
+            0.9992567864600043,
+            -0.0031507628087599736
+          ],
+          "incoming_candidate": {
+            "start_time": 220.48000000000002,
+            "end_time": 228.72,
+            "duration_volume": 9.717875779308969,
+            "drift": 9.045374951444085e-05,
+            "mean_spectrum": [
+              0.0003356708623818088,
+              0.000341434329946699,
+              0.9993228948076714,
+              0.03676291430588915
+            ],
+            "max_em_fraction": 3.44733586549355e-06,
+            "max_spatial_fraction": 4.61011998722501e-12,
+            "max_axis_error": 1.0842021724855044e-19,
+            "matter_rate_absolute_integral": 9.12861026444193e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.501701657518743e-06,
+              9.501701657518743e-06,
+              -9.12861026444193e-05
+            ],
+            "matter_rate_quadrature_difference": 8.367380207078504e-08,
+            "spatial_rate_absolute_integral": 3.9916950371976073e-07,
+            "spatial_rate_signed_integral": [
+              2.871458885757775e-11,
+              4.265728137738196e-08,
+              -4.268599596623953e-08,
+              3.9916950371976073e-07
+            ],
+            "spatial_rate_quadrature_difference": 3.4741645014001286e-10,
+            "vacuum_rate_absolute_integral": 3.4929169913901054e-07,
+            "vacuum_rate_signed_integral": [
+              -6.43701050109096e-09,
+              3.170161038263341e-09,
+              3.26684946287513e-09,
+              3.4929169913901054e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.1226739807483204e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 292.0,
+            "end_time": 300.0,
+            "duration_volume": 9.718373186906149,
+            "drift": 0.0007853366375955781,
+            "mean_spectrum": [
+              0.00010470620228484732,
+              0.0005923899302431587,
+              0.9993029038674719,
+              0.03692544470283841
+            ],
+            "max_em_fraction": 3.5503286765641264e-05,
+            "max_spatial_fraction": 4.3923008508897746e-07,
+            "max_axis_error": 2.168404344971009e-19,
+            "matter_rate_absolute_integral": 0.0008000830957041045,
+            "matter_rate_signed_integral": [
+              0.0,
+              -3.8710064211016075e-05,
+              3.8710064211016075e-05,
+              -0.00040124478624124245
+            ],
+            "matter_rate_quadrature_difference": 6.968355447604501e-07,
+            "spatial_rate_absolute_integral": 0.0007179349300440498,
+            "spatial_rate_signed_integral": [
+              4.580771458789042e-08,
+              1.3876413433837337e-05,
+              -1.3922221148425208e-05,
+              9.66620626121962e-05
+            ],
+            "spatial_rate_quadrature_difference": 1.2147239204454317e-06,
+            "vacuum_rate_absolute_integral": 5.172749970477418e-06,
+            "vacuum_rate_signed_integral": [
+              -9.789379497026634e-08,
+              8.196375713233596e-08,
+              1.593003783805418e-08,
+              5.172749970477418e-06
+            ],
+            "vacuum_rate_quadrature_difference": 6.360430226025961e-09
+          },
+          "minimum_required_tolerance": 0.0008000830957041045,
+          "last_width_diagnostics": {
+            "start_time": 372.24,
+            "end_time": 380.0,
+            "duration_volume": 9.518980880850279,
+            "drift": 0.02838944394493816,
+            "mean_spectrum": [
+              -0.004946180539516829,
+              0.005686785785907396,
+              0.9992593947536097,
+              -0.018278071414504805
+            ],
+            "max_em_fraction": 0.0005257627565143571,
+            "max_spatial_fraction": 0.00036036231374338975,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.03525776189403142,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0035845189286924546,
+              -0.0035845189286924546,
+              0.03525776189403142
+            ],
+            "matter_rate_quadrature_difference": 1.0961829071884366e-05,
+            "spatial_rate_absolute_integral": 0.006805337913805843,
+            "spatial_rate_signed_integral": [
+              -6.22503473340178e-07,
+              -0.0007074584528767092,
+              0.0007080809563500494,
+              -0.006805337913805843
+            ],
+            "spatial_rate_quadrature_difference": 3.7203623657819374e-07,
+            "vacuum_rate_absolute_integral": 7.337815517874931e-05,
+            "vacuum_rate_signed_integral": [
+              -3.557014783508061e-06,
+              -2.2294543812468906e-05,
+              2.585155859597693e-05,
+              -7.337815517874931e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.131697860519369e-08
+          },
+          "interaction_integrals": {
+            "start_time": 240.0,
+            "end_time": 248.0,
+            "duration_volume": 9.549159061405703,
+            "drift": 0.05128942276015715,
+            "mean_spectrum": [
+              -0.0032219826580910634,
+              0.0039015014410440415,
+              0.9993204812170469,
+              0.0006898634648073612
+            ],
+            "max_em_fraction": 0.0006656276127177878,
+            "max_spatial_fraction": 1.8010790856634551e-06,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.051833143951440154,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.005074630487251718,
+              0.005074630487251718,
+              -0.051833143951440154
+            ],
+            "matter_rate_quadrature_difference": 1.3438973521753828e-05,
+            "spatial_rate_absolute_integral": 0.0005541851719279914,
+            "spatial_rate_signed_integral": [
+              3.221815010039212e-08,
+              5.5374413554070175e-05,
+              -5.540663170417057e-05,
+              0.0005541851719279914
+            ],
+            "spatial_rate_quadrature_difference": 1.2503461155333184e-08,
+            "vacuum_rate_absolute_integral": 6.54736802636751e-05,
+            "vacuum_rate_signed_integral": [
+              -3.456509688898837e-06,
+              -1.6441528757076197e-05,
+              1.9898038445975043e-05,
+              2.977348965573579e-06
+            ],
+            "vacuum_rate_quadrature_difference": 5.016643274077283e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 253.48000000000002,
+            "value": -0.033070906039382356
+          },
+          "post_minimum_one_width": {
+            "start_time": 253.48000000000002,
+            "end_time": 261.48,
+            "duration_volume": 9.612632035286708,
+            "drift": 0.022121933865128986,
+            "mean_spectrum": [
+              -0.005876664211241793,
+              0.006559175701063972,
+              0.9993174885101777,
+              -0.026493448812256393
+            ],
+            "max_em_fraction": 0.0005612477552634175,
+            "max_spatial_fraction": 4.0736300675744364e-05,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.020313221156616306,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0020765158719310514,
+              -0.0020765158719310514,
+              0.020274221947304407
+            ],
+            "matter_rate_quadrature_difference": 9.556422700500444e-06,
+            "spatial_rate_absolute_integral": 0.001908487423864023,
+            "spatial_rate_signed_integral": [
+              -4.782038307441446e-08,
+              0.00019306820983318608,
+              -0.00019302038945011166,
+              0.001908487423864023
+            ],
+            "spatial_rate_quadrature_difference": 2.1664680563177226e-07,
+            "vacuum_rate_absolute_integral": 5.861416024136148e-05,
+            "vacuum_rate_signed_integral": [
+              -1.7557497334058582e-06,
+              -1.4142674361919573e-05,
+              1.589842409532538e-05,
+              -5.861416024136148e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.0100876529917605e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": -17.6,
+          "peak_time": 244.72,
+          "peak_volume_clock": 267.5432705086351,
+          "peak_fraction": 0.0006621629525892214,
+          "quadratic_peak_time": 244.83349034299445,
+          "quadratic_peak_volume_clock": 267.67883187025586,
+          "peak_time_bracket": [
+            244.48000000000002,
+            245.0
+          ],
+          "half_maximum_times": [
+            240.72,
+            249.0
+          ],
+          "width_volume": 9.890263646804101,
+          "samples_across_width": 33,
+          "peak_spectrum": [
+            -0.0031059672027198447,
+            0.003785416660806757,
+            0.9993205505419132,
+            0.001743898325631457
+          ],
+          "initial_spectrum": [
+            0.0003385516174353231,
+            0.0003385516174353231,
+            0.9993228967651294,
+            0.036790199181841746
+          ],
+          "final_spectrum": [
+            -0.003846483351172926,
+            0.004595520989695211,
+            0.9992509623614777,
+            -0.005834880189922367
+          ],
+          "incoming_candidate": {
+            "start_time": 221.24,
+            "end_time": 229.72,
+            "duration_volume": 10.00795559982538,
+            "drift": 9.387961963910896e-05,
+            "mean_spectrum": [
+              0.00033567325082833107,
+              0.00034143194539559883,
+              0.9993228948037759,
+              0.03676281385627029
+            ],
+            "max_em_fraction": 3.56435450890052e-06,
+            "max_spatial_fraction": 3.0815643556905476e-11,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 9.455089479570753e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.797799285742748e-06,
+              9.797799285742748e-06,
+              -9.455089479570753e-05
+            ],
+            "matter_rate_quadrature_difference": 8.877080738957203e-08,
+            "spatial_rate_absolute_integral": 2.2231643496789081e-07,
+            "spatial_rate_signed_integral": [
+              1.581986544286544e-11,
+              2.3643852062960477e-08,
+              -2.365967192840334e-08,
+              2.2231643496789081e-07
+            ],
+            "spatial_rate_quadrature_difference": 1.9783757146256073e-10,
+            "vacuum_rate_absolute_integral": 3.6115388528928905e-07,
+            "vacuum_rate_signed_integral": [
+              -6.655882386147701e-09,
+              3.2766716593324296e-09,
+              3.3792107267052454e-09,
+              3.6115388528928905e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.305914470952538e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 289.24,
+            "end_time": 297.48,
+            "duration_volume": 9.991709447879941,
+            "drift": 0.0043223466977481695,
+            "mean_spectrum": [
+              0.000241965515824846,
+              0.0004548435355667243,
+              0.9993031909486083,
+              0.03423015647310128
+            ],
+            "max_em_fraction": 0.00020478919246652593,
+            "max_spatial_fraction": 2.181049732212642e-06,
+            "max_axis_error": 2.168404344971009e-19,
+            "matter_rate_absolute_integral": 0.008100314564660566,
+            "matter_rate_signed_integral": [
+              0.0,
+              4.79192132214015e-07,
+              -4.79192132214015e-07,
+              -9.260366301584353e-05
+            ],
+            "matter_rate_quadrature_difference": 1.0269974905914928e-05,
+            "spatial_rate_absolute_integral": 0.0005160441200582441,
+            "spatial_rate_signed_integral": [
+              -5.816611818551451e-08,
+              2.8827424275544148e-05,
+              -2.8769258157358634e-05,
+              0.00033516178978737834
+            ],
+            "spatial_rate_quadrature_difference": 1.3260710329037959e-06,
+            "vacuum_rate_absolute_integral": 3.610380101708579e-05,
+            "vacuum_rate_signed_integral": [
+              -7.432394796101926e-07,
+              2.9976901009258197e-07,
+              4.4347046951749096e-07,
+              3.610380101708579e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.5090116719148038e-08
+          },
+          "minimum_required_tolerance": 0.008100314564660566,
+          "last_width_diagnostics": {
+            "start_time": 372.0,
+            "end_time": 380.0,
+            "duration_volume": 9.738940575496486,
+            "drift": 0.0181907411495564,
+            "mean_spectrum": [
+              -0.0027516634205273435,
+              0.0034978213195153403,
+              0.999253842101012,
+              0.005046306486974925
+            ],
+            "max_em_fraction": 0.0005123328189610429,
+            "max_spatial_fraction": 0.0004526585934004762,
+            "max_axis_error": 1.3010426069826053e-18,
+            "matter_rate_absolute_integral": 0.02614594420361256,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0008670838958037962,
+              0.0008670838958037962,
+              -0.008839242364842858
+            ],
+            "matter_rate_quadrature_difference": 4.69409574027288e-06,
+            "spatial_rate_absolute_integral": 0.004639542991671807,
+            "spatial_rate_signed_integral": [
+              -9.85829891163595e-07,
+              -0.00010400083728720821,
+              0.00010498666717837182,
+              -0.0006959313540928923
+            ],
+            "spatial_rate_quadrature_difference": 1.0588863713355788e-05,
+            "vacuum_rate_absolute_integral": 4.731129491679156e-05,
+            "vacuum_rate_signed_integral": [
+              -5.113964606421652e-06,
+              -1.8863637149277944e-05,
+              2.397760175569961e-05,
+              3.456238907773125e-05
+            ],
+            "vacuum_rate_quadrature_difference": 4.833313230499575e-08
+          },
+          "interaction_integrals": {
+            "start_time": 240.72,
+            "end_time": 249.0,
+            "duration_volume": 9.890263646804101,
+            "drift": 0.051931145883651386,
+            "mean_spectrum": [
+              -0.0032039197800341796,
+              0.003883446212467843,
+              0.9993204735675661,
+              0.0007393100347573042
+            ],
+            "max_em_fraction": 0.0006621655401894621,
+            "max_spatial_fraction": 1.1235513134549732e-05,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.05263917425203415,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.005134648755645183,
+              0.005134648755645183,
+              -0.05263917425203415
+            ],
+            "matter_rate_quadrature_difference": 1.3603087470781539e-05,
+            "spatial_rate_absolute_integral": 0.0007184808991755335,
+            "spatial_rate_signed_integral": [
+              1.6856669157012817e-08,
+              7.070204204560398e-05,
+              -7.071889871476097e-05,
+              0.0007184808991755335
+            ],
+            "spatial_rate_quadrature_difference": 6.84291891847209e-08,
+            "vacuum_rate_absolute_integral": 6.837696102246622e-05,
+            "vacuum_rate_signed_integral": [
+              -3.5430343236683174e-06,
+              -1.677137793398472e-05,
+              2.0314412257653036e-05,
+              3.1777536519729702e-06
+            ],
+            "vacuum_rate_quadrature_difference": 2.8730343747332822e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 252.24,
+            "value": -0.030047263754356693
+          },
+          "post_minimum_one_width": {
+            "start_time": 252.24,
+            "end_time": 260.72,
+            "duration_volume": 10.172226598554744,
+            "drift": 0.03835973689658841,
+            "mean_spectrum": [
+              -0.004894156840592063,
+              0.005577262433504729,
+              0.9993168944070874,
+              -0.016762222686516087
+            ],
+            "max_em_fraction": 0.0006208056340365048,
+            "max_spatial_fraction": 6.314644752587107e-05,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.03645072031944519,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0036629017237755773,
+              -0.0036629017237755773,
+              0.03641062360654773
+            ],
+            "matter_rate_quadrature_difference": 3.761239194391419e-06,
+            "spatial_rate_absolute_integral": 0.001994573138653377,
+            "spatial_rate_signed_integral": [
+              -7.985825862932332e-08,
+              0.00019742689868515435,
+              -0.000197347040426525,
+              0.001994573138653377
+            ],
+            "spatial_rate_quadrature_difference": 3.1018153402251683e-07,
+            "vacuum_rate_absolute_integral": 6.285623563767303e-05,
+            "vacuum_rate_signed_integral": [
+              -3.0549233914355486e-06,
+              -1.991023162875825e-05,
+              2.2965155020193762e-05,
+              -5.528331067561177e-05
+            ],
+            "vacuum_rate_quadrature_difference": 2.2704578490895504e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 0.0,
+          "peak_time": 246.72,
+          "peak_volume_clock": 269.9424018453953,
+          "peak_fraction": 0.0006478475669796384,
+          "quadratic_peak_time": 246.7532594137192,
+          "quadratic_peak_volume_clock": 269.9821924325258,
+          "peak_time_bracket": [
+            246.48000000000002,
+            247.0
+          ],
+          "half_maximum_times": [
+            242.72,
+            250.72
+          ],
+          "width_volume": 9.570586312238504,
+          "samples_across_width": 32,
+          "peak_spectrum": [
+            -0.00306456114761243,
+            0.003744035172474182,
+            0.9993205259751382,
+            0.0018753597439297204
+          ],
+          "initial_spectrum": [
+            0.0003385516173438588,
+            0.0003385516173438588,
+            0.9993228967653124,
+            0.03679019917190237
+          ],
+          "final_spectrum": [
+            -0.0027878452601508867,
+            0.003540626809458204,
+            0.9992472184506926,
+            0.005794680392131838
+          ],
+          "incoming_candidate": {
+            "start_time": 223.48000000000002,
+            "end_time": 231.72,
+            "duration_volume": 9.741213087402912,
+            "drift": 8.885211260223347e-05,
+            "mean_spectrum": [
+              0.0003357977132038535,
+              0.00034130742397223693,
+              0.999322894862824,
+              0.03676376046458045
+            ],
+            "max_em_fraction": 3.380615576627638e-06,
+            "max_spatial_fraction": 1.3989225070097572e-10,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 8.838106787559942e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.075158504503058e-06,
+              9.075158504503058e-06,
+              -8.838106787559942e-05
+            ],
+            "matter_rate_quadrature_difference": 8.332871914689267e-08,
+            "spatial_rate_absolute_integral": 8.948437968803486e-07,
+            "spatial_rate_signed_integral": [
+              -6.37586708555467e-11,
+              -9.428042027064578e-08,
+              9.434417894150134e-08,
+              -8.948437968803486e-07
+            ],
+            "spatial_rate_quadrature_difference": 8.047731406287609e-10,
+            "vacuum_rate_absolute_integral": 3.390734122599107e-07,
+            "vacuum_rate_signed_integral": [
+              -6.2485290112838965e-09,
+              3.0789244656361696e-09,
+              3.169604545477972e-09,
+              3.390734122599107e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.117635198591892e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 271.48,
+            "end_time": 279.48,
+            "duration_volume": 9.629454942273355,
+            "drift": 0.005810267327695923,
+            "mean_spectrum": [
+              -0.006216665180739612,
+              0.0069081817488351625,
+              0.9993084834319044,
+              -0.030461622730647592
+            ],
+            "max_em_fraction": 0.00028842185885082707,
+            "max_spatial_fraction": 1.1957350285529035e-05,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.011033973668945308,
+            "matter_rate_signed_integral": [
+              0.0,
+              8.45887828168572e-05,
+              -8.45887828168572e-05,
+              0.0007400415513212742
+            ],
+            "matter_rate_quadrature_difference": 1.5437226108826196e-05,
+            "spatial_rate_absolute_integral": 0.0009267080674949625,
+            "spatial_rate_signed_integral": [
+              8.185473897207058e-08,
+              -8.906732377704953e-05,
+              8.898546903807746e-05,
+              -0.0009213401442642398
+            ],
+            "spatial_rate_quadrature_difference": 7.22270230991539e-07,
+            "vacuum_rate_absolute_integral": 5.1844817257282546e-05,
+            "vacuum_rate_signed_integral": [
+              -1.1913123254280206e-06,
+              -1.064720476935411e-05,
+              1.183851709478213e-05,
+              -5.1844817257282546e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.8796538946081246e-08
+          },
+          "minimum_required_tolerance": 0.011033973668945308,
+          "last_width_diagnostics": {
+            "start_time": 372.24,
+            "end_time": 380.0,
+            "duration_volume": 9.4017959499281,
+            "drift": 0.00932199594577737,
+            "mean_spectrum": [
+              -0.002965112532151921,
+              0.00371491806458707,
+              0.9992501944675649,
+              0.003775355861413086
+            ],
+            "max_em_fraction": 0.0005423864802998164,
+            "max_spatial_fraction": 0.000609117175685742,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.02948808290067072,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.002915524226018959,
+              0.002915524226018959,
+              -0.02948808290067072
+            ],
+            "matter_rate_quadrature_difference": 2.2786000823046826e-06,
+            "spatial_rate_absolute_integral": 0.03740725782969684,
+            "spatial_rate_signed_integral": [
+              -1.5999964533067152e-06,
+              0.0036549981917487527,
+              -0.003653398195295447,
+              0.03740725782969684
+            ],
+            "spatial_rate_quadrature_difference": 9.347998832093252e-06,
+            "vacuum_rate_absolute_integral": 2.9023244870643002e-05,
+            "vacuum_rate_signed_integral": [
+              -5.117601763978433e-06,
+              -2.0208715334919564e-05,
+              2.5326317098897993e-05,
+              2.6076549378244854e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.2367663156903738e-08
+          },
+          "interaction_integrals": {
+            "start_time": 242.72,
+            "end_time": 250.72,
+            "duration_volume": 9.570586312238504,
+            "drift": 0.04898844651261393,
+            "mean_spectrum": [
+              -0.003055791502731519,
+              0.0037353028022341253,
+              0.9993204887004974,
+              0.001965547334705419
+            ],
+            "max_em_fraction": 0.0006478651747670817,
+            "max_spatial_fraction": 5.4506468410447206e-05,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.04998278081105964,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.004832879914092201,
+              0.004832879914092201,
+              -0.04998278081105964
+            ],
+            "matter_rate_quadrature_difference": 1.577127405031492e-05,
+            "spatial_rate_absolute_integral": 0.0010816743252778102,
+            "spatial_rate_signed_integral": [
+              -7.697354823963346e-08,
+              9.459940905071955e-05,
+              -9.45224355024799e-05,
+              0.0010038145469622578
+            ],
+            "spatial_rate_quadrature_difference": 5.40785038105748e-07,
+            "vacuum_rate_absolute_integral": 6.526658721737521e-05,
+            "vacuum_rate_signed_integral": [
+              -3.513375738838459e-06,
+              -1.6142425571474137e-05,
+              1.9655801310312555e-05,
+              6.620617112079281e-06
+            ],
+            "vacuum_rate_quadrature_difference": 4.378412746838638e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 252.24,
+            "value": -0.024149787923439928
+          },
+          "post_minimum_one_width": {
+            "start_time": 252.24,
+            "end_time": 260.24,
+            "duration_volume": 9.587992311984294,
+            "drift": 0.04036714817457569,
+            "mean_spectrum": [
+              -0.0040280679765998815,
+              0.004711631417549795,
+              0.9993164365590503,
+              -0.008087782513793162
+            ],
+            "max_em_fraction": 0.0005692541037361552,
+            "max_spatial_fraction": 0.00011895678872254178,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.03646022274926773,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0035633216653490943,
+              -0.0035633216653490943,
+              0.036244365482410994
+            ],
+            "matter_rate_quadrature_difference": 9.763848215493809e-07,
+            "spatial_rate_absolute_integral": 0.0041352333246839615,
+            "spatial_rate_signed_integral": [
+              -2.785421993285833e-07,
+              0.0003971854519137894,
+              -0.00039690690971446076,
+              0.0041352333246839615
+            ],
+            "spatial_rate_quadrature_difference": 4.7299050279225874e-07,
+            "vacuum_rate_absolute_integral": 6.300272171715889e-05,
+            "vacuum_rate_signed_integral": [
+              -3.554572180120089e-06,
+              -1.9913137066340913e-05,
+              2.346770924646098e-05,
+              -3.152648643559187e-05
+            ],
+            "vacuum_rate_quadrature_difference": 3.9944650077200494e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 17.6,
+          "peak_time": 251.48000000000002,
+          "peak_volume_clock": 275.66950884173946,
+          "peak_fraction": 0.00041476683090015744,
+          "quadratic_peak_time": 251.3974887600551,
+          "quadratic_peak_volume_clock": 275.5704075675841,
+          "peak_time_bracket": [
+            251.24,
+            251.72
+          ],
+          "half_maximum_times": [
+            247.72,
+            254.24
+          ],
+          "width_volume": 7.829096386530409,
+          "samples_across_width": 26,
+          "peak_spectrum": [
+            -0.0020674107068418685,
+            0.0027468748552291825,
+            0.9993205358516126,
+            0.011738165933830187
+          ],
+          "initial_spectrum": [
+            0.0003385516174375606,
+            0.0003385516174375606,
+            0.999322896765125,
+            0.03679019918208489
+          ],
+          "final_spectrum": [
+            -0.002761306910185986,
+            0.003513747317112455,
+            0.9992475595930734,
+            0.006210130409409383
+          ],
+          "incoming_candidate": {
+            "start_time": 231.24,
+            "end_time": 238.0,
+            "duration_volume": 8.036714959374336,
+            "drift": 9.8030748650349e-05,
+            "mean_spectrum": [
+              0.0003350716331867233,
+              0.0003420346646128113,
+              0.9993228937022004,
+              0.036756038695805744
+            ],
+            "max_em_fraction": 3.817405476770191e-06,
+            "max_spatial_fraction": 2.725555442702202e-09,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 7.06919267964796e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -7.054009225772914e-06,
+              7.054009225772914e-06,
+              -7.06919267964796e-05
+            ],
+            "matter_rate_quadrature_difference": 7.38856321573023e-08,
+            "spatial_rate_absolute_integral": 2.7806213574138597e-05,
+            "spatial_rate_signed_integral": [
+              -1.917374619926042e-09,
+              -2.842751809843207e-06,
+              2.8446691844631327e-06,
+              -2.7806213574138597e-05
+            ],
+            "spatial_rate_quadrature_difference": 2.767578505731311e-08,
+            "vacuum_rate_absolute_integral": 3.6580973818351887e-07,
+            "vacuum_rate_signed_integral": [
+              -6.742598168259764e-09,
+              3.315976246744185e-09,
+              3.4266219216150095e-09,
+              3.6580973818351887e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.6807427403791995e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 267.0,
+            "end_time": 273.72,
+            "duration_volume": 8.056718844543411,
+            "drift": 0.002955515955504681,
+            "mean_spectrum": [
+              -0.006468589798019522,
+              0.007159905554359654,
+              0.99930868424366,
+              -0.0330566343844244
+            ],
+            "max_em_fraction": 0.00016263926240179212,
+            "max_spatial_fraction": 9.478682873089192e-06,
+            "max_axis_error": 3.469446951953614e-18,
+            "matter_rate_absolute_integral": 0.0031307162777027887,
+            "matter_rate_signed_integral": [
+              0.0,
+              4.335797060208436e-05,
+              -4.335797060208436e-05,
+              0.00042139584929751163
+            ],
+            "matter_rate_quadrature_difference": 3.6962080521628186e-06,
+            "spatial_rate_absolute_integral": 0.002437861452923741,
+            "spatial_rate_signed_integral": [
+              -5.549491778137623e-08,
+              -0.0002370862560805725,
+              0.00023714175099835388,
+              -0.002437861452923741
+            ],
+            "spatial_rate_quadrature_difference": 9.403954466160463e-07,
+            "vacuum_rate_absolute_integral": 2.548177685923571e-05,
+            "vacuum_rate_signed_integral": [
+              -5.353026352700909e-07,
+              -4.997702289859814e-06,
+              5.5330049251300545e-06,
+              -2.548177685923571e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.3852005847504164e-08
+          },
+          "minimum_required_tolerance": 0.0031307162777027887,
+          "last_width_diagnostics": {
+            "start_time": 373.72,
+            "end_time": 380.0,
+            "duration_volume": 7.606351760228847,
+            "drift": 0.005181392750382275,
+            "mean_spectrum": [
+              -0.0028464324214058506,
+              0.003596990073176957,
+              0.9992494423482287,
+              0.005270330004734701
+            ],
+            "max_em_fraction": 0.0002498638581040776,
+            "max_spatial_fraction": 0.0005385681839143688,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.011444933906551569,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0010916163657662275,
+              -0.0010916163657662275,
+              0.011444933906551569
+            ],
+            "matter_rate_quadrature_difference": 2.289203741527926e-06,
+            "spatial_rate_absolute_integral": 0.006838497783400295,
+            "spatial_rate_signed_integral": [
+              3.904281045525111e-07,
+              -0.0006432382203978869,
+              0.0006428477922933343,
+              -0.006838497783400295
+            ],
+            "spatial_rate_quadrature_difference": 5.708779020315372e-07,
+            "vacuum_rate_absolute_integral": 2.924325307178845e-05,
+            "vacuum_rate_signed_integral": [
+              -4.1355869115257494e-06,
+              -1.566459260441319e-05,
+              1.9800179515938945e-05,
+              2.924325307178845e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.1337425715254867e-08
+          },
+          "interaction_integrals": {
+            "start_time": 247.72,
+            "end_time": 254.24,
+            "duration_volume": 7.829096386530409,
+            "drift": 0.0304576188676547,
+            "mean_spectrum": [
+              -0.001808469039118198,
+              0.0024878179671930923,
+              0.9993206510719251,
+              0.014464231741192891
+            ],
+            "max_em_fraction": 0.00044187690668616073,
+            "max_spatial_fraction": 0.0004700344953782529,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.025518968221600883,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.0024081282735430023,
+              0.0024081282735430023,
+              -0.025518968221600883
+            ],
+            "matter_rate_quadrature_difference": 1.2865702456465317e-05,
+            "spatial_rate_absolute_integral": 0.005357845320707393,
+            "spatial_rate_signed_integral": [
+              -1.2308024299912034e-06,
+              -0.0005083324873419703,
+              0.0005095632897719613,
+              -0.004969630691554776
+            ],
+            "spatial_rate_quadrature_difference": 6.98240253443113e-06,
+            "vacuum_rate_absolute_integral": 4.8900632555478737e-05,
+            "vacuum_rate_signed_integral": [
+              -2.771867358828736e-06,
+              -8.366129428422597e-06,
+              1.1137996787251354e-05,
+              4.8651764212100684e-05
+            ],
+            "vacuum_rate_quadrature_difference": 5.2321129513340295e-09
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 255.0,
+            "value": -0.0015692573972730295
+          },
+          "post_minimum_one_width": {
+            "start_time": 255.0,
+            "end_time": 261.72,
+            "duration_volume": 8.043955275426526,
+            "drift": 0.011182520276478848,
+            "mean_spectrum": [
+              -0.0033115339367617803,
+              0.003997128427580696,
+              0.999314405509181,
+              -0.0004939645948235102
+            ],
+            "max_em_fraction": 0.00041175962944874447,
+            "max_spatial_fraction": 0.0006350603565955094,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.011513355681426226,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.000976157628990066,
+              0.000976157628990066,
+              -0.010375766985211555
+            ],
+            "matter_rate_quadrature_difference": 1.2841509695325423e-05,
+            "spatial_rate_absolute_integral": 0.006569186512724403,
+            "spatial_rate_signed_integral": [
+              -2.5303169596426595e-06,
+              0.0002468081739033876,
+              -0.0002442778569437449,
+              0.003469077772143607
+            ],
+            "spatial_rate_quadrature_difference": 1.8389166471640891e-06,
+            "vacuum_rate_absolute_integral": 2.1371895714438485e-05,
+            "vacuum_rate_signed_integral": [
+              -3.684435857729382e-06,
+              -1.76874598567091e-05,
+              2.1371895714438485e-05,
+              -1.4987357873210736e-06
+            ],
+            "vacuum_rate_quadrature_difference": 1.927325998881912e-08
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        },
+        {
+          "status": "RESOLVED_MAGNETIC_PULSE_NOT_YET_SCATTERING",
+          "position": 34.8,
+          "peak_time": 249.0,
+          "peak_volume_clock": 272.68309643398396,
+          "peak_fraction": 0.0005874097866874291,
+          "quadratic_peak_time": 249.09101086951648,
+          "quadratic_peak_volume_clock": 272.7921898794947,
+          "peak_time_bracket": [
+            248.72,
+            249.24
+          ],
+          "half_maximum_times": [
+            245.24,
+            252.48000000000002
+          ],
+          "width_volume": 8.677338439120206,
+          "samples_across_width": 29,
+          "peak_spectrum": [
+            -0.0027025268230082833,
+            0.00338194230235979,
+            0.9993205845206484,
+            0.005305845299977164
+          ],
+          "initial_spectrum": [
+            0.00033855161816308634,
+            0.00033855161816308634,
+            0.9993228967636739,
+            0.03679019926092733
+          ],
+          "final_spectrum": [
+            -0.003283595825985873,
+            0.004036338757697859,
+            0.999247257068288,
+            0.0008364019152725986
+          ],
+          "incoming_candidate": {
+            "start_time": 227.24,
+            "end_time": 234.72,
+            "duration_volume": 8.866730410354393,
+            "drift": 9.54627286858245e-05,
+            "mean_spectrum": [
+              0.0003353957595432263,
+              0.00034170978605754993,
+              0.9993228944543991,
+              0.036759520143828495
+            ],
+            "max_em_fraction": 3.667274069106135e-06,
+            "max_spatial_fraction": 7.374120022683769e-10,
+            "max_axis_error": 1.6263032587282567e-19,
+            "matter_rate_absolute_integral": 8.902830183161718e-05,
+            "matter_rate_signed_integral": [
+              0.0,
+              -9.016575507458925e-06,
+              9.016575507458925e-06,
+              -8.902830183161718e-05
+            ],
+            "matter_rate_quadrature_difference": 8.846038679477118e-08,
+            "spatial_rate_absolute_integral": 6.887304276906011e-06,
+            "spatial_rate_signed_integral": [
+              -4.818441745563651e-10,
+              -7.151723049696447e-07,
+              7.156541491442012e-07,
+              -6.887304276906011e-06
+            ],
+            "spatial_rate_quadrature_difference": 6.4589249107327174e-09,
+            "vacuum_rate_absolute_integral": 3.5877973716649797e-07,
+            "vacuum_rate_signed_integral": [
+              -6.612499870512932e-09,
+              3.2543257568383883e-09,
+              3.3581741136678637e-09,
+              3.5877973716649797e-07
+            ],
+            "vacuum_rate_quadrature_difference": 3.464550298314198e-10
+          },
+          "outgoing_candidate": null,
+          "best_post_event_window": {
+            "start_time": 359.24,
+            "end_time": 366.48,
+            "duration_volume": 8.763684404514834,
+            "drift": 0.0050528745715924415,
+            "mean_spectrum": [
+              -0.003312114639910239,
+              0.004053697840782613,
+              0.9992584167991277,
+              1.5178408062591336e-05
+            ],
+            "max_em_fraction": 0.00017222524848967808,
+            "max_spatial_fraction": 0.0006888843933248841,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.005121855615968281,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.00026494744947723557,
+              0.00026494744947723557,
+              -0.0027667325705523905
+            ],
+            "matter_rate_quadrature_difference": 9.058876424689055e-06,
+            "spatial_rate_absolute_integral": 0.004600127479859353,
+            "spatial_rate_signed_integral": [
+              -8.622939779534607e-07,
+              0.000419654622385211,
+              -0.0004187923284072578,
+              0.004600127479859353
+            ],
+            "spatial_rate_quadrature_difference": 1.4247412610992466e-06,
+            "vacuum_rate_absolute_integral": 2.5755854771733727e-05,
+            "vacuum_rate_signed_integral": [
+              -4.721502290316193e-06,
+              -2.103435248141754e-05,
+              2.5755854771733727e-05,
+              6.558927717642485e-07
+            ],
+            "vacuum_rate_quadrature_difference": 7.68819660048612e-09
+          },
+          "minimum_required_tolerance": 0.005121855615968281,
+          "last_width_diagnostics": {
+            "start_time": 373.0,
+            "end_time": 380.0,
+            "duration_volume": 8.477838040235383,
+            "drift": 0.007818328177655506,
+            "mean_spectrum": [
+              -0.0035753167889116103,
+              0.004325673858671194,
+              0.9992496429302402,
+              -0.0023389789021127736
+            ],
+            "max_em_fraction": 0.00023753811768931985,
+            "max_spatial_fraction": 0.0007030748226071461,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.007957318161431231,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.000766827815841203,
+              -0.000766827815841203,
+              0.007957318161431231
+            ],
+            "matter_rate_quadrature_difference": 4.545115327188667e-06,
+            "spatial_rate_absolute_integral": 0.0016049140047404832,
+            "spatial_rate_signed_integral": [
+              4.0452271340756287e-08,
+              -1.70878923887463e-05,
+              1.7047440117405554e-05,
+              -0.00012910227117034822
+            ],
+            "spatial_rate_quadrature_difference": 1.045943335224904e-06,
+            "vacuum_rate_absolute_integral": 2.6668645025705448e-05,
+            "vacuum_rate_signed_integral": [
+              -4.634217203039447e-06,
+              -2.2034427822666006e-05,
+              2.6668645025705448e-05,
+              -1.3961122150629539e-05
+            ],
+            "vacuum_rate_quadrature_difference": 1.4719898222587569e-09
+          },
+          "interaction_integrals": {
+            "start_time": 245.24,
+            "end_time": 252.48000000000002,
+            "duration_volume": 8.677338439120206,
+            "drift": 0.04102687043706024,
+            "mean_spectrum": [
+              -0.002593050599892613,
+              0.0032724926588605634,
+              0.9993205579410319,
+              0.006450662079056444
+            ],
+            "max_em_fraction": 0.0005886213185210426,
+            "max_spatial_fraction": 0.0002029085557064432,
+            "max_axis_error": 1.734723475976807e-18,
+            "matter_rate_absolute_integral": 0.04162753195320969,
+            "matter_rate_signed_integral": [
+              0.0,
+              -0.003978835135333024,
+              0.003978835135333024,
+              -0.04162753195320969
+            ],
+            "matter_rate_quadrature_difference": 1.8416404745105752e-05,
+            "spatial_rate_absolute_integral": 0.002201398528969465,
+            "spatial_rate_signed_integral": [
+              -4.2800631361849075e-07,
+              4.329843435920177e-05,
+              -4.287042804558327e-05,
+              0.0005987628994730039
+            ],
+            "spatial_rate_quadrature_difference": 9.55125708206831e-07,
+            "vacuum_rate_absolute_integral": 5.383414306632278e-05,
+            "vacuum_rate_signed_integral": [
+              -3.3055695081257697e-06,
+              -1.3519229117587582e-05,
+              1.6824798625713348e-05,
+              2.1948512075935214e-05
+            ],
+            "vacuum_rate_quadrature_difference": 6.450363333133295e-08
+          },
+          "platform_accepted": false,
+          "p_plus": null,
+          "scattering_error": null,
+          "first_scalar_minimum": {
+            "time": 253.24,
+            "value": -0.014139199933370667
+          },
+          "post_minimum_one_width": {
+            "start_time": 253.24,
+            "end_time": 260.72,
+            "duration_volume": 8.960742281176863,
+            "drift": 0.028562553196228746,
+            "mean_spectrum": [
+              -0.0031849169693746937,
+              0.0038692026347963175,
+              0.9993157143345786,
+              0.0006432145677956843
+            ],
+            "max_em_fraction": 0.00038071014915090753,
+            "max_spatial_fraction": 0.0002928324638965052,
+            "max_axis_error": 2.6020852139652106e-18,
+            "matter_rate_absolute_integral": 0.020146712296732427,
+            "matter_rate_signed_integral": [
+              0.0,
+              0.0017969086466354946,
+              -0.0017969086466354946,
+              0.01870177719419345
+            ],
+            "matter_rate_quadrature_difference": 2.3612215264357667e-05,
+            "spatial_rate_absolute_integral": 0.009743038787820773,
+            "spatial_rate_signed_integral": [
+              -9.650281415741752e-07,
+              0.0009052914852002129,
+              -0.0009043264570586391,
+              0.009743038787820773
+            ],
+            "spatial_rate_quadrature_difference": 2.7204739267931016e-06,
+            "vacuum_rate_absolute_integral": 4.9863247626900234e-05,
+            "vacuum_rate_signed_integral": [
+              -3.7894029254842797e-06,
+              -1.760107324968225e-05,
+              2.1390476175166524e-05,
+              3.939341891919367e-06
+            ],
+            "vacuum_rate_quadrature_difference": 8.702895693673011e-09
+          },
+          "finite_time_minimum_is_not_output_platform": true
+        }
+      ],
+      "max_fine_constraint": 1.963166286833164e-09,
+      "max_fine_axis_error": 3.469446951953614e-18
+    }
+  ],
+  "time_checks": {
+    "weak": {
+      "common_times": 381,
+      "last_common_time": 380.0,
+      "spectrum": {
+        "differences": [
+          1.5895539377808188e-07,
+          1.1290873840920368e-08
+        ],
+        "order": 3.815392920925975
+      },
+      "magnetic": {
+        "differences": [
+          2.513473323787277e-09,
+          1.7667231588282262e-10
+        ],
+        "order": 3.830534481429231
+      },
+      "electric": {
+        "differences": [
+          1.1343066274671978e-09,
+          7.752075446409296e-11
+        ],
+        "order": 3.8710842625340676
+      },
+      "spatial_fraction": {
+        "differences": [
+          2.0432767443073416e-09,
+          1.5292129964660645e-10
+        ],
+        "order": 3.7400233463548096
+      },
+      "constraint": {
+        "differences": [
+          1.4436987474831428e-09,
+          9.082685535369078e-11
+        ],
+        "order": 3.990506988922346
+      },
+      "spectrum_until_T300": {
+        "differences": [
+          1.9175309812213825e-09,
+          6.618980537276276e-10
+        ],
+        "order": 1.5345689535293099
+      }
+    },
+    "strong": {
+      "common_times": 381,
+      "last_common_time": 380.0,
+      "spectrum": {
+        "differences": [
+          5.642289649387955e-08,
+          3.3344905048943163e-09
+        ],
+        "order": 4.080742483132475
+      },
+      "magnetic": {
+        "differences": [
+          4.705490542025216e-10,
+          2.7904889147003023e-11
+        ],
+        "order": 4.075755309743734
+      },
+      "electric": {
+        "differences": [
+          9.92281645143412e-10,
+          5.8152758379125674e-11
+        ],
+        "order": 4.092830137099413
+      },
+      "spatial_fraction": {
+        "differences": [
+          4.232654258009595e-10,
+          3.1993374529498686e-11
+        ],
+        "order": 3.7257175726050633
+      },
+      "constraint": {
+        "differences": [
+          1.0358013625930825e-09,
+          6.279800517250307e-11
+        ],
+        "order": 4.04388481970342
+      },
+      "spectrum_until_T300": {
+        "differences": [
+          8.651655884761578e-09,
+          4.248546965623934e-10
+        ],
+        "order": 4.3479348655934995
+      }
+    }
+  },
+  "aligned_first_pulses": [
+    {
+      "position": -34.8,
+      "scope": "finite first-pulse shapes, aligned only by peak volume time, not scattering",
+      "offset_window": [
+        -4.645136088256436,
+        4.645136088256436
+      ],
+      "weak_strong_max_spectrum_difference": 0.0008462861594086997,
+      "near_strong_max_spectrum_difference": 0.00037704042910565935
+    },
+    {
+      "position": -17.6,
+      "scope": "finite first-pulse shapes, aligned only by peak volume time, not scattering",
+      "offset_window": [
+        -4.676186105288423,
+        4.676186105288423
+      ],
+      "weak_strong_max_spectrum_difference": 0.0010456935492915535,
+      "near_strong_max_spectrum_difference": 0.0004137745757948237
+    },
+    {
+      "position": 0.0,
+      "scope": "finite first-pulse shapes, aligned only by peak volume time, not scattering",
+      "offset_window": [
+        -4.2302997523786985,
+        4.2302997523786985
+      ],
+      "weak_strong_max_spectrum_difference": 0.007509813946970456,
+      "near_strong_max_spectrum_difference": 0.000507064623521597
+    },
+    {
+      "position": 17.6,
+      "scope": "finite first-pulse shapes, aligned only by peak volume time, not scattering",
+      "offset_window": [
+        -3.4520437427798925,
+        3.4520437427798925
+      ],
+      "weak_strong_max_spectrum_difference": 0.005435498644595494,
+      "near_strong_max_spectrum_difference": 0.010280521402256373
+    },
+    {
+      "position": 34.8,
+      "scope": "finite first-pulse shapes, aligned only by peak volume time, not scattering",
+      "offset_window": [
+        -4.338669219560103,
+        4.338669219560103
+      ],
+      "weak_strong_max_spectrum_difference": 0.0075408243853899125,
+      "near_strong_max_spectrum_difference": 0.0034476040512486338
+    }
+  ],
+  "domain_check": {
+    "common_times": 1521,
+    "last_common_time": 380.0,
+    "spectrum": {
+      "differences": [
+        0.0
+      ],
+      "order": null
+    },
+    "magnetic": {
+      "differences": [
+        0.0
+      ],
+      "order": null
+    },
+    "electric": {
+      "differences": [
+        0.0
+      ],
+      "order": null
+    },
+    "spatial_fraction": {
+      "differences": [
+        0.0
+      ],
+      "order": null
+    },
+    "constraint": {
+      "differences": [
+        0.0
+      ],
+      "order": null
+    },
+    "spectrum_until_T300": {
+      "differences": [
+        0.0
+      ],
+      "order": null
+    }
+  },
+  "constant_Z": {
+    "max_spectrum_change": 2.952130692679411e-10,
+    "max_em_fraction": 5.425016467856619e-12
+  },
+  "no_platform_accepted": true,
+  "complete_horizon_input": false
+}

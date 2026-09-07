@@ -1,0 +1,14 @@
+{
+  "direct_curvature_checks": 16,
+  "all_zero": true,
+  "metric": "diag(-N^2,exp(-2 beta_1),exp(-2 beta_2),exp(-2 beta_3))",
+  "lapse": "N=exp(-sum beta)",
+  "orthonormal_R00_times_N2": "(Derivative(b0(t), t) + Derivative(b1(t), t) + Derivative(b2(t), t))**2 - Derivative(b0(t), t)**2 + Derivative(b0(t), (t, 2)) - Derivative(b1(t), t)**2 + Derivative(b1(t), (t, 2)) - Derivative(b2(t), t)**2 + Derivative(b2(t), (t, 2))",
+  "orthonormal_Rii_times_N2": "-beta_i''",
+  "Hamiltonian_conservation": true,
+  "exact_scalar_energy_identity": true,
+  "integrated_impulse_identity": true,
+  "Einstein_00_equals_minus_2H": true,
+  "off_diagonal_condition": "E cross B = 0 and E_i E_j+B_i B_j=0 for i != j",
+  "scope": "Exact homogeneous diagonal curvature; a single magnetic axis with E=0 satisfies the omitted momentum and off-diagonal equations."
+}

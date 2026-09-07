@@ -1,0 +1,38 @@
+{
+  "model": "linear_Maxwell_on_prescribed_Kasner",
+  "frequency_spacing": 0.125,
+  "cutoff": 900.0,
+  "transform_nodes": 2048,
+  "comparisons": [
+    {
+      "case": "weak",
+      "relative_em_field_error": 5.05196822259981e-08,
+      "tail_absolute_em_bound": [
+        3.07936235759388e-14,
+        2.945994348262015e-14
+      ],
+      "max_continuum_em_field": 0.004023478744420587
+    },
+    {
+      "case": "near",
+      "relative_em_field_error": 1.616966020390075e-08,
+      "tail_absolute_em_bound": [
+        3.0793793093444953e-14,
+        2.9460107221901317e-14
+      ],
+      "max_continuum_em_field": 0.012733663679718203
+    },
+    {
+      "case": "strong",
+      "relative_em_field_error": 5.910552760207765e-09,
+      "tail_absolute_em_bound": [
+        3.079432906416627e-14,
+        2.946062492336254e-14
+      ],
+      "max_continuum_em_field": 0.040273026506005574
+    }
+  ],
+  "comparison_scope": "continuum Kasner versus FD4 charged-background linear fields, not independent nonlinear geometry",
+  "tail_bound_scope": "frequency truncation only, not transform quadrature or solver roundoff",
+  "low_modes_removed": false
+}

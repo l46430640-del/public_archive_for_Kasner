@@ -1,0 +1,39 @@
+{
+  "status": "PRESCRIBED_INPUT",
+  "delta": 1e-05,
+  "phase": 0.0,
+  "kappa": 0.5,
+  "omega_times_mass": 0.2,
+  "tau0": 1.0,
+  "polarization_reference_delta": 1e-06,
+  "soft_frequency_ratio": 0.01,
+  "mixing": {
+    "weak": 8.103112480050155e-07,
+    "strong": 1.78726246450643e-05
+  },
+  "transfer_source": "existing regenerated delta=1e-5 fields and conjugate data in matching_data.json; reconstruct profiles at this background, not reuse delta=1e-6 arrays",
+  "energy": "equal initial transverse reduced EM Hamiltonian within delta=1e-5; no equal energy across backgrounds or horizon/ADM claim",
+  "observation_radius_over_width": 0.25,
+  "maximum_end_over_frozen_clock": 1.4,
+  "stop_relative_scalar_response": 0.1,
+  "space_cells_per_width": [
+    128,
+    256,
+    512
+  ],
+  "cfl": 0.4,
+  "independent_time_checks": {
+    "cells_per_width": 256,
+    "cfl": [
+      0.2,
+      0.1
+    ]
+  },
+  "preflight_rule": "stop at the last step before either input reaches 10 percent second-order relative scalar response, or the fixed cap; compare on common times and points",
+  "discrimination_rule": "coherent versus omitted-cross response must separate by over ten times measured numerical uncertainty; formal next-order scale r_max times response amplitude must also be smaller than that separation; this power-counting screen is not a remainder bound",
+  "early_comparisons": "first 1 percent and 3 percent maximum response if attained, plus the common valid endpoint; no tuning to nonlinear outcomes",
+  "complete_horizon_input": false,
+  "full_nonlinear_matching": false,
+  "output_platform": null,
+  "scattering_error": null
+}
